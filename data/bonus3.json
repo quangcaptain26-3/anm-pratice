@@ -1,0 +1,666 @@
+{
+  "bonus3": [
+    {
+      "id": 1,
+      "question": "SHA-224 thuộc nhóm nào trong họ SHA?",
+      "options": {
+        "A": "SHA-1",
+        "B": "SHA-3",
+        "C": "SHA-2",
+        "D": "MD"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "MD5 tạo ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "256 bit",
+        "B": "512 bit",
+        "C": "64 bit",
+        "D": "128 bit"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "Độ dài khóa RSA ~3072 bit tương đương mức an toàn của thuật toán nào?",
+      "options": {
+        "A": "AES-128",
+        "B": "DES",
+        "C": "AES-256",
+        "D": "AES-192"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Thuật toán DH (Diffie–Hellman) thường được ứng dụng trong kịch bản nào?",
+      "options": {
+        "A": "Mã hóa file cục bộ",
+        "B": "Lưu trữ mật khẩu",
+        "C": "Kiểm tra checksum",
+        "D": "VPN, TLS, IPsec để trao đổi khóa phiên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "SHA-512 cho ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "128 bit",
+        "B": "512 bit",
+        "C": "256 bit",
+        "D": "384 bit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "Mã hóa khối (Block Cipher) là gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu chỉ bằng băm",
+        "B": "Mã hóa dữ liệu mà không chia khối",
+        "C": "Mã hóa từng ký tự một",
+        "D": "Mã hóa dữ liệu gốc theo khối có độ dài cố định"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "Tấn công va chạm (collision attack) là gì?",
+      "options": {
+        "A": "Kỹ thuật tách dữ liệu gốc từ giá trị băm",
+        "B": "Kỹ thuật mã hóa dữ liệu thành nhiều băm khác nhau",
+        "C": "Kỹ thuật làm thay đổi giá trị băm liên tục",
+        "D": "Kỹ thuật tìm hai dữ liệu khác nhau nhưng cho cùng một giá trị băm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Nhược điểm lớn nhất của mã hóa đối xứng là gì?",
+      "options": {
+        "A": "Tốc độ mã hóa chậm",
+        "B": "Giá trị băm không ổn định",
+        "C": "Không an toàn nếu bị lộ khóa",
+        "D": "Không dùng được cho dữ liệu lớn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Kết quả (output) của quá trình mã hóa bằng thuật toán đối xứng thường được biểu diễn dưới dạng nào?",
+      "options": {
+        "A": "Decimal",
+        "B": "Binary code duy nhất",
+        "C": "ASCII text",
+        "D": "Base64 hoặc Hexadecimal"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "question": "WEP trong Wi-Fi sử dụng thuật toán nào để mã hóa dữ liệu?",
+      "options": {
+        "A": "RC4",
+        "B": "DES",
+        "C": "SHA-1",
+        "D": "AES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Ưu điểm lớn nhất của mã hóa bất đối xứng so với mã hóa đối xứng gì?",
+      "options": {
+        "A": "Giải quyết được vấn đề phân phối khóa",
+        "B": "Nhanh hơn và ít tốn tài nguyên",
+        "C": "Luôn an toàn tuyệt đối",
+        "D": "Không cần dùng khóa bí mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Trong 4 chức năng cơ bản của mật mã học, chức năng nào giúp người gửi không thể phủ nhận việc đã gửi thông tin?",
+      "options": {
+        "A": "Bảo mật (Confidentiality)",
+        "B": "Toàn vẹn dữ liệu (Integrity)",
+        "C": "Chống chối bỏ (Non-repudiation)",
+        "D": "Xác thực (Authentication)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Vì sao tốc độ của mã hóa bất đối xứng chậm hơn mã hóa đối xứng?",
+      "options": {
+        "A": "Vì cần padding nhiều lần",
+        "B": "Vì sử dụng khóa ngắn",
+        "C": "Vì thuật toán phức tạp, phép toán số học lớn",
+        "D": "Vì chỉ dùng trong mạng không dây"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "Các thuật toán RC4, Salsa20 và ChaCha20 thuộc loại mã hóa đối xứng nào?",
+      "options": {
+        "A": "Chỉ RC4 thuộc mã hóa dòng",
+        "B": "Mã hóa khối",
+        "C": "Mã hóa dòng",
+        "D": "RC4 thuộc mã hóa dòng, Salsa20 và Chacha20 thuộc mã hóa khối"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "Tấn công va chạm có thể dẫn đến tình huống nào sau đây?",
+      "options": {
+        "A": "Ngăn chặn hacker truy cập hệ thống",
+        "B": "Tăng tốc độ xử lý dữ liệu",
+        "C": "Giảm kích thước tệp tin",
+        "D": "Giả mạo tài liệu hoặc chữ ký số hợp lệ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "question": "Mã hóa bất đối xứng còn có tên gọi khác là gì?",
+      "options": {
+        "A": "Mật mã khóa chia sẻ (Shared-key Cryptography)",
+        "B": "Mật mã hai chiều (Two-way Cryptography)",
+        "C": "Mật mã khóa bí mật (Secret-key Cryptography)",
+        "D": "Mật mã khóa công khai (Public-key Cryptography)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "question": "MD6 không phổ biến rộng rãi do nguyên nhân nào?",
+      "options": {
+        "A": "Bị chứng minh có va chạm",
+        "B": "Không tạo ra giá trị băm cố định",
+        "C": "Không được chuẩn hóa, hiệu năng kém",
+        "D": "Không có tính một chiều"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Ứng dụng phổ biến nhất của SHA-256 trong thực tế là gì?",
+      "options": {
+        "A": "Mã hóa đường truyền HTTPS",
+        "B": "Xác minh khối trong blockchain (Bitcoin)",
+        "C": "Lưu trữ mật khẩu trong cơ sở dữ liệu",
+        "D": "Kiểm tra tính hợp lệ chứng chỉ số"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Khái niệm va chạm (collision) trong hàm băm là gì?",
+      "options": {
+        "A": "Khi hai dữ liệu giống nhau cho ra hai giá trị băm khác nhau",
+        "B": "Khi giá trị băm không thể lưu trữ",
+        "C": "Khi hai dữ liệu khác nhau cho ra cùng một giá trị băm",
+        "D": "Khi dữ liệu không thể tạo giá trị băm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "question": "Chữ ký số trong mật mã học được sử dụng để:",
+      "options": {
+        "A": "Tự động sao lưu dữ liệu lên máy chủ",
+        "B": "Tăng tốc độ truyền dữ liệu trên mạng",
+        "C": "Nén dữ liệu trước khi truyền",
+        "D": "Bảo đảm dữ liệu không bị thay đổi và xác nhận nguồn gốc phát sinh"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "question": "Đối với hàm băm, khi hacker thực hiện tấn công brute-force sẽ?",
+      "options": {
+        "A": "Nén dữ liệu thành giá trị băm ngắn hơn",
+        "B": "Thay đổi giá trị băm liên tục để làm sai lệch kết quả",
+        "C": "Tìm hai dữ liệu khác nhau nhưng cho cùng một giá trị băm",
+        "D": "Thử tất cả các khả năng đầu vào để tìm ra giá trị gốc từ giá trị băm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "Mã hóa bất đối xứng (Asymmetric Encryption) là gì?",
+      "options": {
+        "A": "Phương pháp không dùng khóa",
+        "B": "Phương pháp dùng hàm băm thay thế",
+        "C": "Phương pháp dùng cặp khóa công khai và bí mật khác nhau để mã hóa/giải mã",
+        "D": "Phương pháp dùng cùng một khóa để mã hóa và giải mã"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "Trong các thuật toán sau, thuật toán nào hiện được xem là an toàn và phổ biến nhất trong chứng chỉ số?",
+      "options": {
+        "A": "MD5",
+        "B": "SHA-1",
+        "C": "SHA-2 (SHA-256)",
+        "D": "MD4"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Chức năng nào của mật mã học giúp bảo đảm dữ liệu không bị thay đổi trong quá trình truyền tải?",
+      "options": {
+        "A": "Xác thực (Authentication)",
+        "B": "Chống chối bỏ (Non-repudiation)",
+        "C": "Toàn vẹn dữ liệu (Integrity)",
+        "D": "Bảo mật (Confidentiality)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Mã hóa bất đối xứng giúp đảm bảo tính toàn vẹn (Integrity) của dữ liệu bằng cách nào?",
+      "options": {
+        "A": "Kết hợp với hàm băm (Hash Function) và chữ ký số (Digital Signature)",
+        "B": "Tạo bản sao dự phòng dữ liệu",
+        "C": "Sử dụng thuật toán nén dữ liệu",
+        "D": "Mã hóa bằng nhiều lớp khóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Giá trị băm của MD5 thường được biểu diễn dưới dạng nào?",
+      "options": {
+        "A": "Hexadecimal (thập lục phân)",
+        "B": "BCD",
+        "C": "Nhị phân",
+        "D": "ASCII"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "Ứng dụng nào sau đây không liên quan trực tiếp đến mật mã học?",
+      "options": {
+        "A": "Tăng dung lượng lưu trữ ổ cứng",
+        "B": "Quản lý quyền truy cập hệ thống",
+        "C": "Thương mại điện tử (E-commerce)",
+        "D": "Giao dịch ngân hàng trực tuyến"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Mã hóa dòng (Stream Cipher) là gì?",
+      "options": {
+        "A": "Chia dữ liệu thành khối rồi mã hóa từng khối",
+        "B": "Nén dữ liệu thành dạng nhỏ hơn",
+        "C": "Mã hóa từng bit/byte của dữ liệu gốc bằng chuỗi khóa giả ngẫu nhiên",
+        "D": "Mã hóa dữ liệu không cần khóa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Đặc tính nào của hàm băm đảm bảo cùng một dữ liệu đầu vào sẽ luôn cho ra cùng một giá trị băm cố định?",
+      "options": {
+        "A": "Hiệu ứng tuyết lở (Avalanche effect)",
+        "B": "Tính xác định (Deterministic)",
+        "C": "Tính toàn vẹn (Integrity)",
+        "D": "Tính một chiều (One-way)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "SHA-256 tạo ra giá trị băm có độ dài bao nhiêu ký tự hex?",
+      "options": {
+        "A": "32 ký tự",
+        "B": "64 ký tự",
+        "C": "128 ký tự",
+        "D": "40 ký tự"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "Tấn công POODLE khai thác:",
+      "options": {
+        "A": "TLS 1.3 handshake",
+        "B": "SSL 3.0 và cơ chế padding của CBC",
+        "C": "Chứng chỉ số EV",
+        "D": "RSA key reuse"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "TLS/SSL sử dụng chứng chỉ số để:",
+      "options": {
+        "A": "Sinh khóa",
+        "B": "Xác thực máy chủ và/hoặc máy khách",
+        "C": "Nén dữ liệu",
+        "D": "Tăng tốc CPU"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "ECDHE trong TLS cho phép:",
+      "options": {
+        "A": "Trao đổi khóa bảo mật, hỗ trợ Perfect Forward Secrecy (PFS)",
+        "B": "Mã hóa dữ liệu trực tiếp",
+        "C": "Sinh chứng chỉ số",
+        "D": "Nén dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "CRIME attack lợi dụng gì?",
+      "options": {
+        "A": "RSA handshake",
+        "B": "Cơ chế nén TLS/SSL",
+        "C": "Chứng chỉ giả mạo",
+        "D": "Diffie-Hellman"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Trong quá trình handshake, ClientHello chứa gì?",
+      "options": {
+        "A": "Session ID đã mã hóa",
+        "B": "Chứng chỉ số máy chủ",
+        "C": "Khóa công khai của server",
+        "D": "Phiên bản TLS, danh sách cipher suites, số ngẫu nhiên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 36,
+      "question": "Phòng chống Downgrade attack hiệu quả bằng:",
+      "options": {
+        "A": "Bỏ xác thực máy chủ",
+        "B": "TLS_FALLBACK_SCSV",
+        "C": "Tăng tốc độ CPU",
+        "D": "Tắt firewall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "CSR chứa gì?",
+      "options": {
+        "A": "Thông tin tổ chức, khóa công khai",
+        "B": "Session ID",
+        "C": "Root CA",
+        "D": "Khóa riêng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "Tấn công BEAST nhắm vào điểm yếu nào?",
+      "options": {
+        "A": "RSA key exchange",
+        "B": "AES-GCM",
+        "C": "TLS 1.0 trong cơ chế CBC",
+        "D": "DTLS handshake"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Thuật toán thường dùng cho chữ ký số trong TLS:",
+      "options": {
+        "A": "RSA, ECDSA",
+        "B": "Diffie-Hellman",
+        "C": "3DES",
+        "D": "AES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "DTLS phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "File transfer qua TCP",
+        "B": "Web browser HTTPS",
+        "C": "Sao lưu cơ sở dữ liệu",
+        "D": "VoIP, video streaming, VPN dựa trên UDP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Quá trình bắt tay (handshake) TLS nhằm mục đích:",
+      "options": {
+        "A": "Thiết lập phiên VPN",
+        "B": "Xác thực, trao đổi khóa, thỏa thuận thuật toán mã hóa",
+        "C": "Mã hóa toàn bộ dữ liệu ngay lập tức",
+        "D": "Cấp phát địa chỉ IP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "TLS Record Protocol làm việc trực tiếp với:",
+      "options": {
+        "A": "HTTP",
+        "B": "DNS",
+        "C": "IP",
+        "D": "TCP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "question": "Thuật toán thường dùng cho mã hóa đối xứng trong TLS là:",
+      "options": {
+        "A": "Diffie-Hellman",
+        "B": "SHA-1",
+        "C": "AES, 3DES",
+        "D": "RSA"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "TLS sử dụng cơ chế “Finished” để:",
+      "options": {
+        "A": "Bắt đầu truyền dữ liệu",
+        "B": "Kiểm tra tính toàn vẹn quá trình bắt tay",
+        "C": "Tạo khóa phiên",
+        "D": "Xác thực máy khách"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "Heartbleed là lỗ hổng thuộc về:",
+      "options": {
+        "A": "Cơ chế RSA",
+        "B": "TLS 1.3",
+        "C": "WAF",
+        "D": "OpenSSL trong phần mở rộng Heartbeat"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 46,
+      "question": "Các thành phần chính của TLS Record Protocol gồm:",
+      "options": {
+        "A": "Nén, Mã hóa, VPN",
+        "B": "DNS, TCP, IP",
+        "C": "Handshake, Heartbeat, Session",
+        "D": "Fragmentation, Compression, Encryption, MAC"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 47,
+      "question": "TLS viết tắt của từ nào?",
+      "options": {
+        "A": "Transport Login Service",
+        "B": "Transfer Layer Security",
+        "C": "Trusted Link Security",
+        "D": "Transport Layer Security"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 48,
+      "question": "EV (Extended Validation) certificate thường hiển thị:",
+      "options": {
+        "A": "Chỉ biểu tượng ổ khóa",
+        "B": "Địa chỉ IP",
+        "C": "Không có gì đặc biệt",
+        "D": "Tên tổ chức trong trình duyệt"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "RSA trong TLS thường dùng ở bước:",
+      "options": {
+        "A": "Nén bản ghi",
+        "B": "Trao đổi khóa và xác thực",
+        "C": "Sinh alert",
+        "D": "Mã hóa bulk data"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "DTLS tương tự TLS nhưng có thêm cơ chế:",
+      "options": {
+        "A": "Bảo vệ file",
+        "B": "Xử lý mất gói, sắp xếp lại gói",
+        "C": "Tăng tốc CPU",
+        "D": "Sinh chứng chỉ số"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "Một alert “fatal” trong TLS nghĩa là:",
+      "options": {
+        "A": "Ghi log nhưng tiếp tục",
+        "B": "Ngắt kết nối ngay lập tức",
+        "C": "Chỉ cảnh báo nhẹ",
+        "D": "Bỏ qua cảnh báo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Cơ chế MAC trong TLS Record nhằm:",
+      "options": {
+        "A": "Kiểm tra tính toàn vẹn",
+        "B": "Mã hóa dữ liệu",
+        "C": "Xác thực máy chủ",
+        "D": "Nén dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "Chứng chỉ số TLS/SSL tuân theo chuẩn:",
+      "options": {
+        "A": "RFC 1918",
+        "B": "ISO 27001",
+        "C": "X.509",
+        "D": "PKCS#12"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "DTLS được thiết kế để hoạt động trên:",
+      "options": {
+        "A": "ICMP",
+        "B": "IPsec",
+        "C": "UDP",
+        "D": "TCP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 55,
+      "question": "Sau khi nhận chứng chỉ từ CA, quản trị viên cần:",
+      "options": {
+        "A": "Cài đặt lên server để kích hoạt HTTPS",
+        "B": "Xóa chứng chỉ",
+        "C": "Tắt firewall",
+        "D": "Tạo lại khóa riêng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "DTLS viết tắt của:",
+      "options": {
+        "A": "Datagram Transport Layer Security",
+        "B": "Direct TLS",
+        "C": "Datagram TLS Socket",
+        "D": "Data Transmission Layer Security"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "ChaCha20-Poly1305 trong TLS được dùng để:",
+      "options": {
+        "A": "Sinh khóa",
+        "B": "Mã hóa và xác thực hiệu quả trên thiết bị di động",
+        "C": "Thay thế chứng chỉ",
+        "D": "Nén dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Wildcard certificate cho phép:",
+      "options": {
+        "A": "Dùng cho nhiều subdomain (*.domain.com)",
+        "B": "Dùng cho nhiều domain khác nhau",
+        "C": "Dùng cho email",
+        "D": "Chỉ dùng cho 1 domain"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Thông điệp cảnh báo (Alert Protocol) được truyền qua:",
+      "options": {
+        "A": "Handshake Protocol",
+        "B": "IP",
+        "C": "Record Protocol",
+        "D": "DNS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "“Session resumption” trong TLS là gì?",
+      "options": {
+        "A": "Thiết lập lại kết nối từ đầu",
+        "B": "Đổi thuật toán mã hóa liên tục",
+        "C": "Dùng lại session ID hoặc ticket để giảm chi phí bắt tay",
+        "D": "Bỏ qua chứng chỉ số"
+      },
+      "answer": "C"
+    }
+  ]
+}
+
+

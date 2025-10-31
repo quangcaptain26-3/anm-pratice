@@ -1,0 +1,336 @@
+{
+  "bonus2": [
+    {
+      "id": 1,
+      "question": "Điểm không đúng khi nói về WAF là gì?",
+      "options": {
+        "A": "Thường đặt trước web/app public",
+        "B": "Có thể chạy dạng reverse proxy",
+        "C": "Thay thế hoàn toàn NGFW ở lớp mạng",
+        "D": "Cần tinh chỉnh rule theo ứng dụng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Nếu có nhiều rule, firewall xử lý theo:",
+      "options": {
+        "A": "Rule cuối cùng",
+        "B": "Rule đầu tiên khớp (first-match)",
+        "C": "Rule ngẫu nhiên",
+        "D": "Rule mặc định hệ điều hành"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Hạn chế khi viết rule chỉ dựa trên 5-tuple là:",
+      "options": {
+        "A": "Không thể chặn theo địa chỉ nguồn",
+        "B": "Không thể lọc theo địa chỉ IP đích",
+        "C": "Không thể nhận diện được TCP hay UDP",
+        "D": "Không thể phân biệt ứng dụng chạy cùng port (ví dụ HTTPS và malware trên port 443)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "question": "Doanh nghiệp lớn ở biên Internet cần kiểm soát app/người dùng và chặn đe dọa hiện đại, nên chọn firewall gì?",
+      "options": {
+        "A": "UTM cơ bản",
+        "B": "NGFW (kèm IPS, URL Filtering, Anti-malware)",
+        "C": "Router L3",
+        "D": "Chỉ WAF"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Điểm yếu của Circuit-level gateway là gì?",
+      "options": {
+        "A": "Không hỗ trợ VPN site-to-site",
+        "B": "Không kiểm tra nội dung tầng ứng dụng",
+        "C": "Không tương thích TCP",
+        "D": "Không hỗ trợ IPsec"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 6,
+      "question": "Cloud Firewall từ AWS, Microsoft, Google đáp ứng dịch vụ cloud “chủ yếu” bằng cách nào?",
+      "options": {
+        "A": "Quản lý tài khoản, phân quyền truy cập người dùng",
+        "B": "Bảo vệ hạ tầng mạng, trung tâm dữ liệu trước đe dọa mạng",
+        "C": "Lưu trữ dữ liệu phi cấu trúc, mở rộng không giới hạn",
+        "D": "Tăng tốc xử lý giao dịch tài chính trên ứng dụng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Nhược điểm thường gặp của Proxy/Application firewall là gì?",
+      "options": {
+        "A": "Không hỗ trợ DNS",
+        "B": "Tăng độ trễ, cần cấu hình theo từng ứng dụng, tốn tài nguyên",
+        "C": "Không hỗ trợ HTTP",
+        "D": "Không hỗ trợ ghi log"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Câu 9. Rules (ưu tiên từ trên xuống dưới):\n1. Allow TCP từ 10.0.0.0/24 → 172.16.1.1 port 443\n2. Deny TCP từ 10.0.0.50 → 172.16.1.1 port 443\n3. Allow ICMP từ any → 172.16.1.1\nFirewall sẽ xử lí sao với gói tin sau: Source 10.0.0.5, Destination 172.16.1.1, Protocol TCP, Port: 443.",
+      "options": {
+        "A": "Allow do match rule 3",
+        "B": "Deny do match rule 2",
+        "C": "Allow do match rule 1",
+        "D": "Deny do sai protocol"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Zone segmentation giúp ngăn chặn điều gì?",
+      "options": {
+        "A": "Telnet truy cập trái phép",
+        "B": "Cập nhật firmware firewall",
+        "C": "Lateral movement (di chuyển ngang trong mạng)",
+        "D": "NAT loop"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Lựa chọn firewall phù hợp cho cá nhân/hộ gia đình (ưu tiên đơn giản, chi phí thấp) là gì?",
+      "options": {
+        "A": "Cloud firewall",
+        "B": "NGFW full tính năng",
+        "C": "Router/firewall tích hợp + host-based firewall trên thiết bị",
+        "D": "WAF chuyên dụng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Khi bật TLS Inspection trên NGFW, cần lưu ý gì?",
+      "options": {
+        "A": "Cần CA nội bộ, cấu hình ngoại lệ/pinning, và chi phí hiệu năng",
+        "B": "Không ảnh hưởng hiệu năng",
+        "C": "Không cần chứng chỉ CA",
+        "D": "Mặc định hợp lệ với mọi ứng dụng banking"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Trong 5-tuple, “Source Port” thường dùng để:",
+      "options": {
+        "A": "Quy định loại giao thức mạng",
+        "B": "Chỉ định subnet của thiết bị gửi",
+        "C": "Xác định ứng dụng phía client đang sử dụng",
+        "D": "Xác định đích của gói tin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "UTM firewall được hiểu là gì?",
+      "options": {
+        "A": "Thiết bị “all-in-one” tích hợp firewall, IPS/IDS, AV, web/email filtering…",
+        "B": "Chỉ là firewall lớp mạng L3",
+        "C": "Chỉ là thiết bị cân bằng tải",
+        "D": "Chỉ là proxy HTTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Nhược điểm khi dùng Stateful firewall ở tải lớn là gì?",
+      "options": {
+        "A": "Tiêu tốn RAM/CPU để duy trì state table",
+        "B": "Không áp dụng được rule theo port",
+        "C": "Không dùng được với NAT",
+        "D": "Không hỗ trợ log"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Firewall thế hệ mới (NGFW) có thể viết rule dựa trên:",
+      "options": {
+        "A": "App-ID và User-ID",
+        "B": "VLAN và QoS",
+        "C": "Port và subnet mask",
+        "D": "MAC và hostname"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Nhược điểm chính của stateful firewall so với stateless là gì?",
+      "options": {
+        "A": "Không hỗ trợ kiểm tra gói tin sâu",
+        "B": "Tốn tài nguyên hơn vì duy trì bảng trạng thái",
+        "C": "Không thể phân biệt ứng dụng trên cùng port",
+        "D": "Không theo dõi trạng thái TCP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Doanh nghiệp vừa và nhỏ (SME) muốn quản trị đơn giản, một thiết bị duy nhất bảo vệ tổng thể, nên chọn firewall gì?",
+      "options": {
+        "A": "Router L3 + IPS riêng",
+        "B": "Packet Filtering + proxy",
+        "C": "UTM",
+        "D": "NGFW cao cấp + WAF riêng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Hạn chế nổi bật của Packet Filtering firewall là gì?",
+      "options": {
+        "A": "Không theo dõi phiên, không có state table",
+        "B": "Không cấu hình được rule theo IP",
+        "C": "Không ghi log",
+        "D": "Không hỗ trợ NAT"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Rule: Allow TCP từ 192.168.1.0/24 → 10.0.0.10 port 443.\nFirewall sẽ xử lí sao với gói tin sau: Source IP 192.168.1.15, Destination IP 10.0.0.10, Protocol TCP, Port 443.",
+      "options": {
+        "A": "Deny do sai IP nguồn",
+        "B": "Deny do sai port",
+        "C": "Deny do sai protocol",
+        "D": "Allow"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Khả năng nào giúp NGFW nhận diện ứng dụng chạy trên cổng không chuẩn?",
+      "options": {
+        "A": "DHCP Snooping",
+        "B": "VLAN Tagging",
+        "C": "App-ID/DPI",
+        "D": "Port-based Service"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "NAT/PAT thường được sử dụng để làm gì?",
+      "options": {
+        "A": "Bảo mật dữ liệu nhờ mã hóa",
+        "B": "Phân loại ứng dụng ở tầng 7",
+        "C": "Dịch địa chỉ/cổng để truy cập ra/vào mạng khác",
+        "D": "Quản lý rule firewall tự động"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "Firewall quản lí vùng (zone) thường viết policy theo mô hình nào?",
+      "options": {
+        "A": "IP-to-IP",
+        "B": "User-to-User",
+        "C": "Zone-to-Zone",
+        "D": "Port-to-Port"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "Hạn chế của UTM so với NGFW chuyên dụng là gì?",
+      "options": {
+        "A": "Không ghi được traffic log",
+        "B": "Không hỗ trợ VPN",
+        "C": "Hiệu năng/khả năng mở rộng thường thấp hơn",
+        "D": "Không có tính năng IPS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Trong 3-way handshake của TCP, firewall stateful sẽ làm gì?",
+      "options": {
+        "A": "Chỉ kiểm tra port mà không quan tâm cờ TCP",
+        "B": "Cho phép tất cả gói tin vì handshake là mặc định",
+        "C": "Từ chối toàn bộ gói SYN ban đầu",
+        "D": "Kiểm tra SYN, SYN-ACK, ACK và ghi nhận phiên vào state table"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 25,
+      "question": "Đội ngũ làm việc từ xa cần truy cập an toàn kèm MFA, nên chọn firewall gì?",
+      "options": {
+        "A": "WAF + Telnet",
+        "B": "NGFW hỗ trợ SSL VPN/IPsec + MFA",
+        "C": "Chỉ proxy HTTP",
+        "D": "Packet Filtering + NAT"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Đặc trưng quan trọng của Stateful firewall là gì?",
+      "options": {
+        "A": "Chỉ hoạt động với UDP",
+        "B": "Tự cho phép lưu lượng trả về thuộc phiên hợp lệ trong state table",
+        "C": "Chỉ cho phép lưu lượng ra Internet",
+        "D": "Luôn yêu cầu CA nội bộ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Rule: Allow UDP từ 172.16.0.0/16 → 8.8.8.8 port 53.\nFirewall sẽ xử lí sao với gói tin sau: Source 172.16.5.10, Destination 8.8.8.8, Protocol TCP, Port 53.",
+      "options": {
+        "A": "Deny do sai port",
+        "B": "Allow",
+        "C": "Allow vì đúng IP và port đích",
+        "D": "Deny do sai protocol"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "question": "Nguyên tắc “Default Deny” nghĩa là:",
+      "options": {
+        "A": "Cho phép tất cả trừ khi có rule chặn",
+        "B": "Cho phép theo mặc định của hệ điều hành",
+        "C": "Chặn các rule đầu tiên, cho phép rule sau",
+        "D": "Chặn tất cả trừ khi có rule cho phép"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 29,
+      "question": "Khi State Table đầy, firewall sẽ gặp vấn đề gì?",
+      "options": {
+        "A": "Tự động nâng cấp phần cứng",
+        "B": "Cho phép tất cả kết nối đi qua",
+        "C": "Chặn toàn bộ lưu lượng mã hóa",
+        "D": "Không nhận thêm kết nối mới, gây gián đoạn dịch vụ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Doanh nghiệp vừa và nhỏ (SME) ưu tiên giải pháp “tất cả-trong-một”, nên chọn firewall gì?",
+      "options": {
+        "A": "Packet Filtering thuần",
+        "B": "UTM",
+        "C": "NGFW + sandbox đắt tiền",
+        "D": "Distributed Firewall"
+      },
+      "answer": "B"
+    }
+  ]
+}
+
+

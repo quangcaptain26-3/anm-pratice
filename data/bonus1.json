@@ -1,0 +1,336 @@
+{
+  "bonus1": [
+    {
+      "id": 1,
+      "question": "NIDS thường triển khai ở đâu?",
+      "options": {
+        "A": "Trong hệ điều hành",
+        "B": "Trong máy chủ web",
+        "C": "Trên máy in mạng",
+        "D": "Trên phân đoạn mạng chính"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "IPS thường được đặt ở đâu trong mạng?",
+      "options": {
+        "A": "Trên router WAN",
+        "B": "Giữa các switch",
+        "C": "Trên từng máy trạm",
+        "D": "Sau firewall, trước hệ thống nội bộ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "Một trong những thách thức lớn nhất khi vận hành IDS/IPS là:",
+      "options": {
+        "A": "Quá nhiều cảnh báo giả (false positive)",
+        "B": "Dễ gây hiểu nhầm log",
+        "C": "Không thể cài đặt trên server",
+        "D": "Không thể cập nhật phần mềm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Một mục đích của IDS là:",
+      "options": {
+        "A": "Đảm bảo tính toàn vẹn dữ liệu",
+        "B": "Tìm kiếm dấu hiệu xâm nhập bất thường",
+        "C": "Tăng tốc độ truyền tải",
+        "D": "Nén dữ liệu mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Network-based IDS (NIDS) tập trung vào:",
+      "options": {
+        "A": "Lưu lượng mạng đi qua một đoạn mạng",
+        "B": "Hoạt động file hệ điều hành",
+        "C": "Sao lưu dữ liệu",
+        "D": "Phần mềm ứng dụng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "Một giải pháp IDS/IPS hiệu quả phải đáp ứng:",
+      "options": {
+        "A": "Không cần giám sát",
+        "B": "Không tốn tài nguyên CPU",
+        "C": "Không cần cập nhật",
+        "D": "Phát hiện nhanh, ngăn chặn kịp thời, giảm false positive"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "IDS/IPS thường được triển khai song song với:",
+      "options": {
+        "A": "DNS",
+        "B": "DHCP",
+        "C": "Firewall",
+        "D": "Switch"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "IPS khác IDS ở điểm nào?",
+      "options": {
+        "A": "Cả hai giống nhau hoàn toàn",
+        "B": "IPS giám sát, IDS phòng ngừa",
+        "C": "IPS có khả năng chặn lưu lượng độc hại, IDS chỉ cảnh báo",
+        "D": "IPS chỉ cảnh báo, IDS ngăn chặn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "NIDS thường gặp khó khăn với lưu lượng nào?",
+      "options": {
+        "A": "Lưu lượng Internet công cộng",
+        "B": "Lưu lượng mã hóa (SSL/TLS)",
+        "C": "Lưu lượng LAN",
+        "D": "Lưu lượng FTP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Snort thuộc loại:",
+      "options": {
+        "A": "Firewall",
+        "B": "VPN",
+        "C": "IDS/IPS mã nguồn mở",
+        "D": "HIPS thương mại"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Nhược điểm của Signature-based IDS là:",
+      "options": {
+        "A": "Khó quản lý log",
+        "B": "Không thể phát hiện tấn công mới chưa có mẫu",
+        "C": "Khó triển khai",
+        "D": "Tốn nhiều băng thông"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Loại IDS nào phù hợp cho phát hiện hành vi truy cập bất hợp pháp trên máy chủ?",
+      "options": {
+        "A": "WIPS",
+        "B": "NIDS",
+        "C": "HIDS",
+        "D": "NBA IPS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Host-based IDS (HIDS) giám sát cái gì?",
+      "options": {
+        "A": "Các kết nối WAN",
+        "B": "Hoạt động trên một máy chủ hoặc thiết bị riêng lẻ",
+        "C": "Lưu lượng mạng toàn hệ thống",
+        "D": "Tường lửa bên ngoài"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Mục tiêu chính của IDS/IPS là:",
+      "options": {
+        "A": "Bảo mật dữ liệu người dùng",
+        "B": "Giám sát và phản ứng với tấn công",
+        "C": "Quản lý mạng LAN",
+        "D": "Kiểm soát tốc độ đường truyền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "IDS/IPS giúp doanh nghiệp đạt mục tiêu:",
+      "options": {
+        "A": "Mở rộng băng thông",
+        "B": "Tăng tốc độ CPU",
+        "C": "An toàn thông tin",
+        "D": "Giảm chi phí Internet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Suricata là:",
+      "options": {
+        "A": "Dịch vụ SIEM thương mại",
+        "B": "Một loại VPN client",
+        "C": "Công cụ IDS/IPS mã nguồn mở hỗ trợ đa luồng",
+        "D": "Thiết bị WIPS phần cứng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "IPS có thể được so sánh với:",
+      "options": {
+        "A": "Hệ thống ghi âm",
+        "B": "Nhân viên bảo vệ chặn kẻ xấu",
+        "C": "Đèn báo giao thông",
+        "D": "Camera an ninh"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Ưu điểm của Anomaly-based IDS là gì?",
+      "options": {
+        "A": "Có thể phát hiện tấn công mới (zero-day)",
+        "B": "Không cần đào tạo hệ thống",
+        "C": "Không tạo cảnh báo giả",
+        "D": "Không cần cấu hình"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "IDS thường không có khả năng gì?",
+      "options": {
+        "A": "Cảnh báo khi có sự cố",
+        "B": "Ghi lại log sự kiện",
+        "C": "Ngăn chặn tấn công tự động",
+        "D": "Phân tích lưu lượng mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "question": "Kỹ thuật tối ưu để giảm cảnh báo giả trong IDS/IPS là:",
+      "options": {
+        "A": "Không dùng chữ ký",
+        "B": "Điều chỉnh threshold và rule",
+        "C": "Giảm băng thông mạng",
+        "D": "Gỡ bỏ IPS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "Phương pháp lai (Hybrid IDS) kết hợp:",
+      "options": {
+        "A": "HIPS + Switch",
+        "B": "IDS + Firewall",
+        "C": "Signature-based + Anomaly-based",
+        "D": "NIDS + VPN"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "Loại IPS nào phù hợp để chống rogue AP (Access Point giả mạo)?",
+      "options": {
+        "A": "NBA IPS",
+        "B": "WIPS",
+        "C": "HIPS",
+        "D": "NIPS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Khi nào phù hợp hơn để dùng IDS thay vì IPS?",
+      "options": {
+        "A": "Khi cần mã hóa dữ liệu",
+        "B": "Khi hệ thống yêu cầu quan sát thụ động, tránh ảnh hưởng hiệu năng",
+        "C": "Khi thay thế hoàn toàn firewall",
+        "D": "Khi cần chặn lưu lượng inline"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "IDS/IPS giúp tăng cường gì cho hệ thống mạng?",
+      "options": {
+        "A": "Tính khả chuyển",
+        "B": "Tính bảo mật",
+        "C": "Tính di động",
+        "D": "Tính sẵn sàng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "IDS có thể được so sánh với:",
+      "options": {
+        "A": "Camera giám sát",
+        "B": "Bộ chống sét",
+        "C": "Bộ lọc rác",
+        "D": "Ổ cứng ngoài"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "IPS nào dễ bị vượt qua khi kẻ tấn công dùng mã hóa end-to-end?",
+      "options": {
+        "A": "WIPS",
+        "B": "NIPS",
+        "C": "NBA IPS",
+        "D": "HIPS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Tại sao cần tích hợp IDS/IPS với SIEM?",
+      "options": {
+        "A": "Loại bỏ cảnh báo",
+        "B": "Tăng tính tập trung trong phân tích và cảnh báo",
+        "C": "Hạn chế băng thông",
+        "D": "Giảm log"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "Một giải pháp IPS thương mại mạnh mẽ từ Cisco là:",
+      "options": {
+        "A": "Cisco VPN",
+        "B": "Cisco Firepower",
+        "C": "Cisco Snort",
+        "D": "Cisco Secure Mail"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Để tăng hiệu quả phát hiện, nhiều tổ chức triển khai:",
+      "options": {
+        "A": "IDS tách biệt với firewall",
+        "B": "NAT thay IPS",
+        "C": "VPN thay IDS",
+        "D": "IDS kết hợp IPS"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "IDS thường được triển khai để:",
+      "options": {
+        "A": "Theo dõi và gửi cảnh báo cho quản trị viên",
+        "B": "Thay thế VPN",
+        "C": "Ngăn chặn packet ngay khi phát hiện",
+        "D": "Thay thế firewall"
+      },
+      "answer": "A"
+    }
+  ]
+}
+
+

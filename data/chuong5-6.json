@@ -1,0 +1,1537 @@
+{
+  "chuong5": [
+    {
+      "id": 1,
+      "question": "SSL viết tắt của từ nào?",
+      "options": {
+        "A": "Secure Socket Layer",
+        "B": "Security Service Link",
+        "C": "Secure Service Layer",
+        "D": "Security Socket Link"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "TLS viết tắt của từ nào?",
+      "options": {
+        "A": "Transfer Layer Security",
+        "B": "Transport Layer Security",
+        "C": "Trusted Link Security",
+        "D": "Transport Login Service"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Mục tiêu chính của TLS/SSL là gì?",
+      "options": {
+        "A": "Nén dữ liệu",
+        "B": "Bảo mật truyền thông trên mạng",
+        "C": "Tăng tốc độ mạng",
+        "D": "Quản lý truy cập"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "TLS/SSL thường hoạt động ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng ứng dụng",
+        "B": "Tầng phiên (session)",
+        "C": "Tảng vận chuyển (transport)",
+        "D": "Tầng mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Quá trình bắt tay (handshake) TLS nhằm mục đích:",
+      "options": {
+        "A": "Xác thực, trao đổi khóa, thỏa thuận thuật toán mã hóa",
+        "B": "Thiết lập phiên VPN",
+        "C": "Cấp phát địa chỉ IP",
+        "D": "Mã hóa toàn bộ dữ liệu ngay lập tức"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "Trong quá trình handshake, ClientHello chứa gì?",
+      "options": {
+        "A": "Phiên bản TLS, danh sách cipher suites, số ngẫu nhiên",
+        "B": "Chứng chỉ số máy chủ",
+        "C": "Khóa công khai của server",
+        "D": "Session ID đã mã hóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Thông điệp nào trong handshake TLS được gửi từ server để xác thực danh tính?",
+      "options": {
+        "A": "ServerHello",
+        "B": "Certificate",
+        "C": "KeyExchange",
+        "D": "Finished"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Thứ tự cơ bản trong handshake TLS là:",
+      "options": {
+        "A": "ClientHello ServerHello Certificate → KeyExchange Finished",
+        "B": "ServerHello ClientHello Certificate → Finished",
+        "C": "ClientHello Certificate ServerHello Finished",
+        "D": "ClientHello Finished ServerHello"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "Câu 10. \"Session resumption\" trong TLS là gì?",
+      "options": {
+        "A": "Thiết lập lại kết nối từ đầu",
+        "B": "Dùng lại session ID hoặc ticket để giảm chi phí bắt tay",
+        "C": "Đổi thuật toán mã hóa liên tục",
+        "D": "Bỏ qua chứng chỉ số"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Câu 11. TLS sử dụng cơ chế “Finished” để:",
+      "options": {
+        "A": "Kiểm tra tính toàn vẹn quá trình bắt tay",
+        "B": "Bắt đầu truyền dữ liệu",
+        "C": "Tạo khóa phiên",
+        "D": "Xác thực máy khách"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Câu 12. Một kết nối TLS thành công phải đảm bảo:",
+      "options": {
+        "A": "Bảo mật, toàn vẹn, xác thực",
+        "B": "Tốc độ cao, chi phí thấp",
+        "C": "Chỉ bảo mật dữ liệu",
+        "D": "Chỉ xác thực máy chủ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Câu 13. Một tấn công phổ biến vào handshake TLS/SSL là:",
+      "options": {
+        "A": "Man-in-the-Middle (MITM)",
+        "B": "Buffer Overflow",
+        "C": "SQL Injection",
+        "D": "Cross Site Scripting"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Câu 14. SSL Stripping là dạng tấn công gì?",
+      "options": {
+        "A": "Giảm phiên bản từ HTTPS về HTTP không bảo mật",
+        "B": "Chặn DNS",
+        "C": "Thay đổi chứng chỉ",
+        "D": "Tấn công brute-force"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Câu 15. Tấn công BEAST nhắm vào điểm yếu nào?",
+      "options": {
+        "A": "TLS 1.0 trong cơ chế CBC",
+        "B": "RSA key exchange",
+        "C": "AES-GCM",
+        "D": "DTLS handshake"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Câu 16. Tấn công POODLE khai thác:",
+      "options": {
+        "A": "SSL 3.0 và cơ chế padding của CBC",
+        "B": "RSA key reuse",
+        "C": "TLS 1.3 handshake",
+        "D": "Chứng chỉ số EV"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Câu 17. Heartbleed là lỗ hồng thuộc về:",
+      "options": {
+        "A": "OpenSSL trong phần mở rộng Heartbeat",
+        "B": "Cơ chế RSA",
+        "C": "TLS 1.3",
+        "D": "WAF"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Câu 18. CRIME attack lợi dụng gì?",
+      "options": {
+        "A": "Cơ chế nên TLS/SSL",
+        "B": "Chứng chỉ giả mạo",
+        "C": "RSA handshake",
+        "D": "Diffie-Hellman"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "Câu 19. BREACH là dạng tấn công gì?",
+      "options": {
+        "A": "Khai thác nén HTTP kết hợp TLS",
+        "B": "Tấn công MITM",
+        "C": "Khai thác chứng chỉ số",
+        "D": "Overflow trong TLS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Câu 20. Lucky 13 attack nhắm vào:",
+      "options": {
+        "A": "CBC padding trong TLS",
+        "B": "HMAC-SHA1",
+        "C": "RSA",
+        "D": "AES-GCM"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Câu 21. Tấn công Downgrade trong TLS nhằm:",
+      "options": {
+        "A": "Vượt qua firewall",
+        "B": "Đánh cắp chứng chỉ số",
+        "C": "Ép client/server dùng phiên bản hoặc cipher yếu hơn",
+        "D": "Mã hóa dữ liệu trái phép"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Câu 22. Giải pháp phòng chống SSL Stripping là:",
+      "options": {
+        "A": "Sử dụng HSTS (HTTP Strict Transport Security)",
+        "B": "Bó TLS",
+        "C": "Chỉ dùng HTTP",
+        "D": "Tắt firewall"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Câu 23. Giải pháp phòng Heartbleed là:",
+      "options": {
+        "A": "Ngừng RSA",
+        "B": "Bó SSL 3.0",
+        "C": "Dùng HTTP thay HTTPS",
+        "D": "Cập nhật OpenSSL bản vá"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 23,
+      "question": "Câu 24. Phòng chống Downgrade attack hiệu quả bằng:",
+      "options": {
+        "A": "TLS_FALLBACK_SCSV",
+        "B": "Tắt firewall",
+        "C": "Tăng tốc độ CPU",
+        "D": "Bỏ xác thực máy chủ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "Câu 25. TLS Record Protocol dùng để:",
+      "options": {
+        "A": "Chia nhỏ, nén, mã hóa, kiểm tra toàn vẹn dữ liệu",
+        "B": "Quản lý chứng chỉ",
+        "C": "Tạo khóa",
+        "D": "Cấp phát IP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Câu 26. Record Protocol nằm ở tầng nào?",
+      "options": {
+        "A": "Tầng ứng dụng",
+        "B": "Tầng vận chuyển",
+        "C": "Giữa ứng dụng và TCP",
+        "D": "Tầng mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "Câu 27. Các thành phần chính của TLS Record Protocol gồm:",
+      "options": {
+        "A": "Fragmentation, Compression, Encryption, MAC",
+        "B": "Handshake, Heartbeat, Session",
+        "C": "DNS, TCP, IP",
+        "D": "Nên, Mã hóa, VPN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "Câu 28. Trước khi mã hóa, bản ghi TLS có thể:",
+      "options": {
+        "A": "Bị phân mảnh",
+        "B": "Bị giải mã",
+        "C": "Bị vô hiệu hóa",
+        "D": "Được cấp chứng chỉ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Câu 29. Cơ chế MAC trong TLS Record nhằm:",
+      "options": {
+        "A": "Kiểm tra tỉnh toàn vẹn",
+        "B": "Mã hóa dữ liệu",
+        "C": "Nén dữ liệu",
+        "D": "Xác thực máy chủ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Câu 30. TLS Record Protocol làm việc trực tiếp với:",
+      "options": {
+        "A": "TCP",
+        "B": "IP",
+        "C": "DNS",
+        "D": "HTTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Câu 31. Một chức năng không thuộc TLS Record là:",
+      "options": {
+        "A": "Mã hóa dữ liệu",
+        "B": "Nén dữ liệu",
+        "C": "Trao đổi khóa",
+        "D": "Tính toán MAC"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Câu 32. Dữ liệu ứng dụng (Application Data) trong TLS được xử lý bởi:",
+      "options": {
+        "A": "Handshake Protocol",
+        "B": "Record Protocol",
+        "C": "ChangeCipherSpec",
+        "D": "Alert Protocol"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Câu 33. Thông điệp cảnh báo (Alert Protocol) được truyền qua:",
+      "options": {
+        "A": "Record Protocol",
+        "B": "Handshake Protocol",
+        "C": "IP",
+        "D": "DNS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "Câu 34. Một alert \"fatal\" trong TLS nghĩa là:",
+      "options": {
+        "A": "Ngắt kết nối ngay lập tức",
+        "B": "Bỏ qua cảnh báo",
+        "C": "Chỉ cảnh báo nhẹ",
+        "D": "Ghi log nhưng tiếp tục"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Câu 35. Alert \"close_notify\" trong TLS nhằm:",
+      "options": {
+        "A": "Báo hiệu đóng kết nối an toàn",
+        "B": "Cảnh báo lỗi chứng chỉ",
+        "C": "Cảnh báo tấn công",
+        "D": "Yêu cầu reset session"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Câu 36. TLS hỗ trợ các loại thuật toán nào?",
+      "options": {
+        "A": "Mã hỏa đối xứng, bất đối xứng, hâm băm",
+        "B": "Chỉ mã hóa đối xứng",
+        "C": "Chỉ hàm băm",
+        "D": "Chỉ mã hóa bất đối xứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "Câu 37. Thuật toán thường dùng cho mã hóa đối xứng trong TLS là:",
+      "options": {
+        "A": "AES, 3DES",
+        "B": "RSA",
+        "C": "Diffie-Hellman",
+        "D": "SHA-1"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Câu 38. Thuật toán thường dùng cho trao đổi khóa TLS là:",
+      "options": {
+        "A": "RSA, Diffie-Hellman, ECDHE",
+        "B": "AES, 3DES",
+        "C": "MD5",
+        "D": "DES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "Câu 39. Thuật toán thường dùng cho chữ ký số trong TLS:",
+      "options": {
+        "A": "RSA, ECDSA",
+        "B": "AES",
+        "C": "Diffie-Hellman",
+        "D": "3DES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "Câu 40. Thuật toán băm dùng trong TLS:",
+      "options": {
+        "A": "SHA-256, SHA-384",
+        "B": "AES",
+        "C": "RSA",
+        "D": "DES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "Câu 41. Trong TLS, thuật toán bất đối xứng thường dùng để:",
+      "options": {
+        "A": "Mã hóa dữ liệu lớn",
+        "B": "Trao đổi khóa và xác thực",
+        "C": "Nên dữ liệu",
+        "D": "Băm dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Câu 42. Mã hóa đối xứng trong TLS chủ yếu để:",
+      "options": {
+        "A": "Tăng tốc độ xử lý dữ liệu phiên",
+        "B": "Xác thực người dùng",
+        "C": "Tạo chứng chỉ số",
+        "D": "Sinh khóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "Câu 43. Vì sao TLS không dùng RSA để mã hóa toàn bộ dữ liệu?",
+      "options": {
+        "A": "RSA chậm và không phù hợp cho dữ liệu lớn",
+        "B": "RSA không an toàn",
+        "C": "RSA không hỗ trợ trong TLS",
+        "D": "RSA không có khóa công khai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Câu 44. AES-GCM trong TLS được dùng để:",
+      "options": {
+        "A": "Cung cấp mã hóa + xác thực",
+        "B": "Chỉ mã hóa",
+        "C": "Chỉ băm",
+        "D": "Chỉ nén"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Câu 45. ChaCha20-Poly1305 trong TLS được dùng để:",
+      "options": {
+        "A": "Mã hóa và xác thực hiệu quả trên thiết bị di động",
+        "B": "Nén dữ liệu",
+        "C": "Thay thế chứng chỉ",
+        "D": "Sinh khóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Câu 46. RSA trong TLS thường dùng ở bước:",
+      "options": {
+        "A": "Trao đổi khóa và xác thực",
+        "B": "Mã hóa bulk data",
+        "C": "Nên bản ghi",
+        "D": "Sinh alert"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Câu 47. ECDHE trong TLS cho phép:",
+      "options": {
+        "A": "Trao đổi khỏa bảo mật, hỗ trợ Perfect Forward Secrecy (PFS)",
+        "B": "Mã hóa dữ liệu trực tiếp",
+        "C": "Nén dữ liệu",
+        "D": "Sinh chứng chỉ số"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Câu 48. DTLS viết tắt của:",
+      "options": {
+        "A": "Direct TLS",
+        "B": "Data Transmission Layer Security",
+        "C": "Datagram Transport Layer Security",
+        "D": "Datagram TLS Socket"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Câu 49. DTLS được thiết kế để hoạt động trên:",
+      "options": {
+        "A": "UDP",
+        "B": "TCP",
+        "C": "ICMP",
+        "D": "IPsec"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "Câu 50. Mục tiêu chính của DTLS là:",
+      "options": {
+        "A": "Bảo mật trên giao thức UDP không tin cậy",
+        "B": "Thay thế TLS",
+        "C": "Mã hóa file",
+        "D": "Sao lưu dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Câu 51. DTLS phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "VoIP, video streaming, VPN dựa trên UDP",
+        "B": "Web browser HTTPS",
+        "C": "File transfer qua TCP",
+        "D": "Sao lưu cơ sở dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "Câu 52. DTLS tương tự TLS nhưng có thêm cơ chế:",
+      "options": {
+        "A": "Xử lý mất gói, sắp xếp lại gói",
+        "B": "Sinh chứng chỉ số",
+        "C": "Bảo vệ file",
+        "D": "Tăng tốc CPU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "Câu 53. Thách thức lớn nhất khi triển khai DTLS là:",
+      "options": {
+        "A": "Xử lý mất gói, trễ, tái sắp xếp gói UDP",
+        "B": "Không hỗ trợ chứng chỉ",
+        "C": "Không hỗ trợ mã hóa",
+        "D": "Không có handshake"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "Câu 54. Phiên bản DTLS phổ biến hiện nay là:",
+      "options": {
+        "A": "DTLS 1.2 và DTLS 1.3",
+        "B": "DTLS 1.0",
+        "C": "DTLS 2.0",
+        "D": "DTLS 3.0"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Câu 55. Một ứng dụng điển hình sử dụng DTLS là:",
+      "options": {
+        "A": "HTTPS",
+        "B": "OpenVPN chế độ UDP",
+        "C": "FTP",
+        "D": "SMTP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Câu 56. DTLS được mô tả lần đầu trong RFC nào?",
+      "options": {
+        "A": "RFC 4347",
+        "B": "RFC 2246",
+        "C": "RFC 8446",
+        "D": "RFC 2818"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "Câu 57. DTLS 1.3 tương thích về cơ bản với:",
+      "options": {
+        "A": "TLS 1.3",
+        "B": "TLS 1.0",
+        "C": "SSL 3.0",
+        "D": "TLS 2.0"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "Câu 58. DTLS cung cấp bảo mật tương đương TLS nhưng cho:",
+      "options": {
+        "A": "Giao thức datagram (UDP)",
+        "B": "Giao thức TCP",
+        "C": "Giao thức ICMP",
+        "D": "Giao thức IPsec"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Câu 59. TLS/SSL sử dụng chứng chỉ số để:",
+      "options": {
+        "A": "Xác thực máy chủ và/hoặc máy khách",
+        "B": "Nén dữ liệu",
+        "C": "Tăng tốc CPU",
+        "D": "Sinh khóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Câu 60. Chứng chỉ số TLS/SSL tuân theo chuẩn:",
+      "options": {
+        "A": "Χ.509",
+        "B": "ISO 27001",
+        "C": "PKCS#12",
+        "D": "RFC 1918"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "Câu 61. Thành phần quan trọng trong chứng chỉ số là:",
+      "options": {
+        "A": "Khóa công khai",
+        "B": "Khóa riêng",
+        "C": "File log",
+        "D": "Session ID"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Câu 62. CA viết tắt của:",
+      "options": {
+        "A": "Certificate Authority",
+        "B": "Central Authentication",
+        "C": "Cryptography Agency",
+        "D": "Control Access"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "Câu 63. Root CA là gì?",
+      "options": {
+        "A": "CA gốc, phát hành chứng chỉ cho Intermediate CA",
+        "B": "Chứng chỉ máy chủ",
+        "C": "Chứng chỉ người dùng",
+        "D": "Khóa riêng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 63,
+      "question": "Câu 64. Intermediate CA dùng để:",
+      "options": {
+        "A": "Thay thế VPN",
+        "B": "Phát hành chứng chỉ từ Root CA cho endentity",
+        "C": "Sính khóa RSA",
+        "D": "Nén dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Câu 65. Self-signed certificate là gì?",
+      "options": {
+        "A": "Chứng chỉ tự kỷ, không do CA đáng tin cậy cấp",
+        "B": "Chứng chỉ do Root CA cấp",
+        "C": "Chứng chỉ EV",
+        "D": "Chứng chỉ wildcard"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Câu 66. Wildcard certificate cho phép:",
+      "options": {
+        "A": "Dùng cho nhiều subdomain (*.domain.com)",
+        "B": "Dùng cho nhiều domain khác nhau",
+        "C": "Chỉ dùng cho 1 domain",
+        "D": "Dùng cho email"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "Câu 67. EV (Extended Validation) certificate thường hiển thị:",
+      "options": {
+        "A": "Tên tổ chức trong trình duyệt",
+        "B": "Chỉ biểu tượng ổ khóa",
+        "C": "Không có gì đặc biệt",
+        "D": "Địa chỉ IP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "Câu 68. Công cụ phổ biến để tạo CSR (Certificate Signing Request) là:",
+      "options": {
+        "A": "OpenSSL",
+        "B": "Wireshark",
+        "C": "Nmap",
+        "D": "SQLmap"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Câu 69. CSR chứa gì?",
+      "options": {
+        "A": "Root CA",
+        "B": "Khóa riêng",
+        "C": "Thông tin tổ chức, khóa công khai",
+        "D": "Session ID"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "Câu 70. Sau khi nhận chứng chỉ từ CA, quản trị viên cần:",
+      "options": {
+        "A": "Cài đặt lên server để kích hoạt HTTPS",
+        "B": "Tạo lại khóa riêng",
+        "C": "Xóa chứng chỉ",
+        "D": "Tắt firewall"
+      },
+      "answer": "A"
+    }
+  ],
+  "chuong6": [
+    {
+      "id": 1,
+      "question": "Tại sao việc mở cổng trực tiếp ra Internet để truy cập vào mạng nội bộ lại tiềm ẩn nhiều rủi ro hơn dùng VPN?",
+      "options": {
+        "A": "Vì chỉ hoạt động trong LAN",
+        "B": "Vì tốc độ kết nối chậm",
+        "C": "Vì không thể dùng Wi-Fi công cộng",
+        "D": "Vì dễ bị quốt, khai thác lỗ hổng, tấn công DoS hoặc đánh cắp dữ liệu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "Khái niệm nào mô tả đúng nhất chức năng của VPN trong truyền thông mạng?",
+      "options": {
+        "A": "Tạo ra một “đường hầm mã hóa” giúp truyền dữ liệu an toàn qua Internet công cộng",
+        "B": "Thay thế hoàn toàn tường lửa trong doanh nghiệp",
+        "C": "Cho phép truyền dữ liệu mà không cần Internet",
+        "D": "Tạo một đường truyền vật lý riêng biệt giữa hai mạng LAN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Khi sử dụng VPN, dữ liệu được truyền qua Internet được bảo vệ như thế nào?",
+      "options": {
+        "A": "Bằng việc chia nhỏ gói tin thành nhiều phần",
+        "B": "Bằng cơ chế mã hóa, tránh bị nghe lén hoặc sửa đổi",
+        "C": "Bằng việc thay đổi địa chỉ IP",
+        "D": "Bằng việc giới hạn băng thông"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Trong doanh nghiệp, VPN Server thường được triển khai ở đâu?",
+      "options": {
+        "A": "Trên tất cả máy tính của người dùng cuối",
+        "B": "Trên hệ thống Wi-Fi công cộng",
+        "C": "Trên Router, Firewall hoặc máy chủ riêng trong mạng công ty",
+        "D": "Trên điện thoại cá nhân của nhân viên"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Với nhà cung cấp dịch vụ VPN thương mại, máy chủ VPN thường được đặt tại đâu?",
+      "options": {
+        "A": "Trung tâm dữ liệu hoặc hạ tầng Cloud",
+        "B": "Các văn phòng nhỏ của doanh nghiệp",
+        "C": "Máy tính cá nhân của khách hàng",
+        "D": "Các mạng LAN nội bộ trong công ty"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "Nhiệm vụ chính của VPN Client trên thiết bị cá nhân là gì?",
+      "options": {
+        "A": "Ngăn chặn tấn công DDoS từ bên ngoài",
+        "B": "Quản lý băng thông mạng LAN trong công ty",
+        "C": "Cấp phát địa chỉ IP tĩnh cho người dùng",
+        "D": "Tạo kết nối đến VPN Server và mã hóa toàn bộ dữ liệu truyền ra Internet"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "Lợi ích của cơ chế mã hóa dữ liệu trong VPN là gì?",
+      "options": {
+        "A": "Làm giảm tốc độ mạng để tăng bảo mật",
+        "B": "Ngăn người dùng truy cập Internet",
+        "C": "Giúp tiết kiệm băng thông khi truyền dữ liệu",
+        "D": "Đảm bảo gói tin không bị đọc trộm hoặc thay đổi trong quá trình truyền"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Cơ chế xác thực & kiểm soát truy cập trong VPN giúp đảm bảo điều gì?",
+      "options": {
+        "A": "VPN tự động cấp quyền cho tất cả thiết bị ngoại vi",
+        "B": "Người dùng không cần tài khoản vẫn có thể kết nối",
+        "C": "Mọi người đều có thể truy cập mạng nội bộ",
+        "D": "Chỉ người dùng hợp lệ, được xác thực mới có quyền truy cập tài nguyên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "Khi sử dụng VPN, địa chỉ IP thật của người dùng sẽ được:",
+      "options": {
+        "A": "Án đi và thay bằng địa chỉ IP của VPN Server",
+        "B": "Công khai toàn bộ trên Internet",
+        "C": "Chia sẻ cho tất cả người dùng VPN khác",
+        "D": "Chuyển thành địa chỉ MAC để tăng bảo mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Tại sao nói VPN giúp “kết nối an toàn và không giới hạn”?",
+      "options": {
+        "A": "VÌ VPN tự động sửa lỗi khi mất gói tin",
+        "B": "Vì có thể sử dụng VPN mà không cần Internet",
+        "C": "VÌ VPN tăng gấp đôi tốc độ đường truyền",
+        "D": "Vì VPN cho phép truy cập tài nguyên từ xa an toàn như trong mạng nội bộ và vượt qua rào cản địa lý"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 11,
+      "question": "Đặc điểm nào đúng với Site-to-Site VPN?",
+      "options": {
+        "A": "Chỉ áp dụng cho một người dùng duy nhất",
+        "B": "Kết nối nhiều mạng LAN tại các địa điểm khác nhau qua Internet",
+        "C": "Chỉ sử dụng trong mạng Wi-Fi công cộng",
+        "D": "Kết nối trực tiếp thiết bị cá nhân với VPN Server"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Trong Site-to-Site VPN, thiết bị nào thường đóng vai trò VPN Gateway để mã hóa/giải mã dữ liệu?",
+      "options": {
+        "A": "Switch trong LAN",
+        "B": "Laptop cá nhân",
+        "C": "Router hoặc Firewall",
+        "D": "Điện thoại di động"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Client-to-Site VPN thường phù hợp nhất với tình huống nào?",
+      "options": {
+        "A": "Nhân viên làm việc từ xa muốn truy cập hệ thống công",
+        "B": "Chia sẻ dữ liệu qua USB",
+        "C": "Truyền dữ liệu giữa hai router ISP",
+        "D": "Kết nối hai văn phòng ở hai thành phố khác nhau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Đặc điểm nào mô tả đúng Client-to-Site VPN?",
+      "options": {
+        "A": "Tất cả dữ liệu đi thẳng qua Internet mà không cần mã h",
+        "B": "Người dùng cần cài đặt VPN Client và xác thực để kết nối đến VPN Server",
+        "C": "Chỉ hoạt động trong môi trường LAN nội bộ",
+        "D": "Không hỗ trợ cho điện thoại hoặc laptop"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Mô hình Site-to-Site VPN của một công ty bao gồm một trụ sở chính và ba chi nhánh con. Số VPN tunnel tối đa có thể là bao nhiêu?",
+      "options": {
+        "A": "5",
+        "B": "6",
+        "C": "3",
+        "D": "Không xác định được"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "Nhược điểm lớn nhất của giao thức PPTP là gì?",
+      "options": {
+        "A": "Không hoạt động qua Internet",
+        "B": "Tốc độ chậm, khó triển khai",
+        "C": "Bảo mật yếu, dễ bị tấn công",
+        "D": "Không hỗ trợ trên Windows"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "Giao thức IPSec/IKE hoạt động ở tầng nào tro mô hình OSI?",
+      "options": {
+        "A": "Layer 4-Transport",
+        "B": "Layer 7-Application",
+        "C": "Layer 2 - Data Link",
+        "D": "Layer 3-Network"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "Điểm mạnh nổi bật của OpenVPN là gì?",
+      "options": {
+        "A": "Không tương thích với thiết bị di động",
+        "B": "Bảo mật cao, mã nguồn mở, hỗ trợ đa nền tảng",
+        "C": "Không hỗ trợ xác thực người dùng",
+        "D": "Nguồn đóng, chỉ chạy trên Windows"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Giao thức L2TP/IPSec có đặc điểm nào sau đây?",
+      "options": {
+        "A": "Chỉ hoạt động với IPv6",
+        "B": "Không dùng mã hóa",
+        "C": "Chỉ dùng cho Site-to-Site VPN",
+        "D": "Kết hợp đường hầm L2TP và mã hóa IPSec để tăng bảo mật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "MPLS VPN thường được triển khai trong môi trường nào?",
+      "options": {
+        "A": "Máy tính cá nhân tại nhà",
+        "B": "Các kết nối USB giữa hai thiết bị",
+        "C": "Mạng diện rộng của doanh nghiệp lớn, cần hiệu năng cao và ổn định",
+        "D": "Mạng Wi-Fi công cộng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Giao thức nào có trong IPSec?",
+      "options": {
+        "A": "Cả hai IKEvI và IKEv2",
+        "B": "IKEv1 hoặc IKEv2",
+        "C": "Chi IKEv2",
+        "D": "Chi IKEvl"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Chức năng nào KHÔNG thuộc về IPSec?",
+      "options": {
+        "A": "Xác thực nguồn gốc dữ liệu",
+        "B": "Mã hóa dữ liệu để đảm bảo bí mật",
+        "C": "Cấp phát địa chỉ IP động cho client",
+        "D": "Kiểm tra toàn vẹn dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "IKE trong IPSec có vai trò gì?",
+      "options": {
+        "A": "Đàm phán, trao đổi khóa và thiết lập liên kết bảo mật (SA)",
+        "B": "Kiểm soát băng thông mạng LAN",
+        "C": "Kiểm tra lỗi bịt trong khung dữ liệu",
+        "D": "Thực hiện định tuyến gói tin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "Điểm khác biệt giữa IKEv1 và IKEv2 là gì?",
+      "options": {
+        "A": "IKEv2 chỉ dùng trong mạng LAN",
+        "B": "IKEv1 không hỗ trợ xác thực",
+        "C": "IKEv2 nhanh hơn, bảo mật mạnh hơn và hỗ trợ tốt cho thiết bị di động",
+        "D": "IKEv1 nhanh hơn và hỗ trợ chuẩn AES-GCM"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Khi triển khai VPN, IPSec thường được sử dụng nhằm mục đích chính nào?",
+      "options": {
+        "A": "Loại bỏ nhu cầu dùng tường lửa",
+        "B": "Tăng tốc độ truyền tải dữ liệu",
+        "C": "Thay thế cho giao thức TCP",
+        "D": "Bảo mật gói tin IP khi truyền qua Internet"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 26,
+      "question": "Authentication Header (AH) trong IPSec có chức năng gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu và xác thực",
+        "B": "Đảm bảo toàn vẹn và xác thực gói tin, không mã hóa",
+        "C": "Đóng gói lại toàn bộ gói IP gốc",
+        "D": "Cấp phát khóa tạm thời"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Encapsulating Security Payload (ESP) cung cấp tính năng nào?",
+      "options": {
+        "A": "Không tương thích với NAT",
+        "B": "Hỗ trợ mã hóa và xác thực gói tin",
+        "C": "Chỉ mã hóa dữ liệu, không xác thực",
+        "D": "Chỉ dùng trong Transport Mode"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "Ưu điểm của ESP so với AH là gì?",
+      "options": {
+        "A": "Không cần khóa bảo mật",
+        "B": "Tương thích với NAT-Traversal và hỗ trợ mã hóa",
+        "C": "Không tạo thêm overhead",
+        "D": "Tốc độ nhanh hơn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, thuật toán nào đã lỗi thời do khóa ngắn và dễ bị tấn công?",
+      "options": {
+        "A": "3DES",
+        "B": "AES",
+        "C": "RSA",
+        "D": "DES"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, thuật toán nào hiện được khuyến nghị sử dụng nhờ an toàn và hiệu năng cao?",
+      "options": {
+        "A": "MD5",
+        "B": "DH2",
+        "C": "SHA",
+        "D": "AES"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 31,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, 3DES có đặc điểm nào sau đây?",
+      "options": {
+        "A": "Dùng để xác thực thay vì mã hóa",
+        "B": "Chỉ hoạt động trong mạng LAN nội bộ",
+        "C": "An toàn hơn DES nhưng chậm, dần bị thay thế bởi AES",
+        "D": "Nhanh hơn AES nhưng bảo mật yếu hơn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 32,
+      "question": "Trong lớp Toàn vẹn dữ liệu (Integrity) của IPSec, thuật toán nào đã lỗi thời và không còn được khuyến nghị sử dụng?",
+      "options": {
+        "A": "SHA-256",
+        "B": "HMAC-SHA-2",
+        "C": "MD5",
+        "D": "SHA-512"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Trong lớp Xác thực (Authentication) của IPSec, phương thức Pre-Shared Key (PSK) có nhược điểm chính nào?",
+      "options": {
+        "A": "Không hoạt động với IKEv2",
+        "B": "Tốc độ chậm hơn RSA",
+        "C": "Khó quản lý khi có nhiều người dùng và rủi ro nếu khóa bị lộ",
+        "D": "Chỉ dùng trong mạng LAN nội bộ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 34,
+      "question": "Trong lớp Xác thực (Authentication) của IPSec, sử dụng chứng chỉ RSA mang lại lợi ích gì?",
+      "options": {
+        "A": "Không yêu cầu xác thực",
+        "B": "Dễ bị lộ khỏa hơn PSK",
+        "C": "Không cần hạ tầng quản lý khóa",
+        "D": "An toàn, mở rộng tốt cho doanh nghiệp nhờ PKI"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 35,
+      "question": "Trong lớp Trao đổi khóa an toàn (Secure Key Exchange) của IPSec, vai trò chính của thuật toán Diffie-Hellman là gì?",
+      "options": {
+        "A": "Mã hóa trực tiếp toàn bộ dữ liệu",
+        "B": "Sinh ra khóa chung để hai bên dùng cho mã hóa",
+        "C": "Tăng tốc độ truyền dữ liệu",
+        "D": "Xác thực người dùng cuối"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Đặc điểm của Transport Mode trong IPSec là gì?",
+      "options": {
+        "A": "Tăng overhead nhiều hơn Tunnel Mode",
+        "B": "Chỉ mã hóa phần payload, giữ nguyên IP header gốc",
+        "C": "Chỉ dùng cho Site-to-Site VPN",
+        "D": "Mã hóa toàn bộ gói IP gốc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Ưu điểm chính của Tunnel Mode trong IPSec là gì?",
+      "options": {
+        "A": "Không cần thêm header mới",
+        "B": "Bảo mật cao vì mã hóa toàn bộ gói IP gốc",
+        "C": "Chỉ hoạt động trong LAN",
+        "D": "Giữ tốc độ cao, overhead thấp"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "question": "Mục tiêu của IKE Phase 1 trong quá trình thiết lập IPSec là gì?",
+      "options": {
+        "A": "Gán địa chỉ IP cho client",
+        "B": "Thiết lập kênh bảo mật ban đầu ISAKMP tunnel",
+        "C": "Truyền dữ liệu thực tế giữa hai bên",
+        "D": "Chia sẻ file cấu hình VPN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "IKE trong IPSec có vai trò nào?",
+      "options": {
+        "A": "Định nghĩa thuật toán mã hóa",
+        "B": "Cấp phát chứng chỉ số",
+        "C": "Chia gói tin IP thành nhiều phần",
+        "D": "Thương lượng, thiết lập và quản lý các liên kết bảo mật (SA)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Mục tiêu chính của ISAKMP tunnel trong IKE Phase 1 là gì?",
+      "options": {
+        "A": "Thiết lập kênh bảo mật để bảo vệ các gói IKE trong quá trình thương lượng",
+        "B": "Cấp phát địa chỉ IP cho client",
+        "C": "Truyền dữ liệu thực tế giữa hai bên",
+        "D": "Kiểm tra toàn vẹn gói tin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 41,
+      "question": "Khi ISAKMP tunnel đã được thiết lập thành công, bước tiếp theo trong IKE Phase 2 là gì?",
+      "options": {
+        "A": "Phát hiện lỗi và tái truyền gói tin",
+        "B": "Thiết lập IPSec tunnel để mã hóa dữ liệu người dùng",
+        "C": "Húy ISAKMP SA",
+        "D": "Cấp phát chứng chỉ RSA cho client"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "IPSec tunnel được tạo ra trong IKE Phase 2 có chức năng chính nào?",
+      "options": {
+        "A": "Tăng tốc độ truyền dữ liệu gấp đôi",
+        "B": "Thay thế toàn bộ giao thức TCP/IP",
+        "C": "Mã hóa và bảo vệ dữ liệu thực (data traffic) khi truyền qua Internet",
+        "D": "Chỉ xác thực người dùng cuối mà không mã hóa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "Sự khác biệt cơ bản giữa ISAKMP tunnel và IPSec tunnel là gì?",
+      "options": {
+        "A": "ISAKMP tunnel dùng cho thương lượng, IPSec tunnel dùng để truyền dữ liệu thực",
+        "B": "Cả hai đều chỉ hoạt động trong LAN nội bộ",
+        "C": "ISAKMP tunnel bảo vệ dữ liệu thực, còn IPSec tunnel bảo vệ gói IKE",
+        "D": "ISAKMP tunnel mã hóa payload, IPSec tunnel chỉ mà hóa header"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Sau khi ISAKMP tunnel và IPSec tunnel được thiết lập, hệ thống đảm bảo những yếu tố bảo mật nào khi truyền dữ liệu?",
+      "options": {
+        "A": "Tăng tốc độ đường truyền và giảm overhead",
+        "B": "Loại bỏ nhu cầu tường lửa và IDS",
+        "C": "Thay thế toàn bộ mô hình OSI",
+        "D": "Bảo mật, toàn vẹn và xác thực dữ liệu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "Trong IKE Phase 1, có hai mode hoạt động chính là gì?",
+      "options": {
+        "A": "ESP Mode và AH Mode",
+        "B": "Server Mode và Client Mode",
+        "C": "Main Mode và Aggressive Mode",
+        "D": "Transport Mode và Tunnel Mode"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 46,
+      "question": "Đặc điểm của Main Mode trong IKE Phase 1 là gì?",
+      "options": {
+        "A": "Bảo mật cao hơn, sử dụng 6 message để trao đổi",
+        "B": "Không hỗ trợ Diffie-Hellman",
+        "C": "Nhanh hơn Aggressive Mode, chi 3 message",
+        "D": "Không cần xác thực"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Aggressive Mode trong IKE Phase 1 có ưu điểm nào?",
+      "options": {
+        "A": "Bảo mật cao hơn Main Mode",
+        "B": "Nhanh hơn, chỉ cần 3 message để thiết lập",
+        "C": "Không yêu cầu xác thực",
+        "D": "Hỗ trợ PFS mặc định"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "Kết quả cuối cùng của IKE Phase 1 là gì?",
+      "options": {
+        "A": "Truyền dữ liệu thực tế giữa hai bên",
+        "B": "Tạo ISAKMP SA (tunnel bảo mật ban đầu)",
+        "C": "Thiết lập IPSec SA",
+        "D": "Sinh ra khóa phiên cho ứng dụng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "Mục tiêu chính của IKE Phase 2 là gì?",
+      "options": {
+        "A": "Tạo ISAKMP tunnel ban đầu",
+        "B": "Sinh chứng chỉ RSA",
+        "C": "Cấp phát khóa công khai",
+        "D": "Thiết lập và thương lượng IPSec SA để bảo vệ dữ liệu thực"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "Trong IKE Phase 2, các bên thỏa thuận về điều gì?",
+      "options": {
+        "A": "Cách thức chia gói tin IP",
+        "B": "Loại IPSec protocol (ESP hay AH), thuật toán mã hóa, xác thực, thời gian của SA",
+        "C": "Cấp phát địa chỉ IP động",
+        "D": "Phân giải tên miền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "Kết quả cuối cùng của IKE Phase 2 là gì?",
+      "options": {
+        "A": "Tạo khóa công khai RSA",
+        "B": "Hủy bỏ ISAKMP SA",
+        "C": "Truyền dữ liệu IPSec trong tunnel an toàn",
+        "D": "Gán IP cho VPN Client"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": "Khi IPSec tunnel được thiết lập, dữ liệu thực được truyền thế nào?",
+      "options": {
+        "A": "Không truyền dữ liệu thực, chỉ quản lý kết nối",
+        "B": "Truyền thẳng qua Internet không mã hóa",
+        "C": "Được mã hóa và đóng gói theo định dạng IPSec",
+        "D": "Chỉ truyền bằng AH, không có ESP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "Diffie-Hellman trong IKE Phase 1 có vai trò gì?",
+      "options": {
+        "A": "Xác thực người dùng cuối",
+        "B": "Phát hiện lỗi khi truyền",
+        "C": "Sinh khóa chung để hai bên dùng trong mã hóa",
+        "D": "Mã hóa trực tiếp gói dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Trong thiết lập IPSec, Security Association (SA) là gì?",
+      "options": {
+        "A": "Một loại chứng chỉ số RSA",
+        "B": "Thỏa thuận các tham số bảo mật giữa hai bên",
+        "C": "Một thuật toán băm",
+        "D": "Gói tin đặc biệt để truyền khóa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Sau khi hoàn tất IKE Phase 1 và Phase 2, kênh truyền dữ liệu IPSec đảm bảo những yếu tố nào?",
+      "options": {
+        "A": "Tăng tốc độ truyền và giảm chi phí",
+        "B": "Bảo mật, toàn vẹn và xác thực",
+        "C": "Loại bỏ nhu cầu tường lửa",
+        "D": "Thay thế toàn bộ giao thức TCP/IP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "VPN thương mại (Commercial VPN) có ưu điểm nỗi bật nào?",
+      "options": {
+        "A": "Có số lượng lớn máy chủ đặt ở nhiều quốc gia, dễ dàng vượt hạn chế địa lý",
+        "B": "Không cần Internet để hoạt động",
+        "C": "Hoàn toàn không phụ thuộc vào nhà cung cấp",
+        "D": "Không sử dụng mã hóa nên tốc độ cao hơn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "Nhược điểm lớn nhất khi dùng VPN thương mại là gì?",
+      "options": {
+        "A": "Không hỗ trợ cài đặt trên router",
+        "B": "Không tương thích với thiết bị di động",
+        "C": "Người dùng phải tin tưởng tuyệt đối vào nhà cung cấp vì toàn bộ dữ liệu đi qua máy chủ của họ",
+        "D": "Không vượt được giới hạn địa lý"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "question": "Một ứng dụng thực tế phổ biến của VPN thương mại đối với người dùng cá nhân là gì?",
+      "options": {
+        "A": "Quản lý phân quyền truy cập nhân viên",
+        "B": "Sử dụng ERP nội bộ của công ty",
+        "C": "Ân IP thật và truy cập Netflix US từ Việt Nam",
+        "D": "Cấp phát chứng chỉ số cho người dùng cuối"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 59,
+      "question": "Tại sao các gói VPN thương mại miễn phí thường kém ổn định?",
+      "options": {
+        "A": "Vì chỉ hỗ trợ giao thức cũ PPTP",
+        "B": "Vì bị giới hạn tốc độ, dung lượng hoặc số lượng máy chủ",
+        "C": "Vì không thể cải đặt trên Windows",
+        "D": "Vì không có cơ chế mã hóa nào"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Một người thường xuyên sử dụng Wi-Fi công cộng ở quán café thì lợi ích lớn nhất khi dùng VPN thương mại là gì?",
+      "options": {
+        "A": "Cho phép cấu hình router tự động",
+        "B": "Tăng tốc độ mạng LAN trong công ty",
+        "C": "Bảo vệ quyền riêng tư, ngăn chặn nghe lên dữ liệu",
+        "D": "Giảm chi phí bản quyền phần mềm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "question": "Ưu điểm chính của VPN tự triển khai (Self-hosted VPN) là gì?",
+      "options": {
+        "A": "Có hàng ngàn máy chủ toàn cầu để chọn",
+        "B": "Không cần kiến thức kỹ thuật",
+        "C": "Toàn quyền quản lý dữ liệu, không qua bên thứ ba",
+        "D": "Luôn nhanh hơn VPN thương mại"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "Nhược điểm lớn nhất của VPN tự triển khai là gì?",
+      "options": {
+        "A": "Không tương thích Linux và macOS",
+        "B": "Không có khả năng mã hóa dữ liệu",
+        "C": "Khó thay đổi IP theo vùng địa lý và cần kiến thức kỹ thuật để duy trì",
+        "D": "Chỉ hoạt động trong mạng LAN"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "Một sinh viên thuê VPS trên AWS và cài đặt WireGuard để truy cập tài nguyên cá nhân. Đây là ví dụ cho loại VPN nào?",
+      "options": {
+        "A": "VPN doanh nghiệp",
+        "B": "SSL VPN",
+        "C": "VPN thương mại",
+        "D": "VPN tự triển khai"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 64,
+      "question": "Trong VPN tự triển khai, giao thức nào thường được lựa chọn nhờ tốc độ cao và thiết kế gọn nhẹ?",
+      "options": {
+        "A": "WireGuard",
+        "B": "OpenVPN",
+        "C": "PPTP",
+        "D": "L2TP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Trường hợp nào phù hợp nhất để dùng VPN tự triển khai thay vì VPN thương mại?",
+      "options": {
+        "A": "Khi công ty cần cho nhân viên làm việc từ xa truy cập ERP",
+        "B": "Khi muốn giảm chi phí mua thiết bị bảo mật",
+        "C": "Khi muốn vượt chặn Netflix và thay đổi IP liên tục",
+        "D": "Khi cần kết nối an toàn vào server cá nhân và không muốn phụ thuộc bên thứ ba"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "Điểm khác biệt chính của VPN doanh nghiệp so với VPN thương mại là gì?",
+      "options": {
+        "A": "Có nhiều máy chủ toàn cầu hơn",
+        "B": "Chỉ hoạt động trên Wi-Fi công cộng",
+        "C": "Được triển khai bởi tổ chức để nhân viên truy cập an toàn vào hệ thống nội bộ",
+        "D": "Không dùng mã hóa dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Ưu điểm nổi bật của VPN doanh nghiệp là gì?",
+      "options": {
+        "A": "Không yêu cầu đội ngũ IT quản trị",
+        "B": "Sử dụng giao thức mạnh như IPSec/IKEv2 hoặc SSL VPN, quản lý tập trung bởi IT",
+        "C": "Tự động cấp IP công khai toàn cầu",
+        "D": "Không tốn chi phí triển khai"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "Nhược điểm lớn nhất khi triển khai VPN doanh nghiệp là gì?",
+      "options": {
+        "A": "Không có khả năng bảo mật",
+        "B": "Không hỗ trợ trên hệ điều hành Windows",
+        "C": "Chi phí đầu tư và vận hành cao, cần đội ngũ IT quản trị",
+        "D": "Không thể hoạt động ngoài LAN nội bộ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "Một nhân viên đang đi công tác nước ngoài cần truy cập email công ty và hệ thống ERP qua Internet. Giải pháp phù hợp nhất là gì?",
+      "options": {
+        "A": "VPN thương mại miễn phí",
+        "B": "VPN doanh nghiệp",
+        "C": "VPN tự triển khai cá nhân",
+        "D": "Chia sẻ qua USB"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "Doanh nghiệp thường sử dụng phần mềm hoje giải pháp VPN nào sau đây để nhân viên kết nối từ xã toàn?",
+      "options": {
+        "A": "Cisco AnyConnect, Fortinet SSL VPN, Palo Alto Global Protect",
+        "B": "Microsoft Office 365 VPN",
+        "C": "AWS VPN Client, DigitalOcean WireGuard",
+        "D": "NordVPN, Proton VPN"
+      },
+      "answer": "A"
+    }
+  ]
+}
+
+

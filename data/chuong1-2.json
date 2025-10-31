@@ -1,0 +1,1548 @@
+{
+  "chuong1": [
+    {
+      "id": 1,
+      "question": "An ninh mạng là gì?",
+      "options": {
+        "A": "Bảo vệ hệ thống khỏi virus",
+        "B": "Bảo vệ thông tin số khỏi truy cập trái phép",
+        "C": "Bảo vệ phần mềm khôi lỗi",
+        "D": "Bảo vệ phần cứng khỏi hư hỏng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Mục tiêu chính của an ninh mạng là gì?",
+      "options": {
+        "A": "Tăng tốc độ mạng",
+        "B": "Bảo vệ tỉnh bảo mật, toàn vẹn và sẵn sàng của dữ liệu",
+        "C": "Giảm chi phí vận hành",
+        "D": "Tăng dung lượng lưu trữ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "CIA trong an ninh mạng là viết tắt của?",
+      "options": {
+        "A": "Confidentiality, Integrity, Availability",
+        "B": "Control, Information, Access",
+        "C": "Cyber, Internet, Attack",
+        "D": "Code, Identity, Authentication"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "An ninh mạng khác với bảo mật thông tin ở điểm nào?",
+      "options": {
+        "A": "Không có sự khác biệt",
+        "B": "An ninh mạng tập trung vào hệ thống mạng",
+        "C": "Bảo mật thông tin chỉ áp dụng cho dữ liệu giấy",
+        "D": "An ninh mạng không liên quan đến phần mềm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Một hệ thống an ninh mạng hiệu quả cần có yếu tố nào?",
+      "options": {
+        "A": "Phần mềm diệt virus",
+        "B": "Tường lửa",
+        "C": "Chính sách bảo mật",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "Tại sao an ninh mạng ngày càng quan trọng?",
+      "options": {
+        "A": "Do sự phát triển của công nghệ",
+        "B": "Do số lượng người dùng internet tăng",
+        "C": "Do các mối đe dọa ngày càng tỉnh vi",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 7,
+      "question": "Đối tượng nào thường bị tấn công mạng?",
+      "options": {
+        "A": "Cá nhân",
+        "B": "Doanh nghiệp",
+        "C": "Chính phủ",
+        "D": "Tất cả các đối tượng trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Một ví dụ về mối đe dọa mạng là?",
+      "options": {
+        "A": "Mất điện",
+        "B": "Virus máy tính",
+        "C": "Hỏng phần cứng",
+        "D": "Lỗi phần mềm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Tấn công mạng có thể gây ra hậu quả gì?",
+      "options": {
+        "A": "Mất dữ liệu",
+        "B": "Thiệt hại tài chính",
+        "C": "Ảnh hưởng uy tin",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "question": "Bối cảnh an ninh mạng hiện nay có đặc điểm gì?",
+      "options": {
+        "A": "Ít mối đe dọa",
+        "B": "Tấn công đơn giản",
+        "C": "Tấn công có tổ chức và tỉnh vì",
+        "D": "Không cần phòng ngừa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Xu hướng tấn công mạng hiện nay là gì?",
+      "options": {
+        "A": "Tấn công vật lý",
+        "B": "Tấn công có chủ đích và tỉnh vi",
+        "C": "Tấn công bằng email spam",
+        "D": "Tấn công không có mục tiêu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Một hình thức tấn công phổ biến hiện nay là?",
+      "options": {
+        "A": "Phishing",
+        "B": "DDoS",
+        "C": "Ransomware",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "question": "Mã độc thường được phát tán qua?",
+      "options": {
+        "A": "USB",
+        "B": "Email",
+        "C": "Website độc hại",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "Tấn công mạng có thể nhằm mục đích gì?",
+      "options": {
+        "A": "Trộm dữ liệu",
+        "B": "Phá hoại hệ thống",
+        "C": "Đòi tiền chuộc",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 15,
+      "question": "Một xu hướng mới trong tấn công mạng là?",
+      "options": {
+        "A": "Tấn công bằng Al",
+        "B": "Tấn công bằng phần mềm diệt virus",
+        "C": "Tấn công bằng phần cứng",
+        "D": "Tấn công bằng mạng LAN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Tấn công có chủ đích thường nhắm vào?",
+      "options": {
+        "A": "Người dùng cá nhân",
+        "B": "Doanh nghiệp lớn",
+        "C": "Hệ thống chính phủ",
+        "D": "B và C đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 17,
+      "question": "Virus máy tính là gì?",
+      "options": {
+        "A": "Phần mềm bảo vệ máy tính",
+        "B": "Phần mềm gây hại có thể tự nhân bản",
+        "C": "Phần mềm tăng tốc máy tính",
+        "D": "Phần mềm quản lý mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Worm khác virus ở điểm nào?",
+      "options": {
+        "A": "Không cần file chủ để lây lan",
+        "B": "Không gây hại",
+        "C": "Không thể tự nhân bản",
+        "D": "Không hoạt động trên mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Trojan thường được ngụy trang dưới dạng?",
+      "options": {
+        "A": "Phần mềm hợp pháp",
+        "B": "Phần mềm diệt virus",
+        "C": "Phần mềm hệ thống",
+        "D": "Phần mềm mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Ransomware là loại mã độc có đặc điểm gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu và đòi tiền chuộc",
+        "B": "Tự động xóa dữ liệu",
+        "C": "Tăng tốc hệ thống",
+        "D": "Tạo bản sao dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "Spyware có chức năng gì?",
+      "options": {
+        "A": "Theo dõi hoạt động người dùng",
+        "B": "Tăng tốc mạng",
+        "C": "Bảo vệ dữ liệu",
+        "D": "Tạo mã hóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Adware thường gây phiền toái bằng cách?",
+      "options": {
+        "A": "Hiển thị quảng cáo không mong muốn",
+        "B": "Tăng tốc trình duyệt",
+        "C": "Chặn truy cập internet",
+        "D": "Tự động cập nhật phần mềm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "CVE là viết tắt của?",
+      "options": {
+        "A": "Common Virus Enumeration",
+        "B": "Common Vulnerabilities and Exposures",
+        "C": "Cybersecurity Vulnerability Engine",
+        "D": "Computer Virus Exposure"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "CVE giúp gì trong an ninh mạng?",
+      "options": {
+        "A": "Định danh lỗ hổng bảo mật",
+        "B": "Phát hiện virus",
+        "C": "Tăng tốc mạng",
+        "D": "Quản lý phần mềm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Cấu hình bảo mật tốt giúp?",
+      "options": {
+        "A": "Giảm nguy cơ bị tấn công",
+        "B": "Tăng tốc độ mạng",
+        "C": "Tăng dung lượng lưu trữ",
+        "D": "Giảm chi phí phần cứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Một ví dụ về cấu hình bảo mật là?",
+      "options": {
+        "A": "Tắt dịch vụ không cần thiết",
+        "B": "Mở tất cả cổng mạng",
+        "C": "Cho phép truy cập không giới hạn",
+        "D": "Tăng độ sáng màn hình"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "CVSS dùng để?",
+      "options": {
+        "A": "Đánh giá mức độ nghiêm trọng của lỗ hồng",
+        "B": "Phân loại virus",
+        "C": "Quản lý người dùng",
+        "D": "Tăng tốc độ xử lý"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Kỹ thuật làm rối mã độc nhằm mục đích gì?",
+      "options": {
+        "A": "Tránh bị phát hiện bởi phần mềm bảo mật",
+        "B": "Tăng tốc độ lây lan",
+        "C": "Tăng độ chính xác",
+        "D": "Giảm kích thước mã"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Mã độc có thể tự thay đổi bằng cách nào?",
+      "options": {
+        "A": "Tự mã hóa lại",
+        "B": "Tự tạo biến thể mới",
+        "C": "Tự thay đổi hành vi",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Polymorphic malware là gì?",
+      "options": {
+        "A": "Mã độc có thể thay đổi hình dạng",
+        "B": "Mã độc không thể bị phát hiện",
+        "C": "Mã độc chỉ hoạt động trên Windows",
+        "D": "Mã độc không có mã nguồn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "Kỹ thuật làm rối thường được dùng để?",
+      "options": {
+        "A": "Tránh bị phân tích",
+        "B": "Tăng tốc độ xử lý",
+        "C": "Giảm dung lượng",
+        "D": "Tăng độ bảo mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "question": "Động lực phổ biến nhất của hacker là gì?",
+      "options": {
+        "A": "Giải trí",
+        "B": "Tài chính",
+        "C": "Học tập",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "Hacker mũ trắng là ai?",
+      "options": {
+        "A": "Người tấn công hệ thống để phá hoại",
+        "B": "Người bảo vệ hệ thống bằng cách kiểm tra lỗ hồng",
+        "C": "Người viết mã độc",
+        "D": "Người bán phần mềm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "Hacker mũ đen là ai?",
+      "options": {
+        "A": "Người kiểm tra bảo mật",
+        "B": "Người tấn công hệ thống trái phép",
+        "C": "Người phát triển phần mềm",
+        "D": "Người quản trị mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Kỹ thuật tấn công phổ biến là?",
+      "options": {
+        "A": "Phishing",
+        "B": "SQL Injection",
+        "C": "Social Engineering",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 36,
+      "question": "Social engineering là gì?",
+      "options": {
+        "A": "Tấn công phần mềm",
+        "B": "Lừa người dùng để lấy thông tin",
+        "C": "Tấn công phần cứng",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Một ví dụ về social engineering là?",
+      "options": {
+        "A": "Gửi email giả mạo ngân hàng",
+        "B": "Tấn công DDoS",
+        "C": "Cải mã độc vào hệ thống",
+        "D": "Tạo phần mềm gián điệp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 38,
+      "question": "Lỗ hổng zero-day là gì?",
+      "options": {
+        "A": "Lỗ hồng đã được vá",
+        "B": "Lỗ hổng chưa được phát hiện và chưa có bản vá",
+        "C": "Lỗ hồng không gây hại",
+        "D": "Lỗ hồng chỉ có trên phần cứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "Tại sao lỗ hổng zero-day nguy hiểm?",
+      "options": {
+        "A": "Không thể phát hiện",
+        "B": "Không có bản vá",
+        "C": "Có thể bị khai thác ngay lập tức",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Ai thường khai thác lỗ hổng zero-day?",
+      "options": {
+        "A": "Hacker mũ đen",
+        "B": "Chính phủ",
+        "C": "Tội phạm mạng",
+        "D": "Tất cả các đối tượng trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Phát hiện lỗ hổng zero-day đòi hỏi?",
+      "options": {
+        "A": "Kiến thức chuyên sâu",
+        "B": "Công cụ phân tích",
+        "C": "Kinh nghiệm thực tế",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 42,
+      "question": "Một biện pháp giảm thiểu rủi ro từ zero-day là?",
+      "options": {
+        "A": "Cập nhật phần mềm thường xuyên",
+        "B": "Sử dụng phần mềm không bản quyền",
+        "C": "Tắt tường lửa",
+        "D": "Mở tất cả cổng mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Tấn công mạng có thể ảnh hưởng đến hệ thống nào?",
+      "options": {
+        "A": "Hệ thống điện",
+        "B": "Hệ thống nước",
+        "C": "Hệ thống giao thông",
+        "D": "Tất cả các hệ thống trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "question": "SCADA là gì?",
+      "options": {
+        "A": "Hệ thống điều khiển công nghiệp",
+        "B": "Phần mềm diệt virus",
+        "C": "Hệ thống mạng LAN",
+        "D": "Hệ thống lưu trữ dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Tấn công vào hệ thống SCADA có thể gây ra?",
+      "options": {
+        "A": "Mất kiểm soát quy trình công nghiệp",
+        "B": "Tăng tốc độ xử lý",
+        "C": "Giảm chi phí vận hành",
+        "D": "Tăng độ bảo mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Một ví dụ nổi tiếng về tấn công vào hệ thống công nghiệp là?",
+      "options": {
+        "A": "WannaCry",
+        "B": "Stuxnet",
+        "C": "Zcus",
+        "D": "Petya"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Hệ thống điện có thể bị tấn công qua?",
+      "options": {
+        "A": "Internet",
+        "B": "Mạng nội bộ",
+        "C": "Thiết bị IoT",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 48,
+      "question": "Hạ tầng an toàn thông tin bao gồm?",
+      "options": {
+        "A": "Phần cứng",
+        "B": "Phần mềm",
+        "C": "Chính sách và con người",
+        "D": "Tất cả các yếu tố trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "Một thành phần quan trọng trong hạ tầng an toàn thông tin là?",
+      "options": {
+        "A": "Tường lửa",
+        "B": "IDS/IPS",
+        "C": "VPN",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "IDS là viết tắt của?",
+      "options": {
+        "A": "Internet Detection System",
+        "B": "Intrusion Detection System",
+        "C": "Internal Data Security",
+        "D": "Information Defense Software"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "IPS khác IDS ở điểm nào?",
+      "options": {
+        "A": "Có khả năng ngăn chặn tấn công",
+        "B": "Chỉ giám sát",
+        "C": "Không hoạt động theo thời gian thực",
+        "D": "Không cần cấu hình"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "VPN giúp gì trong an ninh mạng?",
+      "options": {
+        "A": "Mã hóa kết nối",
+        "B": "Giấu địa chỉ IP",
+        "C": "Truy cập an toàn từ xa",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 53,
+      "question": "Chính sách bảo mật nên bao gồm?",
+      "options": {
+        "A": "Quy định truy cập",
+        "B": "Quy trình xử lý sự cổ",
+        "C": "Đào tạo nhân viên",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 54,
+      "question": "Một đặc điểm của mã độc hiện đại là?",
+      "options": {
+        "A": "Có thể tự cập nhật",
+        "B": "Không thể bị phát hiện",
+        "C": "Không gây hại",
+        "D": "Chỉ hoạt động trên hệ điều hành cũ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Tấn công DDoS nhằm mục đích gì?",
+      "options": {
+        "A": "Truy cập trái phép dữ liệu",
+        "B": "Làm gián đoạn dịch vụ",
+        "C": "Mã hóa dữ liệu",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Một biện pháp phòng chống phishing là?",
+      "options": {
+        "A": "Không mở email lạ",
+        "B": "Cập nhật phần mềm",
+        "C": "Sử dụng mật khẩu mạnh",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "Rootkit là loại mã độc có khả năng?",
+      "options": {
+        "A": "Ân mình khỏi hệ thống phát hiện",
+        "B": "Tăng tốc độ xử lý",
+        "C": "Tự động cập nhật",
+        "D": "Tạo bản sao dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Một kỹ thuật tấn công mạng thường dùng là?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "Brute Force",
+        "C": "Cross-site Scripting (XSS)",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "question": "Một đặc điểm của lỗ hổng bảo mật là?",
+      "options": {
+        "A": "Có thể bị khai thác nếu không được vá",
+        "B": "Không ảnh hưởng đến hệ thống",
+        "C": "Chỉ tồn tại trong phần cứng",
+        "D": "Không thể phát hiện"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "Một hệ thống bảo mật tốt cần có?",
+      "options": {
+        "A": "Phần mềm diệt virus",
+        "B": "Chính sách bảo mật rõ ràng",
+        "C": "Đào tạo người dùng",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 61,
+      "question": "Tấn công mạng có thể xuất phát từ?",
+      "options": {
+        "A": "Nội bộ tổ chức",
+        "B": "Bên ngoài tổ chức",
+        "C": "Cả A và B",
+        "D": "Không có đáp án đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "Một biện pháp bảo vệ hệ thống mạng là?",
+      "options": {
+        "A": "Sử dụng tường lửa",
+        "B": "Cập nhật phần mềm thường xuyên",
+        "C": "Giám sát truy cập",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "Mã độc có thể được phát hiện bằng?",
+      "options": {
+        "A": "Phần mềm antivirus",
+        "B": "Hệ thống IDS",
+        "C": "Phân tích hành vi",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 64,
+      "question": "Một đặc điểm của ransomware là?",
+      "options": {
+        "A": "Mã hóa dữ liệu và yêu cầu tiền chuộc",
+        "B": "Tự động xóa dữ liệu",
+        "C": "Tăng tốc độ mạng",
+        "D": "Giảm dung lượng  cứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Một biện pháp bảo vệ dữ liệu cá nhân là?",
+      "options": {
+        "A": "Sử dụng mật khẩu mạnh",
+        "B": "Không chia sẻ thông tin nhạy cảm",
+        "C": "Sử dụng xác thực hai yếu tố",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "Tấn công mạng có thể gây ra hậu quả nào sau đây?",
+      "options": {
+        "A": "Mất dữ liệu",
+        "B": "Thiệt hại tài chính",
+        "C": "Ảnh hưởng uy tin tổ chức",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 67,
+      "question": "Một hệ thống VPN giúp?",
+      "options": {
+        "A": "Bảo vệ kết nối mạng",
+        "B": "Giấu địa chỉ IP",
+        "C": "Truy cập an toàn từ xa",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 68,
+      "question": "Một ví dụ về tấn công có tổ chức là?",
+      "options": {
+        "A": "Tấn công vào hệ thống ngân hàng",
+        "B": "Tấn công vào cơ sở hạ tầng quốc gia",
+        "C": "Tấn công vào hệ thống SCADA",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 69,
+      "question": "Một biện pháp giảm thiểu rủi ro an ninh mạng là?",
+      "options": {
+        "A": "Đào tạo nhân viên",
+        "B": "Kiểm tra định kỳ hệ thống",
+        "C": "Áp dụng chính sách bảo mật",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 70,
+      "question": "Hạ tầng an toàn thông tin cần đảm bảo yếu tố nào?",
+      "options": {
+        "A": "Bảo mật",
+        "B": "Toàn vẹn",
+        "C": "Sẵn sàng",
+        "D": "Tất cả các yếu tố trên"
+      },
+      "answer": "D"
+    }
+  ],
+  "chuong2": [
+    {
+      "id": 1,
+      "question": "Rule/ACL trong firewall dùng để:",
+      "options": {
+        "A": "Quyết định cho phép hoặc chặn lưu lượng",
+        "B": "Mã hóa dữ liệu trước khi truyền",
+        "C": "Định tuyển gỏi tỉn",
+        "D": "Lưu trữ nhật ký hệ thống"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Nguyên tắc \"Default Deny\" nghĩa là:",
+      "options": {
+        "A": "Cho phép tất cả trừ khi có rule chặn",
+        "B": "Chặn tất cả trừ khi có rule cho phép",
+        "C": "Chặn các rule đầu tiên, cho phép rule sau",
+        "D": "Cho phép theo mặc định của hệ điều hành"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Nguyên tắc “Least Privilege” yêu cầu:",
+      "options": {
+        "A": "Mớ tất cả dịch vụ để thuận tiện",
+        "B": "Cấp toàn quyền cho quản trị viên",
+        "C": "Chỉ cấp quyền tối thiểu cần thiết",
+        "D": "Cho phép tất cả IP nội bộ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "5-tuple trong rule firewall gồm:",
+      "options": {
+        "A": "Source IP, VLAN, Port, Protocol, Zone",
+        "B": "IP đích, username, password, port, protocol",
+        "C": "IP nguồn, MAC, hostname, port đích, protocol",
+        "D": "IP nguồn, IP đích, port nguồn, port đích, protocol"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "Rule: Allow TCP từ 192.168.1.0/24 - 10.0.0.10 port 443. Firewall sẽ xử lí sao với gói tin sau: Source IP 192.168.1.15, Destination IP 10.0.0.10, Protocol TCP, Port 443.",
+      "options": {
+        "A": "Allow",
+        "B": "Deny do sai protocol",
+        "C": "Deny do sai IP nguồn",
+        "D": "Deny do sai port"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "Rule: Allow UDP từ 172.16.0.0/16 8.8.8.8 port 53. Firewall sẽ xử lí sao với gói tin sau: Source 172.16.5.10, Destination 8.8.8.8, Protocol TCP, Port 53.",
+      "options": {
+        "A": "Allow",
+        "B": "Deny do sai protocol",
+        "C": "Deny do sai port",
+        "D": "Allow vì đúng IP và port đích"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Rule: Deny TCP từ 172.16.0.0/16 10.0.0.5 port 443. Firewall sẽ xử lí sao với gói tin sau: Source 172.16.2.10, Destination 10.0.0.5, Protocol TCP, Port 443.",
+      "options": {
+        "A": "Deny do sai IP nguồn",
+        "B": "Deny do khớp rule",
+        "C": "Deny do sai protocol",
+        "D": "Allow"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Nếu có nhiều rule, firewall xử lý theo:",
+      "options": {
+        "A": "Rule ngẫu nhiên",
+        "B": "Rule cuối cùng",
+        "C": "Rule đầu tiên khớp (first-match)",
+        "D": "Rule mặc định hệ điều hành"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Rules (tru tiên từ trên xuống dưới): 1. Allow TCP từ 10.0.0.0/24 172.16.1.1 port 443; 2. Deny TCP từ 10.0.0.50 172.16.1.1 port 443; 3. Allow ICMP từ any 172.16.1.1. Firewall sẽ xử lí sao với gói tin sau: Source 10.0.0.5, Destination 172.16.1.1, Protocol TCP, Port: 443.",
+      "options": {
+        "A": "Allow do match rule 1",
+        "B": "Deny do match rule 2",
+        "C": "Allow do match rule 3",
+        "D": "Deny do sai protocol"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Implicit deny trong firewall nghĩa là:",
+      "options": {
+        "A": "Rule ngầm cuối cùng sẽ chặn nếu không khớp rule nào khác",
+        "B": "Rule cuối cùng sẽ cho phép mọi lưu lượng",
+        "C": "Rule mặc định bỏ qua tất cả gói tin",
+        "D": "Rule chỉ áp dụng với VLAN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Rule shadowing nghĩa là:",
+      "options": {
+        "A": "Rule có hiệu lực vĩnh viễn",
+        "B": "Rule được ưu tiên cao nhất",
+        "C": "Rule bị vô hiệu do bị rule khác che phủ",
+        "D": "Rule áp dụng cho shadow copy dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "question": "Hit-count của rule dùng để:",
+      "options": {
+        "A": "Đếm số lần rule bị chỉnh sửa",
+        "B": "Đo hiệu năng firewall",
+        "C": "Đếm số user đăng nhập",
+        "D": "Đếm số gói tin khớp rule đó"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "question": "Trong 5-tuple, \"Source Port\" thường dùng để:",
+      "options": {
+        "A": "Xác định ứng dụng phía client đang sử dụng",
+        "B": "Xác định đích của gói tin",
+        "C": "Quy định loại giao thức mạng",
+        "D": "Chỉ định subnet của thiết bị gửi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Trong 5-tuple, \"Destination Port\" thường dùng để:",
+      "options": {
+        "A": "Xác định VLAN cần truyền",
+        "B": "Thay thế cho địa chỉ IP đích",
+        "C": "Xác định dịch vụ hoặc ứng dụng phía server",
+        "D": "Xác định thiết bị vật lý nhận gỏi tỉn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "Hạn chế khi viết rule chỉ dựa trên 5-tuple là:",
+      "options": {
+        "A": "Không thể lọc theo địa chỉ IP đích",
+        "B": "Không thể chặn theo địa chỉ nguồn",
+        "C": "Không thể phân biệt ứng dụng chạy cùng port (ví dụ HTTPS và malware trên port 443)",
+        "D": "Không thể nhận diện được TCP hay UDP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Firewall thế hệ mới (NGFW) có thể viết rule dựa trên:",
+      "options": {
+        "A": "Port và subnet mask",
+        "B": "App-ID và User-ID",
+        "C": "CVLAN và QoS",
+        "D": "MAC và hostname"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "App-ID dùng để:",
+      "options": {
+        "A": "Nhận diện ứng dụng trong lưu lượng mạng",
+        "B": "Nhận diện địa chỉ IP nguồn",
+        "C": "Tạo ID cho rule firewall",
+        "D": "Quản lý tài khoản người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "User-ID trong firewall giúp:",
+      "options": {
+        "A": "Cấp mật khẩu cho firewall",
+        "B": "Gán rule cho tất cả thiết bị",
+        "C": "Nhận diện người dùng thay vì chỉ IP",
+        "D": "Tạo username cho VPN"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "Khi một rule chỉ định “any” ở source IP nghĩa là:",
+      "options": {
+        "A": "Cho phép tất cả IP nguồn",
+        "B": "Chỉ cho phép IP nội bộ",
+        "C": "Cho phép IP đích bất kỳ",
+        "D": "Cho phép mọi giao thức"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Một rule Deny TCP any any port 23 thường dùng để:",
+      "options": {
+        "A": "Cho phép SSH",
+        "B": "Cho phép Telnet",
+        "C": "Chặn FTP",
+        "D": "Chặn Telnet"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "question": "Điểm khác biệt chính giữa firewall stateless và stateful là gì?",
+      "options": {
+        "A": "Stateless không theo dõi phiên, stateful duy trì bảng trạng thái",
+        "B": "Stateless chỉ hỗ trợ NAT, stateful không hỗ trợ NAT",
+        "C": "Stateful chỉ chạy ở tầng vật lý, stateless ở tầng ứng dụng",
+        "D": "Stateless cần nhiều CPU hơn stateful"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Firewall stateless quyết định dựa trên gì?",
+      "options": {
+        "A": "Bảng trạng thái TCP",
+        "B": "Five-tuple của từng gói tin độc lập",
+        "C": "Nội dung ứng dụng tầng 7",
+        "D": "Cẩu hình CA trong TLS Inspection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Ưu điểm chính của stateless firewall là gì?",
+      "options": {
+        "A": "Bảo mật sâu ở tầng ứng dụng",
+        "B": "Hiệu năng nhanh, đơn giản, ít tốn tài nguyên",
+        "C": "Hỗ trợ App-ID và User-ID",
+        "D": "Có khả năng phân tích TLS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "Nhược điểm chính của stateful firewall so với stateless là gì?",
+      "options": {
+        "A": "Không theo dõi trạng thái TCP",
+        "B": "Không thể phân biệt ứng dụng trên cùng port",
+        "C": "Tốn tài nguyên hơn vì duy trì bảng trạng thái",
+        "D": "Không hỗ trợ kiểm tra gói tín sâu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Trong 3-way handshake của TCP, firewall stateful sẽ làm gì?",
+      "options": {
+        "A": "Kiểm tra SYN, SYN-ACK, ACK và ghi nhận phiên vào state table",
+        "B": "Từ chối toàn bộ gói SYN ban đầu",
+        "C": "Chỉ kiểm tra port mà không quan tâm cở TCP",
+        "D": "Cho phép tất cả gói tín vì handshake là mặc định"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Khi một gói tin đến nhưng không thuộc phiên nào trong state table, firewall stateful thường sẽ làm gì?",
+      "options": {
+        "A": "Tự động mở một phiên mới",
+        "B": "Gửi về SIEM để tạo rule mới",
+        "C": "Chuyển tiếp sang proxy để phân tích ứng dụng",
+        "D": "Drop hoặc Deny vì gói nằm ngoài ngữ cảnh"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "Ưu điểm bảo mật lớn nhất của firewall stateful là gì?",
+      "options": {
+        "A": "Có thể phân tích lưu lượng mã hóa",
+        "B": "Chặn gói tin bất thường ngoài phiên TCP hợp lệ",
+        "C": "Tích hợp nhiều module IPS, AV, URL Filtering",
+        "D": "Cho phép phân loại theo ứng dụng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "State Table trong firewall stateful lưu giữ những thông tin nào?",
+      "options": {
+        "A": "Chỉ địa chỉ IP nguồn và đích",
+        "B": "Địa chỉ MAC và VLAN",
+        "C": "Five-tuple, trạng thái TCP, timeout, thống kê phiên",
+        "D": "Username và mật khẩu người dùng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Khi State Table đầy, firewall sẽ gặp vấn đề gì?",
+      "options": {
+        "A": "Tự động nâng cấp phần cứng",
+        "B": "Không nhận thêm kết nối mới, gây gián đoạn dịch vụ",
+        "C": "Chặn toàn bộ lưu lượng mã hóa",
+        "D": "Cho phép tất cả kết nối đi qua"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "Thông số CPS (Connections Per Second) phản ánh điều gì?",
+      "options": {
+        "A": "Số kết nối đồng thời tối đa có thể duy trì",
+        "B": "Số lượng NAT đang sử dụng",
+        "C": "Tổng số rule trong bảng policy",
+        "D": "Tốc độ tạo kết nối mới mà firewall xử lý được"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 31,
+      "question": "Thời gian timeout trong state table có ý nghĩa gì?",
+      "options": {
+        "A": "Quyết định độ dài mật khẩu VPN",
+        "B": "Khoảng thời gian phiên được giữ nếu không có lưu lượng",
+        "C": "Thời gian kiểm tra chứng chỉ TLS",
+        "D": "Chu kỳ cập nhật antivirus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "NAT/PAT thường được sử dụng để làm gì?",
+      "options": {
+        "A": "Bảo mật dữ liệu nhờ mã hóa",
+        "B": "Dịch địa chỉ/cổng để truy cập ra/vào mạng khác",
+        "C": "Quản lý rule firewall tự động",
+        "D": "Phân loại ứng dụng ở tầng 7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "Trường hợp nào sau đây mô tả Hairpin NAT?",
+      "options": {
+        "A": "Thiết bị nội bộ truy cập dịch vụ nội bộ thông qua IP công cộng",
+        "B": "NAT dùng để giấu địa chỉ nguồn khi truy cập Internet",
+        "C": "NAT dịch tất cả port về cùng một port 80",
+        "D": "NAT chỉ áp dụng cho kết nối VPN site-to-site"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Khi triển khai TLS Inspection (TLSI), firewall cần gì để giải mã hợp lệ?",
+      "options": {
+        "A": "Chứng chỉ CA nội bộ được cải trên thiết bị người dùng",
+        "B": "Mật khẩu quân trị hệ thống",
+        "C": "File log của hệ điều hành",
+        "D": "Script proxy chạy nền"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Hạn chế lớn nhất khi bật TLS Inspection là gì?",
+      "options": {
+        "A": "Không thể áp dụng cho HTTPS",
+        "B": "Gây ảnh hưởng đến hiệu năng và liên quan pháp lý quyền riêng tư",
+        "C": "Làm mất khả năng ghi log lưu lượng",
+        "D": "Không còn hỗ trợ NAT"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Tại sao một số ứng dụng (ví dụ: banking, health) thường nằm trong danh sách ngoại lệ TLSI?",
+      "options": {
+        "A": "Vi firewall không hỗ trợ port 443",
+        "B": "Vì chúng không có domain cố định",
+        "C": "Vì chúng không dùng TLS",
+        "D": "Vì các ứng dụng này sử dụng certificate pinning và yêu cầu bảo mật riêng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 37,
+      "question": "Firewall quản lí vùng (zone) thường viết policy theo mô hình nào?",
+      "options": {
+        "A": "IP-to-IP",
+        "B": "Port-to-Port",
+        "C": "Zone-to-Zone",
+        "D": "User-to-User"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Zone segmentation giúp ngăn chặn điều gì?",
+      "options": {
+        "A": "NAT loop",
+        "B": "Lateral movement (di chuyển ngang trong mạng)",
+        "C": "Telnet truy cập trái phép",
+        "D": "Cập nhật firmware firewall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "East-West traffic trong nội bộ doanh nghiệp nghĩa là gì?",
+      "options": {
+        "A": "Lưu lượng từ LAN ra Internet",
+        "B": "Lưu lượng đi giữa các phân đoạn mạng nội bộ",
+        "C": "Lưu lượng tử firewall ra DMZ",
+        "D": "Lưu lượng từ client đến server web bên ngoài"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Mục tiêu chính của Zero Trust khi kết hợp segmentation trong firewall là gì?",
+      "options": {
+        "A": "Cho phép toàn bộ lưu lượng nội bộ mặc định",
+        "B": "Giảm tải cho state table",
+        "C": "Luôn xác minh, không tin cậy mặc định, hạn chế tấn công lan rộng",
+        "D": "Tự động bật TLS Inspection cho tất cả dịch vụ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Packet Filtering firewall mô tả đúng nhất là gì?",
+      "options": {
+        "A": "Lọc gói theo five-tuple (IP/port/protocol) và không giữ trạng thái",
+        "B": "Lọc dựa trên nội dung ứng dụng tầng 7",
+        "C": "Tự động nhận diện người dùng",
+        "D": "Bắt buộc có TLS Inspection"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "Hạn chế nổi bật của Packet Filtering firewall là gì?",
+      "options": {
+        "A": "Không hỗ trợ NAT",
+        "B": "Không theo dõi phiên, không có state table",
+        "C": "Không cấu hình được rule theo IP",
+        "D": "Không ghi log"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "Circuit-level gateway chủ yếu kiểm soát ở mức nào?",
+      "options": {
+        "A": "VLAN và QoS",
+        "B": "Lớp vật lý (Layer 1)",
+        "C": "Phiên TCP (handshake), không soi payload ứng dụng",
+        "D": "Payload tầng 7 chỉ tiết"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "Điểm yếu của Circuit-level gateway là gì?",
+      "options": {
+        "A": "Không hỗ trợ IPsec",
+        "B": "Không hỗ trợ VPN site-to-site",
+        "C": "Không tương thích TCP",
+        "D": "Không kiểm tra nội dung tầng ứng dụng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "Đặc trưng quan trọng của Stateful firewall là gì?",
+      "options": {
+        "A": "Tự cho phép lưu lượng trả về thuộc phiên hợp lệ trong state table",
+        "B": "Chỉ cho phép lưu lượng ra Internet",
+        "C": "Luôn yêu cầu CA nội bộ",
+        "D": "Chỉ hoạt động với UDP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Nhược điểm khi dùng Stateful firewall ở tải lớn là gì?",
+      "options": {
+        "A": "Không hỗ trợ log",
+        "B": "Tiêu tốn RAM/CPU để duy trì state table",
+        "C": "Không áp dụng được rule theo port",
+        "D": "Không dùng được với NAT"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Proxy/Application firewall có khả năng nào sau đây?",
+      "options": {
+        "A": "Tạo NSG/SG trong cloud",
+        "B": "Gán rule theo VLAN",
+        "C": "Phân tích giao thức tầng 7 và áp chính sách theo lệnh/đường dẫn",
+        "D": "Tự động mã hóa dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Nhược điểm thường gặp của Proxy/Application firewall là gì?",
+      "options": {
+        "A": "Không hỗ trợ HTTP",
+        "B": "Không hỗ trợ DNS",
+        "C": "Không hỗ trợ ghi log",
+        "D": "Tăng độ trễ, cần cấu hình theo từng ứng dụng, tốn tài nguyên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "UTM firewall được hiểu là gì?",
+      "options": {
+        "A": "Thiết bị \"all-in-one\" tích hợp firewall, IPS/IDS, AV, web/email filtering...",
+        "B": "Chỉ là firewall lớp mạng L3",
+        "C": "Chỉ là proxy НТТР",
+        "D": "Chỉ là thiết bị cân bằng tải"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Hạn chế của UTM so với NGFW chuyên dụng là gì?",
+      "options": {
+        "A": "Không có tính năng IPS",
+        "B": "Hiệu năng khả năng mở rộng thường thấp hơn",
+        "C": "Không ghi được traffic log",
+        "D": "Không hỗ trợ VPN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "Điểm nổi bật của NGFW so với firewall truyền thống là gì?",
+      "options": {
+        "A": "Hỗ trợ Telnet mặc định",
+        "B": "Chỉ cho phép TCP",
+        "C": "App ID, User-ID và DPI để nhận diện ứng dụng/người dùng",
+        "D": "Không cần rule/ACL"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 52,
+      "question": "Thành phần nào thường có trong NGFW hiện đại?",
+      "options": {
+        "A": "DHCP Server bắt buộc",
+        "B": "Certificate Authority tích hợp bắt buộc",
+        "C": "Hypervisor riêng",
+        "D": "URL Filtering, IPS, Anti-malware"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 53,
+      "question": "WAF tập trung bảo vệ chủ yếu đối tượng nào?",
+      "options": {
+        "A": "Ứng dụng web",
+        "B": "Kết nối MPLS",
+        "C": "Hệ thống VoIP nội bộ",
+        "D": "Mạng WAN tốc độ cao"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Điểm không đúng khi nói về WAF là gì?",
+      "options": {
+        "A": "Thường đặt trước web/app public",
+        "B": "Thay thế hoàn toàn NGFW ở lớp mạng",
+        "C": "Có thể chạy dạng reverse proxy",
+        "D": "Cần tinh chỉnh rule theo ứng dụng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Nhận định đúng về WAF và NGFW là gì?",
+      "options": {
+        "A": "Cả hai đều chỉ làm L3/L4",
+        "B": "Cả hai đều thay thế SIEM",
+        "C": "WAF tập trung HTTP/HTTPS; NGFW kiểm soát L3/4 và cả L7 tổng quát",
+        "D": "WAF chỉ dùng cho nội bộ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Tình huống nào dưới đây phù hợp nhất để dùng WAF?",
+      "options": {
+        "A": "Bảo vệ IPSec VPN giữa chi nhánh",
+        "B": "Chặn brute-force SSH",
+        "C": "Lọc SMTP outbound",
+        "D": "Bảo vệ website thương mại điện tử khỏi SQLi/XSS"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "Vì sao Packet Filtering khó kiểm soát kết nối trả về so với Stateful?",
+      "options": {
+        "A": "Không theo dõi trạng thái nên phải viết rule 2 chiều cho cả đi và về",
+        "B": "Do không hỗ trợ TCP",
+        "C": "Do luôn bật TLS Inspection",
+        "D": "Do chỉ hỗ trợ một port duy nhất"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Thành phần tăng cường trên UTM để phòng chống mã độc là gì?",
+      "options": {
+        "A": "QUIC Accelerator",
+        "B": "Anti-virus/Anti-malware tích hợp",
+        "C": "MPLS Shaper",
+        "D": "VXLAN Gateway"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 59,
+      "question": "Khả năng nào giúp NGFW nhận diện ứng dụng chạy trên cổng không chuẩn?",
+      "options": {
+        "A": "Port-based Service",
+        "B": "VLAN Tagging",
+        "C": "App-ID/DPI",
+        "D": "DHCP Snooping"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Khi bật TLS Inspection trên NGFW, cần lưu ý gì?",
+      "options": {
+        "A": "Không cần chứng chỉ CA",
+        "B": "Không ảnh hưởng hiệu năng",
+        "C": "Mặc định hợp lệ với mọi ứng dụng banking",
+        "D": "Cần CA nội bộ, cấu hình ngoại lệ pinning, và chi phí hiệu năng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 61,
+      "question": "Lựa chọn phù hợp cho cá nhân/hộ gia đình (ưu tiên đơn giản, chi phí thấp) là gì?",
+      "options": {
+        "A": "Router/firewall tích hợp + host-based firewall trên thiết bị",
+        "B": "WAF chuyên dụng",
+        "C": "NGFW full tính năng",
+        "D": "Cloud firewall"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "Doanh nghiệp vừa và nhỏ (SME) ưu tiên giải pháp “tất cả-trong-một”, nên chọn firewall gi?",
+      "options": {
+        "A": "Packet Filtering thuần",
+        "B": "UTM",
+        "C": "NGFW + sandbox đắt tiền",
+        "D": "Distributed Firewall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "Doanh nghiệp lớn ở biên Internet cần kiểm soát app/người dùng và chặn đe dọa hiện đại, nên chọn firewall gì?",
+      "options": {
+        "A": "UTM cơ bản",
+        "B": "Chi WAF",
+        "C": "NGFW (kèm IPS, URL Filtering, Anti-malware)",
+        "D": "Router L3"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 64,
+      "question": "Bảo vệ ứng dụng web public trước tấn công SQLi, XSS thì nên chọn firewall gì?",
+      "options": {
+        "A": "Packet Filtering",
+        "B": "Stateful firewall",
+        "C": "NGFW không TLSI",
+        "D": "WAF"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 65,
+      "question": "Cần hạn chế lateral movement (di chuyển ngang trong mạng) giữa các VLAN nội bộ ở mức tối thiểu khả dụng, nên chọn firewall gì?",
+      "options": {
+        "A": "Stateful/zone-based internal firewall",
+        "B": "WAF",
+        "C": "Carrier-grade firewall",
+        "D": "Telnet filter"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "Cloud Firewall từ AWS, Microsoft, Google đáp ứng dịch vụ cloud “chủ yếu” bằng cách nào?",
+      "options": {
+        "A": "Bảo vệ hạ tầng mạng, trung tâm dữ liệu trước đe dọa mạng",
+        "B": "Tăng tốc xử lý giao dịch tài chính trên ứng dụng",
+        "C": "Quản lý tài khoản, phân quyền truy cập người dùng",
+        "D": "Lưu trữ dữ liệu phi cấu trúc, mở rộng không giới hạn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 67,
+      "question": "Data center ảo hóa cần micro-segmentation nội bộ, nên chọn firewall gì?",
+      "options": {
+        "A": "Packet Filtering trên router biên",
+        "B": "WAF",
+        "C": "Distributed Firewall (DFW) tích hợp ảo hóa/SDN",
+        "D": "Telnet ACL"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "Doanh nghiệp vừa và nhỏ (SME) muốn quản trị đơn giản, một thiết bị duy nhất bảo vệ tổng thể, nên chọn firewall gi?",
+      "options": {
+        "A": "NGFW cao cấp + WAF riêng",
+        "B": "Packet Filtering + proxy",
+        "C": "Router L3 + IPS riêng",
+        "D": "UTM"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 69,
+      "question": "Doanh nghiệp thương mại điện tử cần bảo vệ biên mạng và lớp ứng dụng web, nên chọn firewall gì?",
+      "options": {
+        "A": "Kết hợp NGFW ở biên + WAF trước web/app",
+        "B": "Chi Packet Filtering",
+        "C": "Chi Stateful",
+        "D": "Chi URL Filtering"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "Đội ngũ làm việc từ xa cần truy cập an toàn kèm MFA, nên chọn firewall gì?",
+      "options": {
+        "A": "WAF + Telnet",
+        "B": "Packet Filtering + NAT",
+        "C": "NGFW hỗ trợ SSL VPN/IPsec + MFA",
+        "D": "Chi proxy HTTP"
+      },
+      "answer": "C"
+    }
+  ]
+}
+
+

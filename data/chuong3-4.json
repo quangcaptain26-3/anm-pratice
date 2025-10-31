@@ -1,0 +1,1493 @@
+{
+  "chuong3": [
+    {
+      "id": 1,
+      "question": "IDS viết tắt của từ nào?",
+      "options": {
+        "A": "Internet Data System",
+        "B": "Information Defense System",
+        "C": "Intrusion Detection System",
+        "D": "Integrated Data Security"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "IPS viết tắt của từ nào?",
+      "options": {
+        "A": "Internet Protection Service",
+        "B": "Intrusion Prevention System",
+        "C": "Information Processing Security",
+        "D": "Internal Protection System"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Chức năng chính của IDS là gì?",
+      "options": {
+        "A": "Ngăn chặn xâm nhập",
+        "B": "Phát hiện xâm nhập",
+        "C": "Tường lửa mạng",
+        "D": "Quản lý nhật ký hệ thống"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "IDS thường hoạt động theo cơ chế nào?",
+      "options": {
+        "A": "Giám sát lưu lượng và cảnh báo",
+        "B": "Ngăn chặn ngay lập tức",
+        "C": "Mã hóa dữ liệu",
+        "D": "Phân tích hành vi người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "IPS khác IDS ở điểm nào?",
+      "options": {
+        "A": "IPS chỉ cảnh báo, IDS ngăn chặn",
+        "B": "IPS giám sát, IDS phòng ngừa",
+        "C": "IPS có khả năng chặn lưu lượng độc hại, IDS chỉ cảnh báo",
+        "D": "Cả hai giống nhau hoàn toàn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "IDS/IPS giúp tăng cường gì cho hệ thống mạng?",
+      "options": {
+        "A": "Tỉnh sẵn sàng",
+        "B": "Tính bảo mật",
+        "C": "Tính di động",
+        "D": "Tính khả chuyển"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Một trong những mục đích quan trọng của IDS/IPS là gì?",
+      "options": {
+        "A": "Giảm chi phí phần cứng",
+        "B": "Phát hiện và ngăn chặn tấn công mạng",
+        "C": "Thay thế tường lửa",
+        "D": "Hạn chế tốc độ truy cập"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "IDS có thể phát hiện loại sự kiện nào?",
+      "options": {
+        "A": "Virus trong file",
+        "B": "Truy cập trái phép vào hệ thống",
+        "C": "Sự cố phần cứng",
+        "D": "Sao lưu dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Câu 10. IDS thường được triển khai để:",
+      "options": {
+        "A": "Ngăn chặn packet ngay khi phát hiện",
+        "B": "Thay thế VPN",
+        "C": "Theo dõi và gửi cảnh báo cho quản trị viên",
+        "D": "Thay thế firewall"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Câu 11. Mục tiêu chính của IDS/IPS là:",
+      "options": {
+        "A": "Bảo mật dữ liệu người dùng",
+        "B": "Giám sát và phản ứng với tấn công",
+        "C": "Quản lý mạng LAN",
+        "D": "Kiểm soát tốc độ đường truyền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "Câu 13. IPS thường được đặt ở đâu trong mạng?",
+      "options": {
+        "A": "Sau firewall, trước hệ thống nội bộ",
+        "B": "Giữa các switch",
+        "C": "Trên từng máy trạm",
+        "D": "Trên router WAN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Câu 14. Một mục đích của IDS là:",
+      "options": {
+        "A": "Đảm bảo tính toàn vẹn dữ liệu",
+        "B": "Tìm kiếm dấu hiệu xâm nhập bất thường",
+        "C": "Nén dữ liệu mạng",
+        "D": "Tăng tốc độ truyền tải"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Câu 15. IDS thường không có khả năng gì?",
+      "options": {
+        "A": "Cảnh báo khi có sự cố",
+        "B": "Phân tích lưu lượng mạng",
+        "C": "Ngăn chặn tấn công tự động",
+        "D": "Ghi lại log sự kiện"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "Câu 16. IPS có thể ngăn chặn kiểu tấn công nào?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "Phishing qua email",
+        "C": "Mất điện máy chủ",
+        "D": "Hông  cứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Câu 17. IDS/IPS giúp doanh nghiệp đạt mục tiêu:",
+      "options": {
+        "A": "An toàn thông tin",
+        "B": "Mở rộng băng thông",
+        "C": "Giảm chỉ phí Internet",
+        "D": "Tăng tốc độ CPU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Câu 18. IDS có thể được so sánh với:",
+      "options": {
+        "A": "Camera giám sát",
+        "B": "Bộ chống sét",
+        "C": "Bộ lọc rác",
+        "D": " cứng ngoài"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Câu 19. IPS có thể được so sánh với:",
+      "options": {
+        "A": "Nhân viên bảo vệ chặn kẻ xấu",
+        "B": "Camera an ninh",
+        "C": "Đèn báo giao thông",
+        "D": "Hệ thống ghi âm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "Câu 20. IDS/IPS đóng vai trò gì trong kiến trúc an ninh mạng?",
+      "options": {
+        "A": "Lớp bảo vệ bổ sung",
+        "B": "Thay thế tường lửa hoàn toàn",
+        "C": "Cải thiện tốc độ mạng",
+        "D": "Thay thế hệ thống giám sát"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Câu 21. Host-based IDS (HIDS) giám sát cái gì?",
+      "options": {
+        "A": "Lưu lượng mạng toàn hệ thống",
+        "B": "Hoạt động trên một máy chủ hoặc thiết bị riêng lẻ",
+        "C": "Tường lửa bên ngoài",
+        "D": "Các kết nối WAN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 20,
+      "question": "Câu 22. Network-based IDS (NIDS) tập trung vào:",
+      "options": {
+        "A": "Hoạt động file hệ điều hành",
+        "B": "Lưu lượng mạng đi qua một đoạn mạng",
+        "C": "Phần mềm ứng dụng",
+        "D": "Sao lưu dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "Câu 23. HIDS thường được cài đặt ở đâu?",
+      "options": {
+        "A": "Trên firewall",
+        "B": "Trên từng máy chủ hoặc máy trạm",
+        "C": "Trên router",
+        "D": "Trên switch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Câu 24. NIDS thường triển khai ở đâu?",
+      "options": {
+        "A": "Trong máy chủ web",
+        "B": "Trên phân đoạn mạng chính",
+        "C": "Trong hệ điều hành",
+        "D": "Trên máy in mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Câu 25. IDS dựa trên chữ ký (Signature-based IDS) phát hiện tấn công dựa vào:",
+      "options": {
+        "A": "Hành vi bất thường",
+        "B": "Mẫu (pattern) đã biết",
+        "C": "Cấu hình mạng",
+        "D": "Tốc độ truyền tải"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "Câu 26. Ưu điểm lớn nhất của Signature-based IDS là gì?",
+      "options": {
+        "A": "Phát hiện nhanh các tấn công đã biết",
+        "B": "Không cần cập nhật",
+        "C": "Hoàn toàn tự động",
+        "D": "Không tạo cảnh báo giả"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Câu 27. Nhược điểm của Signature-based IDS là:",
+      "options": {
+        "A": "Không thể phát hiện tấn công mới chưa có mẫu",
+        "B": "Khó triển khai",
+        "C": "Tốn nhiều băng thông",
+        "D": "Khó quản lý log"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Câu 28. IDS dựa trên bất thường (Anomaly-based IDS) phát hiện tấn công dựa trên:",
+      "options": {
+        "A": "Cấu hình firewall",
+        "B": "Sai lệch so với hành vi bình thường",
+        "C": "Chữ ký virus",
+        "D": "Lưu lượng hợp lệ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Câu 29. Ưu điểm của Anomaly-based IDS là gì?",
+      "options": {
+        "A": "Không cần đào tạo hệ thống",
+        "B": "Có thể phát hiện tấn công mới (zero-day)",
+        "C": "Không cần cấu hình",
+        "D": "Không tạo cảnh báo giả"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 28,
+      "question": "Câu 30. Nhược điểm của Anomaly-based IDS là:",
+      "options": {
+        "A": "Không hoạt động với mạng LAN",
+        "B": "Có thể tạo nhiều cảnh báo giả (false positive)",
+        "C": "Không hỗ trợ log",
+        "D": "Khó cập nhật"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Câu 31. IPS thường phân loại thành mấy loại chính?",
+      "options": {
+        "A": "2",
+        "B": "3",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "Câu 32. Network IPS (NIPS) triển khai để:",
+      "options": {
+        "A": "Phát hiện và ngăn chặn trên lưu lượng mạng",
+        "B": "Giám sát file hệ thống",
+        "C": "Sao lưu dữ liệu",
+        "D": "Mã hóa thông tin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "Câu 33. Host IPS (HIPS) được cài đặt:",
+      "options": {
+        "A": "Trên máy in",
+        "B": "Trên thiết bị người dùng/máy chủ",
+        "C": "Trên switch",
+        "D": "Trên router biên"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Câu 34. Wireless IPS (WIPS) chuyên phát hiện tấn công nào?",
+      "options": {
+        "A": "Tấn công vào ứng dụng web",
+        "B": "Tấn công qua mạng không dây",
+        "C": "Tấn công SQL Injection",
+        "D": "Tấn công DdoS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "Câu 35. Network Behavior Analysis (NBA) IPS tập trung phát hiện:",
+      "options": {
+        "A": "Virus trong file",
+        "B": "Hành vi bất thường trong lưu lượng mạng",
+        "C": "Sao lưu trái phép",
+        "D": "Lỗi phần cứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "Câu 36. HIDS có ưu điểm gì so với NIDS?",
+      "options": {
+        "A": "Giám sát toàn mạng",
+        "B": "Phát hiện thay đổi file hệ thống, log ứng dụng",
+        "C": "Không cần cài đặt",
+        "D": "Tự động mã hóa dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Câu 37. NIDS thường gặp khó khăn với lưu lượng nào?",
+      "options": {
+        "A": "Lưu lượng mã hóa (SSL/TLS)",
+        "B": "Lưu lượng LAN",
+        "C": "Lưu lượng Internet công cộng",
+        "D": "Lưu lượng FTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "Câu 38. Loại IDS nào phù hợp cho phát hiện hành vi truy cập bất hợp pháp trên máy chủ?",
+      "options": {
+        "A": "NIDS",
+        "B": "HIDS",
+        "C": "WIPS",
+        "D": "NBA IPS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Câu 39. Loại IPS nào phù hợp để chống rogue AP (Access Point giả mạo)?",
+      "options": {
+        "A": "NIPS",
+        "B": "HIPS",
+        "C": "WIPS",
+        "D": "NBA IPS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Câu 40. Phương pháp lai (Hybrid IDS) kết hợp:",
+      "options": {
+        "A": "IDS + Firewall",
+        "B": "Signature-based + Anomaly-based",
+        "C": "NIDS + VPN",
+        "D": "HIPS + Switch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 39,
+      "question": "Câu 41. Lợi ích của Hybrid IDS là:",
+      "options": {
+        "A": "Loại bỏ hoàn toàn cảnh báo giả",
+        "B": "Tận dụng ưu điểm của cả signature và anomaly",
+        "C": "Không cần cấu hình",
+        "D": "Miễn phí bản quyền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Câu 43. IDS nào khó mở rộng khi mạng lớn?",
+      "options": {
+        "A": "NIDS",
+        "B": "HIDS",
+        "C": "Hybrid IDS",
+        "D": "NBA IPS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Câu 44. IPS nào dễ bị vượt qua khi kẻ tấn công dùng mã hóa end-to-end?",
+      "options": {
+        "A": "NIPS",
+        "B": "HIPS",
+        "C": "WIPS",
+        "D": "NBA IPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "Câu 45. Loại hệ thống nào thích hợp nhất để phát hiện DDoS?",
+      "options": {
+        "A": "NIDS",
+        "B": "HIDS",
+        "C": "NBA IPS",
+        "D": "WIPS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "Câu 46. Một giải pháp IDS/IPS mã nguồn mở phổ biến là:",
+      "options": {
+        "A": "Cisco ASA",
+        "B": "Snort",
+        "C": "Fortigate",
+        "D": "Palo Alto"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 44,
+      "question": "Câu 47. Snort thuộc loại:",
+      "options": {
+        "A": "IDS/IPS mã nguồn mở",
+        "B": "Firewall",
+        "C": "VPN",
+        "D": "HIPS thương mại"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Câu 49. OSSEC là giải pháp nào?",
+      "options": {
+        "A": "HIDS mã nguồn mở",
+        "B": "NIDS thương mại",
+        "C": "Firewall",
+        "D": "Tường lửa ứng dụng web"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Câu 50. Bro/Zeek là:",
+      "options": {
+        "A": "Công cụ NIDS",
+        "B": "Công cụ phân tích log",
+        "C": "Công cụ quản lý người dùng",
+        "D": "Công cụ VPN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Câu 51. Một giải pháp IPS thương mại mạnh mẽ từ Cisco là:",
+      "options": {
+        "A": "Cisco Firepower",
+        "B": "Cisco Snort",
+        "C": "Cisco VPN",
+        "D": "Cisco Secure Mail"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 48,
+      "question": "Câu 52. Fortinet cung cấp giải pháp nào?",
+      "options": {
+        "A": "FortiGate NGFW (tích hợp IPS)",
+        "B": "FortiMail",
+        "C": "FortiAnalyzer",
+        "D": "FortiClient"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "Câu 53. Palo Alto Networks nổi tiếng với dòng sản phẩm:",
+      "options": {
+        "A": "Firewall tích hợp IPS/IDS",
+        "B": "VPN cá nhân",
+        "C": "Hệ điều hành bảo mật",
+        "D": "IDS mã nguồn mở"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Câu 54. Một hạn chế khi triển khai IPS trong mạng lớn là:",
+      "options": {
+        "A": "Tăng độ trễ (latency)",
+        "B": "Không thể ghi log",
+        "C": "Không phát hiện được tấn công",
+        "D": "Tự động tắt firewall"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "Câu 55. Kỹ thuật tối ưu để giảm cảnh báo giả trong IDS/IPS là:",
+      "options": {
+        "A": "Không dùng chữ ký",
+        "B": "Điều chỉnh threshold và rule",
+        "C": "Gỡ bỏ IPS",
+        "D": "Giảm băng thông mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Câu 56. Một giải pháp IPS cần có đặc tính nào?",
+      "options": {
+        "A": "Hoạt động hoàn toàn offline",
+        "B": "Hoạt động inline để ngăn chặn lưu lượng",
+        "C": "Chỉ ghi log mà không cảnh báo",
+        "D": "Không cần cập nhật chữ ký"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Câu 57. Giải pháp SIEM (Security Information and Event Management) thường kết hợp với IDS/IPS để:",
+      "options": {
+        "A": "Quản lý cảnh báo và phân tích sự kiện bảo mật",
+        "B": "Sao lưu dữ liệu",
+        "C": "Giảm dung lượng log",
+        "D": "Tăng tốc độ CPU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Câu 58. Một trong những thách thức lớn nhất khi vận hành IDS/IPS là:",
+      "options": {
+        "A": "Dễ gây hiểu nhầm log",
+        "B": "Quá nhiều cảnh báo giả (false positive)",
+        "C": "Không thể cài đặt trên server",
+        "D": "Không thể cập nhật phần mềm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Câu 59. Để phát hiện tấn công zero-day hiệu quả, giải pháp nào nên dùng?",
+      "options": {
+        "A": "Signature-based IDS",
+        "B": "Anomaly-based IDS",
+        "C": "Firewall",
+        "D": "VPN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Câu 60. IDS/IPS thường được triển khai song song với:",
+      "options": {
+        "A": "Firewall",
+        "B": "Switch",
+        "C": "DHCP",
+        "D": "DNS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "Câu 61. Một giải pháp bảo mật tích hợp (UTM) thường bao gồm:",
+      "options": {
+        "A": "Firewall, IDS/IPS, Antivirus, VPN",
+        "B": "Router, Switch, Firewall",
+        "C": "Proxy, DNS, Mail server",
+        "D": "Backup, Storage, Firewall"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Câu 63. Giải pháp WAF (Web Application Firewall) kết hợp với IPS để:",
+      "options": {
+        "A": "Bảo vệ ứng dụng web khỏi tấn công SQL Injection, XSS",
+        "B": "Bảo vệ mạng LAN",
+        "C": "Sao lưu dữ liệu web",
+        "D": "Chống mất điện"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Câu 64. Để tăng hiệu quả phát hiện, nhiều tổ chức triển khai:",
+      "options": {
+        "A": "IDS kết hợp IPS",
+        "B": "IDS tách biệt với firewall",
+        "C": "VPN thay IDS",
+        "D": "NAT thay IPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "Câu 65. Một giải pháp tối ưu chi phí cho doanh nghiệp nhỏ là:",
+      "options": {
+        "A": "Snort hoặc Suricata mã nguồn mở",
+        "B": "Cisco Firepower",
+        "C": "Palo Alto NGFW",
+        "D": "Fortinet FortiGate"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Câu 66. Hệ thống IPS hoạt động “inline” có nghĩa là gì?",
+      "options": {
+        "A": "Hoạt động song song, không ảnh hưởng",
+        "B": "Nằm trực tiếp trên đường truyền, có thể chặn gói tin",
+        "C": "Chỉ phân tích offline",
+        "D": "Chỉ kiểm tra log"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Câu 67. Để bảo vệ mạng không dây, giải pháp phù hợp là:",
+      "options": {
+        "A": "WIPS",
+        "B": "NIDS",
+        "C": "HIDS",
+        "D": "Firewall truyền thống"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 63,
+      "question": "Câu 68. Một trong những yêu cầu để vận hành IDS/IPS hiệu quả là:",
+      "options": {
+        "A": "Cập nhật chữ ký và rule thường xuyên",
+        "B": "Không thay đổi cấu hình",
+        "C": "Chi dựa vào anomaly",
+        "D": "Không cần quản trị viên"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "Câu 69. Tại sao cần tích hợp IDS/IPS với SIEM?",
+      "options": {
+        "A": "Tăng tỉnh tập trung trong phân tích và cảnh báo",
+        "B": "Giảm log",
+        "C": "Hạn chế băng thông",
+        "D": "Loại bỏ cảnh báo"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Câu 70. Một giải pháp IDS/IPS hiệu quả phải đáp ứng:",
+      "options": {
+        "A": "Phát hiện nhanh, ngăn chặn kịp thời, giảm false positive",
+        "B": "Không tốn tài nguyên CPU",
+        "C": "Không cần cập nhật",
+        "D": "Không cần giám sát"
+      },
+      "answer": "A"
+    }
+  ],
+  "chuong4": [
+    {
+      "id": 1,
+      "question": "Mật mã học (Cryptography) là gì?",
+      "options": {
+        "A": "Khoa học nghiên cứu về cấu trúc dữ liệu",
+        "B": "Kỹ thuật nén dữ liệu để tiết kiệm bộ nhở",
+        "C": "Lĩnh vực nghiên cứu bảo mật thông tin bằng các kỹ thuật mã hóa, giải mã, xác thực, chữ ký số, hàm băm",
+        "D": "Phương pháp lập trình phần mềm an toàn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Chức năng nào của mật mã học giúp bảo đảm dữ liệu không bị thay đổi trong quá trình truyền tải?",
+      "options": {
+        "A": "Bảo mật (Confidentiality)",
+        "B": "Toàn vẹn dữ liệu (Integrity)",
+        "C": "Xác thực (Authentication)",
+        "D": "Chống chối bỏ (Non-repudiation)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Chữ ký số trong mật mã học được sử dụng để:",
+      "options": {
+        "A": "Tăng tốc độ truyền dữ liệu trên mạng",
+        "B": "Bảo đảm dữ liệu không bị thay đổi và xác nhận nguồn gốc phát sinh",
+        "C": "Nén dữ liệu trước khi truyền",
+        "D": "Tự động sao lưu dữ liệu lên máy chủ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Trong 4 chức năng cơ bản của mật mã học, chức năng nào giúp người gửi không thể phủ nhận việc đã gửi thông tin?",
+      "options": {
+        "A": "Bảo mật (Confidentiality)",
+        "B": "Toàn vẹn dữ liệu (Integrity)",
+        "C": "Chống chối bỏ (Non-repudiation)",
+        "D": "Xác thực (Authentication)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Ứng dụng nào sau đây không liên quan trực tiếp đến mật mã học?",
+      "options": {
+        "A": "Thương mại điện tử (E-commerce)",
+        "B": "Giao dịch ngân hàng trực tuyến",
+        "C": "Quản lý quyền truy cập hệ thống",
+        "D": "Tăng dung lượng lưu trữ ổ cứng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "Đặc tính nào của hàm băm đảm bảo cùng một dữ liệu đầu vào sẽ luôn cho ra cùng một giá trị băm cố định?",
+      "options": {
+        "A": "Tính xác định (Deterministic)",
+        "B": "Tính một chiều (One-way)",
+        "C": "Hiệu ứng tuyết lở (Avalanche effect)",
+        "D": "Tính toàn vẹn (Integrity)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Tính chất nào của hàm băm khiến cho rất khó suy ngược lại dữ liệu gốc từ giá trị băm?",
+      "options": {
+        "A": "Tỉnh xác định",
+        "B": "Tỉnh một chiều",
+        "C": "Hiệu ứng tuyết lở",
+        "D": "Tính toàn vẹn dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Khí thay đổi chỉ một ký tự nhỏ trong dữ liệu gốc, toàn bộ giá trị băm thay đổi hoàn toàn. Đây là biểu hiện của đặc tính nào?",
+      "options": {
+        "A": "Tính xác định",
+        "B": "Tính toàn vẹn",
+        "C": "Hiệu ứng tuyết lở",
+        "D": "Tính ngẫu nhiên"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Mục đích chính của việc sử dụng hàm băm trong ão mật thông tin là gì?",
+      "options": {
+        "A": "Nén dữ liệu để tiết kiệm bộ nhớ",
+        "B": "Kiểm tra tính toàn vẹn dữ liệu",
+        "C": "Tăng tốc độ truyền tải dữ liệu",
+        "D": "Tạo ra bản mã thay cho mật mã"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Khái niệm va chạm (collision) trong hàm băm gì?",
+      "options": {
+        "A": "Khi hai dữ liệu giống nhau cho ra hai giá trị băm khác nhau",
+        "B": "Khi hai dữ liệu khác nhau cho ra cùng một giá trị bầm",
+        "C": "Khi dữ liệu không thể tạo giá trị băm",
+        "D": "Khi giá trị băm không thể lưu trữ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "Tấn công va chạm (collision attack) là gì?",
+      "options": {
+        "A": "Kỹ thuật tìm hai dữ liệu khác nhau nhưng cho cùng một giá trị băm",
+        "B": "Kỹ thuật tách dữ liệu gốc từ giá trị băm",
+        "C": "Kỹ thuật mã hóa dữ liệu thành nhiều băm khác nhau",
+        "D": "Kỹ thuật làm thay đổi giá trị băm liên tục"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Hậu quả chính của tấn công va chạm là gì?",
+      "options": {
+        "A": "Giả mạo tài liệu hoặc chữ ký số hợp lệ",
+        "B": "Ngăn chặn hacker truy cập hệ thống",
+        "C": "Giảm kích thước tệp tin",
+        "D": "Tăng tốc độ xử lý dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Tấn công va chạm có thể dẫn đến tình huống nào sau đây?",
+      "options": {
+        "A": "Tăng tốc độ xử lý dữ liệu",
+        "B": "Giả mạo tài liệu hoặc chữ ký số hợp lệ",
+        "C": "Ngăn chặn hacker truy cập hệ thống",
+        "D": "Giảm kích thước tệp tin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Đối với hàm băm, khi hacker thực hiện tấn công brute-force sẽ?",
+      "options": {
+        "A": "Thử tất cả các khả năng đầu vào để tìm ra giá trị gốc từ giá trị băm",
+        "B": "Tìm hai dữ liệu khác nhau nhưng cho cùng một giá trị băm",
+        "C": "Thay đổi giá trị băm liên tục để làm sai lệch kết quả",
+        "D": "Nén dữ liệu thành giá trị bãm ngắn hơn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "MD5 tạo ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "512 bit",
+        "B": "128 bit",
+        "C": "64 bit",
+        "D": "256 bit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "MD2, MD4 và MD5 hiện nay hầu như không còn được sử dụng vì lý do nào?",
+      "options": {
+        "A": "Đã bị chứng minh có va chạm và không an toàn",
+        "B": "Không có tỉnh xác định",
+        "C": "Tốc độ chậm",
+        "D": "Độ dài băm quá ngắn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "MD6 không phổ biến rộng rãi do nguyên nhân nào?",
+      "options": {
+        "A": "Không được chuẩn hóa, hiệu năng kém",
+        "B": "Không tạo ra giá trị băm cố định",
+        "C": "Không có tỉnh một chiều",
+        "D": "Bị chứng minh có va chạm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "Trong thực tế, MD5 hiện vẫn được dùng trong trường hợp nào?",
+      "options": {
+        "A": "Bảo mật trong blockchain",
+        "B": "Kiểm tra checksum khi tải file thông thường",
+        "C": "Tạo chữ ký số an toàn",
+        "D": "Lưu trữ mật khẩu quan trọng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "MD5 có nhược điểm nghiêm trọng nào khiến chữ ký số có thể bị giả mạo?",
+      "options": {
+        "A": "Quá chậm trong tỉnh toản",
+        "B": "Giả trị băm quả dải gây tốn bộ nhớ",
+        "C": "Không tạo digest cố định",
+        "D": "Có thể xảy ra va chạm dẫn tới giả mạo"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Giá trị băm của MD5 thường được biểu diễn dưới dạng nào?",
+      "options": {
+        "A": "Hexadecimal (thập lục phân)",
+        "B": "Nhị phân",
+        "C": "ASCII",
+        "D": "BCD"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "SHA-1 tạo ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "224 bit",
+        "B": "160 bit",
+        "C": "128 bit",
+        "D": "256 bit"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "SHA-2 bao gồm những phiên bản nào?",
+      "options": {
+        "A": "SHA-32, SHA-64, SHA-128",
+        "B": "SHA-2a, SHA-2b, SHA-2c",
+        "C": "SHA-128, SHA-192, SHA-256",
+        "D": "SHA-224, SHA-256, SHA-384, SHA-512"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 23,
+      "question": "SHA-256 tạo ra giá trị băm có độ dài bao nhiêu ký tự hex?",
+      "options": {
+        "A": "64 ký tự",
+        "B": "40 ký tự",
+        "C": "128 ký tự",
+        "D": "32 ký tự"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "Ứng dụng phổ biến nhất của SHA-256 trong thực tế là gì?",
+      "options": {
+        "A": "Xác minh khối trong blockchain (Bitcoin)",
+        "B": "Mã hóa đường truyền HTTPS",
+        "C": "Kiểm tra tính hợp lệ chứng chỉ số",
+        "D": "Lưu trữ mật khẩu trong cơ sở dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "SHA-3 khác SHA-2 ở điểm nào?",
+      "options": {
+        "A": "Không có tỉnh xác định",
+        "B": "Có độ dài băm ngắn hơn",
+        "C": "Không dùng cho chữ ký số",
+        "D": "Dựa trên nguyên lý thiết kế mới, kháng các tấn công hiện đại"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 26,
+      "question": "Trong các thuật toán sau, thuật toán nào hiện được xem là an toàn và phổ biến nhất trong chứng chỉ số?",
+      "options": {
+        "A": "MD5",
+        "B": "SHA-1",
+        "C": "MD4",
+        "D": "SHA-2 (SHA-256)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "SHA-512 cho ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "512 bit",
+        "B": "128 bit",
+        "C": "256 bit",
+        "D": "384 bit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "SHA-224 thuộc nhóm nào trong họ SHA?",
+      "options": {
+        "A": "SHA-3",
+        "B": "SHA-1",
+        "C": "SHA-2",
+        "D": "MD"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "SHA-3 có thể tạo giá trị băm với độ dài nào?",
+      "options": {
+        "A": "224, 256, 384, 512 bit",
+        "B": "128 và 256 bit",
+        "C": "64 và 128 bit",
+        "D": "160 và 192 bit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Trong blockchain, tại sao SHA-256 được ưa chuộng thay vì MD5 hay SHA-1?",
+      "options": {
+        "A": "Vì tương thích với MD5",
+        "B": "Vì an toàn hơn, kháng va chạm tốt hơn và có độ dải băm lón",
+        "C": "Vì ngắn gọn, dễ tính toán hơn",
+        "D": "Vì tốc độ tính toán chậm hơn nhưng an toàn hơn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "Mã hóa đối xứng (Symmetric Encryption) là gì?",
+      "options": {
+        "A": "Dùng để nén dữ liệu",
+        "B": "Sử dụng cùng một khóa cho cả mã hóa và giải mã",
+        "C": "Không cần sử dụng khóa",
+        "D": "Sử dụng cặp khóa công khai và bí mật khác nhau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Đặc điểm quan trọng nhất của mã hóa đối xứng là gì?",
+      "options": {
+        "A": "Khóa bí mật phải được giữ kín giữa các bên",
+        "B": "Không cần trao đổi khóa",
+        "C": "Mỗi bên dùng khóa riêng biệt",
+        "D": "Khóa công khai có thể phát tán rộng rãi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "Ưu điểm chính của mã hóa đối xứng so với bất đối xứng là gì?",
+      "options": {
+        "A": "Tốc độ nhanh, phù hợp cho dữ liệu lớn",
+        "B": "Không cần thuật toán phức tạp",
+        "C": "Không cần quản lý khóa",
+        "D": "Tự động chống va chạm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "Nhược điểm lớn nhất của mã hóa đối xứng là gì?",
+      "options": {
+        "A": "Không an toàn nếu bị lộ khóa",
+        "B": "Giá trị băm không ổn định",
+        "C": "Không dùng được cho dữ liệu lớn",
+        "D": "Tốc độ mã hóa chậm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Trong mã hóa đối xứng, dữ liệu gốc được gọi là gì?",
+      "options": {
+        "A": "Ciphertext",
+        "B": "Plaintext",
+        "C": "Digital signature",
+        "D": "Hash value"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 36,
+      "question": "Mã hóa dòng (Stream Cipher) là gì?",
+      "options": {
+        "A": "Chia dữ liệu thành khối rồi mã hóa từng khối",
+        "B": "Mã hỏa dữ liệu không cần khóa",
+        "C": "Mã hỏa từng bit/byte của dữ liệu gốc bằng chuỗi khóa giả ngẫu nhiên",
+        "D": "Nên dữ liệu thành dạng nhỏ hơn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 37,
+      "question": "Mã hóa khối (Block Cipher) là gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu chỉ bằng băm",
+        "B": "Mã hóa từng ký tự một",
+        "C": "Mã hóa dữ liệu gốc theo khối có độ dài cố định",
+        "D": "Mã hóa dữ liệu mà không chia khối"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Kết quả (output) của quá trình mã hóa bằng thuật toán đối xứng thường được biểu diễn dưới dạng nào?",
+      "options": {
+        "A": "Decimal",
+        "B": "Binary code duy nhất",
+        "C": "Base64 hoặc Hexadecimal",
+        "D": "ASCII text"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Trong mã hóa dòng (Stream Cipher), độ dài output so với input có quan hệ thế nào?",
+      "options": {
+        "A": "Output có cùng độ dài với input",
+        "B": "Output không xác định độ dài",
+        "C": "Output luôn dài hơn input",
+        "D": "Output luôn ngắn hơn input"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "Trong mã hóa khối (Block Cipher), nếu dữ liệu đầu vào không đủ kích thước khối thì điều gì xảy ra?",
+      "options": {
+        "A": "Output nhỏ hơn input",
+        "B": "Không thể mã hóa được",
+        "C": "Dữ liệu bị cắt bỏ",
+        "D": "Phải sử dụng padding (đệm) để đủ kích thước"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Các thuật toán DES, 3DES, AES loại mã hóa đối xứng nào?",
+      "options": {
+        "A": "Chi AES thuộc mã hóa dòng",
+        "B": "Mã hóa khối",
+        "C": "Mã hóa dòng",
+        "D": "Chỉ DES và 3DES thuộc mã hóa khối"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 42,
+      "question": "Các thuật toán RC4, Salsa20 và ChaCha20 thuộc loại mã hóa đối xứng nào?",
+      "options": {
+        "A": "Mã hóa khối",
+        "B": "Chỉ RC4 thuộc mã hóa dòng",
+        "C": "RC4 thuộc mã hóa dòng, Salsa20 và Chacha20 thuộc mã hóa khối",
+        "D": "Mã hóa dòng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 43,
+      "question": "RC4 từng được sử dụng trong WEP, WPA và TLS cũ, nhưng hiện nay không còn an toàn do:",
+      "options": {
+        "A": "Nhiều lỗ hổng bảo mật trong thiết kế và keystream, dễ bị tấn công",
+        "B": "Không tạo được keystream dải",
+        "C": "Tốc độ quá chậm",
+        "D": "Khóa bí mật khó trao đổi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Thuật toán DES không còn an toàn trong thấp điểm hiện nay vì:",
+      "options": {
+        "A": "Độ dài khóa quá ngắn, dễ bị brute-force",
+        "B": "Không hỗ trợ padding",
+        "C": "Không thể dùng cho mạng LAN",
+        "D": "Không còn hoạt động trên dữ liệu nhị phân"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "AES hiện được coi là chuẩn mã hóa đối xứng mạnh và nhanh, được ứng dụng nhiều trong:",
+      "options": {
+        "A": "Blockchain",
+        "B": "VPN, Wi-Fi, HTTPS",
+        "C": "WEP và WPA cũ",
+        "D": "Xác thực mật khẩu một chiều"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "WEP trong Wi-Fi sử dụng thuật toán nào để hóa dữ liệu?",
+      "options": {
+        "A": "RC4",
+        "B": "SHA-1",
+        "C": "AES",
+        "D": "DES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "WPA2 sử dụng chuẩn mã hóa nào để thay thế RC4 và được coi là an toàn?",
+      "options": {
+        "A": "Salsa20",
+        "B": "AES-CCMP",
+        "C": "MD5",
+        "D": "DES"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "WPA3 cải tiến so với WPA2 nhờ bổ sung cơ chế nào?",
+      "options": {
+        "A": "TKIP (Temporal Key Integrity Protocol)",
+        "B": "RC4 keystream",
+        "C": "Diffie-Hellman key exchange",
+        "D": "SAE (Simultaneous Authentication of Equals)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "Trong Bluetooth hiện đại, thuật toán mã hóa đố xứng nào được sử dụng?",
+      "options": {
+        "A": "AES",
+        "B": "RC4",
+        "C": "DES",
+        "D": "MD4"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Trong mạng di động (4G/LTE, 5G), thuật toán mã hóa đối xứng nào thường được sử dụng?",
+      "options": {
+        "A": "MD5",
+        "B": "RC4",
+        "C": "AES hoặc SNOW 3G",
+        "D": "SHA-256"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Mã hóa bất đối xứng (Asymmetric Encryption) là gì?",
+      "options": {
+        "A": "Phương pháp không dùng khỏa",
+        "B": "Phương pháp dùng cặp khóa công khai và bí mật khác nhau để mã hóa/giải mã",
+        "C": "Phương pháp dùng hàm băm thay thể",
+        "D": "Phương pháp dùng cùng một khóa để mã hóa và giải mã"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Khóa công khai (Public Key) trong mã hóa bất đối xứng có đặc điểm nào?",
+      "options": {
+        "A": "Có thể chia sẻ tự do cho mọi người",
+        "B": "Chỉ tồn tại trong blockchain",
+        "C": "Chỉ chủ sở hữu giữ bí mật",
+        "D": "Chỉ dùng để giải mã dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "Khóa bí mật (Private Key) trong mã hóa bất đối xứng có vai trò gì?",
+      "options": {
+        "A": "Có thể phát tán rộng rãi",
+        "B": "Dùng để mã hóa dữ liệu cho người nhận",
+        "C": "Dùng thay thế cho hàm băm",
+        "D": "Dùng để giải mà dữ liệu hoặc tạo chữ ký số (Digital Signature)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 54,
+      "question": "Ưu điểm lớn nhất của mã hóa bất đối xứng so với mã hóa đối xứng gì?",
+      "options": {
+        "A": "Giải quyết được vấn đề phân phối khóa",
+        "B": "Luôn an toàn tuyệt đối",
+        "C": "Không cần dùng khóa bí mật",
+        "D": "Nhanh hơn và ít tốn tài nguyên"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Nhược điểm chính của mã hóa bất đối xứng là gì?",
+      "options": {
+        "A": "Không thể dùng cho dữ liệu văn bản",
+        "B": "Tốc độ chậm hơn so với mà hóa đối xứng",
+        "C": "Không có khả năng xác thực",
+        "D": "Không thể kết hợp với hàm băm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Khi dữ liệu được mã hóa bằng khóa công khai, ai có thể giải mã?",
+      "options": {
+        "A": "Người quản trị hệ thống",
+        "B": "Người gửi dữ liệu",
+        "C": "Bất kỳ ai biết khóa công khai",
+        "D": "Chỉ người sở hữu khóa bí mật tương ứng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "Mã hóa bất đối xứng giúp đảm bảo tính toàn vẹn (Integrity) của dữ liệu bằng cách nào?",
+      "options": {
+        "A": "Kết hợp với hàm băm (Hash Function) và chữ ký số (Digital Signature)",
+        "B": "Tạo bản sao dự phòng dữ liệu",
+        "C": "Mã hóa bằng nhiều lớp khóa",
+        "D": "Sử dụng thuật toán nén dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Tính năng xác thực nguồn gốc (Authentication) trong mã hóa bất đối xứng hoạt động thế nào?",
+      "options": {
+        "A": "Người gửi dùng khóa bí mật để tạo chữ ký số, người nhận kiểm tra bằng khóa công khai",
+        "B": "Người nhận dùng khóa bí mật để xác minh",
+        "C": "Người gửi dùng khóa công khai để tạo chữ ký số",
+        "D": "Không thể dùng để xác thực nguồn gốc"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Tính năng chống chối bỏ (Non-repudiation) có nghĩa là gì?",
+      "options": {
+        "A": "Hệ thống không thể chặn dữ liệu",
+        "B": "Người nhận không thể từ chối nhận dữ liệu",
+        "C": "Người gửi có thể thu hồi thông điệp",
+        "D": "Người gửi không thể phủ nhận việc đã gửi thông điệp nhờ chữ ký số"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 60,
+      "question": "Vì sao tốc độ của mã hóa bất đối xứng chậm hơn mã hóa đối xứng?",
+      "options": {
+        "A": "Vì chỉ dùng trong mạng không dây",
+        "B": "Vì sử dụng khóa ngắn",
+        "C": "Vì thuật toán phức tạp, phép toán số học lớn",
+        "D": "Vì cần padding nhiều lần"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "question": "Mã hóa bất đối xứng còn có tên gọi khác là gì?",
+      "options": {
+        "A": "Mật mã khóa bí mật (Secret-key Cryptography)",
+        "B": "Mật mã hai chiều (Two-way Cryptography)",
+        "C": "Mật mã khóa công khai (Public-key Cryptography)",
+        "D": "Mật mã khóa chia sẻ (Shared-key Cryptography)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 62,
+      "question": "Độ dài khóa RSA -3072 bit tương đương mức an toàn của thuật toán nào?",
+      "options": {
+        "A": "AES-256",
+        "B": "DES",
+        "C": "AES-192",
+        "D": "AES-128"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "Nhược điểm chính của RSA là gì?",
+      "options": {
+        "A": "Không dùng được trong SSL/TLS",
+        "B": "Khóa dài nên tốc độ chậm, yêu cầu tài nguyên lớn",
+        "C": "Không thể kết hợp với chữ ký số",
+        "D": "Khóa quá ngắn dễ bị brute-force"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Thuật toán ECC (Elliptic Curve Cryptography) có ưu điểm nổi bật nào so với RSA?",
+      "options": {
+        "A": "Nhanh hơn, hiệu quả hơn với khóa ngắn",
+        "B": "Không cần trao đổi khóa",
+        "C": "Không hỗ trợ blockchain",
+        "D": "Luôn dùng khóa dài hơn RSA"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Thuật toán DH (Diffie-Hellman Key Exchange) được sử dụng chủ yếu để làm gì?",
+      "options": {
+        "A": "Nén dữ liệu trước khi truyền",
+        "B": "Mã hóa dữ liệu văn bản",
+        "C": "Sinh chữ ký số",
+        "D": "Trao đổi khóa bí mật an toàn qua kênh công khai"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "Điểm yếu chính của thuật toán DH (Diffie-Hellman) là gì?",
+      "options": {
+        "A": "Không áp dụng cho VPN",
+        "B": "Chậm khi khóa dài, dễ bị tấn công trung gian (MITM) nếu không xác thực",
+        "C": "Không thể triển khai trong TLS",
+        "D": "Tốc độ quá nhanh gây lỗi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Ứng dụng chính của RSA trong bảo mật hiện nay là gì?",
+      "options": {
+        "A": "SSL/TLS, chữ ký số, email bảo mật",
+        "B": "Nén dữ liệu",
+        "C": "Băm mật khẩu",
+        "D": "Wi-Fi WPAЗ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "ECC hiện được dùng rộng rãi trong lĩnh vực nào?",
+      "options": {
+        "A": "Blockchain, SSL/TLS, chữ ký số",
+        "B": "WEP/WPA",
+        "C": "Lưu trữ mật khẩu",
+        "D": "Tường lửa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Thuật toán DH (Diffie-Hellman) thường được ứng dụng trong kịch bản nào?",
+      "options": {
+        "A": "VPN, TLS, IPsec để trao đổi khóa phiên",
+        "B": "Kiểm tra checksum",
+        "C": "Lưu trữ mật khẩu",
+        "D": "Mã hóa file cục bộ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "Vì sao ECC ngày càng được tra chuộng trên thiết bị di động/loT?",
+      "options": {
+        "A": "Vì nhanh, hiệu quả, tiết kiệm tài nguyên",
+        "B": "Vì không cần khóa bí mật",
+        "C": "Vì thay thế hoàn toàn được AES",
+        "D": "Vì sử dụng khóa dài hơn RSA"
+      },
+      "answer": "A"
+    }
+  ]
+}
+
+
