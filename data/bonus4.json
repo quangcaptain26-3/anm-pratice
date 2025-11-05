@@ -1,0 +1,279 @@
+{
+  "bonus4": [
+    {
+      "id": 1,
+      "question": "Kết quả cuối cùng của IKE Phase 2 là gì?",
+      "options": {
+        "A": "Gán IP cho VPN Client",
+        "B": "Truyền dữ liệu IPSec trong tunnel an toàn",
+        "C": "Hủy bỏ ISAKMP SA",
+        "D": "Tạo khóa công khai RSA"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Một người thường xuyên sử dụng Wi-Fi công cộng ở quán café thì lợi ích lớn nhất khi dùng VPN thương mại là gì?",
+      "options": {
+        "A": "Cho phép cấu hình router tự động",
+        "B": "Giảm chi phí bản quyền phần mềm",
+        "C": "Bảo vệ quyền riêng tư, ngăn chặn nghe lén dữ liệu",
+        "D": "Tăng tốc độ mạng LAN trong công ty"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Điểm khác biệt giữa IKEv1 và IKEv2 là gì?",
+      "options": {
+        "A": "IKEv1 nhanh hơn và hỗ trợ chuẩn AES-GCM",
+        "B": "IKEv1 không hỗ trợ xác thực",
+        "C": "IKEv2 chỉ dùng trong mạng LAN",
+        "D": "IKEv2 nhanh hơn, bảo mật mạnh hơn và hỗ trợ tốt cho thiết bị di động"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "question": "Authentication Header (AH) trong IPSec có chức năng gì?",
+      "options": {
+        "A": "Cấp phát khóa tạm thời",
+        "B": "Đảm bảo toàn vẹn và xác thực gói tin, không mã hóa",
+        "C": "Đóng gói lại toàn bộ gói IP gốc",
+        "D": "Mã hóa dữ liệu và xác thực"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Kết quả cuối cùng của IKE Phase 1 là gì?",
+      "options": {
+        "A": "Truyền dữ liệu thực tế giữa hai bên",
+        "B": "Tạo ISAKMP SA (tunnel bảo mật ban đầu)",
+        "C": "Sinh ra khóa phiên cho ứng dụng",
+        "D": "Thiết lập IPSec SA"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "Khi ISAKMP tunnel đã được thiết lập thành công, bước tiếp theo trong IKE Phase 2 là gì?",
+      "options": {
+        "A": "Phát hiện lỗi và tái truyền gói tin",
+        "B": "Thiết lập IPSec tunnel để mã hóa dữ liệu người dùng",
+        "C": "Cấp phát chứng chỉ RSA cho client",
+        "D": "Hủy ISAKMP SA"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "MPLS VPN thường được triển khai trong môi trường nào?",
+      "options": {
+        "A": "Mạng Wi-Fi công cộng",
+        "B": "Mạng diện rộng của doanh nghiệp lớn, cần hiệu năng cao và ổn định",
+        "C": "Máy tính cá nhân tại nhà",
+        "D": "Các kết nối USB giữa hai thiết bị"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Trong lớp Toàn vẹn dữ liệu (Integrity) của IPSec, thuật toán nào đã lỗi thời và không còn được khuyến nghị sử dụng?",
+      "options": {
+        "A": "SHA-256",
+        "B": "SHA-512",
+        "C": "MD5",
+        "D": "HMAC-SHA-2"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "Trong IKE Phase 2, các bên thỏa thuận về điều gì?",
+      "options": {
+        "A": "Loại IPSec protocol (ESP hay AH), thuật toán mã hóa, xác thực, thời gian của SA",
+        "B": "Cấp phát địa chỉ IP động",
+        "C": "Phân giải tên miền",
+        "D": "Cách thức chia gói tin IP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Nhược điểm lớn nhất khi triển khai VPN doanh nghiệp là gì?",
+      "options": {
+        "A": "Không hỗ trợ trên hệ điều hành Windows",
+        "B": "Không có khả năng bảo mật",
+        "C": "Chi phí đầu tư và vận hành cao, cần đội ngũ IT quản trị",
+        "D": "Không thể hoạt động ngoài LAN nội bộ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Trong thiết lập IPSec, Security Association (SA) là gì?",
+      "options": {
+        "A": "Thỏa thuận các tham số bảo mật giữa hai bên",
+        "B": "Một loại chứng chỉ số RSA",
+        "C": "Một thuật toán băm",
+        "D": "Gói tin đặc biệt để truyền khóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Điểm khác biệt chính của VPN doanh nghiệp so với VPN thương mại là gì?",
+      "options": {
+        "A": "Có nhiều máy chủ toàn cầu hơn",
+        "B": "Chỉ hoạt động trên Wi-Fi công cộng",
+        "C": "Được triển khai bởi tổ chức để nhân viên truy cập an toàn vào hệ thống nội bộ",
+        "D": "Không dùng mã hóa dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Lợi ích của cơ chế mã hóa dữ liệu trong VPN là gì?",
+      "options": {
+        "A": "Làm giảm tốc độ mạng để tăng bảo mật",
+        "B": "Giúp tiết kiệm băng thông khi truyền dữ liệu",
+        "C": "Đảm bảo gói tin không bị đọc trộm hoặc thay đổi trong quá trình truyền",
+        "D": "Ngăn người dùng truy cập Internet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "Client-to-Site VPN thường phù hợp nhất với tình huống nào?",
+      "options": {
+        "A": "Kết nối hai văn phòng ở hai thành phố khác nhau",
+        "B": "Chia sẻ dữ liệu qua USB",
+        "C": "Truyền dữ liệu giữa hai router ISP",
+        "D": "Nhân viên làm việc từ xa muốn truy cập hệ thống công ty"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Khi sử dụng VPN, dữ liệu được truyền qua Internet được bảo vệ như thế nào?",
+      "options": {
+        "A": "Bằng việc chia nhỏ gói tin thành nhiều phần",
+        "B": "Bằng cơ chế mã hóa, tránh bị nghe lén hoặc sửa đổi",
+        "C": "Bằng việc giới hạn băng thông",
+        "D": "Bằng việc thay đổi địa chỉ IP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 21,
+      "question": "Một nhân viên đang đi công tác nước ngoài cần truy cập email công ty và hệ thống ERP qua Internet. Giải pháp phù hợp nhất là gì?",
+      "options": {
+        "A": "VPN doanh nghiệp",
+        "B": "Chia sẻ qua USB",
+        "C": "VPN thương mại miễn phí",
+        "D": "VPN tự triển khai cá nhân"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Nhược điểm lớn nhất khi dùng VPN thương mại là gì?",
+      "options": {
+        "A": "Không hỗ trợ cài đặt trên router",
+        "B": "Không vượt được giới hạn địa lý",
+        "C": "Người dùng phải tin tưởng tuyệt đối vào nhà cung cấp vì toàn bộ dữ liệu đi qua máy chủ của họ",
+        "D": "Không tương thích với thiết bị di động"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "Tại sao nói VPN giúp “kết nối an toàn và không giới hạn”?",
+      "options": {
+        "A": "Vì VPN tăng gấp đôi tốc độ đường truyền",
+        "B": "Vì có thể sử dụng VPN mà không cần Internet",
+        "C": "Vì VPN tự động sửa lỗi khi mất gói tin",
+        "D": "Vì VPN cho phép truy cập tài nguyên từ xa an toàn như trong mạng nội bộ và vượt qua rào cản địa lý"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 24,
+      "question": "Sau khi hoàn tất IKE Phase 1 và Phase 2, kênh truyền dữ liệu IPSec đảm bảo những yếu tố nào?",
+      "options": {
+        "A": "Thay thế toàn bộ giao thức TCP/IP",
+        "B": "Bảo mật, toàn vẹn và xác thực",
+        "C": "Tăng tốc độ truyền và giảm chi phí",
+        "D": "Loại bỏ nhu cầu tường lửa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Trong VPN tự triển khai, giao thức nào thường được lựa chọn nhờ tốc độ cao và thiết kế gọn nhẹ?",
+      "options": {
+        "A": "OpenVPN",
+        "B": "PPTP",
+        "C": "WireGuard",
+        "D": "L2TP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "Doanh nghiệp thường sử dụng phần mềm hoặc giải pháp VPN nào sau đây để nhân viên kết nối từ xa an toàn?",
+      "options": {
+        "A": "NordVPN, ProtonVPN",
+        "B": "Cisco AnyConnect, Fortinet SSL VPN, Palo Alto GlobalProtect",
+        "C": "AWS VPN Client, DigitalOcean WireGuard",
+        "D": "Microsoft Office 365 VPN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Với nhà cung cấp dịch vụ VPN thương mại, máy chủ VPN thường được đặt tại đâu?",
+      "options": {
+        "A": "Trung tâm dữ liệu hoặc hạ tầng Cloud",
+        "B": "Các mạng LAN nội bộ trong công ty",
+        "C": "Máy tính cá nhân của khách hàng",
+        "D": "Các văn phòng nhỏ của doanh nghiệp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Ưu điểm nổi bật của VPN doanh nghiệp là gì?",
+      "options": {
+        "A": "Tự động cấp IP công khai toàn cầu",
+        "B": "Sử dụng giao thức mạnh như IPSec/IKEv2 hoặc SSL VPN, quản lý tập trung bởi IT",
+        "C": "Không tốn chi phí triển khai",
+        "D": "Không yêu cầu đội ngũ IT quản trị"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Diffie-Hellman trong IKE Phase 1 có vai trò gì?",
+      "options": {
+        "A": "Mã hóa trực tiếp gói dữ liệu",
+        "B": "Xác thực người dùng cuối",
+        "C": "Phát hiện lỗi khi truyền",
+        "D": "Sinh khóa chung để hai bên dùng trong mã hóa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Đặc điểm nào mô tả đúng Client-to-Site VPN?",
+      "options": {
+        "A": "Không hỗ trợ cho điện thoại hoặc laptop",
+        "B": "Tất cả dữ liệu đi thẳng qua Internet mà không cần mã hóa",
+        "C": "Chỉ hoạt động trong môi trường LAN nội bộ",
+        "D": "Người dùng cần cài đặt VPN Client và xác thực để kết nối đến VPN Server"
+      },
+      "answer": "D"
+    }
+  ]
+}
