@@ -1,0 +1,389 @@
+{
+  "bonus5": [
+    {
+      "id": 1,
+      "question": "CIA trong an ninh mạng là viết tắt của?",
+      "options": {
+        "A": "Confidentiality, Integrity, Availability",
+        "B": "Control, Information, Access",
+        "C": "Cyber, Internet, Attack",
+        "D": "Code, Identity, Authentication"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Ransomware là loại mã độc có đặc điểm gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu và đòi tiền chuộc",
+        "B": "Tự động xóa dữ liệu",
+        "C": "Tăng tốc hệ thống",
+        "D": "Tạo bản sao dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Lỗ hổng zero-day là gì?",
+      "options": {
+        "A": "Lỗ hổng chưa được phát hiện và chưa có bản vá",
+        "B": "Lỗ hổng đã được vá",
+        "C": "Lỗ hổng không gây hại",
+        "D": "Lỗ hổng chỉ có trên phần cứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Quy tắc \"Default Deny\" trong tường lửa nghĩa là gì?",
+      "options": {
+        "A": "Chặn tất cả trừ khi có rule cho phép",
+        "B": "Cho phép tất cả trừ khi có rule chặn",
+        "C": "Chặn các rule đầu tiên",
+        "D": "Cho phép theo mặc định hệ điều hành"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "State Table trong firewall stateful lưu giữ những thông tin nào?",
+      "options": {
+        "A": "Five-tuple, trạng thái TCP, timeout, thống kê phiên",
+        "B": "Chỉ địa chỉ IP nguồn và đích",
+        "C": "Địa chỉ MAC và VLAN",
+        "D": "Username và mật khẩu người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "WAF (Web Application Firewall) tập trung bảo vệ đối tượng nào?",
+      "options": {
+        "A": "Ứng dụng web",
+        "B": "Kết nối MPLS",
+        "C": "Hệ thống VoIP",
+        "D": "Mạng WAN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "IPS khác IDS ở điểm nào?",
+      "options": {
+        "A": "IPS có khả năng ngăn chặn tấn công (inline)",
+        "B": "IPS chỉ giám sát và cảnh báo",
+        "C": "IPS không hoạt động theo thời gian thực",
+        "D": "IPS không cần cấu hình"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "question": "IDS dựa trên chữ ký (Signature-based) phát hiện tấn công dựa vào:",
+      "options": {
+        "A": "Mẫu (pattern) đã biết",
+        "B": "Hành vi bất thường",
+        "C": "Cấu hình mạng",
+        "D": "Tốc độ truyền tải"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "Tính chất nào của hàm băm đảm bảo cùng một đầu vào luôn cho ra cùng một đầu ra?",
+      "options": {
+        "A": "Tính xác định (Deterministic)",
+        "B": "Hiệu ứng tuyết lở",
+        "C": "Tính một chiều",
+        "D": "Tính toàn vẹn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Trong mã hóa bất đối xứng, khóa bí mật (Private Key) dùng để làm gì?",
+      "options": {
+        "A": "Giải mã dữ liệu hoặc tạo chữ ký số",
+        "B": "Mã hóa dữ liệu cho người nhận",
+        "C": "Phát tán rộng rãi",
+        "D": "Thay thế hàm băm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "SHA-256 tạo ra giá trị băm dài bao nhiêu bit?",
+      "options": {
+        "A": "256 bit",
+        "B": "128 bit",
+        "C": "512 bit",
+        "D": "64 bit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Giao thức nào hoạt động ở tầng vận chuyển để bảo mật truyền thông?",
+      "options": {
+        "A": "TLS/SSL",
+        "B": "HTTP",
+        "C": "IPsec (Tầng mạng)",
+        "D": "SSH (Tầng ứng dụng)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Tấn công Heartbleed khai thác lỗ hổng ở đâu?",
+      "options": {
+        "A": "OpenSSL trong phần mở rộng Heartbeat",
+        "B": "Cơ chế RSA",
+        "C": "Giao thức TCP",
+        "D": "Trình duyệt web"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Trong handshake TLS, thông điệp nào được gửi từ server để xác thực?",
+      "options": {
+        "A": "Certificate",
+        "B": "ClientHello",
+        "C": "KeyExchange",
+        "D": "ChangeCipherSpec"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "VPN giúp bảo vệ dữ liệu truyền qua Internet bằng cách nào?",
+      "options": {
+        "A": "Tạo đường hầm mã hóa (tunneling & encryption)",
+        "B": "Chia nhỏ gói tin",
+        "C": "Nén dữ liệu",
+        "D": "Tăng băng thông"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Giao thức IKE trong IPSec có vai trò gì?",
+      "options": {
+        "A": "Thương lượng, trao đổi khóa và quản lý SA",
+        "B": "Mã hóa dữ liệu người dùng",
+        "C": "Xác thực gói tin",
+        "D": "Định tuyến gói tin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Chế độ Tunnel Mode trong IPSec có đặc điểm gì?",
+      "options": {
+        "A": "Mã hóa toàn bộ gói IP gốc và thêm header mới",
+        "B": "Chỉ mã hóa phần payload",
+        "C": "Không mã hóa, chỉ xác thực",
+        "D": "Chỉ dùng trong mạng LAN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "NAC (Network Access Control) dùng để làm gì?",
+      "options": {
+        "A": "Kiểm soát thiết bị và người dùng truy cập mạng",
+        "B": "Tăng tốc độ Wi-Fi",
+        "C": "Quản lý băng thông",
+        "D": "Thay thế Router"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "MFA (Xác thực đa yếu tố) kết hợp những yếu tố nào?",
+      "options": {
+        "A": "Cái bạn biết, Cái bạn có, Cái bạn là",
+        "B": "Chỉ mật khẩu và email",
+        "C": "Chỉ vân tay và khuôn mặt",
+        "D": "Tên đăng nhập và mật khẩu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Chuẩn bảo mật Wi-Fi nào hiện đại và an toàn nhất hiện nay?",
+      "options": {
+        "A": "WPA3",
+        "B": "WPA2",
+        "C": "WPA",
+        "D": "WEP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "TPM (Trusted Platform Module) là gì?",
+      "options": {
+        "A": "Chip phần cứng bảo mật trên bo mạch",
+        "B": "Phần mềm diệt virus",
+        "C": "Giao thức mạng",
+        "D": "Dịch vụ đám mây"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Tấn công DNS Cache Poisoning (DNS Spoofing) dẫn đến hậu quả gì?",
+      "options": {
+        "A": "Người dùng bị chuyển hướng đến trang web giả mạo",
+        "B": "Máy chủ DNS bị tắt nguồn",
+        "C": "Mất kết nối Internet toàn cầu",
+        "D": "Lộ mật khẩu quản trị router"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "Tấn công DDoS nhắm vào mục tiêu chính nào?",
+      "options": {
+        "A": "Làm gián đoạn dịch vụ, gây quá tải hệ thống",
+        "B": "Đánh cắp dữ liệu bí mật",
+        "C": "Cài đặt mã độc",
+        "D": "Nghe lén thông tin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "SQL Injection tấn công vào thành phần nào?",
+      "options": {
+        "A": "Cơ sở dữ liệu thông qua ứng dụng web",
+        "B": "Hệ điều hành máy chủ",
+        "C": "Trình duyệt người dùng",
+        "D": "Giao thức mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Phishing là hình thức tấn công như thế nào?",
+      "options": {
+        "A": "Giả mạo uy tín để lừa người dùng cung cấp thông tin nhạy cảm",
+        "B": "Tấn công từ chối dịch vụ",
+        "C": "Khai thác lỗ hổng phần mềm",
+        "D": "Nghe lén Wi-Fi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Biện pháp nào hiệu quả để chống lại Brute-force attack?",
+      "options": {
+        "A": "Sử dụng mật khẩu mạnh và giới hạn số lần đăng nhập sai",
+        "B": "Ẩn địa chỉ IP",
+        "C": "Tắt tường lửa",
+        "D": "Sử dụng HTTP thay vì HTTPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 27,
+      "question": "Man-in-the-Middle (MITM) là tấn công mà hacker làm gì?",
+      "options": {
+        "A": "Đứng giữa, nghe lén hoặc sửa đổi dữ liệu giao tiếp",
+        "B": "Gửi email rác hàng loạt",
+        "C": "Tấn công trực tiếp vào cơ sở dữ liệu",
+        "D": "Làm sập máy chủ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Privilege Escalation (Leo thang đặc quyền) là gì?",
+      "options": {
+        "A": "Từ quyền hạn thấp chiếm được quyền hạn cao hơn trái phép",
+        "B": "Xóa tài khoản người dùng",
+        "C": "Tạo tài khoản khách",
+        "D": "Đổi mật khẩu wifi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Botnet thường được sử dụng để thực hiện cuộc tấn công nào?",
+      "options": {
+        "A": "DDoS",
+        "B": "SQL Injection",
+        "C": "XSS",
+        "D": "ARP Spoofing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "Giao thức nào được dùng để xác thực trong chuẩn 802.1X?",
+      "options": {
+        "A": "EAP (Extensible Authentication Protocol)",
+        "B": "FTP",
+        "C": "HTTP",
+        "D": "SMTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "802.1X giúp bảo vệ:",
+      "options": {
+        "A": "Mã hóa toàn bộ dữ liệu",
+        "B": "Quản lý lưu lượng",
+        "C": "Tăng tốc độ mạng",
+        "D": "Chỉ thiết bị hợp lệ mới được truy cập"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "802.1X dựa trên cơ chế:",
+      "options": {
+        "A": "Token-based Authentication",
+        "B": "Port-based Network Access Control",
+        "C": "IP-based Control",
+        "D": "Firewall-based Security"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 33,
+      "question": "NAC ngăn chặn được:",
+      "options": {
+        "A": "Lỗi phần cứng",
+        "B": "Phát tán virus qua email",
+        "C": "Tấn công từ chối dịch vụ",
+        "D": "Thiết bị trái phép kết nối vào mạng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "Vé TGT (Ticket Granting Ticket) do ai cấp?",
+      "options": {
+        "A": "Router",
+        "B": "Authentication Server",
+        "C": "Ticket Granting Server",
+        "D": "Firewall"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "NAC có thể triển khai ở:",
+      "options": {
+        "A": "Mạng có dây và mạng không dây",
+        "B": "Mạng có dây",
+        "C": "Mạng không dây",
+        "D": "Chỉ trong VPN"
+      },
+      "answer": "A"
+    }
+  ]
+}
