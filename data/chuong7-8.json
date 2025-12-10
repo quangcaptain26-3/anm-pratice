@@ -1,0 +1,1603 @@
+{
+  "chuong7": [
+    {
+      "id": 1,
+      "question": "NAC viết tắt của gì?",
+      "options": {
+        "A": "Network Access Control",
+        "B": "Network Administration Center",
+        "C": "Network Authentication Core",
+        "D": "Network Advanced Communication"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 2,
+      "question": "Chức năng chính của NAC là gì?",
+      "options": {
+        "A": "Quản lý băng thông",
+        "B": "Kiểm soát thiết bị và người dùng truy cập mạng",
+        "C": "Mã hóa dữ liệu",
+        "D": "Tăng tốc độ kết nối"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "NAC thường dựa trên:",
+      "options": {
+        "A": "Chính sách bảo mật",
+        "B": "Mã hóa phần cứng",
+        "C": "Tường lửa lớp ứng dụng",
+        "D": "VPN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Một lợi ích của NAC là:",
+      "options": {
+        "A": "Giảm chi phí điện năng",
+        "B": "Đảm bảo chỉ thiết bị hợp lệ được truy cập",
+        "C": "Tăng tốc CPU máy chủ",
+        "D": "Bảo trì hệ thống"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "NAC có thể kiểm tra:",
+      "options": {
+        "A": "Phiên bản hệ điều hành",
+        "B": "Trạng thái bản vá bảo mật",
+        "C": "Tình trạng phần mềm chống virus",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "NAC hoạt động ở giai đoạn nào của kết nối mạng?",
+      "options": {
+        "A": "Trước khi cấp quyền truy cập",
+        "B": "Trong khi truyền dữ liệu",
+        "C": "Sau khi kết thúc phiên",
+        "D": "Khi tắt máy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "NAC có thể triển khai ở:",
+      "options": {
+        "A": "Mạng có dây",
+        "B": "Mạng không dây",
+        "C": "Cả A và B",
+        "D": "Chỉ trong VPN"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 8,
+      "question": "Một hệ thống NAC tốt cần:",
+      "options": {
+        "A": "Xác thực mạnh mẽ",
+        "B": "Chính sách linh hoạt",
+        "C": "Giám sát liên tục",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "NAC giúp doanh nghiệp tuân thủ:",
+      "options": {
+        "A": "Các tiêu chuẩn an ninh thông tin",
+        "B": "Luật giao thông",
+        "C": "Quy định về phần cứng",
+        "D": "Tối ưu băng thông"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "NAC ngăn chặn được:",
+      "options": {
+        "A": "Phát tán virus qua email",
+        "B": "Tấn công từ chối dịch vụ",
+        "C": "Thiết bị trái phép kết nối vào mạng",
+        "D": "Lỗi phần cứng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Kerberos là gì?",
+      "options": {
+        "A": "Hệ điều hành",
+        "B": "Giao thức xác thực mạng",
+        "C": "Phần mềm diệt virus",
+        "D": "Hệ thống mã hóa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Kerberos sử dụng cơ chế nào để xác thực?",
+      "options": {
+        "A": "Mã hóa khỏa đối xứng",
+        "B": "Mã hóa khóa công khai",
+        "C": "Chứng chỉ số",
+        "D": "OTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 13,
+      "question": "Thành phần chính của Kerberos là:",
+      "options": {
+        "A": "Authentication Server (AS)",
+        "B": "Ticket Granting Server (TGS)",
+        "C": "Client và Service",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "Vé (ticket) trong Kerberos dùng để:",
+      "options": {
+        "A": "Cấp quyền truy cập dịch vụ",
+        "B": "Sao lưu dữ liệu",
+        "C": "Cập nhật phần mềm",
+        "D": "Tăng tốc kết nối"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Kerberos giúp chống lại:",
+      "options": {
+        "A": "Tấn công giả mạo danh tỉnh",
+        "B": "Mất điện",
+        "C": "Lỗi RAM",
+        "D": "Virus"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Về TGT (Ticket Granting Ticket) do ai cấp?",
+      "options": {
+        "A": "Authentication Server",
+        "B": "Ticket Granting Server",
+        "C": "Firewall",
+        "D": "Router"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Ticket Granting Server có chức năng:",
+      "options": {
+        "A": "Kiểm soát tường lửa",
+        "B": "Cấp chứng chỉ số",
+        "C": "Cấp vé dịch vụ cho client",
+        "D": "Ghi log hệ thống"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "Một hạn chế của Kerberos là:",
+      "options": {
+        "A": "Yêu cầu đồng bộ thời gian chính xác",
+        "B": "Không hỗ trợ mạng LAN",
+        "C": "Không thể mã hóa dữ liệu",
+        "D": "Không hỗ trợ nhiều người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Kerberos được phát triển bởi:",
+      "options": {
+        "A": "Microsoft",
+        "B": "IBM",
+        "C": "MIT",
+        "D": "Cisco"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 20,
+      "question": "Kerberos thường được dùng trong:",
+      "options": {
+        "A": "Windows Active Directory",
+        "B": "Linux Kernel",
+        "C": "Router Cisco",
+        "D": "Android OS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "TPM là viết tắt của:",
+      "options": {
+        "A": "Trusted Platform Module",
+        "B": "Trusted Protocol Management",
+        "C": "Technical Protection Model",
+        "D": "Token Protection Mechanism"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "TPM là:",
+      "options": {
+        "A": "Chip phần cứng bảo mật",
+        "B": "Phần mềm diệt virus",
+        "C": "Module mạng",
+        "D": "Firewall"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 23,
+      "question": "Chức năng của TPM là:",
+      "options": {
+        "A": "Lưu trữ khỏa mã hóa an toàn",
+        "B": "Quản lý RAM",
+        "C": "Cấp DHCP",
+        "D": "Quản lý CPU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "TPM thường dùng trong:",
+      "options": {
+        "A": "Wireshark",
+        "B": "VirtualBox",
+        "C": "Nmap",
+        "D": "BitLocker (Windows)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 25,
+      "question": "TPM giúp chống lại:",
+      "options": {
+        "A": "Tấn công trích xuất khóa mã hóa từ ổ cứng",
+        "B": "Tấn công DoS",
+        "C": "Lỗi phần mềm",
+        "D": "Virus email"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "TPM thuộc loại:",
+      "options": {
+        "A": "Phần mềm quản trị",
+        "B": "Module phần cứng độc lập",
+        "C": "Dịch vụ đám mây",
+        "D": "Công cụ giám sát"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Một tính năng quan trọng của TPM là:",
+      "options": {
+        "A": "Secure Boot",
+        "B": "NAT",
+        "C": "Port forwarding",
+        "D": "DHCP Relay"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "TPM lưu trữ được:",
+      "options": {
+        "A": "Khóa RSA",
+        "B": "Chứng chỉ số",
+        "C": "Mã băm hệ thống",
+        "D": "Tất cả các đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 29,
+      "question": "TPM có phiên bản phổ biến là:",
+      "options": {
+        "A": "TPM 1.2 và TPM 2.0",
+        "B": "TPM 3.0 và 4.0",
+        "C": "ТPM 5.0",
+        "D": "TPM-X"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 30,
+      "question": "TPM thường được tích hợp trên:",
+      "options": {
+        "A": " cứng ngoài",
+        "B": "Bo mạch chủ",
+        "C": "Switch",
+        "D": "Router"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 31,
+      "question": "Xác thực nhiều yếu tố (MFA) là gì?",
+      "options": {
+        "A": "Dùng một mật khẩu mạnh hơn",
+        "B": "Dùng nhiều phương thức xác thực khác nhau",
+        "C": "Dùng nhiều tài khoản cùng lúc",
+        "D": "Dùng nhiều thiết bị cùng lúc"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "Yếu tố phổ biến trong MFA gồm:",
+      "options": {
+        "A": "Cái bạn biết (mật khẩu)",
+        "B": "Cái bạn có (token)",
+        "C": "Cái bạn là (sinh trắc học)",
+        "D": "Tất cả đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "Token vật lý thường được dùng để:",
+      "options": {
+        "A": "Sinh mã OTP",
+        "B": "Lưu trữ dữ liệu",
+        "C": "Kết nối Internet",
+        "D": "Chặn virus"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "OTP là viết tắt của:",
+      "options": {
+        "A": "One-Time Password",
+        "B": "Only Trusted Password",
+        "C": "Open Token Protocol",
+        "D": "Online Trusted Platform"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "Ưu điểm của MFA so với mật khẩu đơn thuần:",
+      "options": {
+        "A": "Giảm nguy cơ bị đánh cắp tài khoản",
+        "B": "Tăng tốc độ mạng",
+        "C": "Giảm dung lượng  cứng",
+        "D": "Tối ưu CPU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "TPM trong MFA được dùng để:",
+      "options": {
+        "A": "Lưu trữ khóa xác thực an toàn",
+        "B": "Tăng tốc xử lý dữ liệu",
+        "C": "Quản lý bộ nhớ RAM",
+        "D": "Điều khiển CPU"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Token có thể ở dạng:",
+      "options": {
+        "A": "USB",
+        "B": "Thẻ thông minh",
+        "C": "Ứng dụng di động",
+        "D": "Tất cả đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 38,
+      "question": "MFA giúp giảm thiểu:",
+      "options": {
+        "A": "Tấn công DDoS",
+        "B": "Lỗi phần cứng",
+        "C": "Rủi ro khi mật khẩu bị lộ",
+        "D": "Nhiễm virus"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Hạn chế của MFA là:",
+      "options": {
+        "A": "Gây bất tiện cho người dùng",
+        "B": "Không tương thích với mọi hệ thống",
+        "C": "Có chỉ phí triển khai",
+        "D": "Tất cả đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Một ví dụ phổ biến của MFA là:",
+      "options": {
+        "A": "Đăng nhập bằng IP",
+        "B": "Đăng nhập bằng mật khẩu duy nhất",
+        "C": "Đăng nhập email + OTP qua SMS",
+        "D": "Truy cập bằng VPN"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "802.1X là chuẩn gì?",
+      "options": {
+        "A": "Kiểm soát truy cập mạng",
+        "B": "Truyền dữ liệu không dây",
+        "C": "Bảo mật lớp ứng dụng",
+        "D": "Định tuyến IP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "802.1X dựa trên cơ chế:",
+      "options": {
+        "A": "Port-based Network Access Control",
+        "B": "Token-based Authentication",
+        "C": "IP-based Control",
+        "D": "Firewall-based Security"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Thành phần nào không thuộc mô hình 802.1X?",
+      "options": {
+        "A": "Supplicant",
+        "B": "Authenticator",
+        "C": "Authentication Server",
+        "D": "Switch Core"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "question": "Supplicant là:",
+      "options": {
+        "A": "Thiết bị hoặc phần mềm yêu cầu truy cập",
+        "B": "Máy chủ xác thực",
+        "C": "Thiết bị mạng trung gian",
+        "D": "Token vật lý"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 45,
+      "question": "Authenticator thường là:",
+      "options": {
+        "A": "Switch hoặc Access Point",
+        "B": "Máy trạm",
+        "C": "Token",
+        "D": "TPM"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Authentication Server trong 802.1X thường là:",
+      "options": {
+        "A": "RADIUS server",
+        "B": "DNS server",
+        "C": "Web server",
+        "D": "Mail server"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Giao thức xác thực phổ biến dùng trong 802.1X",
+      "options": {
+        "A": "FTP",
+        "B": "HTTP",
+        "C": "EAP (Extensible Authentication Protocol)",
+        "D": "SSH"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "802.1X giúp bảo vệ:",
+      "options": {
+        "A": "Chỉ thiết bị hợp lệ mới được truy cập",
+        "B": "Tăng tốc độ mạng",
+        "C": "Mã hóa toàn bộ dữ liệu",
+        "D": "Quản lý lưu lượng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "802.1X thường dùng trong:",
+      "options": {
+        "A": "Doanh nghiệp",
+        "B": "Mạng Wi-Fi công cộng",
+        "C": "Mạng LAN bảo mật cao",
+        "D": "Tất cả đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "Ưu điểm của 802.1X là:",
+      "options": {
+        "A": "Bảo mật ở tầng 2 (Data Link Layer)",
+        "B": "Không cần phần cứng đặc biệt",
+        "C": "Mã hóa bằng SSL",
+        "D": "Tự động phân bổ IP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "Hạn chế của 802.1X:",
+      "options": {
+        "A": "Yêu cầu hạ tầng RADIUS",
+        "B": "Cấu hình phức tạp",
+        "C": "Có thể gây gián đoạn khi xác thực",
+        "D": "Tất cả đáp án trên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 52,
+      "question": "Trong Wi-Fi, 802.1X thường kết hợp với:",
+      "options": {
+        "A": "WPA2-Enterprise",
+        "B": "WEP",
+        "C": "TKIP",
+        "D": "VPN"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "EAP-TLS trong 802.1X dựa trên:",
+      "options": {
+        "A": "Chứng chỉ số",
+        "B": "Mật khẩu",
+        "C": "OTP",
+        "D": "Token"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Khi supplicant chưa xác thực thành công, trạng thái port là:",
+      "options": {
+        "A": "Unauthorized",
+        "B": "Authorized",
+        "C": "Open",
+        "D": "Forwarding"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "802.1X giúp ngăn chặn:",
+      "options": {
+        "A": "Thiết bị trái phép kết nối vào mạng LAN/Wi-Fi",
+        "B": "Virus trên email",
+        "C": "Lỗi phần cứng",
+        "D": "DDoS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 56,
+      "question": "Chuẩn bảo mật đầu tiên cho Wi-Fi là:",
+      "options": {
+        "A": "WPA2",
+        "B": "WPA",
+        "C": "WEP",
+        "D": "WPA3"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 57,
+      "question": "Nhược điểm chính của WEP là:",
+      "options": {
+        "A": "Khóa tình dễ bị bẻ khóa",
+        "B": "Không hỗ trợ Wi-Fi 5GHz",
+        "C": "Không tương thích với Windows",
+        "D": "Không hoạt động trên router mới"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "WPA dùng cơ chế mã hóa:",
+      "options": {
+        "A": "TKIP",
+        "B": "AES",
+        "C": "RSA",
+        "D": "DES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "WPA2 dùng cơ chế mã hóa:",
+      "options": {
+        "A": "AES-CCMP",
+        "B": "TKIP",
+        "C": "MD5",
+        "D": "RC4"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "WPA3 bổ sung tính năng:",
+      "options": {
+        "A": "SAE (Simultaneous Authentication of Equals)",
+        "B": "DES",
+        "C": "SSL",
+        "D": "MD5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Wi-Fi Protected Setup (WPS) thường bị khai thác vì:",
+      "options": {
+        "A": "PIN mặc định yếu",
+        "B": "Không mã hóa dữ liệu",
+        "C": "Chỉ dùng cho WPA3",
+        "D": "Không có xác thực"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "Một tấn công phổ biến vào Wi-Fi là:",
+      "options": {
+        "A": "Phishing qua email",
+        "B": "SQL Injection",
+        "C": "Evil Twin (giả mạo AP)",
+        "D": "ARP Spoofing LAN"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "Biện pháp bảo mật Wi-Fi hiệu quả:",
+      "options": {
+        "A": "Dùng WPA3 và mật khẩu mạnh",
+        "B": "Tất DHCP",
+        "C": "An SSID",
+        "D": "Đổi kênh Wi-Fi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "Ấn SSID có hiệu quả bảo mật cao không?",
+      "options": {
+        "A": "Có, chống hacker",
+        "B": "Có, bảo mật tuyệt đối",
+        "C": "Không, chỉ gây khó khăn nhỏ",
+        "D": "Có, chống virus"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 65,
+      "question": "Tấn công brute force Wi-Fi nhấm vào:",
+      "options": {
+        "A": "Mật khẩu yếu",
+        "B": "Địa chỉ MAC",
+        "C": "IP router",
+        "D": "Tốc độ Wi-Fi"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "MAC Filtering dùng để:",
+      "options": {
+        "A": "Cấp phát IP",
+        "B": "Mã hóa Wi-Fi",
+        "C": "Giới hạn thiết bị được phép kết nối",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Một hạn chế của MAC Filtering:",
+      "options": {
+        "A": "MAC có thể bị giả mạo (spoofing)",
+        "B": "Không hỗ trợ WPA2",
+        "C": "Không hỗ trợ IPv6",
+        "D": "Giảm tốc độ mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Enterprise Wi-Fi thường dùng kết hợp:",
+      "options": {
+        "A": "WPA2-Enterprise + 802.1X",
+        "B": "WEP + Token",
+        "C": "WPA3-Personal + WPS",
+        "D": "VPN + Proxy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 69,
+      "question": "Một cách tăng cường bảo mật Wi-Fi công cộng:",
+      "options": {
+        "A": "Tắt Wi-Fi",
+        "B": "Sử dụng VPN",
+        "C": "Đổi kênh phát sóng",
+        "D": "Tăng công suất anten"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "Công cụ thường dùng để kiểm thử an ninh Wi-Fi:",
+      "options": {
+        "A": "Aircrack-ng",
+        "B": "Wireshark",
+        "C": "Metasploit",
+        "D": "Tất cả đáp án trên"
+      },
+      "answer": "D"
+    }
+  ],
+  "chuong8": [
+    {
+      "id": 1,
+      "question": "DNS Flood là một dạng tấn công gì?",
+      "options": {
+        "A": "Tấn công SQL Injection",
+        "B": "Tấn công thay đổi cấu hình router",
+        "C": "Tấn công lừa đảo qua email",
+        "D": "Tấn công từ chối dịch vụ phân tân (DDoS)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "DNS Flood thưởng sử dụng cổng mặc định nào của dịch vụ DNS?",
+      "options": {
+        "A": "Cổng 80",
+        "B": "Cổng 21",
+        "C": "Cổng 443",
+        "D": "Cổng 53"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 3,
+      "question": "Botnet là gì trong ngữ cảnh tấn công mạng?",
+      "options": {
+        "A": "Tập hợp thiết bị bị chiếm quyền điều khiển",
+        "B": "Giao thức mã hóa dữ liệu",
+        "C": "Hệ thống phát hiện xâm nhập",
+        "D": "Công cụ bảo mật email"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 4,
+      "question": "Thiết bị IoT bị chiếm quyền điều khiển trong botnet được gọi là gì?",
+      "options": {
+        "A": "Firewall",
+        "B": "Token",
+        "C": "IDS",
+        "D": "Zombie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 5,
+      "question": "Trong DNS Flood, hacker có thể gửi truy vấn đến tên miền như thế nào để gây quá tải?",
+      "options": {
+        "A": "Truy vẫn lặp lại liên tục hoặc đến tên miền ngẫu nhiên, không tồn tại",
+        "B": "Truy vẫn được xác thực bởi DNSSEC",
+        "C": "Truy vẫn qua giao thức HTTPS",
+        "D": "Chỉ truy vấn vào tên miền hợp lệ, tốc độ bình thường"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "DNS Amplification thường lợi dụng đặc tính gi của giao thức UDP?",
+      "options": {
+        "A": "Sử dụng mã hóa mặc định",
+        "B": "Không có cơ chế bắt tay ba bước",
+        "C": "Bảo mật theo chuẩn SSL/TLS",
+        "D": "Có khả năng kiểm tra địa chỉ IP nguồn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Mục tiêu chính của việc giả mạo IP trong DNS Amplification là gì?",
+      "options": {
+        "A": "Để tăng tốc độ phản hồi",
+        "B": "Để vượt qua tường lửa",
+        "C": "Để bảo mật thông tin",
+        "D": "Để hướng lưu lượng phản hồi vào nạn nhân"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Đặc điểm “khuếch đại” trong DNS Amplification nghĩa là gì?",
+      "options": {
+        "A": "Truy vấn nhỏ nhưng phản hổi lớn",
+        "B": "Truy vấn không bao giờ có phản hồi",
+        "C": "Mỗi truy vấn bị bỏ qua",
+        "D": "Phản hồi nhỏ hơn truy vấn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 9,
+      "question": "DNS Tunneling thường được sử dụng để làm gọ?",
+      "options": {
+        "A": "Giảm tải cho DNS server",
+        "B": "Tạo kênh bí mật để đánh cắp dữ liệu",
+        "C": "Kiểm tra lỗi DNS",
+        "D": "Bảo mật dữ liệu nội bộ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 10,
+      "question": "Vì sao DNS Tunneling có thể vượt qua firewall hoặc IDS?",
+      "options": {
+        "A": "Vì chỉ sử dụng giao thức HTTPS",
+        "B": "Vi firewall luôn chặn DNS",
+        "C": "Vi DNS traffic thường được tin tưởng và cho phép đi qua",
+        "D": "Vì nó dùng mật khẩu mạnh"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Dữ liệu trong DNS Tunneling thường được ẩn trong bản tin nào?",
+      "options": {
+        "A": "File đính kèm PDF",
+        "B": "HTTP cookie",
+        "C": "Email spam",
+        "D": "DNS request và response"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 12,
+      "question": "DNS Spoofing còn được gọi với tên khác là gì?",
+      "options": {
+        "A": "SQL Injection",
+        "B": "Firewall bypass",
+        "C": "DNS Cache Poisoning",
+        "D": "DNSSEC"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 13,
+      "question": "Khi DNS cache bị đầu độc, người dùng sẽ bị chuyển hướng đến đâu?",
+      "options": {
+        "A": "Website chính thống",
+        "B": "Máy chủ xác thực DNSSEC",
+        "C": "Firewall nội bộ",
+        "D": "Địa chỉ IP giả mạo do hacker kiểm soát"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "DNSSEC giúp phòng chống loại tấn công nào?",
+      "options": {
+        "A": "Brute-force",
+        "B": "DNS Spoofing/ Cache Poisoning",
+        "C": "DDoS Attack",
+        "D": "SQL Injection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Một trong các biện pháp hạ tầng để giảm thiểu tấn công DNS DDoS là gì?",
+      "options": {
+        "A": "Giảm số lượng router",
+        "B": "Sử dụng Anycast DNS",
+        "C": "Tăng số lượng email",
+        "D": "Bỏ cập nhật phần mềm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "Mục tiêu chính của tấn công DDoS vào router! gì?",
+      "options": {
+        "A": "Tăng tốc độ kết nối Internet",
+        "B": "Làm quá tải tài nguyên xử lý và gián đoạn dịch vụ",
+        "C": "Nâng cấp firmware tự động",
+        "D": "Mã hóa dữ liệu truyền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Điểm khác biệt cơ bản giữa DoS và DDoS là gì?",
+      "options": {
+        "A": "DoS dùng nhiều nguồn, DDoS chỉ dùng một nguồn",
+        "B": "DDoS dùng nhiều nguồn tấn công phân tán, DoS chỉ từ một nguồn",
+        "C": "Cả hai đều giống nhau hoàn toàn",
+        "D": "DoS có quy mô lớn hơn DDoS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 18,
+      "question": "Loại tài nguyên nào của router thường bị quá tải khi bị DDoS?",
+      "options": {
+        "A": "CPU, RAM và băng thông",
+        "B": "cứng",
+        "C": "Card màn hình",
+        "D": "Pin dự phòng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 19,
+      "question": "Brute-force Attack trên router thường nhằm vào thành phần nào?",
+      "options": {
+        "A": "Giao diện quản trị (web admin, SSH, Telnet)",
+        "B": "Cổng HDMI",
+        "C": "USB",
+        "D": "Hệ thống tường lửa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Tại sao mật khẩu mặc định của router rất nguy hiểm?",
+      "options": {
+        "A": "Vì nó quả dài",
+        "B": "Vì nó phức tạp",
+        "C": "Vì hacker dễ đoán hoặc tìm thấy công khai",
+        "D": "Vì nó thay đổi liên tục"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "Dictionary Attack là một dạng của phương pháp gì?",
+      "options": {
+        "A": "Tấn công SQL Injection",
+        "B": "Tấn công vét cạn (Brute-force)",
+        "C": "Tấn công DDoS",
+        "D": "Tấn công Phishing"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "Configuration Tampering có thể thay đổi thiết lập nào để điều hướng lưu lượng mạng?",
+      "options": {
+        "A": "Mật khẩu Wi-Fi",
+        "B": "Bảng định tuyến, DNS, port forwarding, firewall rules",
+        "C": "Địa chỉ MAC card mạng",
+        "D": "Cấu hình bàn phím"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Hacker cần làm gì trước khi có thể thực hiện Configuration Tampering?",
+      "options": {
+        "A": "Truy cập được vào router",
+        "B": "Cắm USB vào router",
+        "C": "Kết nối qua Bluetooth",
+        "D": "Cài đặt lại firmware gốc"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 24,
+      "question": "Firmware exploit khai thác vào thành phần nào của router?",
+      "options": {
+        "A": "Phần cứng CPU",
+        "B": "Firmware chứa lỗ hổng",
+        "C": "cứng",
+        "D": "Dây mạng LAN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Hậu quả nghiêm trọng nhất khi hacker khai thác thành công firmware exploit là gì?",
+      "options": {
+        "A": "Router tự động tắt mở",
+        "B": "Hacker chiếm toàn quyền kiểm soát router",
+        "C": "Wi-Fi chậm hơn bình thường",
+        "D": "Không thể reset được router"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Vi sao firmware lỗi thời thường dễ bị khai thác?",
+      "options": {
+        "A": "Vì chứa nhiều bản vá mới",
+        "B": "Vì không có lỗ hồng",
+        "C": "Vì có các lỗ hổng bảo mật chưa được và",
+        "D": "Vì nó quá hiện đại"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "question": "Một router bị chiếm quyền có thể bị biến thành gì trong mạng botnet?",
+      "options": {
+        "A": "Token",
+        "B": "IDS",
+        "C": "Firewall",
+        "D": "Bot/zombie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "question": "Biện pháp quan trọng nhất để ngăn brute-force attack là gì?",
+      "options": {
+        "A": "Đổi mật khẩu mặc định và dùng mật khẩu mạnh",
+        "B": "Tất Wi-Fi",
+        "C": "Dùng cáp mạng thay Wi-Fi",
+        "D": "Khởi động lại router thường xuyên"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Tại sao nên tất remote management nếu không cần thiết?",
+      "options": {
+        "A": "Để tiết kiệm băng thông",
+        "B": "Để giảm bề mặt tấn công từ xa",
+        "C": "Để router chạy mát hơn",
+        "D": "Để tăng tốc độ Internet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "Giao thức Wi-Fi nào được khuyến nghị để bảo mật router tốt nhất?",
+      "options": {
+        "A": "WEP",
+        "B": "WPA2",
+        "C": "WPA3",
+        "D": "WPA"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Phishing email thường giả mạo ai để lừa người dùng?",
+      "options": {
+        "A": "Người thân trong gia đình",
+        "B": "Nhà cung cấp Internet địa phương bất kỳ",
+        "C": "Người bán hàng online nhỏ lẻ",
+        "D": "Các tổ chức, dịch vụ uy tín (ngân hàng, công ty lớn...)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "Đặc điểm thường gặp trong phishing email i A. Có liên kết giả mạo hoặc file đính kèm độc hại B. Ngôn ngữ hối thúc, khẩn cấp C. Giao diện, logo rất giống email thật D. Cả A, B, C đều đúng",
+      "options": {
+        "A": "Có liên kết giả mạo hoặc file đính kèm độc hại",
+        "B": "Ngôn ngữ hối thúc, khẩn cấp",
+        "C": "Giao diện, logo rất giống email thật",
+        "D": "Cả A, B, C đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "Khi nhận email, cách nào giúp kiểm tra liên kết có an toàn hay không?",
+      "options": {
+        "A": "Forward email cho tất cả mọi người để hỏi",
+        "B": "Sao chép link vào mạng xã hội đề kiểm tra",
+        "C": "Bẩm thẳng vào liên kết để thử",
+        "D": "Di chuột (hover) vào liên kết để xem URL thật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "Attachment attack trong phishing email t' chứa gì?",
+      "options": {
+        "A": "Danh sách bạn bè",
+        "B": "File đính kèm độc hại (PDF, Word, Excel, ZIP...)",
+        "C": "Tài liệu hợp lệ từ công ty",
+        "D": "Ảnh vui"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Các cách để nhận biết phishing email?",
+      "options": {
+        "A": "Kiểm tra địa chỉ email người gửi",
+        "B": "Soi lỗi chính tả, ngôn ngữ bất thường",
+        "C": "Không mở file và link đính kèm lạ",
+        "D": "Tất cả các phương án còn lại đều đùng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 36,
+      "question": "DDoS vào email server có thể được thực hiện bằng kỹ thuật nào?",
+      "options": {
+        "A": "Phishing",
+        "B": "Email Flooding, Connection Flooding, Attachment Bombing",
+        "C": "SQL Injection",
+        "D": "XSS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Email Flooding có mục đích chính là gì?",
+      "options": {
+        "A": "Tăng tốc độ gửi mail hợp lệ",
+        "B": "Gửi newsletter tự động",
+        "C": "Làm đầy hộp thư và quả tải mail server",
+        "D": "Cải thiện khả năng chống spam"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Connection Flooding trong tấn công email server khai thác giao thức nào?",
+      "options": {
+        "A": "FTP",
+        "B": "DNS",
+        "C": "HTTP",
+        "D": "SMTP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 39,
+      "question": "Attachment Bombing gây quá tải hệ thống bằng cách nào?",
+      "options": {
+        "A": "Gửi nhiều email trống",
+        "B": "Gửi email kèm file dung lượng lớn  ạt",
+        "C": "Dùng email marketing automation",
+        "D": "Gửi liên kết rút gọn link"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Hậu quả lớn nhất khi email server bị DDoS là gì?",
+      "options": {
+        "A": "Tăng độ tin cậy của server",
+        "B": "Cải thiện bảo mật",
+        "C": "Người dùng không thể gửi/nhận email, dịch vụ gián đoạn",
+        "D": "Email load nhanh hơn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Business Email Compromise (BEC) thường nhằm mục tiêu gì?",
+      "options": {
+        "A": "Xóa toàn bộ hộp thư",
+        "B": "Tăng dung lượng lưu trữ email",
+        "C": "Lừa chuyển tiền hoặc lấy thông tin quan trọng",
+        "D": "Chặn kết nối Internet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Whaling thường nhắm vào đối tượng nào trong doanh nghiệp?",
+      "options": {
+        "A": "Nhân viên mới",
+        "B": "Người dùng phổ thông",
+        "C": "Cấp cao như CEO, CFO",
+        "D": "Quản trị hệ thống"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "Account Takeover (ATO) trong hệ thống email nghĩa là gì?",
+      "options": {
+        "A": "Đánh cắp thông tin đăng nhập để chiếm quyền kiểm soát tải khoản",
+        "B": "Khóa tài khoản vĩnh viễn",
+        "C": "Tạo tài khoản mới trên hệ thống",
+        "D": "Gửi newsletter hợp pháp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Biện pháp nào giúp phát hiện file đính kèm độc hại trong email?",
+      "options": {
+        "A": "Firewall phần cứng",
+        "B": "Bộ lọc spam",
+        "C": "Cả A và B",
+        "D": "Phần mềm antivirus hoặc sandbox"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "Cơ chế nào giới hạn số lượng kết nối SMTP để chống Dos email server?",
+      "options": {
+        "A": "NAT",
+        "B": "Rate limiting",
+        "C": "Load balancing",
+        "D": "Cache poisoning"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "SQL Injection thường khai thác qua thành phần nào của ứng dụng web?",
+      "options": {
+        "A": "Giao diện nhập liệu (form, URL, ô tìm kiếm)",
+        "B": "CSS stylesheet",
+        "C": "Hệ điều hành",
+        "D": "Tường lửa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Ví dụ kinh điển của SQL Injection là gì?",
+      "options": {
+        "A": "Dùng tấn công từ chối dịch vụ",
+        "B": "Gõ mật khẩu sai nhiều lần",
+        "C": "Chèn \"OR 1=1 --\" vào câu truy vấn SQL",
+        "D": "Sử dụng phishing email"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "SQL Injection có thể làm hại tới thành phần nào trong hệ thống web?",
+      "options": {
+        "A": "Cơ sở dữ liệu",
+        "B": "Máy chủ web",
+        "C": "Ứng dụng web",
+        "D": "Cả cơ sở dữ liệu, ứng dụng web và máy chủ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "Cross-site Scripting (XSS) thường lợi dụng để tiêm loại mã gì?",
+      "options": {
+        "A": "Python",
+        "B": "JavaScript",
+        "C": "SQL",
+        "D": "PHP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 50,
+      "question": "Mục tiêu chính của tấn công XSS là gì?",
+      "options": {
+        "A": "Làm website load nhanh hơn",
+        "B": "Tạo bản sao dự phòng dữ liệu",
+        "C": "Đánh cắp cookie, session hoặc thông tin người dùng",
+        "D": "Cải thiện giao diện web"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Ví dụ về XSS thường được hacker dùng để đánh cắp cái gì?",
+      "options": {
+        "A": "File PDF",
+        "B": "Hình ảnh",
+        "C": "CSS template",
+        "D": "Session cookie"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 52,
+      "question": "Hậu quả phổ biến nhất của XSS là gì?",
+      "options": {
+        "A": "Chiếm quyền tài khoản hoặc cài mã độc",
+        "B": "Tăng tốc độ mạng",
+        "C": "Giảm dung lượng  cứng",
+        "D": "Cải thiện trải nghiệm người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 53,
+      "question": "MITM attack xây ra khi hacker đứng ở đâu trong luồng giao tiếp?",
+      "options": {
+        "A": "Ở máy chủ backup",
+        "B": "Ở ngoài hệ thống LAN",
+        "C": "Ở giữa hai bên truyền thông",
+        "D": "Ở tường lửa doanh nghiệp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Một cách phổ biến để thực hiện MITM attack là gì?",
+      "options": {
+        "A": "ARP spoofing hoặc giả mạo Wi-Fi công cộng",
+        "B": "Mã hóa SSL/TLS",
+        "C": "Dùng DNSSEC",
+        "D": "Cập nhật phần mềm định kỳ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Nguy cơ lớn nhất của MITM attack là gì?",
+      "options": {
+        "A": "Server tiêu tốn nhiều điện năng",
+        "B": "Hacker có thể nghe lên, chỉnh sửa hoặc chèn dữ liệu",
+        "C": "Website tải chậm hơn",
+        "D": "Trình duyệt bị xóa cache"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Brute-force attack vào hệ thống web nhắm vào thành phần nào?",
+      "options": {
+        "A": "File robots.txt",
+        "B": "Hình ảnh web",
+        "C": "CSS layout",
+        "D": "Trang đăng nhập"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "File Inclusion Attack khai thác lỗ hổng gì của ứng dụng web?",
+      "options": {
+        "A": "Khả năng chèn và thực thi file không an toàn",
+        "B": "Kích thước ảnh quá lớn",
+        "C": "Cấu hình theme sai",
+        "D": "Cổng mạng bị mở"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 58,
+      "question": "Tấn công phishing vào hệ thống web thường nhằm mục tiêu gì?",
+      "options": {
+        "A": "Nâng cấp website tự động",
+        "B": "Kiểm tra lỗi chính tả",
+        "C": "Lừa người dùng cung cấp thông tin nhạy cảm",
+        "D": "Tăng tốc độ phản hồi web"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 59,
+      "question": "Lỗi cấu hình bảo mật sai có thể gây hậu quả gì?",
+      "options": {
+        "A": "Giám thời gian tải trang",
+        "B": "Để lộ thông tin nhạy cảm hoặc tạo kẽ hở tấn công",
+        "C": "Tăng tỉnh thẩm mỹ giao diện",
+        "D": "Làm website đẹp hơn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 60,
+      "question": "Biện pháp nào giúp mã hóa dữ liệu trao đổi giữa người dùng và web server?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "Telnet",
+        "D": "HTTPS"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 61,
+      "question": "NoSQL Injection khác SQL Injection ở điểm nào?",
+      "options": {
+        "A": "Có thể áp dụng cho cả dữ liệu phí quan hệ và dữ liệu quan hệ",
+        "B": "Không liên quan tới dữ liệu",
+        "C": "Chỉ khai thác trên các hệ quản trị CSDL quan hệ",
+        "D": "Thường khai thác củ pháp JSON hoặc đặc thù NoSQL thay vì SQL truyền thống"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 62,
+      "question": "Đâu là các tên một loại NoSQL?",
+      "options": {
+        "A": "MySQL",
+        "B": "PostgreSQL",
+        "C": "MongoDB",
+        "D": "Oracle"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "Khi khai thác NoSQL Injection, hacker có thể làm gì?",
+      "options": {
+        "A": "Chỉ làm chậm tốc độ truy vấn",
+        "B": "Đăng nhập trái phép, thay đổi hoặc lộ dữ liệu",
+        "C": "Chỉ đổi màu giao diện web",
+        "D": "Không thể làm gi"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Privilege Escalation trong hệ thống CSDL nghĩa là gì?",
+      "options": {
+        "A": "Reset mật khẩu admin",
+        "B": "Giảm quyền của người dùng",
+        "C": "Tạo bản sao lưu dữ liệu",
+        "D": "Tăng quyền hạn vượt mức cho phép"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 65,
+      "question": "Hacker có thể dùng tài khoản có quyền thấp để làm gì trong Privilege Escalation?",
+      "options": {
+        "A": "Chỉ xóa dữ liệu cá nhân",
+        "B": "Chỉ đổi mật khẩu chính mình",
+        "C": "Chỉ đọc dữ liệu công khai",
+        "D": "Làm bàn đạp để leo thang quyền cao hơn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "Hậu quả lớn nhất khi Privilege Escalation thành công là gì?",
+      "options": {
+        "A": "Tăng dung lượng ổ cứng",
+        "B": "Website load chậm",
+        "C": "Hacker chiếm toàn quyền hệ thống",
+        "D": "Người dùng không thể đăng nhập"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Brute-force Attack vào CSDL nhằm mục tiêu nào?",
+      "options": {
+        "A": "Tạo kết nối ảo",
+        "B": "Tăng tốc độ xử lý",
+        "C": "Đoán tên người dùng/mật khẩu để truy cập",
+        "D": "Làm tê liệt hệ thống"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "Tấn công DDoS vào database server gây hậu quả gì?",
+      "options": {
+        "A": "Tăng cường bảo mật",
+        "B": "Nâng cấp tự động",
+        "C": "CSDL load nhanh hơn",
+        "D": "CSDL bị quá tải, không phản hồi"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 69,
+      "question": "MITM attack vào CSDL thường nhằm đánh cắp loại dữ liệu gì?",
+      "options": {
+        "A": "CSS",
+        "B": "Video",
+        "C": "Dữ liệu nhạy cảm trong quá trình truyền",
+        "D": "Ảnh đại diện"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "question": "Một trong các nguyên nhân khiến CSDL dễ bị khai thác là gì?",
+      "options": {
+        "A": "Public trực tiếp database ra Internet",
+        "B": "Cập nhật bản và kịp thời",
+        "C": "Lưu mật khẩu bằng hash an toàn",
+        "D": "Giới hạn địa chỉ IP truy cập"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "question": "Phishing có thể được dùng để chiếm quyền truy cập CSDL bằng cách nào?",
+      "options": {
+        "A": "Flood băng thông",
+        "B": "Quét port",
+        "C": "Reset server",
+        "D": "Lừa quản trị viên cung cấp thông tin đăng nhập"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 72,
+      "question": "Biện pháp nào giúp chống SQL Injection hiệu quả nhất?",
+      "options": {
+        "A": "Tăng RAM server",
+        "B": "Dùng CSS filter",
+        "C": "Nối chuỗi trực tiếp câu lệnh SQL",
+        "D": "Dùng Prepared Statement hoặc Parameterized Query"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 73,
+      "question": "Tại sao không nên dùng tài khoản root để kết nối ứng dụng với CSDL?",
+      "options": {
+        "A": "Vì root có toàn quyền, dễ bị khai thác nghiêm trọng",
+        "B": "Vì root không lưu log",
+        "C": "Vì root chỉ có quyền đọc",
+        "D": "Vì root làm ứng dụng chạy chậm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 74,
+      "question": "Biện pháp nào giúp chống nghe lén dữ liệu khi kết nối với database server?",
+      "options": {
+        "A": "Dùng FTP",
+        "B": "Dùng Telnet",
+        "C": "Sử dụng SSL/TLS để mã hóa kết nối",
+        "D": "Dùng HTTP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 75,
+      "question": "Việc sao lưu dữ liệu định kỳ trong CSDL có ý nghĩa gì?",
+      "options": {
+        "A": "Để phục hồi khi có sự cố hoặc tấn công",
+        "B": "Để tăng tốc độ CPU",
+        "C": "Để giảm dung lượng ổ đĩa",
+        "D": "Để làm đẹp giao diện web"
+      },
+      "answer": "A"
+    }
+  ]
+}
+
+
