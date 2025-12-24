@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentQuizQuestions = [];
   let userAnswers = {};
   let currentQuizFile = null; // To keep track of the current quiz for the "redo" function
+  let questionStats = { correct: 0, incorrect: 0, total: 0 }; // Track statistics
 
   /**
    * Renders the main menu screen.
@@ -64,16 +65,117 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   /**
+   * Updates the statistics display
+   */
+  const updateStats = () => {
+    const statsElement = document.getElementById("quiz-stats");
+    if (statsElement) {
+      statsElement.innerHTML = `
+        <div class="stats-item">
+          <span class="stats-label">Đúng:</span>
+          <span class="stats-value correct-text">${questionStats.correct}</span>
+        </div>
+        <div class="stats-item">
+          <span class="stats-label">Sai:</span>
+          <span class="stats-value incorrect-text">${questionStats.incorrect}</span>
+        </div>
+        <div class="stats-item">
+          <span class="stats-label">Tổng:</span>
+          <span class="stats-value">${questionStats.total}/${currentQuizQuestions.length}</span>
+        </div>
+      `;
+    }
+  };
+
+  /**
+   * Shows immediate feedback for a selected answer
+   */
+  const showAnswerFeedback = (questionId, selectedAnswer) => {
+    const question = currentQuizQuestions.find(q => q.id == questionId);
+    if (!question) return;
+
+    const isCorrect = selectedAnswer === question.answer;
+    const questionElement = document.getElementById(`question-${questionId}`);
+    
+    // Get previous answer before updating
+    const previousAnswer = userAnswers[questionId];
+    
+    // Remove previous answer from stats if it existed
+    if (previousAnswer && previousAnswer !== selectedAnswer) {
+      const wasCorrect = previousAnswer === question.answer;
+      if (wasCorrect) {
+        questionStats.correct--;
+      } else {
+        questionStats.incorrect--;
+      }
+      questionStats.total--;
+    }
+    
+    // Remove previous feedback classes
+    questionElement.querySelectorAll('.option').forEach(opt => {
+      opt.classList.remove('correct', 'incorrect', 'selected');
+    });
+
+    // Mark all options
+    Object.keys(question.options).forEach(key => {
+      const optionElement = questionElement.querySelector(`label[for="q${questionId}-${key}"]`);
+      if (!optionElement) return;
+
+      if (key === question.answer) {
+        optionElement.classList.add('correct');
+      }
+      if (key === selectedAnswer) {
+        optionElement.classList.add('selected');
+        if (!isCorrect) {
+          optionElement.classList.add('incorrect');
+        }
+      }
+    });
+
+    // Add new answer to stats (only if it's a new answer or changed)
+    if (!previousAnswer || previousAnswer !== selectedAnswer) {
+      if (isCorrect) {
+        questionStats.correct++;
+      } else {
+        questionStats.incorrect++;
+      }
+      questionStats.total++;
+    }
+
+    // Update stats display
+    updateStats();
+
+    // Update nav button
+    const navBtn = document.querySelector(`.nav-btn[data-question-id="${questionId}"]`);
+    if (navBtn) {
+      navBtn.classList.add('answered');
+      navBtn.classList.remove('correct-answer', 'incorrect-answer');
+      if (isCorrect) {
+        navBtn.classList.add('correct-answer');
+      } else {
+        navBtn.classList.add('incorrect-answer');
+      }
+    }
+  };
+
+  /**
    * Renders the quiz interface for the current questions.
    */
   const renderQuiz = () => {
     userAnswers = {};
+    questionStats = { correct: 0, incorrect: 0, total: 0 };
+    
     app.innerHTML = `
             <div id="quiz-screen">
-                <div class="quiz-header">
-                     <button class="btn btn-secondary" id="back-to-menu-quiz">Quay lại</button>
+                <div class="quiz-header d-flex justify-content-between align-items-center mb-3">
+                    <button class="btn btn-secondary" id="back-to-menu-quiz">Quay lại</button>
+                    <button class="btn btn-outline-primary" id="hamburger-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#questionNavOffcanvas">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </button>
                 </div>
-                <div id="question-nav"></div>
+                <div id="quiz-stats" class="mb-3"></div>
                 <div id="quiz-content">
                     ${currentQuizQuestions
                       .map(
@@ -99,13 +201,26 @@ document.addEventListener("DOMContentLoaded", () => {
                 </div>
                 <button class="btn" id="submit-btn">Nộp bài</button>
             </div>
+            <!-- Offcanvas Navigation -->
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="questionNavOffcanvas">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title">Điều hướng câu hỏi</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div id="question-nav" class="d-flex flex-wrap gap-2"></div>
+                </div>
+            </div>
         `;
+
+    // Initialize stats
+    updateStats();
 
     const questionNav = document.getElementById("question-nav");
     questionNav.innerHTML = currentQuizQuestions
       .map(
         (q, index) =>
-          `<button class="nav-btn" data-question-id="${q.id}">${
+          `<button class="nav-btn btn btn-outline-secondary" data-question-id="${q.id}">${
             index + 1
           }</button>`
       )
@@ -118,10 +233,16 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".nav-btn").forEach((btn) => {
       btn.addEventListener("click", (e) => {
         const questionId = e.target.dataset.questionId;
-        document.getElementById(`question-${questionId}`).scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        });
+        const offcanvas = bootstrap.Offcanvas.getInstance(document.getElementById('questionNavOffcanvas'));
+        if (offcanvas) {
+          offcanvas.hide();
+        }
+        setTimeout(() => {
+          document.getElementById(`question-${questionId}`).scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          });
+        }, 300);
       });
     });
 
@@ -130,21 +251,13 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll(".options input").forEach((input) => {
       input.addEventListener("change", (e) => {
         const questionId = e.target.name.substring(1);
-        userAnswers[questionId] = e.target.value;
-
-        document
-          .querySelectorAll(`input[name="q${questionId}"]`)
-          .forEach((radio) => {
-            radio.parentElement.classList.remove("selected");
-          });
-        e.target.parentElement.classList.add("selected");
-
-        const navBtn = document.querySelector(
-          `.nav-btn[data-question-id="${questionId}"]`
-        );
-        if (navBtn) {
-          navBtn.classList.add("answered");
-        }
+        const selectedAnswer = e.target.value;
+        
+        // Show immediate feedback (before updating userAnswers so it can check previous answer)
+        showAnswerFeedback(questionId, selectedAnswer);
+        
+        // Update userAnswers after showing feedback
+        userAnswers[questionId] = selectedAnswer;
       });
     });
 
