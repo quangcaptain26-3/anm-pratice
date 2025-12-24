@@ -1,0 +1,1025 @@
+{
+  "ontap3": [
+    {
+      "id": 201,
+      "question": "Cần bao nhiêu khóa nếu hai bên sử dụng mật mã bất đối xứng?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 202,
+      "question": "Email tự xưng ngân hàng yêu cầu thông tin tài khoản thuộc loại nào?",
+      "options": {
+        "A": "Phishing and fraud",
+        "B": "Chain mails",
+        "C": "Hoaxes",
+        "D": "Brand spoofing"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 203,
+      "question": "Phishing là gì?",
+      "options": {
+        "A": "Chiếm đoạt thông tin nhạy cảm gian lận",
+        "B": "Kỹ thuật mã hóa",
+        "C": "Kỹ thuật chống thư rác",
+        "D": "Kỹ thuật tạo mật khẩu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 204,
+      "question": "Tác hại trực tiếp gây ra bởi thư rác (spam)?",
+      "options": {
+        "A": "Mất năng suất",
+        "B": "Tăng chi phí nhân viên",
+        "C": "Tăng chi phí hạ tầng",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 205,
+      "question": "Đâu là thuật toán băm?",
+      "options": {
+        "A": "AES",
+        "B": "3-DES",
+        "C": "DES",
+        "D": "MD5"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 206,
+      "question": "Trong PKI, khóa nào dùng để giải mã tin nhắn?",
+      "options": {
+        "A": "Public Key",
+        "B": "Private Key",
+        "C": "Pre-shared Secret Key",
+        "D": "Hybrid Key"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 207,
+      "question": "Joe Job là gì?",
+      "options": {
+        "A": "Một loại virus",
+        "B": "Một phần mềm diệt virus",
+        "C": "Cuộc tấn công spam giả mạo",
+        "D": "Giải pháp chống spam"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 208,
+      "question": "Giao thức bảo mật email nào sau đây được sử dụng?",
+      "options": {
+        "A": "S/MIME",
+        "B": "PEM",
+        "C": "STE",
+        "D": "PME"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 209,
+      "question": "Thuật toán đối xứng nào có độ dài khóa thay đổi?",
+      "options": {
+        "A": "AES",
+        "B": "Triple DES",
+        "C": "IDEA",
+        "D": "Rivest Cipher 4 (RC4)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 210,
+      "question": "Bản ghi MX (Mail Exchanger) là gì?",
+      "options": {
+        "A": "Tuyến định tuyến router",
+        "B": "Bản ghi trong router",
+        "C": "Bản ghi DNS chỉ định tuyến email",
+        "D": "Bản ghi trong DHCP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 211,
+      "question": "Các biện pháp nào nên áp dụng để xử lý thư rác?",
+      "options": {
+        "A": "Chặn dựa trên IP MTA",
+        "B": "Giới hạn email gửi đi mỗi tài khoản",
+        "C": "Lọc thư rác",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 212,
+      "question": "Những loại virus nào sau đây thuộc các danh mục khác nhau?",
+      "options": {
+        "A": "Parasitic",
+        "B": "Bootstrap sector",
+        "C": "Companion",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 213,
+      "question": "Chức năng của kỹ thuật tra cứu DNS ngược xác định thư rác?",
+      "options": {
+        "A": "Kiểm tra máy chủ email người gửi có giả mạo",
+        "B": "Kiểm tra máy chủ email người nhận",
+        "C": "Kiểm tra tính hợp lệ DNS",
+        "D": "Không có đáp án nào đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 214,
+      "question": "IMAP là gì?",
+      "options": {
+        "A": "Internet Messaging Application",
+        "B": "Interanet Messaging Application",
+        "C": "Interanet Message Access Protocol",
+        "D": "Internet Message Access Protocol"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 215,
+      "question": "Các mối đe dọa đối với bảo mật email?",
+      "options": {
+        "A": "Virus",
+        "B": "Trojan",
+        "C": "Thư rác",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 216,
+      "question": "Thuật toán mã hóa đối xứng nào được S/MIME hỗ trợ?",
+      "options": {
+        "A": "RSA",
+        "B": "DES",
+        "C": "3DES",
+        "D": "SHA-1"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 217,
+      "question": "Những bất lợi nào của việc xác minh?",
+      "options": {
+        "A": "Phức tạp hơn",
+        "B": "Tăng lưu lượng Internet",
+        "C": "Khó khăn gửi thư hàng loạt hợp lệ",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 218,
+      "question": "Nên cài đặt bao nhiêu chương trình diệt virus trên một hệ thống?",
+      "options": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 219,
+      "question": "Những tác hại gián tiếp do thư rác gây ra?",
+      "options": {
+        "A": "Tải trọng độc hại",
+        "B": "Gian lận",
+        "C": "Mất uy tín",
+        "D": "Tăng chi phí giao tiếp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 220,
+      "question": "Lợi ích khi sử dụng các biện pháp chống thư rác?",
+      "options": {
+        "A": "Doanh thu phần mềm chống thư rác",
+        "B": "Doanh thu phần mềm chống virus",
+        "C": "Tăng doanh thu quảng cáo",
+        "D": "Doanh thu từ bán băng thông"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 221,
+      "question": "RBL trong bảo mật email là gì?",
+      "options": {
+        "A": "Realtime Blacking List",
+        "B": "Realtime Blocking List",
+        "C": "Realtime Blockhole List",
+        "D": "Realtime Blackhole List"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 222,
+      "question": "Để lấy thư từ một máy chủ từ xa, sử dụng giao thức nào?",
+      "options": {
+        "A": "SMTP",
+        "B": "HTTP",
+        "C": "S/MIME",
+        "D": "POP3"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 223,
+      "question": "Chương trình nào dùng để gửi và nhận email?",
+      "options": {
+        "A": "Mail Transfer Agent",
+        "B": "Mail Delivery Agent",
+        "C": "Mail User Agent",
+        "D": "Mail Reading Agent"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 224,
+      "question": "Đâu là các loại phương pháp lọc thư rác?",
+      "options": {
+        "A": "Blacklisting",
+        "B": "Lọc dựa trên quy tắc",
+        "C": "Lọc dựa trên chữ ký",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 225,
+      "question": "Phương pháp được sử dụng trong DHA?",
+      "options": {
+        "A": "Sâu máy tính",
+        "B": "Brute Force",
+        "C": "Trojan",
+        "D": "Virus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 226,
+      "question": "Điều nào sau đây giống với tấn công Joe Job?",
+      "options": {
+        "A": "Bùng phát virus",
+        "B": "Tìm kiếm địa chỉ email tồn tại",
+        "C": "Làm sập máy chủ mail",
+        "D": "Tấn công thư rác sử dụng dữ liệu giả mạo người gửi"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 227,
+      "question": "Thuật toán nào sau đây là thuật toán không đối xứng?",
+      "options": {
+        "A": "MD5",
+        "B": "El Gamal",
+        "C": "IDEA",
+        "D": "SHA-1"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 228,
+      "question": "Điều nào sử dụng để làm những kẻ gửi thư rác mắc bẫy?",
+      "options": {
+        "A": "MDA",
+        "B": "Thư rác",
+        "C": "Trojan",
+        "D": "Honey pots"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 229,
+      "question": "Giao thức sử dụng khi email được gửi từ máy này sang máy khác?",
+      "options": {
+        "A": "SMTP",
+        "B": "POP3",
+        "C": "TLS",
+        "D": "SSL"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 230,
+      "question": "Kỹ thuật nào được sử dụng để nhận diện thư rác?",
+      "options": {
+        "A": "Blacklists/Whitelists",
+        "B": "Lọc nội dung",
+        "C": "Reverse DNS lookup",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 231,
+      "question": "Kỹ thuật nhận diện thư rác dựa trên tính toán?",
+      "options": {
+        "A": "Integrity Check",
+        "B": "Heuristics",
+        "C": "Lọc nội dung",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 232,
+      "question": "Hành động có thể thực hiện khi lọc thư rác POP3?",
+      "options": {
+        "A": "Xóa thư rác",
+        "B": "Chuyển hướng vào hộp thư rác",
+        "C": "Trả lại người gửi",
+        "D": "Gắn thẻ thư rác"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 233,
+      "question": "Điều nào được sử dụng để kiểm soát zombie?",
+      "options": {
+        "A": "Virus",
+        "B": "Sâu máy tính",
+        "C": "Trojan",
+        "D": "Thư rác"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 234,
+      "question": "Những loại tấn công mã độc nào là phổ biến?",
+      "options": {
+        "A": "Brute force",
+        "B": "Trojan",
+        "C": "DDoS",
+        "D": "Malware"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 235,
+      "question": "Spammer có thể thu thập thông tin nạn nhân từ đâu?",
+      "options": {
+        "A": "Facebook",
+        "B": "MySpace",
+        "C": "LinkedIn",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 236,
+      "question": "Phương pháp lọc thư rác tạo nhiều dương tính giả nhất?",
+      "options": {
+        "A": "Lọc cộng đồng",
+        "B": "Lọc Bayesian",
+        "C": "Challenge-Response Filtering",
+        "D": "Lọc theo từ khóa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 237,
+      "question": "Tại sao không nên nhấp vào liên kết hủy đăng ký trong thư rác?",
+      "options": {
+        "A": "Sẽ ngăn chặn thư rác",
+        "B": "Hủy đăng ký khiến tìm người gửi khó hơn",
+        "C": "Nhấp vào xác nhận địa chỉ email hợp lệ",
+        "D": "Không có phương án nào đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 238,
+      "question": "Ví dụ nào là một dạng lừa đảo Phishing?",
+      "options": {
+        "A": "Ứng dụng chứa phần mềm gián điệp",
+        "B": "Email giả mạo thu thập thông tin cá nhân",
+        "C": "Tấn công để lại dấu vết giả",
+        "D": "Cài virus yêu cầu trả tiền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 239,
+      "question": "Malware là từ viết tắt của?",
+      "options": {
+        "A": "Malicious Software",
+        "B": "Malicious Systems",
+        "C": "Maliant Software",
+        "D": "Maliant Systems"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 240,
+      "question": "Xác nhận người dùng không dùng tài khoản gửi thư rác?",
+      "options": {
+        "A": "Xác nhận qua tin nhắn điện thoại",
+        "B": "Cung cấp thông tin cá nhân hợp lệ",
+        "C": "Nhấp vào liên kết xác nhận gửi đến email",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 241,
+      "question": "Virus là chương trình tự gắn vào loại tệp nào?",
+      "options": {
+        "A": "Tệp văn bản",
+        "B": "Tệp thực thi",
+        "C": "Tệp tiêu đề",
+        "D": "Tệp mã nguồn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 242,
+      "question": "Chương trình diệt virus hiệu quả nhất cần cập nhật?",
+      "options": {
+        "A": "Trình duyệt web",
+        "B": "Hash tệp",
+        "C": "Khóa mã hóa",
+        "D": "Các tệp định nghĩa virus"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 243,
+      "question": "Chương trình nào không phải là phần mềm diệt virus nổi tiếng?",
+      "options": {
+        "A": "AVAST",
+        "B": "SMAG",
+        "C": "AVG",
+        "D": "McAfee"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 244,
+      "question": "Captcha là gì?",
+      "options": {
+        "A": "Email spam bắt thông tin",
+        "B": "Email spam viết chữ in hoa",
+        "C": "Công cụ xác minh người dùng là con người",
+        "D": "Nhóm ký tự ẩn trong email"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 245,
+      "question": "Các loại phần mềm độc hại (malware) nào đúng?",
+      "options": {
+        "A": "Virus",
+        "B": "Spyware",
+        "C": "Worms",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 246,
+      "question": "Dấu hiệu nhận biết cho một email spam?",
+      "options": {
+        "A": "Nghe có vẻ quá tốt",
+        "B": "Chứa đầy lỗi ngữ pháp",
+        "C": "Gửi đến nhóm người ngẫu nhiên",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 247,
+      "question": "Để lây nhiễm, nhấp vào tệp đính kèm gây ra điều kiện nào?",
+      "options": {
+        "A": "Lưu vào đĩa",
+        "B": "Được giải nén",
+        "C": "Mở trong trình chỉnh sửa",
+        "D": "Được thực thi"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 248,
+      "question": "Nếu không thể xóa tệp bị nhiễm, nên thử cách nào trước?",
+      "options": {
+        "A": "Reformat",
+        "B": "Windows Repair",
+        "C": "Windows Restore",
+        "D": "Safe mode"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 249,
+      "question": "Đâu là một ví dụ về nạn nhân trong cuộc tấn công phishing?",
+      "options": {
+        "A": "Trang web bị hack",
+        "B": "Người bị đánh cắp danh tính",
+        "C": "Ngân hàng của nạn nhân",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 250,
+      "question": "Keylogger là gì?",
+      "options": {
+        "A": "Ghi lại phím đặt khi mã hóa",
+        "B": "Ghi lại các phím bấm bàn phím",
+        "C": "Ghi lại lần truy cập tệp",
+        "D": "Đánh cắp mật khẩu đã lưu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 251,
+      "question": "Virus có thể lây lan sang máy khác bằng cách nào?",
+      "options": {
+        "A": "Chia sẻ tệp bị nhiễm",
+        "B": "Tiếp xúc trực tiếp",
+        "C": "Ping đến máy khác",
+        "D": "Ở cùng mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 252,
+      "question": "Công cụ spam đăng ký vào danh sách email để?",
+      "options": {
+        "A": "Thu thập địa chỉ email",
+        "B": "Từ chối dịch vụ",
+        "C": "Tạo lỗ hổng bảo mật",
+        "D": "Không có phương án đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 253,
+      "question": "Virus máy tính là gì?",
+      "options": {
+        "A": "Phần mềm đánh cắp tệp tống tiền",
+        "B": "Spyware làm chậm máy",
+        "C": "Phần mềm độc hại tự sao chép lây lan",
+        "D": "Phần mềm chiếm quyền điều khiển"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 254,
+      "question": "Kỹ thuật ngăn chặn phishing?",
+      "options": {
+        "A": "Sử dụng IFRAME",
+        "B": "Cho phép XSS",
+        "C": "Quét và sửa lỗi XSS",
+        "D": "Sử dụng pop-up"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 255,
+      "question": "Lệnh kiểm tra chương trình khởi động cùng hệ thống?",
+      "options": {
+        "A": "cmd",
+        "B": "ipconfig",
+        "C": "msconfig",
+        "D": "startup"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 256,
+      "question": "Cách sửa máy bị ransomware hạn chế mất dữ liệu?",
+      "options": {
+        "A": "Cài lại Windows",
+        "B": "Định dạng lại ổ cứng",
+        "C": "Khởi động từ USB chạy chương trình loại bỏ mã độc",
+        "D": "Sử dụng Windows Restore"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 257,
+      "question": "Botnet là gì?",
+      "options": {
+        "A": "Phần mềm tự động mạng",
+        "B": "Chương trình gửi email lặp",
+        "C": "Tập hợp phần mềm độc hại",
+        "D": "Tập hợp máy tính bị xâm nhập làm việc cùng nhau"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 258,
+      "question": "Rogue security software là gì?",
+      "options": {
+        "A": "Phần mềm bảo mật bị xâm nhập",
+        "B": "Phần mềm bảo mật không còn dùng đúng mục đích",
+        "C": "Chương trình bảo mật giả mạo",
+        "D": "Phần mềm coi tệp dữ liệu là virus"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 259,
+      "question": "Ví dụ lừa đảo \"419\"?",
+      "options": {
+        "A": "Sử dụng kỹ thuật xã hội",
+        "B": "Mở tệp đính kèm virus",
+        "C": "Tải chương trình cài spyware",
+        "D": "Yêu cầu giúp đỡ lấy lại khoản tiền lớn hứa chia sẻ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 260,
+      "question": "Khác biệt giữa spyware và malware khác?",
+      "options": {
+        "A": "Không khác biệt",
+        "B": "Spyware làm chậm máy, malware từ bên trong",
+        "C": "Malware giám sát dữ liệu, spyware lây virus",
+        "D": "Spyware đánh cắp dữ liệu cá nhân, malware bao gồm tất cả"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 261,
+      "question": "Backdoor là gì?",
+      "options": {
+        "A": "Lỗ hổng bỏ qua xác thực",
+        "B": "Lỗi biết hacker khai thác",
+        "C": "Nơi virus lưu mã nguồn",
+        "D": "Cách spyware rời hệ thống"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 262,
+      "question": "Giảm lây nhiễm virus qua tệp đính kèm?",
+      "options": {
+        "A": "Mở từ ổ cứng ngoài",
+        "B": "Sao chép vào thư mục đặc biệt",
+        "C": "Nhấp chuột phải vào tệp",
+        "D": "Xóa email từ người gửi không rõ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 263,
+      "question": "Tarpit thực hiện chức năng gì ngăn chặn spam?",
+      "options": {
+        "A": "Bẫy tin nhắn",
+        "B": "Chuyển hướng đến khu vực đặc biệt",
+        "C": "Máy chủ email thu hút spammer",
+        "D": "Gửi các tin nhắn bị nghi ngờ một cách chậm hơn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 264,
+      "question": "Tại sao địa chỉ email dùng một lần lại hữu ích?",
+      "options": {
+        "A": "Bảo vệ địa chỉ email thật khỏi spam",
+        "B": "Spammer tạo địa chỉ giả mạo",
+        "C": "Spammer gửi hàng loạt một lần",
+        "D": "Người không muốn email bị đọc"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 265,
+      "question": "Ransomware là gì?",
+      "options": {
+        "A": "Biệt danh spyware",
+        "B": "Phần mềm bán tệp cho kẻ khác",
+        "C": "Phần mềm chiếm quyền điều khiển yêu cầu trả tiền gỡ bỏ",
+        "D": "Virus không cho mở tệp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 266,
+      "question": "Địa chỉ email dùng một lần là gì?",
+      "options": {
+        "A": "Spammer gửi từ một tài khoản duy nhất",
+        "B": "Địa chỉ không thật trong phần người gửi",
+        "C": "Email chỉ để gửi spam",
+        "D": "Địa chỉ độc nhất chuyển tiếp tới hộp thư thật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 267,
+      "question": "Cài đặt khiến máy chủ nhận tạo backscatter?",
+      "options": {
+        "A": "Reject messages",
+        "B": "Drop messages",
+        "C": "Bounce messages",
+        "D": "Không có phương án nào đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 268,
+      "question": "Honeypot thực hiện chức năng gì ngăn chặn spam?",
+      "options": {
+        "A": "Máy chủ thư hấp dẫn lôi kéo spammer",
+        "B": "Gửi tin nhắn chậm hơn",
+        "C": "Bẫy tin nhắn",
+        "D": "Định tuyến tới vùng riêng biệt"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 269,
+      "question": "Ví dụ nào là Captcha?",
+      "options": {
+        "A": "Di chuyển tam giác vào vòng tròn",
+        "B": "1+1=?",
+        "C": "Ký tự trong hình ảnh là gì?",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 270,
+      "question": "Bạn gửi email spam cho bạn bè, nguyên nhân là gì?",
+      "options": {
+        "A": "Spammer xâm nhập máy chủ nhà cung cấp",
+        "B": "Spammer hoặc bot truy cập tài khoản gửi đến liên hệ",
+        "C": "Phải đóng tài khoản tạo địa chỉ mới",
+        "D": "Spammer giả mạo địa chỉ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 271,
+      "question": "Công cụ nào không phải là anti-spyware?",
+      "options": {
+        "A": "Ad-Aware",
+        "B": "Windows Defender",
+        "C": "Spybot",
+        "D": "Kazaa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 272,
+      "question": "Vấn đề lọc spam ngăn tin nhắn hợp lệ gửi tới?",
+      "options": {
+        "A": "Dương tính giả",
+        "B": "Âm tính giả"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 273,
+      "question": "Hoạt động tài khoản đáng ngờ trên trang TMĐT?",
+      "options": {
+        "A": "Đăng nhập từ máy tính khác",
+        "B": "Thay đổi email",
+        "C": "Nhiều đơn hàng các tài khoản khác nhau đến cùng địa chỉ thực",
+        "D": "Thay đổi mật khẩu nhiều lần"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 274,
+      "question": "Kỹ thuật yêu cầu đăng địa chỉ email nơi chỉ kẻ spam mới tìm thấy?",
+      "options": {
+        "A": "Tarpit",
+        "B": "Spam Traps",
+        "C": "Blacklists",
+        "D": "Không có phương án nào đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 275,
+      "question": "Diệt virus băm (hash) tệp tin để phát hiện hoạt động?",
+      "options": {
+        "A": "Thay đổi kích thước",
+        "B": "Thay đổi quyền",
+        "C": "Thay đổi nội dung",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 276,
+      "question": "Thực hiện lọc spam đầu ra mang lại lợi ích gì?",
+      "options": {
+        "A": "Ngăn chặn danh sách trắng",
+        "B": "Ngăn chặn danh sách đen",
+        "C": "Ngăn chặn bẫy spam",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 277,
+      "question": "CryptoLocker là gì?",
+      "options": {
+        "A": "Module BitLocker",
+        "B": "Hệ thống tệp Linux",
+        "C": "Ransomware mã hóa tệp yêu cầu thanh toán lấy khóa",
+        "D": "Phần mềm tự mã hóa tránh phát hiện"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 278,
+      "question": "Phân tích quan sát hoạt động tệp trong sandbox?",
+      "options": {
+        "A": "Performance Analysis",
+        "B": "Heuristic Analysis",
+        "C": "Signature Analysis",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 279,
+      "question": "Công cụ KHÔNG hữu ích xác định spyware hay virus?",
+      "options": {
+        "A": "WireShark",
+        "B": "Malware Bytes",
+        "C": "HighjackThis",
+        "D": "HitmanPro"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 280,
+      "question": "Email văn bản thay vì HTML giúp ngăn chặn spam?",
+      "options": {
+        "A": "Ngăn chặn web bugs thông báo email đã mở",
+        "B": "Máy chủ không chấp nhận HTML",
+        "C": "Dễ phân tích thông tin spammer hơn",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 281,
+      "question": "Giả mạo email (email spoofing) là gì?",
+      "options": {
+        "A": "Chỉnh sửa phần Người gửi Người nhận",
+        "B": "Làm email có vẻ gửi từ một người gửi cụ thể thực tế là người khác",
+        "C": "Lừa đảo lấy thông tin cá nhân",
+        "D": "Gửi qua nhiều tài khoản khó truy địa chỉ"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 282,
+      "question": "Giảm spam từ chối email từ IP cụ thể?",
+      "options": {
+        "A": "URL Blacklisting",
+        "B": "DNS Blacklisting",
+        "C": "IMAP Blacklisting",
+        "D": "POP3 Blacklisting"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 283,
+      "question": "Chữ ký diệt virus tạo ra bằng cách nào?",
+      "options": {
+        "A": "Encryption Algorithms",
+        "B": "Random Number Generators",
+        "C": "Hashes",
+        "D": "Cyclic Redundancy Checks"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 284,
+      "question": "Làm cách nào giúp ngăn chặn spam?",
+      "options": {
+        "A": "Chặn địa chỉ email nguồn spam",
+        "B": "Bộ lọc email dựa trên từ khóa",
+        "C": "Hủy đăng ký khỏi danh sách thư",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 285,
+      "question": "Đặc điểm phân loại thư điện tử là spam?",
+      "options": {
+        "A": "Thư được yêu cầu bừa bãi",
+        "B": "Thư không được yêu cầu bừa bãi",
+        "C": "Thư yêu cầu chứa quảng cáo",
+        "D": "Thư không yêu cầu quảng cáo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 286,
+      "question": "Điều nào đúng về virus macro?",
+      "options": {
+        "A": "Dựa vào hệ điều hành lây lan",
+        "B": "Nặng hơn virus truyền thống",
+        "C": "Dựa vào ứng dụng để lây lan",
+        "D": "Viết bằng ngôn ngữ cấp thấp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 287,
+      "question": "Ngăn chặn sự lây nhiễm virus?",
+      "options": {
+        "A": "Tường lửa",
+        "B": "Hệ thống phát hiện xâm nhập",
+        "C": "Cập nhật chương trình hệ điều hành",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 288,
+      "question": "Phân tích hệ thống đã bị xâm phạm an toàn nhất?",
+      "options": {
+        "A": "Live CD/DVD",
+        "B": "Diệt virus cài sẵn",
+        "C": "Live USB",
+        "D": "Tất cả phương án đều đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 289,
+      "question": "Spam thương mại hợp pháp tại Hoa Kỳ không?",
+      "options": {
+        "A": "Có, bảo vệ bởi Tu chính án thứ nhất",
+        "B": "Có, quảng cáo sản phẩm thật",
+        "C": "Có, tuân thủ Đạo luật CAN-SPAM 2003",
+        "D": "Không"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 290,
+      "question": "Khác biệt giữa virus và sâu (worm)?",
+      "options": {
+        "A": "Sâu yêu cầu tương tác người dùng",
+        "B": "Sâu lây nhiễm nhiều máy",
+        "C": "Virus yêu cầu tương tác người dùng để lây nhiễm máy",
+        "D": "Virus chỉ lây nhiễm một máy"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 291,
+      "question": "Kỹ thuật lọc spam phân tích theo thống kê?",
+      "options": {
+        "A": "Lọc từ khóa",
+        "B": "Lọc yêu cầu phản hồi",
+        "C": "Lọc dựa trên cộng đồng",
+        "D": "Lọc Bayesian"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 292,
+      "question": "Tường lửa giúp ngăn chặn loại mã độc nào lây lan?",
+      "options": {
+        "A": "Virus mã hóa",
+        "B": "Sâu (worms)",
+        "C": "Virus đa hình",
+        "D": "Trojan"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 293,
+      "question": "Công cụ mặc định trên WordPress ngăn chặn spammer đăng bình luận?",
+      "options": {
+        "A": "Website Inspector",
+        "B": "Akismet",
+        "C": "MailWasher Pro",
+        "D": "SpamAssassin"
+      },
+      "answer": "B"
+    }
+  ]
+}

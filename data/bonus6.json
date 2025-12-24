@@ -1,0 +1,774 @@
+{
+  "bonus6": [
+    {
+      "id": 1,
+      "question": "Mã độc có thể tự thay đổi bằng cách nào?",
+      "options": {
+        "A": "Tự mã hóa lại",
+        "B": "Tự thay đổi hành vi",
+        "C": "Tự tạo biến thể mới",
+        "D": "Tất cả các đáp án khác"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "Xu hướng tấn công mạng hiện nay là gì?",
+      "options": {
+        "A": "Tấn công không có mục tiêu",
+        "B": "Tấn công có chủ đích và tinh vi",
+        "C": "Tấn công bằng email spam",
+        "D": "Tấn công vật lý"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Một xu hướng mới trong tấn công mạng là?",
+      "options": {
+        "A": "Tấn công bằng phần cứng",
+        "B": "Tấn công bằng AI",
+        "C": "Tấn công bằng mạng LAN",
+        "D": "Tấn công bằng phần mềm diệt virus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Hạ tầng an toàn thông tin bao gồm?",
+      "options": {
+        "A": "Phần mềm",
+        "B": "Tất cả các yếu tố trên",
+        "C": "Chính sách và con người",
+        "D": "Phần cứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Một đặc điểm của ransomware là?",
+      "options": {
+        "A": "Mã hóa dữ liệu và yêu cầu tiền chuộc",
+        "B": "Tự động xóa dữ liệu",
+        "C": "Giảm dung lượng ổ cứng",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "WAF tập trung bảo vệ chủ yếu đối tượng nào?",
+      "options": {
+        "A": "Mạng WAN tốc độ cao",
+        "B": "Hệ thống VoIP nội bộ",
+        "C": "Ứng dụng web",
+        "D": "Kết nối MPLS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Thời gian timeout trong state table có ý nghĩa gì?",
+      "options": {
+        "A": "Chu kỳ cập nhật antivirus",
+        "B": "Khoảng thời gian phiên được giữ nếu không có lưu lượng",
+        "C": "Thời gian kiểm tra chứng chỉ TLS",
+        "D": "Quyết định độ dài mật khẩu VPN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Khi State Table đầy, firewall sẽ gặp vấn đề gì?",
+      "options": {
+        "A": "Chặn toàn bộ lưu lượng mã hóa",
+        "B": "Cho phép tất cả kết nối đi qua",
+        "C": "Không nhận thêm kết nối mới, gây gián đoạn dịch vụ",
+        "D": "Tự động nâng cấp phần cứng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Một rule Deny TCP any any port 23 thường dùng để:",
+      "options": {
+        "A": "Chặn FTP",
+        "B": "Cho phép Telnet",
+        "C": "Cho phép SSH",
+        "D": "Chặn Telnet"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "question": "Nhược điểm chính của stateful firewall so với stateless là gì?",
+      "options": {
+        "A": "Không thể phân biệt ứng dụng trên cùng port",
+        "B": "Không theo dõi trạng thái TCP",
+        "C": "Tốn tài nguyên hơn vì duy trì bảng trạng thái",
+        "D": "Không hỗ trợ kiểm tra gói tin sâu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 11,
+      "question": "Loại IDS nào phù hợp cho phát hiện hành vi truy cập bất hợp pháp trên máy chủ?",
+      "options": {
+        "A": "HIDS",
+        "B": "NIDS",
+        "C": "WIPS",
+        "D": "NBA IPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 12,
+      "question": "Ưu điểm của Anomaly-based IDS là gì?",
+      "options": {
+        "A": "Không cần đào tạo hệ thống",
+        "B": "Có thể phát hiện tấn công mới (zero-day)",
+        "C": "Không tạo cảnh báo giả",
+        "D": "Không cần cấu hình"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Một mục đích của IDS là:",
+      "options": {
+        "A": "Tìm kiếm dấu hiệu xâm nhập bất thường",
+        "B": "Tăng tốc độ truyền tải",
+        "C": "Đảm bảo tính toàn vẹn dữ liệu",
+        "D": "Nén dữ liệu mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 14,
+      "question": "Nhược điểm của Anomaly-based IDS là:",
+      "options": {
+        "A": "Có thể tạo nhiều cảnh báo giả (false positive)",
+        "B": "Không hỗ trợ log",
+        "C": "Không hoạt động với mạng LAN",
+        "D": "Khó cập nhật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "IPS thường được đặt ở đâu trong mạng?",
+      "options": {
+        "A": "Trên từng máy trạm",
+        "B": "Giữa các switch",
+        "C": "Trên router WAN",
+        "D": "Sau firewall, trước hệ thống nội bộ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "question": "Mã hóa đối xứng (Symmetric Encryption) là gì?",
+      "options": {
+        "A": "Sử dụng cùng một khóa cho cả mã hóa và giải mã",
+        "B": "Không cần sử dụng khóa",
+        "C": "Sử dụng cặp khóa công khai và bí mật khác nhau",
+        "D": "Dùng để nén dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 17,
+      "question": "Nhược điểm chính của RSA là gì?",
+      "options": {
+        "A": "Không dùng được trong SSL/TLS",
+        "B": "Không thể kết hợp với chữ ký số",
+        "C": "Khóa quá ngắn dễ bị brute-force",
+        "D": "Khóa dài nên tốc độ chậm, yêu cầu tài nguyên lớn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "Ưu điểm chính của mã hóa đối xứng so với bất đối xứng là gì?",
+      "options": {
+        "A": "Không cần quản lý khóa",
+        "B": "Tốc độ nhanh, phù hợp cho dữ liệu lớn",
+        "C": "Tự động chống va chạm",
+        "D": "Không cần thuật toán phức tạp"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Ứng dụng phổ biến nhất của SHA-256 trong thực tế là gì?",
+      "options": {
+        "A": "Xác minh khối trong blockchain (Bitcoin)",
+        "B": "Kiểm tra tính hợp lệ chứng chỉ số",
+        "C": "Lưu trữ mật khẩu trong cơ sở dữ liệu",
+        "D": "Mã hóa đường truyền HTTPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 20,
+      "question": "Vì sao ECC ngày càng được ưa chuộng trên thiết bị di động/IoT?",
+      "options": {
+        "A": "Vì thay thế hoàn toàn được AES",
+        "B": "Vì sử dụng khóa dài hơn RSA",
+        "C": "Vì không cần khóa bí mật",
+        "D": "Vì nhanh, hiệu quả, tiết kiệm tài nguyên"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 21,
+      "question": "TLS/SSL thường hoạt động ở tầng nào trong mô hình OSI?",
+      "options": {
+        "A": "Tầng phiên (session)",
+        "B": "Tầng mạng",
+        "C": "Tầng ứng dụng",
+        "D": "Tầng vận chuyển (transport)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "DTLS cung cấp bảo mật tương đương TLS nhưng cho:",
+      "options": {
+        "A": "Giao thức TCP",
+        "B": "Giao thức datagram (UDP)",
+        "C": "Giao thức IPsec",
+        "D": "Giao thức ICMP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Thách thức lớn nhất khi triển khai DTLS là:",
+      "options": {
+        "A": "Không có handshake",
+        "B": "Xử lý mất gói, trễ, tái sắp xếp gói UDP",
+        "C": "Không hỗ trợ chứng chỉ",
+        "D": "Không hỗ trợ mã hóa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 24,
+      "question": "Vì sao TLS không dùng RSA để mã hóa toàn bộ dữ liệu?",
+      "options": {
+        "A": "RSA không hỗ trợ trong TLS",
+        "B": "RSA không an toàn",
+        "C": "RSA chậm và không phù hợp cho dữ liệu lớn",
+        "D": "RSA không có khóa công khai"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 25,
+      "question": "Một chức năng không thuộc TLS Record là:",
+      "options": {
+        "A": "Tính toán MAC",
+        "B": "Trao đổi khóa",
+        "C": "Nén dữ liệu",
+        "D": "Mã hóa dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Trong lớp Xác thực (Authentication) của IPSec, sử dụng chứng chỉ RSA mang lại lợi ích gì?",
+      "options": {
+        "A": "Không yêu cầu xác thực",
+        "B": "Không cần hạ tầng quản lý khóa",
+        "C": "Dễ bị lộ khóa hơn PSK",
+        "D": "An toàn, mở rộng tốt cho doanh nghiệp nhờ PKI"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, thuật toán nào hiện được khuyến nghị sử dụng nhờ an toàn và hiệu năng cao?",
+      "options": {
+        "A": "DH2",
+        "B": "SHA",
+        "C": "AES",
+        "D": "MD5"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "Trường hợp nào phù hợp nhất để dùng VPN tự triển khai thay vì VPN thương mại?",
+      "options": {
+        "A": "Khi cần kết nối an toàn vào server cá nhân và không muốn phụ thuộc bên thứ ba",
+        "B": "Khi muốn vượt chặn Netflix và thay đổi IP liên tục",
+        "C": "Khi muốn giảm chi phí mua thiết bị bảo mật",
+        "D": "Khi công ty cần cho nhân viên làm việc từ xa truy cập ERP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Với nhà cung cấp dịch vụ VPN thương mại, máy chủ VPN thường được đặt tại đâu?",
+      "options": {
+        "A": "Các mạng LAN nội bộ trong công ty",
+        "B": "Trung tâm dữ liệu hoặc hạ tầng Cloud",
+        "C": "Máy tính cá nhân của khách hàng",
+        "D": "Các văn phòng nhỏ của doanh nghiệp"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 30,
+      "question": "IKE trong IPSec có vai trò gì?",
+      "options": {
+        "A": "Kiểm tra lỗi bit trong khung dữ liệu",
+        "B": "Kiểm soát băng thông mạng LAN",
+        "C": "Đàm phán, trao đổi khóa và thiết lập liên kết bảo mật (SA)",
+        "D": "Thực hiện định tuyến gói tin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "TPM trong MFA được dùng để:",
+      "options": {
+        "A": "Quản lý bộ nhớ RAM",
+        "B": "Lưu trữ khóa xác thực an toàn",
+        "C": "Điều khiển CPU",
+        "D": "Tăng tốc xử lý dữ liệu"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 32,
+      "question": "WPA3 bổ sung tính năng:",
+      "options": {
+        "A": "MD5",
+        "B": "DES",
+        "C": "SAE (Simultaneous Authentication of Equals)",
+        "D": "SSL"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Chuẩn bảo mật đầu tiên cho Wi-Fi là:",
+      "options": {
+        "A": "WPA",
+        "B": "WPA2",
+        "C": "WPA3",
+        "D": "WEP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "Ẩn SSID có hiệu quả bảo mật cao không?",
+      "options": {
+        "A": "Có, bảo mật tuyệt đối",
+        "B": "Có, chống virus",
+        "C": "Không, chỉ gây khó khăn nhỏ",
+        "D": "Có, chống hacker"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "Một hạn chế của Kerberos là:",
+      "options": {
+        "A": "Yêu cầu đồng bộ thời gian chính xác",
+        "B": "Không hỗ trợ mạng LAN",
+        "C": "Không hỗ trợ nhiều người dùng",
+        "D": "Không thể mã hóa dữ liệu"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "Biện pháp nào giúp mã hóa dữ liệu trao đổi giữa người dùng và web server?",
+      "options": {
+        "A": "HTTPS",
+        "B": "FTP",
+        "C": "Telnet",
+        "D": "HTTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Vì sao firmware lỗi thời thường dễ bị khai thác?",
+      "options": {
+        "A": "Vì nó quá hiện đại",
+        "B": "Vì không có lỗ hổng",
+        "C": "Vì có các lỗ hổng bảo mật chưa được vá",
+        "D": "Vì chứa nhiều bản vá mới"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Hậu quả nghiêm trọng nhất khi hacker khai thác thành công firmware exploit là gì?",
+      "options": {
+        "A": "Không thể reset được router",
+        "B": "Wi-Fi chậm hơn bình thường",
+        "C": "Router tự động tắt mở",
+        "D": "Hacker chiếm toàn quyền kiểm soát router"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 39,
+      "question": "Attachment Bombing gây quá tải hệ thống bằng cách nào?",
+      "options": {
+        "A": "Dùng email marketing automation",
+        "B": "Gửi nhiều email trống",
+        "C": "Gửi liên kết rút gọn link",
+        "D": "Gửi email kèm file dung lượng lớn ồ ạt"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 40,
+      "question": "Loại tài nguyên nào của router thường bị quá tải khi bị DDoS?",
+      "options": {
+        "A": "Card màn hình",
+        "B": "CPU, RAM và băng thông",
+        "C": "Ổ cứng",
+        "D": "Pin dự phòng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 41,
+      "question": "Đâu là giao thức bảo mật không dây phổ biến?",
+      "options": {
+        "A": "HTTP",
+        "B": "FTP",
+        "C": "WPA2",
+        "D": "TCP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Mục đích của kiểm tra xâm nhập (penetration testing) là gì?",
+      "options": {
+        "A": "Đánh giá bảo mật của hệ thống bằng cách mô phỏng các cuộc tấn công thực tế.",
+        "B": "Phân tích lưu lượng web.",
+        "C": "Mã hóa dữ liệu máy chủ.",
+        "D": "Sao lưu thông tin trang web."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Mục đích chính của mã hóa trong bảo mật web là gì?",
+      "options": {
+        "A": "Tăng tốc độ website",
+        "B": "Cải thiện thiết kế website",
+        "C": "Quản lý lưu lượng truy cập website",
+        "D": "Ngăn chặn truy cập trái phép vào thông tin nhạy cảm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "question": "\"Phishing\" là gì?",
+      "options": {
+        "A": "Một cách để phân tích hiệu suất trang web.",
+        "B": "Một kỹ thuật tấn công tâm lý (social engineering) khi kẻ tấn công giả mạo các thực thể hợp pháp để đánh cắp thông tin nhạy cảm.",
+        "C": "Mã hóa dữ liệu nhạy cảm.",
+        "D": "Một phương pháp quét máy chủ email."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "Honeypot trong bảo mật web là gì?",
+      "options": {
+        "A": "Một công cụ bảo vệ mật khẩu người dùng",
+        "B": "Một thiết bị quét phần mềm độc hại",
+        "C": "Một hệ thống mồi nhử được thiết kế để thu hút và giám sát hacker",
+        "D": "Công cụ mã hóa dữ liệu người dung"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 46,
+      "question": "Khắc phục dữ liệu pháp y (forensic data carving) là gì?",
+      "options": {
+        "A": "Xóa vĩnh viễn thông tin nhạy cảm",
+        "B": "Mã hóa dữ liệu để giao tiếp an toàn",
+        "C": "Một quá trình phục hồi dữ liệu từ không gian chưa phân bổ trên bộ nhớ kỹ thuật số",
+        "D": "Chia nhỏ các tệp lớn thành các phần nhỏ hơn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "\"Forensic triage\" là gì?",
+      "options": {
+        "A": "Khôi phục các tệp pháp y bị mất.",
+        "B": "Giám sát lưu lượng mạng.",
+        "C": "Ưu tiên và nhanh chóng phân tích bằng chứng kỹ thuật số dựa trên tầm quan trọng của nó.",
+        "D": "Mã hóa tất cả dữ liệu pháp y."
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Vai trò của tường lửa trong bảo mật mạng là gì?",
+      "options": {
+        "A": "Cung cấp mã hóa cho giao tiếp email",
+        "B": "Nén dữ liệu để truyền nhanh hơn",
+        "C": "Quản lý cookie trên trang web",
+        "D": "Chặn truy cập trái phép vào mạng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "Chứng chỉ SSL được sử dụng để làm gì?",
+      "options": {
+        "A": "Sao lưu dữ liệu máy chủ.",
+        "B": "Mã hóa mật khẩu người dùng.",
+        "C": "Phân tích lưu lượng trang web.",
+        "D": "Xác thực danh tính của trang web và cho phép giao tiếp được mã hóa an toàn."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 50,
+      "question": "Đâu là phương pháp được sử dụng để ngăn chặn chiếm đoạt phiên?",
+      "options": {
+        "A": "Tất cả các phương án trên",
+        "B": "Mã hóa mạnh",
+        "C": "Xác thực phiên thường xuyên",
+        "D": "Sử dụng HTTPS"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 51,
+      "question": "Câu nào dưới đây là đúng về Trojan?",
+      "options": {
+        "A": "Trojan không gây hại cho hệ thống máy tính của người dùng.",
+        "B": "Trojan thực hiện các tác vụ mà chúng được thiết kế hoặc lập trình để làm.",
+        "C": "Không có câu nào đúng.",
+        "D": "Trojan tự sao chép hoặc nhân bản chính nó qua các cuộc tấn công."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 52,
+      "question": "Loại nào sau đây thực sự được coi là virus máy tính đầu tiên?",
+      "options": {
+        "A": "Sasser",
+        "B": "Blaster",
+        "C": "Creeper",
+        "D": "Brain"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 53,
+      "question": "Đâu được xem là chương trình antivirus đầu tiên trên thế giới?",
+      "options": {
+        "A": "Tinkered",
+        "B": "Creeper",
+        "C": "Reaper",
+        "D": "Ray Tomlinson"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Loại phần mềm độc hại nào dưới đây không tự sao chép hoặc nhân bản bản thân qua việc lây nhiễm?",
+      "options": {
+        "A": "Rootkit",
+        "B": "Trojan",
+        "C": "Virus",
+        "D": "Worm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 55,
+      "question": "Trong tấn công hệ thống, hoạt động nào sau đây là quan trọng nhất?",
+      "options": {
+        "A": "Không có hoạt động nào trong đây",
+        "B": "Xóa dấu vết",
+        "C": "Phá mật khẩu",
+        "D": "Thu thập thông tin"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 56,
+      "question": "Trình tự giám sát an ninh mạng của lực lượng chuyên trách bảo vệ an ninh mạng?",
+      "options": {
+        "A": "Tất cả các phương án đều sai",
+        "B": "Triển khai biện pháp giám sát an ninh mạng; Định kỳ thống kê, báo cáo kết quả giám sát; Gửi thông báo bằng văn bản",
+        "C": "Định kỳ thống kê, báo cáo kết quả giám sát; Gửi thông báo bằng văn bản; Triển khai biện pháp giám sát",
+        "D": "Gửi thông báo bằng văn bản; Triển khai biện pháp giám sát an ninh mạng; Định kỳ thống kê, báo cáo kết quả giám sát"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "Trách nhiệm của doanh nghiệp theo Luật An ninh mạng năm 2018 là gì?",
+      "options": {
+        "A": "Chủ động đấu tranh, xử lý tội phạm mạng.",
+        "B": "Cung cấp thông tin người dùng cho các tổ chức, cá nhân khi có yêu cầu.",
+        "C": "Công khai thông tin, tài khoản của người dùng.",
+        "D": "Xác thực thông tin khi người dùng đăng ký tài khoản số."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 58,
+      "question": "Hành vi nào dưới đây phạm tội chiếm đoạt tài sản qua mạng?",
+      "options": {
+        "A": "Sử dụng thông tin về tài khoản ngân hàng của người khác để chiếm đoạt tài sản.",
+        "B": "Sử dụng ổ cứng không rõ nguồn gốc.",
+        "C": "Sử dụng phần mềm không có bản quyền.",
+        "D": "Sử dụng máy tính nhập lậu."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Xử lý khi có người gọi điện lừa đảo thông báo nợ ngân hàng?",
+      "options": {
+        "A": "Không thực hiện theo yêu cầu, trực tiếp đến ngân hàng xác thực.",
+        "B": "Đến cơ quan Công an nơi gần nhất trình báo.",
+        "C": "Kiểm tra lại thông tin tài khoản ngân hàng; tăng cường bảo mật.",
+        "D": "Tất cả các phương án đều đúng."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 60,
+      "question": "Đơn vị nào chủ trì tổ chức bồi dưỡng nghiệp vụ an ninh mạng?",
+      "options": {
+        "A": "Bộ Tài chính.",
+        "B": "Bộ Công an.",
+        "C": "Bộ Công thương.",
+        "D": "Bộ Ngoại Giao."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "Trách nhiệm của cơ quan chứng nhận (CA) đối với chữ ký số là xác thực:",
+      "options": {
+        "A": "Khóa công khai của người đăng ký",
+        "B": "Khóa riêng của người đăng ký",
+        "C": "Hàm băm được sử dụng",
+        "D": "Khóa được sử dụng trong DES"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 62,
+      "question": "Mã hóa cần thiết để:",
+      "options": {
+        "A": "Bảo vệ thông tin lưu trữ khỏi việc truy xuất",
+        "B": "Sử dụng hiệu quả băng thông",
+        "C": "Tăng tốc độ truyền thông tin",
+        "D": "Bảo vệ tính bí mật của thông tin nếu bị truy cập trái phép"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "Tác hại trực tiếp gây ra bởi thư rác (spam)?",
+      "options": {
+        "A": "Tăng chi phí nhân viên",
+        "B": "Tăng chi phí hạ tầng",
+        "C": "Mất năng suất",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 64,
+      "question": "Các mối đe dọa đối với bảo mật email?",
+      "options": {
+        "A": "Thư rác",
+        "B": "Tất cả các phương án đều đúng",
+        "C": "Trojan",
+        "D": "Virus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Chức năng của MTA (Mail Transfer Agent) là gì?",
+      "options": {
+        "A": "Nhận và chuyển tiếp tin nhắn.",
+        "B": "Hỗ trợ đọc email.",
+        "C": "Phân giải tên miền.",
+        "D": "Phát hiện email chứa virus."
+      },
+      "answer": "A"
+    },
+    {
+      "id": 66,
+      "question": "Yêu cầu nào sau đây là hợp lệ cho An ninh mạng?",
+      "options": {
+        "A": "Integrity (Toàn vẹn)",
+        "B": "Authentication (Xác thực)",
+        "C": "Tất cả các phương án đều đúng",
+        "D": "Confidentiality (Bảo mật)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Chương trình nào không phải là phần mềm diệt virus nổi tiếng?",
+      "options": {
+        "A": "SMAG",
+        "B": "McAfee",
+        "C": "AVAST",
+        "D": "AVG"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Bao nhiêu khóa được yêu cầu nếu dùng mã hóa đối xứng?",
+      "options": {
+        "A": "Ba.",
+        "B": "Hai.",
+        "C": "Một.",
+        "D": "Bốn."
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "Đâu là một vấn đề về độ tin cậy của mạng?",
+      "options": {
+        "A": "Số lượng người dùng",
+        "B": "Truy cập trái phép",
+        "C": "Thảm họa",
+        "D": "Loại phương tiện truyền dẫn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "question": "TCP nghĩa là gì?",
+      "options": {
+        "A": "Technical Control Panel",
+        "B": "Total Content Positioning",
+        "C": "Transmission Control Protocol",
+        "D": "Transmittable Constant Protocol"
+      },
+      "answer": "C"
+    }
+  ]
+}

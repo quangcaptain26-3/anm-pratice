@@ -1,0 +1,1100 @@
+{
+  "ontap2": [
+    {
+      "id": 101,
+      "question": "Loại khóa mật mã nào sau đây là hợp lệ?",
+      "options": {
+        "A": "Khóa xác thực công khai",
+        "B": "Khóa xác minh chữ ký công khai",
+        "C": "Khóa chữ ký riêng tư",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 102,
+      "question": "HTTP có phải là giao thức không an toàn hay không?",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 103,
+      "question": "Cách tốt nhất để tăng cường bảo mật cho một hệ thống là gì?",
+      "options": {
+        "A": "Mã hóa toàn bộ ổ đĩa kết hợp giao thức mạng mạnh",
+        "B": "Chỉ sử dụng bộ lọc quảng cáo danh sách trắng",
+        "C": "Cài đặt một bộ bảo mật thương mại",
+        "D": "Quét virus"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 104,
+      "question": "Tại sao việc mã hóa dữ liệu khi truyền tải lại quan trọng?",
+      "options": {
+        "A": "Để thông tin không thể giải mã",
+        "B": "Để giảm thiểu tài nguyên",
+        "C": "Để tăng cơ hội kiểm tra khả năng mã hóa",
+        "D": "Ngăn chặn truy cập trái phép vào mạng riêng và thông tin nhạy cảm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 105,
+      "question": "Những chức năng cơ bản nào sau đây là của giao thức IPsec?",
+      "options": {
+        "A": "Liên kết bảo mật quản lý chính sách",
+        "B": "Các giao thức bảo mật cho AH và ESP",
+        "C": "Quản lý khóa thủ công và tự động",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 106,
+      "question": "Proxy có thể được sử dụng như một firewall hay không?",
+      "options": {
+        "A": "Không. Proxy là trạm mã hóa dữ liệu",
+        "B": "Có. Proxy duy trì tại địa điểm khác vị trí người dùng",
+        "C": "Không. Proxy chỉ định tuyến lại lưu lượng",
+        "D": "Có. Proxy hoạt động như trung gian mạng kiểm soát lưu lượng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 107,
+      "question": "Phương thức gian lận gửi email trông như hợp pháp nhằm thu thập thông tin?",
+      "options": {
+        "A": "Virus",
+        "B": "Giả mạo danh tính",
+        "C": "Phishing (Lừa đảo)",
+        "D": "Phần mềm độc hại"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 108,
+      "question": "Điều nào sau đây là đúng về TLS?",
+      "options": {
+        "A": "Cấu trúc HMAC sử dụng bởi hầu hết bộ mật mã",
+        "B": "Bảo vệ chống hạ cấp giao thức xuống phiên bản kém an toàn",
+        "C": "Thông điệp kết thúc handshake gửi hash của thông điệp trước",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 109,
+      "question": "Loại Hệ thống quản lý khóa nào sau đây là hợp lệ?",
+      "options": {
+        "A": "Bên thứ ba",
+        "B": "Động",
+        "C": "Tích hợp",
+        "D": "Cả Tích hợp và Bên thứ ba"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 110,
+      "question": "Một trong những cách trình duyệt web dễ bị tấn công là gì?",
+      "options": {
+        "A": "Trình duyệt bị nhiễm virus khi tắt",
+        "B": "Trình duyệt lưu lại lịch sử",
+        "C": "Một plugin trình duyệt bị khai thác",
+        "D": "Trình duyệt web không thể bị khai thác"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 111,
+      "question": "Hai loại chính của các hình trạng mạng (topology) là gì?",
+      "options": {
+        "A": "Kỹ thuật số và Hình học",
+        "B": "Trực tiếp và Gián tiếp",
+        "C": "Gần và Xa",
+        "D": "Vật lý và logic"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 112,
+      "question": "Tên gọi khác của một plugin không an toàn là gì?",
+      "options": {
+        "A": "Hardware",
+        "B": "Software",
+        "C": "Firmware",
+        "D": "Malware"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 113,
+      "question": "Hệ thống chữ ký số bao gồm các thuật toán nào?",
+      "options": {
+        "A": "Tạo khóa, Ký và Xác minh",
+        "B": "Thuật toán xác minh",
+        "C": "Thuật toán tạo khóa",
+        "D": "Thuật toán ký"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 114,
+      "question": "Điều nào sau đây là ĐÚNG về SSL 3.0?",
+      "options": {
+        "A": "Cấu trúc MAC yếu sử dụng MD5",
+        "B": "Khóa đồng nhất sử dụng cho xác thực và mã hóa",
+        "C": "Cải tiến so với 2.0 bổ sung SHA-1 và chứng chỉ",
+        "D": "Giả định dịch vụ duy nhất mâu thuẫn hosting ảo"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 115,
+      "question": "Có hai loại tường lửa chính. Chúng là gì?",
+      "options": {
+        "A": "Dựa trên Internet và cá nhân",
+        "B": "Phần cứng và phần mềm",
+        "C": "Từ xa và nội bộ",
+        "D": "Kỹ thuật số và điện tử"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 116,
+      "question": "Tồn tại phần mềm độc hại ảnh hưởng đến cả Windows và Linux?",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 117,
+      "question": "Phần mềm bí mật giám sát hoạt động hệ thống và gửi thông tin đi?",
+      "options": {
+        "A": "Malware",
+        "B": "Botnet",
+        "C": "Trojan horse",
+        "D": "Spyware"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 118,
+      "question": "Sâu máy tính (Worm) là gì?",
+      "options": {
+        "A": "Phần mềm khai thác mạng",
+        "B": "Phần mềm tìm kiếm các cổng mở",
+        "C": "Phần mềm quét gói tin trên mạng mở",
+        "D": "Phần mềm độc hại thiết kế để lây nhiễm máy khác"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 119,
+      "question": "Hệ thống dựa trên Unix có thể bị tấn công bởi virus không?",
+      "options": {
+        "A": "Có. 50/50 so với Windows",
+        "B": "Có, đa số tấn công Unix",
+        "C": "Không. Linux hoàn toàn miễn nhiễm",
+        "D": "Có, tuy nhiên đa số nhắm vào Windows"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 120,
+      "question": "Giao thức nào sử dụng Cổng 443 và Cổng 80 tương ứng?",
+      "options": {
+        "A": "HTTPS và HTTP",
+        "B": "XHTML",
+        "C": "HTTP và HTTPS",
+        "D": "DHTML"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 121,
+      "question": "Phương tiện nào cho phép bỏ qua cơ chế bảo mật để truy cập hệ thống?",
+      "options": {
+        "A": "Cửa hậu (Backdoor)",
+        "B": "Giả mạo danh tính",
+        "C": "Phishing (Lừa đảo)",
+        "D": "Trojan horse"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 122,
+      "question": "TCP nghĩa là gì?",
+      "options": {
+        "A": "Total Content Positioning",
+        "B": "Transmission Control Protocol",
+        "C": "Transmittable Constant Protocol",
+        "D": "Technical Control Panel"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 123,
+      "question": "Cross-site scripting (XSS) cho phép kẻ tấn công làm gì?",
+      "options": {
+        "A": "Đưa virus vào máy nạn nhân",
+        "B": "Đưa worm vào trang web nạn nhân",
+        "C": "Tấn công lừa đảo tự động",
+        "D": "Chèn mã (script) phía máy khách vào trang web"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 124,
+      "question": "Tập hợp chương trình kết nối Internet thực hiện nhiệm vụ độc hại?",
+      "options": {
+        "A": "Botnet",
+        "B": "Spyware",
+        "C": "Trojan horse",
+        "D": "Malware"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 125,
+      "question": "TLS và SSL là gì?",
+      "options": {
+        "A": "Giao thức Internet",
+        "B": "Các lớp mạng",
+        "C": "Các lớp Internet",
+        "D": "Giao thức mã hóa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 126,
+      "question": "TLS được định nghĩa bởi ai?",
+      "options": {
+        "A": "DEA",
+        "B": "OSHA",
+        "C": "IETF",
+        "D": "NSA"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 127,
+      "question": "Phương pháp lưu trữ mật khẩu an toàn hiện đại?",
+      "options": {
+        "A": "Thêm muối (Salt)",
+        "B": "Băm (Hash)",
+        "C": "Lưu bản rõ trong CSDL mã hóa",
+        "D": "Thêm muối và băm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 128,
+      "question": "Topology mạng là gì?",
+      "options": {
+        "A": "Cấu trúc nội bộ máy tính",
+        "B": "Lớp trên cùng mạng",
+        "C": "Framework các thành phần mạng",
+        "D": "Toàn bộ dữ liệu mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 129,
+      "question": "Phần mềm độc hại giả vờ là vô hại để người dùng tải xuống?",
+      "options": {
+        "A": "Spyware",
+        "B": "Virus",
+        "C": "Trojan Horse",
+        "D": "Botnet"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 130,
+      "question": "Tên khác của Internet Layer là gì?",
+      "options": {
+        "A": "TCP layer",
+        "B": "Interweb",
+        "C": "IP layer",
+        "D": "SSL layer"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 131,
+      "question": "Tên gọi chung cho Trojan horses, spyware và worms?",
+      "options": {
+        "A": "Spyware",
+        "B": "Botnets",
+        "C": "Virus",
+        "D": "Malware"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 132,
+      "question": "Cookie trở thành mối nguy hiểm bảo mật khi nào?",
+      "options": {
+        "A": "Mô phỏng người dùng qua máy ảo",
+        "B": "Biến thành trạng thái giống virus",
+        "C": "Mô phỏng người dùng đánh cắp danh tính",
+        "D": "Kẻ tấn công đánh cắp cookie để mô phỏng người dùng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 133,
+      "question": "Lỗi nào sau đây là lỗi hợp lệ của SSL 2.0?",
+      "options": {
+        "A": "Không có bảo vệ cho handshake",
+        "B": "Khóa đồng nhất cho xác thực và mã hóa",
+        "C": "Cấu trúc MAC yếu sử dụng MD5",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 134,
+      "question": "Tiêu chuẩn ITU-T nào dành cho PKI và PMI?",
+      "options": {
+        "A": "X.507",
+        "B": "X.519",
+        "C": "X.508",
+        "D": "X.509"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 135,
+      "question": "Chương trình Trojan Horse hoạt động với mục đích gì?",
+      "options": {
+        "A": "Xâm nhập trở thành hệ điều hành",
+        "B": "Công khai khai thác điểm yếu",
+        "C": "Giả dạng phần mềm không độc hại",
+        "D": "Tấn công brute force từ máy chủ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 136,
+      "question": "Tại sao máy ảo (VM) được coi là sandboxing?",
+      "options": {
+        "A": "Có tường lửa và diệt virus",
+        "B": "Cài tính năng sandbox",
+        "C": "Người dùng luôn an toàn",
+        "D": "Môi trường độc lập cách ly với máy chủ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 137,
+      "question": "Khóa nào sau đây được sử dụng để tạo số ngẫu nhiên?",
+      "options": {
+        "A": "Khóa tạo số ngẫu nhiên đối xứng",
+        "B": "Khóa tạo số ngẫu nhiên đối xứng và bất đối xứng",
+        "C": "Khóa xác minh chữ ký công khai",
+        "D": "Khóa tạo số ngẫu nhiên bất đối xứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 138,
+      "question": "Điều nào sau đây là đúng về mã hóa khóa công khai?",
+      "options": {
+        "A": "Ai cũng mã hóa bằng công khai và giải mã bằng riêng tư",
+        "B": "Ai cũng mã hóa bằng công khai, chỉ một người giải mã bằng riêng tư",
+        "C": "Ai cũng mã hóa bằng riêng tư, chỉ một người giải mã bằng công khai",
+        "D": "Chỉ một người mã hóa bằng công khai, ai cũng giải mã bằng riêng tư"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 139,
+      "question": "Nhược điểm lớn nhất của mạng BUS là gì?",
+      "options": {
+        "A": "Dễ bị tấn công Wi-Fi",
+        "B": "Kết nối dây chuyền nhiều cáp",
+        "C": "Liên kết bằng một dây duy nhất là điểm yếu",
+        "D": "Mô hình sao bị gián đoạn nút trung tâm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 140,
+      "question": "Từ viết tắt BEAST có nghĩa là gì?",
+      "options": {
+        "A": "Breaking and Entering Against SSL/TLS",
+        "B": "Browser Extension And SSL/TLS",
+        "C": "Browser Exploit Against SSL/TLS",
+        "D": "Breach Entering Against SSL/TLS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 141,
+      "question": "TCP được sử dụng cho ba chức năng chính nào?",
+      "options": {
+        "A": "Kết nối Web, gửi email, chuyển tệp",
+        "B": "Kết nối Web, nén dữ liệu, mã hóa thư",
+        "C": "Kết nối Web, ẩn dữ liệu, chuyển tệp",
+        "D": "Kết nối Web, mã hóa dữ liệu, truyền thông tin"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 142,
+      "question": "Cookie bảo mật có đặc điểm nào?",
+      "options": {
+        "A": "Không mã hóa, gửi qua máy chủ an toàn",
+        "B": "Chúng được mã hóa",
+        "C": "Truyền qua chương trình mã hóa",
+        "D": "Trao đổi giữa người dùng đáng tin cậy"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 143,
+      "question": "Các số hiệu cổng (port) được phân loại như thế nào?",
+      "options": {
+        "A": "Tĩnh, động, chưa biết",
+        "B": "Đã biết, nổi tiếng, chưa biết",
+        "C": "Nổi tiếng, đã đăng ký, và tĩnh/động",
+        "D": "Chưa biết, chưa đăng ký, không hợp lệ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 144,
+      "question": "Loại tấn công nào có thể chủ động sửa đổi truyền thông?",
+      "options": {
+        "A": "Cả chủ động và thụ động",
+        "B": "Không phải chủ động cũng không phải thụ động",
+        "C": "Tấn công chủ động",
+        "D": "Tấn công thụ động"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 145,
+      "question": "Phương pháp chính kẻ tấn công tiêm nhiễm mục tiêu?",
+      "options": {
+        "A": "Kỹ thuật xã hội",
+        "B": "SQL Injection",
+        "C": "Buffer Overflow",
+        "D": "Tấn công qua Internet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 146,
+      "question": "Giao thức kế nhiệm của SSL là gì?",
+      "options": {
+        "A": "IPSec",
+        "B": "TLS",
+        "C": "SSL 3.0",
+        "D": "HTTPS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 147,
+      "question": "SQL injection thường được sử dụng để tấn công vào đâu?",
+      "options": {
+        "A": "Máy quy mô nhỏ ATM",
+        "B": "CSDL quy mô lớn chứa thông tin thẻ tín dụng",
+        "C": "Máy chủ NoSQL",
+        "D": "Hadoop hoặc Hive"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 148,
+      "question": "Phiên bản nào của TLS dễ bị tấn công BEAST?",
+      "options": {
+        "A": "TLS 1.1",
+        "B": "TLS 3.0",
+        "C": "TLS 2.0",
+        "D": "TLS 1.0"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 149,
+      "question": "Theo OWASP, lỗ hổng web nguy hiểm nhất là gì?",
+      "options": {
+        "A": "Tiêm nhiễm (Injections)",
+        "B": "Cross-site scripting (XSS)",
+        "C": "Cấu hình bảo mật sai",
+        "D": "Lộ dữ liệu nhạy cảm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 150,
+      "question": "Sandbox làm gì đối với các chương trình máy tính?",
+      "options": {
+        "A": "Chặn tất cả virus",
+        "B": "Tách biệt và cô lập chúng",
+        "C": "Không bảo vệ hệ thống",
+        "D": "Cô lập mọi chương trình ngoại trừ chương trình đang dùng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 151,
+      "question": "Loại virus máy tính nào được coi là tiên tiến nhất?",
+      "options": {
+        "A": "Virus Conficker",
+        "B": "Zeus",
+        "C": "Stuxnet",
+        "D": "agent.biz"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 152,
+      "question": "Cần gì để ngăn chặn tấn công XSS bằng cookie?",
+      "options": {
+        "A": "CAPTCHA",
+        "B": "Máy ảo",
+        "C": "Proxy",
+        "D": "Tường lửa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 153,
+      "question": "Hai loại chính của XSS là gì?",
+      "options": {
+        "A": "Dựa trên DOM và liên tục",
+        "B": "Truyền thống và dựa trên DOM",
+        "C": "Truyền thống và không liên tục",
+        "D": "Không liên tục và liên tục"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 154,
+      "question": "Loại khóa ủy quyền nào sau đây là hợp lệ?",
+      "options": {
+        "A": "Khóa ủy quyền công khai",
+        "B": "Khóa ủy quyền tạm thời công khai",
+        "C": "Khóa ủy quyền bất đối xứng",
+        "D": "Khóa ủy quyền đối xứng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 155,
+      "question": "Loại khóa chữ ký số nào sau đây là hợp lệ?",
+      "options": {
+        "A": "Khóa xác thực chữ ký công khai",
+        "B": "Khóa xác thực chữ ký riêng tư",
+        "C": "Khóa chữ ký đối xứng",
+        "D": "Khóa chữ ký riêng tư"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 156,
+      "question": "Cookie giúp giảm thiểu tấn công XSS như thế nào?",
+      "options": {
+        "A": "Mã hóa cookie",
+        "B": "Lưu trữ bản sao hoạt động web",
+        "C": "Xác thực người dùng dựa trên cookie",
+        "D": "Không thể. Cookie chỉ lưu trữ thông tin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 157,
+      "question": "Giao thức nào sau đây sử dụng mật mã bất đối xứng?",
+      "options": {
+        "A": "VoIP",
+        "B": "SSL",
+        "C": "Cả VoIP và SSL",
+        "D": "Không có phương án nào đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 158,
+      "question": "Loại tường lửa nào sau đây không hợp lệ?",
+      "options": {
+        "A": "Gateway mức ứng dụng",
+        "B": "Gateway mức mạch",
+        "C": "Gateway máy chủ Proxy",
+        "D": "Bộ lọc gói tin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 159,
+      "question": "Chế độ mã hóa AES nào kém bảo mật hơn?",
+      "options": {
+        "A": "CFB",
+        "B": "OCB",
+        "C": "ECB",
+        "D": "CBC"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 160,
+      "question": "Sử dụng phương pháp nào chống lại tấn công Sockstress?",
+      "options": {
+        "A": "Không làm gì cả",
+        "B": "Tấn công DoS đáp trả",
+        "C": "Chặn quyền truy cập dịch vụ TCP trên hệ thống quan trọng",
+        "D": "Cho phép quyền truy cập (white-listing)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 161,
+      "question": "Phương thức HTTP nào sau đây được coi là kém an toàn?",
+      "options": {
+        "A": "POST",
+        "B": "DELETE",
+        "C": "TRACE",
+        "D": "GET"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 162,
+      "question": "Loại khóa nào sinh cho mỗi lần thực thi thiết lập khóa?",
+      "options": {
+        "A": "Khóa vận chuyển riêng tư",
+        "B": "Khóa xác minh chữ ký công khai",
+        "C": "Khóa thỏa thuận tạm thời riêng tư",
+        "D": "Khóa xác thực công khai"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 163,
+      "question": "Nhân Linux sử dụng gì để cô lập các chương trình?",
+      "options": {
+        "A": "Không cô lập",
+        "B": "Phân lớp xác thực",
+        "C": "seccomp hoặc Secure Computing Mode",
+        "D": "Mã hóa ổ đĩa hoàn toàn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 164,
+      "question": "Khóa riêng tư của cặp bất đối xứng chỉ dùng một lần?",
+      "options": {
+        "A": "Khóa thỏa thuận tạm thời công khai",
+        "B": "Khóa tạo số ngẫu nhiên bất đối xứng",
+        "C": "Khóa tạo số ngẫu nhiên đối xứng",
+        "D": "Khóa thỏa thuận tạm thời riêng tư"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 165,
+      "question": "Khóa mật mã thực hiện chức năng gì trong tầng Internet?",
+      "options": {
+        "A": "Xác định cách dữ liệu truyền và đến ai",
+        "B": "Xác định cách thông tin chuyển đổi thành mã hóa",
+        "C": "Chuyển đổi thông tin thành ngôn ngữ mã hóa",
+        "D": "Tập dữ liệu giải mã văn bản mã hóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 166,
+      "question": "Sự khác biệt giữa worm và virus là gì?",
+      "options": {
+        "A": "Worm không tự sao chép",
+        "B": "Virus lây nhiễm tệp, worm tiêu hủy chúng",
+        "C": "Worm là loại virus cụ thể",
+        "D": "Worm không cần gắn vào chương trình để lây lan"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 167,
+      "question": "Loại khóa mật mã nào thiết kế sử dụng trong thời gian dài?",
+      "options": {
+        "A": "Khóa vận chuyển riêng tư",
+        "B": "Khóa xác thực công khai",
+        "C": "Khóa xác minh chữ ký công khai",
+        "D": "Khóa thỏa thuận tĩnh riêng tư"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 168,
+      "question": "Loại khóa tạm thời (ephemeral key) nào sau đây là hợp lệ?",
+      "options": {
+        "A": "Khóa tạo số ngẫu nhiên tạm thời bất đối xứng",
+        "B": "Khóa xác minh tạm thời công khai",
+        "C": "Khóa tạo số ngẫu nhiên tạm thời đối xứng",
+        "D": "Khóa thỏa thuận tạm thời công khai"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 169,
+      "question": "Cơ chế nào cho phép trao đổi dữ liệu an toàn trên mạng công cộng?",
+      "options": {
+        "A": "Cơ sở hạ tầng khóa công khai (PKI)",
+        "B": "Cơ sở hạ tầng khóa ảo",
+        "C": "Cơ sở hạ tầng khóa riêng tư",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 170,
+      "question": "Loại khóa nào sử dụng để mã hóa các khóa khác bằng thuật toán đối xứng?",
+      "options": {
+        "A": "Khóa tạo số ngẫu nhiên đối xứng",
+        "B": "Khóa tạo số ngẫu nhiên bất đối xứng",
+        "C": "Khóa key wrap đối xứng",
+        "D": "Khóa xác minh chữ ký công khai"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 171,
+      "question": "Chương trình độc lập giả mạo chương trình đã biết để đánh cắp dữ liệu?",
+      "options": {
+        "A": "Virus",
+        "B": "Spyware",
+        "C": "Công cụ lừa đảo (Fraudtool)",
+        "D": "Malware"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 172,
+      "question": "Trong lớp con nào TLS và SSL thực hiện mã hóa dữ liệu?",
+      "options": {
+        "A": "Presentation Layer",
+        "B": "Cả Session và Presentation",
+        "C": "Session Layer",
+        "D": "Application Layer"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 173,
+      "question": "Khóa công khai dùng để mã hóa khóa bằng thuật toán công khai?",
+      "options": {
+        "A": "Khóa xác minh chữ ký công khai",
+        "B": "Khóa chữ ký riêng tư",
+        "C": "Khóa vận chuyển công khai",
+        "D": "Khóa vận chuyển riêng tư"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 174,
+      "question": "Loại khóa nào là công khai được sử dụng để mã hóa khóa?",
+      "options": {
+        "A": "Khóa chữ ký riêng tư",
+        "B": "Khóa vận chuyển riêng tư",
+        "C": "Khóa xác minh chữ ký công khai",
+        "D": "Khóa xác thực công khai"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 175,
+      "question": "Hành động nào không thực hiện khi lọc thư rác SMTP?",
+      "options": {
+        "A": "Xóa thư rác",
+        "B": "Chuyển hướng đến hộp thư rác",
+        "C": "Trả lại cho người gửi",
+        "D": "Gắn nhãn thư rác"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 176,
+      "question": "Loại tệp nào sau đây ít bị lây nhiễm virus hơn?",
+      "options": {
+        "A": ".DOT",
+        "B": ".EXE",
+        "C": ".COM",
+        "D": ".TXT"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 177,
+      "question": "Chức năng của MTA là gì?",
+      "options": {
+        "A": "Hỗ trợ đọc email",
+        "B": "Nhận và chuyển tiếp tin nhắn",
+        "C": "Phân giải tên miền",
+        "D": "Phát hiện email chứa virus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 178,
+      "question": "DHA là gì?",
+      "options": {
+        "A": "Directory Harvest Attack",
+        "B": "DNS Harvest Attack",
+        "C": "Direct Harvest Attack",
+        "D": "Dictionary Harvest Attack"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 179,
+      "question": "Bao nhiêu khóa yêu cầu nếu dùng mã hóa đối xứng?",
+      "options": {
+        "A": "Một",
+        "B": "Hai",
+        "C": "Ba",
+        "D": "Bốn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 180,
+      "question": "S/MIME là gì?",
+      "options": {
+        "A": "Secure Multipurpose Intranet Mail Extensions",
+        "B": "Secure Multipurpose Internet Mail Extensions",
+        "C": "Secure Multipurpose Internet Message Extensions",
+        "D": "Secure Multipurpose Intranet Message Extensions"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 181,
+      "question": "Biện pháp chống thư rác nào áp dụng để giảm thư rác?",
+      "options": {
+        "A": "Pháp lý",
+        "B": "Hành vi",
+        "C": "Công nghệ",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 182,
+      "question": "Đâu là cuộc tấn công worm nổi tiếng?",
+      "options": {
+        "A": "MyDoom Worm",
+        "B": "Bagle Worm",
+        "C": "Netsky Worm",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 183,
+      "question": "Kỹ thuật spammer tìm địa chỉ email tồn tại?",
+      "options": {
+        "A": "SMTP spoofing",
+        "B": "SMTP poisoning",
+        "C": "DNS poisoning",
+        "D": "Directory Harvest Attack"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 184,
+      "question": "Hệ thống thông báo thư rác với email không phải thư rác?",
+      "options": {
+        "A": "Phát hiện âm tính",
+        "B": "Dương tính giả",
+        "C": "Âm tính giả",
+        "D": "Phát hiện sai"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 185,
+      "question": "Kỹ thuật nào giúp đối phó với giả mạo địa chỉ?",
+      "options": {
+        "A": "SMTP extensions",
+        "B": "Cryptographic authentication",
+        "C": "Xác thực đường dẫn (Path authentication)",
+        "D": "Xác thực kết hợp"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 186,
+      "question": "Loại virus cư trú trong phân vùng khởi động?",
+      "options": {
+        "A": "Sector virus",
+        "B": "Parasitic virus",
+        "C": "Boot sector virus",
+        "D": "Bootable virus"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 187,
+      "question": "Thuật toán đối xứng nào được sử dụng trong mật mã học?",
+      "options": {
+        "A": "MD4",
+        "B": "El Gamal",
+        "C": "IDEA",
+        "D": "RSA"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 188,
+      "question": "Email trúng thưởng yêu cầu phí nhận giải thuộc loại nào?",
+      "options": {
+        "A": "Phishing and Fraud",
+        "B": "Spoofing mails",
+        "C": "Hoaxes",
+        "D": "Chain mails"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 189,
+      "question": "Botnet là gì?",
+      "options": {
+        "A": "Phần mềm chạy tự động",
+        "B": "Phần mềm chống thư rác",
+        "C": "Phần mềm quản lý MTA",
+        "D": "Mạng máy tính bị xâm nhập điều khiển bởi mã độc"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 190,
+      "question": "Mục tiêu nào không thể đạt được với mật mã đối xứng?",
+      "options": {
+        "A": "Không thể chối bỏ (Nonrepudiation)",
+        "B": "Bảo mật",
+        "C": "Toàn vẹn dữ liệu",
+        "D": "Khả dụng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 191,
+      "question": "MUA chuyển tiếp email đến thành phần nào khi gửi?",
+      "options": {
+        "A": "Mail User Agent",
+        "B": "Firewall",
+        "C": "Router",
+        "D": "Mail Transfer Agent"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 192,
+      "question": "Độ dài khóa tối đa của AES là bao nhiêu?",
+      "options": {
+        "A": "1024",
+        "B": "64",
+        "C": "Có thể thay đổi",
+        "D": "256"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 193,
+      "question": "Nhược điểm nào sau đây thuộc về Mã hóa đối xứng?",
+      "options": {
+        "A": "Không thể chối bỏ",
+        "B": "Khả năng mở rộng",
+        "C": "Phân phối khóa",
+        "D": "Bảo mật"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 194,
+      "question": "Biện pháp bảo vệ khỏi virus tốt nhất?",
+      "options": {
+        "A": "Diệt virus và Cập nhật phần mềm",
+        "B": "Tường lửa và Mật khẩu",
+        "C": "Tải chương trình tin cậy",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 195,
+      "question": "Cách virus lây lan?",
+      "options": {
+        "A": "CD, DVD",
+        "B": "Email attachments",
+        "C": "Network connection",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 196,
+      "question": "Đâu là dạng thư rác (spam mails)?",
+      "options": {
+        "A": "Phishing and Fraud",
+        "B": "Spoofing mails",
+        "C": "Hoaxes",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 197,
+      "question": "Email spam qua SMTP vẫn được chấp nhận gọi là?",
+      "options": {
+        "A": "Phát hiện âm tính",
+        "B": "Dương tính sai",
+        "C": "Âm tính sai",
+        "D": "Phát hiện không đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 198,
+      "question": "Biện pháp phòng ngừa virus đúng?",
+      "options": {
+        "A": "Không mở tệp lạ",
+        "B": "Cẩn thận khi tải xuống",
+        "C": "Sao lưu thường xuyên",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 199,
+      "question": "Cổng nào sau đây được sử dụng bởi IMAP?",
+      "options": {
+        "A": "139",
+        "B": "143",
+        "C": "142",
+        "D": "25"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 200,
+      "question": "Zombies là gì?",
+      "options": {
+        "A": "Giải pháp chống thư rác",
+        "B": "Host được điều khiển từ xa",
+        "C": "Giải pháp chống virus",
+        "D": "Tin tặc"
+      },
+      "answer": "B"
+    }
+  ]
+}

@@ -11,6 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
     { name: "Bonus 3", file: "bonus3.json" },
     { name: "Bonus 4", file: "bonus4.json" },
     { name: "Bonus 5", file: "bonus5.json" },
+    { name: "Bonus 6", file: "bonus6.json" },
+    { name: "OnTap1", file: "ontap1.json" },
+    { name: "OnTap2", file: "ontap2.json" },
+    { name: "OnTap3", file: "ontap3.json" },
   ];
 
   let currentQuizQuestions = [];

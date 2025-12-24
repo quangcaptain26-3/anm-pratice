@@ -1,0 +1,1098 @@
+{
+  "ontap1": [
+    {
+      "id": 1,
+      "question": "Chương trình nào sau đây là phần mềm chống virus?",
+      "options": {
+        "A": "Norton",
+        "B": "K7",
+        "C": "Quick heal",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "Đâu không phải là ví dụ về các mối đe dọa bảo mật và quyền riêng tư?",
+      "options": {
+        "A": "Tin tặc",
+        "B": "Virus",
+        "C": "Cookies",
+        "D": "Sâu máy tính"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "question": "Trojan horse rất giống virus ở điểm chúng là các chương trình máy tính có thể tự sao chép.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 4,
+      "question": "Thứ nào giám sát hoạt động của người dùng trên Internet và truyền thông tin đó trong nền đến một người khác?",
+      "options": {
+        "A": "Phần mềm độc hại",
+        "B": "Phần mềm gián điệp",
+        "C": "Phần mềm quảng cáo",
+        "D": "Không có phương án đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "Firewall là một loại...?",
+      "options": {
+        "A": "Virus",
+        "B": "Mối đe dọa bảo mật",
+        "C": "Sâu máy tính",
+        "D": "Không có phương án đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 6,
+      "question": "Thư điện tử thương mại không mong muốn được gọi là...?",
+      "options": {
+        "A": "Thư rác",
+        "B": "Phần mềm độc hại",
+        "C": "Virus",
+        "D": "Phần mềm gián điệp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Điều nào sau đây không phải là mối đe dọa từ bên ngoài đối với máy tính hoặc mạng máy tính?",
+      "options": {
+        "A": "Sự thiếu hiểu biết",
+        "B": "Trojan horse",
+        "C": "Phần mềm quảng cáo",
+        "D": "Tin tặc"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 8,
+      "question": "Khi một người bị quấy rối liên tục thông qua việc bị theo dõi, gọi điện hoặc gửi tin nhắn, người đó là mục tiêu của:",
+      "options": {
+        "A": "Bắt nạt (Bullying)",
+        "B": "Rình rập (Stalking)",
+        "C": "Ăn cắp danh tính (Identity theft)",
+        "D": "Lừa đảo (Phishing)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 9,
+      "question": "Điều nào sau đây là một loại mối đe dọa cho máy tính?",
+      "options": {
+        "A": "Lừa đảo",
+        "B": "Chào mời",
+        "C": "Tấn công từ chối dịch vụ (DoS)",
+        "D": "Rình rập"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Giấy phép (license) cho phép người dùng sử dụng tài liệu có bản quyền.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Đâu là một chương trình hoặc thiết bị phần cứng lọc thông tin đi qua kết nối Internet vào một mạng hoặc hệ thống máy tính?",
+      "options": {
+        "A": "Phần mềm chống virus",
+        "B": "Cookies",
+        "C": "Tường lửa",
+        "D": "An toàn mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 12,
+      "question": "Thứ nào cho phép một trang web lưu trữ thông tin của chính nó về người dùng trên máy tính của họ?",
+      "options": {
+        "A": "Thư rác",
+        "B": "Cookies",
+        "C": "Phần mềm độc hại",
+        "D": "Phần mềm quảng cáo"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Đâu là hành vi ăn cắp ý tưởng hoặc sáng tạo của người khác?",
+      "options": {
+        "A": "Đạo văn",
+        "B": "Vi phạm quyền sở hữu trí tuệ",
+        "C": "Vi phạm bản quyền",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "Việc tấn công máy tính là hành vi bất hợp pháp và bị pháp luật trừng phạt.",
+      "options": {
+        "A": "Đúng",
+        "B": "Sai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 15,
+      "question": "Khám phá các hành vi phù hợp và có đạo đức liên quan đến môi trường trực tuyến và phương tiện kỹ thuật số là...?",
+      "options": {
+        "A": "Đạo đức mạng",
+        "B": "An ninh mạng",
+        "C": "An toàn mạng",
+        "D": "Luật mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 16,
+      "question": "Tiêu chuẩn chứng chỉ số nào sau đây là đúng?",
+      "options": {
+        "A": "X.508",
+        "B": "X.509",
+        "C": "D.509",
+        "D": "Không có phương án nào đúng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Kỹ thuật nào sau đây được sử dụng để xác minh tính toàn vẹn của thông điệp?",
+      "options": {
+        "A": "Băm thông điệp",
+        "B": "Chữ ký số",
+        "C": "Thuật toán giải mã",
+        "D": "Giao thức"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 18,
+      "question": "Nguyên tắc nào sau đây bị vi phạm nếu hệ thống máy tính không thể truy cập được?",
+      "options": {
+        "A": "Bảo mật",
+        "B": "Tính sẵn sàng",
+        "C": "Kiểm soát truy cập",
+        "D": "Xác thực"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 19,
+      "question": "Cơ quan cấp chứng chỉ (Certificate Authority) ký chứng chỉ số bằng:",
+      "options": {
+        "A": "Khóa công khai của người dùng",
+        "B": "Khóa riêng của người dùng",
+        "C": "Khóa công khai của chính nó",
+        "D": "Khóa riêng của chính nó"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Thời gian truyền và thời gian phản hồi đo lường yếu tố nào của một mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Tuổi thọ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "Số lượng người dùng trên mạng có ảnh hưởng lớn nhất đến yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án đúng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 22,
+      "question": "Sự cố mạng chủ yếu là vấn đề về yếu tố nào?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có lựa chọn nào ở trên"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "Đâu là một vấn đề về độ tin cậy của mạng?",
+      "options": {
+        "A": "Số lượng người dùng",
+        "B": "Loại phương tiện truyền dẫn",
+        "C": "Tần suất xảy ra sự cố",
+        "D": "Truy cập trái phép"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Đâu là một vấn đề về độ tin cậy của mạng?",
+      "options": {
+        "A": "Thảm họa",
+        "B": "Số lượng người dùng",
+        "C": "Loại phương tiện truyền dẫn",
+        "D": "Truy cập trái phép"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Truy cập trái phép là một vấn đề về yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 26,
+      "question": "Virus là một vấn đề về yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có lựa chọn nào ở trên"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "question": "Các kỹ thuật mã hóa cải thiện yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Tuổi thọ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 28,
+      "question": "Thứ nào là các đoạn mã được đưa vào bất hợp pháp gây hư hại cho thiết bị mạng?",
+      "options": {
+        "A": "Giao thức",
+        "B": "Virus",
+        "C": "Thảm họa",
+        "D": "Phương tiện"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 29,
+      "question": "Mật khẩu được sử dụng để cải thiện yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Tuổi thọ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "Truy cập trái phép và virus là các vấn đề liên quan đến yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có lựa chọn nào ở trên"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Những vấn đề nào sau đây liên quan đến độ tin cậy của mạng?",
+      "options": {
+        "A": "Tần suất xảy ra sự cố",
+        "B": "Thời gian phục hồi sau sự cố",
+        "C": "Thảm họa",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "Khi một tin tặc xâm nhập vào mạng, đâu là vấn đề về yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 33,
+      "question": "Khi một máy chủ bị hỏng, đâu là vấn đề về yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 34,
+      "question": "Khi một trận động đất làm đứt cáp quang, đâu là vấn đề về yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 35,
+      "question": "Khi một mạng được nâng cấp phương tiện truyền dẫn lên tốc độ dữ liệu nhanh gấp 100 lần, điều này cải thiện yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 36,
+      "question": "Một công ty tăng gấp đôi số lượng nút trong mạng sẽ ảnh hưởng lớn nhất đến yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 37,
+      "question": "Một công ty thay đổi cấu hình mạng để chỉ có một thay vì nhiều router có thể truy cập Internet, điều này ảnh hưởng lớn nhất đến yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "Một công ty yêu cầu người dùng đổi mật khẩu mỗi tháng một lần. Điều này cải thiện yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 39,
+      "question": "Một công ty mua một máy tính để làm dự phòng cho máy chủ chính. Điều này sẽ chủ yếu ảnh hưởng đến yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Độ tin cậy",
+        "C": "Bảo mật",
+        "D": "Không có phương án nào"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 40,
+      "question": "Một công ty yêu cầu mỗi nhân viên tắt máy tính vào cuối ngày. Quy tắc này được áp dụng để làm cho mạng:",
+      "options": {
+        "A": "Hoạt động tốt hơn",
+        "B": "Đáng tin cậy hơn",
+        "C": "An toàn hơn",
+        "D": "Ít lỗi hơn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Khi sử dụng IDS (Hệ thống phát hiện xâm nhập), sự đánh đổi về bảo mật nào xảy ra?",
+      "options": {
+        "A": "Thay đổi quyền",
+        "B": "Lỗi đăng nhập",
+        "C": "Thay đổi đặc quyền",
+        "D": "Suy giảm hiệu suất"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 42,
+      "question": "Sử dụng EDI (Trao đổi dữ liệu điện tử) yêu cầu:",
+      "options": {
+        "A": "Một mạng extranet",
+        "B": "Một mạng giá trị gia tăng",
+        "C": "Có thể thực hiện trên Internet",
+        "D": "Một mạng intranet công ty"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 43,
+      "question": "Phương án nào không đúng: EDI (Trao đổi dữ liệu điện tử) qua Internet sử dụng:",
+      "options": {
+        "A": "MIME để đính kèm các biểu mẫu EDI vào các thông điệp email",
+        "B": "FTP để gửi các biểu mẫu kinh doanh",
+        "C": "HTTP để gửi các biểu mẫu kinh doanh",
+        "D": "SGML để gửi các biểu mẫu kinh doanh"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "question": "Để truyền EDI (Trao đổi dữ liệu điện tử) an toàn trên internet:",
+      "options": {
+        "A": "MIME được sử dụng",
+        "B": "S/MIME được sử dụng",
+        "C": "PGP được sử dụng",
+        "D": "TCP/IP được sử dụng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 45,
+      "question": "Tiêu chuẩn EDI (Trao đổi dữ liệu điện tử):",
+      "options": {
+        "A": "Không dễ dàng có sẵn",
+        "B": "Xác định hàng trăm bộ giao dịch cho các biểu mẫu kinh doanh khác nhau",
+        "C": "Không phổ biến",
+        "D": "Chỉ xác định một giao thức truyền dẫn"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "Phương án nào không đúng: Trong thương mại điện tử, bảo mật có nghĩa là:",
+      "options": {
+        "A": "Bảo vệ tài nguyên dữ liệu của tổ chức khỏi truy cập trái phép",
+        "B": "Ngân ngừa các thảm họa xảy ra",
+        "C": "Xác thực các thông điệp nhận được bởi tổ chức",
+        "D": "Bảo vệ các thông điệp gửi trên Internet tránh khỏi việc bị xem bởi các cá nhân/tổ chức trái phép"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 47,
+      "question": "Một tường lửa (Firewall) là:",
+      "options": {
+        "A": "Một bức tường được xây dựng để ngăn chặn hỏa hoạn làm hỏng mạng intranet của công ty",
+        "B": "Thiết bị bảo mật được triển khai tại ranh giới mạng của công ty để ngăn chặn truy cập vật lý trái phép",
+        "C": "Thiết bị bảo mật được triển khai tại ranh giới của mạng intranet công ty để bảo vệ nó khỏi truy cập trái phép",
+        "D": "Thiết bị để ngăn chặn tất cả truy cập từ internet đến mạng intranet công ty"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 48,
+      "question": "Tường lửa có thể được triển khai trong:",
+      "options": {
+        "A": "Bộ định tuyến kết nối mạng intranet với internet",
+        "B": "Cầu nối được sử dụng trong mạng intranet",
+        "C": "Modem đắt tiền",
+        "D": "Chương trình ứng dụng của người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 49,
+      "question": "Tường lửa, nếu là một phần của bộ định tuyến, sẽ:",
+      "options": {
+        "A": "Chỉ lọc các gói dữ liệu đến từ internet",
+        "B": "Chỉ lọc các gói dữ liệu đi đến internet",
+        "C": "Lọc các gói dữ liệu di chuyển từ và đến mạng intranet từ internet",
+        "D": "Đảm bảo luồng dữ liệu nhanh chóng để tăng tốc mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 50,
+      "question": "Chức năng chính của tường lửa proxy application gateway là:",
+      "options": {
+        "A": "Cho phép người dùng nội bộ công ty sử dụng hiệu quả tất cả các dịch vụ internet",
+        "B": "Cho phép người dùng mạng intranet sử dụng an toàn các dịch vụ internet được chỉ định",
+        "C": "Cho phép người dùng nội bộ công ty sử dụng tất cả các dịch vụ internet",
+        "D": "Ngăn chặn người dùng nội bộ công ty sử dụng các dịch vụ internet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "Phương án nào không đúng: Proxy application gateway...",
+      "options": {
+        "A": "Hoạt động thay mặt cho tất cả người dùng mạng nội bộ muốn truy cập internet an toàn",
+        "B": "Giám sát tất cả các lượt truy cập internet và chỉ cho phép truy cập các địa chỉ IP được chỉ định",
+        "C": "Không cho phép sử dụng một số giao thức có vấn đề về bảo mật",
+        "D": "Ngăn chặn tất cả người dùng internet truy cập mạng nội bộ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 52,
+      "question": "Một host tường lửa được củng cố trên mạng nội bộ (intranet) là:",
+      "options": {
+        "A": "Một phần mềm chạy trên bất kỳ máy tính nào trong mạng nội bộ",
+        "B": "Một phần mềm chạy trên một máy tính được dành riêng biệt trong mạng nội bộ",
+        "C": "Một máy tính bản rút gọn được kết nối với mạng nội bộ",
+        "D": "Một mainframe được kết nối với mạng nội bộ để đảm bảo bảo mật"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Mã hóa văn bản có nghĩa là:",
+      "options": {
+        "A": "Nén nó",
+        "B": "Mở rộng nó",
+        "C": "Xáo trộn nó để bảo vệ tính bảo mật",
+        "D": "Hashing (băm) nó"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 54,
+      "question": "Mã hóa cần thiết để:",
+      "options": {
+        "A": "Tăng tốc độ truyền thông tin",
+        "B": "Sử dụng hiệu quả băng thông sẵn có trong mạng nội bộ",
+        "C": "Bảo vệ thông tin được lưu trữ trong cơ sở dữ liệu của công ty khỏi việc truy xuất",
+        "D": "Bảo vệ tính bí mật của thông tin được lưu trữ trong cơ sở dữ liệu nếu bị truy cập trái phép"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 55,
+      "question": "Mã hóa có thể được thực hiện:",
+      "options": {
+        "A": "Chỉ trên dữ liệu văn bản",
+        "B": "Chỉ trên dữ liệu mã ASCII",
+        "C": "Trên bất kỳ chuỗi bit nào",
+        "D": "Chỉ trên dữ liệu dạng mnemonic"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Mã hóa khóa đối xứng có nghĩa là:",
+      "options": {
+        "A": "Một khóa riêng được sử dụng cho cả mã hóa và giải mã",
+        "B": "Khóa riêng và khóa công khai được sử dụng là đối xứng",
+        "C": "Chỉ sử dụng các khóa công khai để mã hóa",
+        "D": "Chỉ sử dụng khóa đối xứng để mã hóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 57,
+      "question": "Từ viết tắt DES đại diện cho:",
+      "options": {
+        "A": "Digital Evaluation System",
+        "B": "Digital Encryption Standard",
+        "C": "Digital Encryption System",
+        "D": "Double Encryption Standard"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "DES hoạt động bằng cách sử dụng...?",
+      "options": {
+        "A": "Hoán vị và thay thế trên các khối 64 bit của bản rõ",
+        "B": "Chỉ hoán vị trên các khối 128 bit",
+        "C": "Phép XOR các bit khóa với các khối 64 bit",
+        "D": "4 vòng thay thế trên các khối 64 bit với khóa 56 bit"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "DES...",
+      "options": {
+        "A": "là một phương pháp mã hóa khóa đối xứng",
+        "B": "đảm bảo an ninh tuyệt đối",
+        "C": "không thể triển khai dưới dạng chip phần cứng VLSI",
+        "D": "là một phương pháp mã hóa khóa công khai"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "DES sử dụng khóa 56 bit:",
+      "options": {
+        "A": "Không thể bị bẻ khóa trong thời gian ngắn với các máy tính hiện nay",
+        "B": "Chỉ có thể bị bẻ khóa nếu biết thuật toán, ngay cả với máy tính tốc độ chậm",
+        "C": "Có thể bị bẻ khóa với các máy tính hiệu năng cao hiện nay",
+        "D": "Không thể bị bẻ khóa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 61,
+      "question": "Triple DES sử dụng:",
+      "options": {
+        "A": "Khóa 168 bit trên các khối 64 bit bản rõ",
+        "B": "Làm việc trên các khối 64 bit và khóa 56 bit bản rõ bằng cách áp dụng thuật toán DES ba lần",
+        "C": "Làm việc trên các khối 144 bit bản rõ và áp dụng thuật toán DES một lần",
+        "D": "Sử dụng các khối 128 bit bản rõ và khóa 112 bit và áp dụng thuật toán DES ba lần"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Triple DES:",
+      "options": {
+        "A": "Không thể bị phá vỡ trong thời gian hợp lý với các máy tính hiện tại",
+        "B": "Chỉ có thể bị phá vỡ nếu biết thuật toán, ngay cả với máy tính chậm",
+        "C": "Có thể bị phá vỡ với các máy tính hiệu năng cao hiện tại",
+        "D": "Không bao giờ có thể bị phá vỡ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 63,
+      "question": "Triple DES:",
+      "options": {
+        "A": "Là một phương pháp mã hóa khóa đối xứng",
+        "B": "Đảm bảo an ninh tuyệt vời",
+        "C": "Có thể triển khai dưới dạng chip phần cứng VLSI",
+        "D": "Là phương pháp mã hóa khóa công khai với ba khóa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "Phương pháp mã hóa khóa công khai là một hệ thống:",
+      "options": {
+        "A": "Sử dụng một tập hợp các khóa công khai, một cho mỗi người tham gia",
+        "B": "Trong đó, mỗi người muốn giao tiếp có hai khóa: một khóa riêng và một khóa công khai",
+        "C": "Sử dụng hệ thống mã hóa RSA",
+        "D": "Là một tiêu chuẩn để sử dụng trong thương mại điện tử"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Hệ thống khóa công khai hữu ích vì:",
+      "options": {
+        "A": "Nó sử dụng hai khóa",
+        "B": "Không có vấn đề phân phối khóa vì khóa công khai có thể được lưu trữ công khai",
+        "C": "Khóa riêng có thể được giữ bí mật",
+        "D": "Nó là một hệ thống mã hóa khóa đối xứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 66,
+      "question": "Trong mã hóa khóa công khai, nếu A muốn gửi một thông điệp được mã hóa cho B:",
+      "options": {
+        "A": "A mã hóa thông điệp bằng khóa riêng của mình",
+        "B": "A mã hóa thông điệp bằng khóa riêng của B",
+        "C": "A mã hóa thông điệp bằng khóa công khai của B",
+        "D": "A mã hóa thông điệp bằng khóa công khai của mình"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Trong hệ thống mã hóa khóa công khai, nếu A mã hóa một thông điệp bằng khóa riêng của mình và gửi nó cho B:",
+      "options": {
+        "A": "Nếu B biết đó là từ A, B có thể giải mã nó bằng khóa công khai của A",
+        "B": "Thông điệp vẫn không thể được giải mã",
+        "C": "Thông điệp không thể được giải mã vì không ai biết khóa riêng của A",
+        "D": "A cần gửi khóa công khai của mình kèm với thông điệp"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Thông điệp có thể được gửi an toàn hơn khi sử dụng DES bằng cách:",
+      "options": {
+        "A": "Mã hóa bản rõ bằng một khóa ngẫu nhiên khác nhau cho mỗi lần truyền",
+        "B": "Mã hóa bản rõ bằng một khóa ngẫu nhiên và gửi khóa đó bằng hệ thống khóa công khai",
+        "C": "Sử dụng một thuật toán để triển khai DES thay vì sử dụng phần cứng",
+        "D": "Thiết kế DES với độ bảo mật cao và không công bố thuật toán"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "DES và thuật toán khóa công khai được kết hợp:",
+      "options": {
+        "A": "làm giảm tốc độ truyền thông điệp đã mã hóa",
+        "B": "để đảm bảo an ninh cao hơn bằng cách sử dụng khóa khác nhau cho mỗi lần truyền",
+        "C": "vì sự kết hợp luôn tốt hơn từng hệ thống riêng lẻ",
+        "D": "vì nó được yêu cầu trong thương mại điện tử"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "Chữ ký số là:",
+      "options": {
+        "A": "Một chuỗi bit cung cấp danh tính của người gửi",
+        "B": "Một mã định danh duy nhất của người gửi",
+        "C": "Một phương pháp xác thực bản ghi điện tử bằng cách liên kết duy nhất với một khóa chỉ người gửi biết",
+        "D": "Một chữ ký đã mã hóa của người gửi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 71,
+      "question": "Phương án nào chưa đúng: Chữ ký số được yêu cầu:",
+      "options": {
+        "A": "Để liên kết một thông điệp điện tử với danh tính của người gửi",
+        "B": "Để ngăn chặn người gửi từ chối thông điệp đã gửi",
+        "C": "Để chứng minh rằng một thông điệp được gửi bởi người gửi",
+        "D": "Trong tất cả các giao dịch email"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 72,
+      "question": "Phương án nào chưa đúng: Một hàm băm (hashing function) cho chữ ký số:",
+      "options": {
+        "A": "Phải tạo ra một thông điệp băm ngắn hơn thông điệp gốc",
+        "B": "Phải có khả năng triển khai bằng phần cứng",
+        "C": "Hai thông điệp khác nhau không được tạo ra cùng một thông điệp băm",
+        "D": "Cần thiết để triển khai chữ ký số"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 73,
+      "question": "Thông điệp băm được ký bởi người gửi bằng:",
+      "options": {
+        "A": "Khóa công khai của người gửi",
+        "B": "Khóa riêng của người gửi",
+        "C": "Khóa công khai của người nhận",
+        "D": "Khóa riêng của người nhận"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 74,
+      "question": "Khi gửi một thông điệp đã ký, người gửi:",
+      "options": {
+        "A": "Gửi khóa thông điệp bằng mã hóa khóa công khai bằng DES và thông điệp băm bằng mã hóa khóa công khai",
+        "B": "Gửi thông điệp bằng mã hóa khóa công khai và thông điệp băm bằng DES",
+        "C": "Gửi cả thông điệp và thông điệp băm bằng DES",
+        "D": "Gửi cả thông điệp và thông điệp băm bằng mã hóa khóa công khai"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "question": "Trách nhiệm của cơ quan chứng nhận (CA) đối với chữ ký số là xác thực:",
+      "options": {
+        "A": "Hàm băm được sử dụng",
+        "B": "Khóa riêng của người đăng ký",
+        "C": "Khóa công khai của người đăng ký",
+        "D": "Khóa được sử dụng trong DES"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "Việc chứng nhận chữ ký số bởi một cơ quan độc lập là cần thiết vì:",
+      "options": {
+        "A": "Nó an toàn",
+        "B": "Nó mang lại sự tự tin cho doanh nghiệp",
+        "C": "Cơ quan đảm bảo rằng khóa công khai thực sự thuộc về doanh nghiệp tuyên bố sở hữu nó",
+        "D": "Khóa riêng mà người gửi tuyên bố có thể không thực sự là của họ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "question": "Giao thức SET được sử dụng để:",
+      "options": {
+        "A": "Thanh toán bằng thẻ tín dụng",
+        "B": "Thanh toán bằng séc",
+        "C": "Thanh toán tiền điện tử",
+        "D": "Thanh toán các khoản nhỏ cho dịch vụ internet"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 78,
+      "question": "Trong giao thức SET, khách hàng mã hóa số thẻ tín dụng bằng:",
+      "options": {
+        "A": "Khóa riêng của mình",
+        "B": "Khóa công khai của ngân hàng",
+        "C": "Khóa riêng của ngân hàng",
+        "D": "Khóa công khai của người bán"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 79,
+      "question": "Trong giao thức SET, khách hàng gửi đơn hàng mua sắm...?",
+      "options": {
+        "A": "Được mã hóa bằng khóa công khai của mình",
+        "B": "Dưới dạng bản rõ",
+        "C": "Được mã hóa bằng khóa công khai của ngân hàng",
+        "D": "Sử dụng hệ thống chữ ký số"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 80,
+      "question": "Một trong các vấn đề khi sử dụng giao thức SET là:",
+      "options": {
+        "A": "Rủi ro của người bán cao do họ chấp nhận thẻ tín dụng được mã hóa",
+        "B": "Công ty thẻ tín dụng phải kiểm tra chữ ký số",
+        "C": "Ngân hàng phải duy trì cơ sở dữ liệu các khóa công khai của khách hàng",
+        "D": "Ngân hàng phải duy trì cơ sở dữ liệu các chữ ký số của khách hàng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 81,
+      "question": "Ngân hàng cần khóa công khai của khách hàng trong SET vì:",
+      "options": {
+        "A": "Phải kiểm tra chữ ký số của khách hàng",
+        "B": "Phải giao tiếp với người bán",
+        "C": "Phải giao tiếp với công ty thẻ tín dụng của người bán",
+        "D": "Phải xác thực các khóa của khách hàng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 82,
+      "question": "Trong thanh toán bằng séc điện tử, hầu hết các giao dịch sẽ là:",
+      "options": {
+        "A": "Giữa khách hàng với khách hàng",
+        "B": "Giữa khách hàng với doanh nghiệp",
+        "C": "Giữa doanh nghiệp với doanh nghiệp",
+        "D": "Giữa ngân hàng với ngân hàng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 83,
+      "question": "Trong giao thức thanh toán bằng séc, đơn đặt hàng được ký bằng:",
+      "options": {
+        "A": "Khóa công khai của họ",
+        "B": "Khóa riêng của họ",
+        "C": "Khóa riêng của họ sử dụng phần cứng chữ ký",
+        "D": "Nhiều khóa công khai khác nhau"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 84,
+      "question": "Trong giao thức NetBill dành cho thanh toán nhỏ:",
+      "options": {
+        "A": "Khách hàng chỉ bị tính phí khi thông tin được phát hành",
+        "B": "Nhà cung cấp được đảm bảo thanh toán khi thông tin được phát hành",
+        "C": "Khách hàng phải có một khóa công khai hợp lệ",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 85,
+      "question": "Trong giao thức NetBill dành cho thanh toán nhỏ:",
+      "options": {
+        "A": "Khóa giải mã thông tin chỉ được gửi khi tài khoản đủ tiền",
+        "B": "Checksum của thông tin được mã hóa được đính kèm vào đơn đặt hàng",
+        "C": "Nhà cung cấp mã hóa thông tin được mua bởi khách hàng",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 86,
+      "question": "Trong thanh toán bằng tiền mặt điện tử:",
+      "options": {
+        "A": "Hệ thống thanh toán bằng thẻ ghi nợ được sử dụng",
+        "B": "Khách hàng mua đồng tiền điện tử được ngân hàng ký số",
+        "C": "Hệ thống thanh toán bằng thẻ tín dụng được sử dụng",
+        "D": "Mã hóa RSA được sử dụng trong các giao dịch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 87,
+      "question": "IP trong mạng máy tính có nghĩa là gì?",
+      "options": {
+        "A": "Instance Principle",
+        "B": "Internet Protocol",
+        "C": "Instant Protocol",
+        "D": "Intellectual Property"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 88,
+      "question": "Điều gì xảy ra với dữ liệu của bạn khi nó được mã hóa?",
+      "options": {
+        "A": "Dữ liệu được chuyển đến bên thứ ba",
+        "B": "Dữ liệu được nén, đổi tên và lưu trữ",
+        "C": "Dữ liệu được gửi qua siêu máy tính",
+        "D": "Dữ liệu được chuyển đổi để bảo mật khỏi các bên thứ ba"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 89,
+      "question": "Virus máy tính là gì?",
+      "options": {
+        "A": "Giống như cookie được lưu mà không xin phép",
+        "B": "Phần mềm thân thiện nhưng bị gắn nhãn sai",
+        "C": "Phần mềm độc hại nằm yên không hoạt động",
+        "D": "Phần mềm độc hại tự chèn chúng vào các chương trình khác"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 90,
+      "question": "Sự khác biệt hợp lý nào giữa Virus và Spyware?",
+      "options": {
+        "A": "Spyware làm hỏng dữ liệu và đánh cắp thông tin",
+        "B": "Virus làm hỏng dữ liệu, Spyware đánh cắp thông tin nhạy cảm",
+        "C": "Spyware làm hỏng dữ liệu, Virus đánh cắp thông tin nhạy cảm",
+        "D": "Virus làm hỏng dữ liệu và cũng đánh cắp thông tin"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 91,
+      "question": "Làm thế nào để tránh các cuộc tấn công kiểu Man-in-the-middle?",
+      "options": {
+        "A": "Chấp nhận mọi chứng chỉ SSL",
+        "B": "Sử dụng các kết nối không có SSL",
+        "C": "Sử dụng các kết nối HTTPS và xác minh chứng chỉ SSL",
+        "D": "Không có phương án nào đúng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 92,
+      "question": "Điều gì xảy ra trong cuộc tấn công TCP DoS?",
+      "options": {
+        "A": "Một virus được gửi để vô hiệu hóa prompt",
+        "B": "Các virus gửi đến ISP để từ chối hỗ trợ",
+        "C": "Một worm tải lên máy nạn nhân vô hiệu bàn phím",
+        "D": "Thông tin gửi liên tục tiêu tốn tài nguyên khiến hệ thống tắt"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 93,
+      "question": "Internet Protocol Security là gì?",
+      "options": {
+        "A": "Phương pháp bảo mật giao tiếp Giao thức Internet (IP)",
+        "B": "Cách ngắt kết nối bộ định tuyến khẩn cấp",
+        "C": "Phương pháp bảo mật máy tính bị ngắt kết nối",
+        "D": "Phương pháp bảo vệ tài liệu khỏi vi phạm vật lý"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 94,
+      "question": "Yêu cầu nào sau đây là hợp lệ cho An ninh mạng?",
+      "options": {
+        "A": "Authentication (Xác thực)",
+        "B": "Integrity (Toàn vẹn)",
+        "C": "Confidentiality (Bảo mật)",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 95,
+      "question": "Chữ ký số cung cấp những điều nào sau đây?",
+      "options": {
+        "A": "Authentication (Xác thực)",
+        "B": "Non-repudiation (Không thể chối bỏ)",
+        "C": "Integrity protection (Bảo vệ tính toàn vẹn)",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 96,
+      "question": "Trong giao thức nào, phiên làm việc sẽ được mã hóa bằng Chứng chỉ Số?",
+      "options": {
+        "A": "TCP",
+        "B": "SHTTP",
+        "C": "HTTPS",
+        "D": "XHTTP"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 97,
+      "question": "Đâu là những mối đe dọa bảo mật có thể xảy ra?",
+      "options": {
+        "A": "Sử dụng trái phép",
+        "B": "Cửa hậu (Backdoors)",
+        "C": "Giả mạo danh tính (Masquerading)",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 98,
+      "question": "Firewall là gì?",
+      "options": {
+        "A": "Biện pháp bảo mật mạng kiểm soát luồng lưu lượng truy cập",
+        "B": "Chương trình mã hóa tất cả chương trình truy cập Internet",
+        "C": "Chương trình ngăn chặn chương trình khác sử dụng mạng",
+        "D": "Gián đoạn tự động ngắt kết nối khi phát hiện đe dọa"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 99,
+      "question": "Hành động gửi càng nhiều yêu cầu càng tốt để làm quá tải máy chủ?",
+      "options": {
+        "A": "Tấn công từ chối dịch vụ phân tán (DDoS)",
+        "B": "Cửa hậu (Backdoor)",
+        "C": "Giả mạo danh tính (Masquerading)",
+        "D": "Phishing (Lừa đảo)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 100,
+      "question": "Các khóa đối xứng nào có thể được dẫn xuất từ khóa chính đối xứng?",
+      "options": {
+        "A": "Khóa xác thực (Authentication keys)",
+        "B": "Khóa Key wrapping",
+        "C": "Khóa mã hóa dữ liệu (Data encryption keys)",
+        "D": "Tất cả các phương án trên đều đúng"
+      },
+      "answer": "D"
+    }
+  ]
+}
