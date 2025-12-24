@@ -305,6 +305,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document
       .getElementById("back-to-menu")
       .addEventListener("click", renderMainMenu);
+    
+    // Show tester modal after completing test
+    setTimeout(() => {
+      showTesterModal();
+    }, 500);
   };
 
   /**
@@ -355,6 +360,20 @@ document.addEventListener("DOMContentLoaded", () => {
       .addEventListener("click", renderResults);
   };
 
+  // Show tester modal
+  const showTesterModal = () => {
+    const testerModalElement = document.getElementById('testerModal');
+    if (testerModalElement) {
+      const testerModal = new bootstrap.Modal(testerModalElement);
+      testerModal.show();
+    }
+  };
+
   // Initial load
   renderMainMenu();
+  
+  // Show modal after a short delay to ensure Bootstrap is loaded
+  setTimeout(() => {
+    showTesterModal();
+  }, 300);
 });
