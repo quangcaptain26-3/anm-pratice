@@ -139,6 +139,25 @@ const updateNavigationButton = (qId, isCorrect) => {
   btn.classList.add(isCorrect ? "correct-answer" : "incorrect-answer");
 };
 
+const toggleFlag = (qId) => {
+  state.flaggedQuestions[qId] = !state.flaggedQuestions[qId];
+
+  // Update question UI
+  const qEl = document.getElementById(`question-${qId}`);
+  const flagBtn = qEl?.querySelector(".flag-btn");
+  if (flagBtn) {
+    if (state.flaggedQuestions[qId]) flagBtn.classList.add("active");
+    else flagBtn.classList.remove("active");
+  }
+
+  // Update Navigation UI
+  const navBtn = document.querySelector(`.nav-btn[data-question-id="${qId}"]`);
+  if (navBtn) {
+    if (state.flaggedQuestions[qId]) navBtn.classList.add("flagged");
+    else navBtn.classList.remove("flagged");
+  }
+};
+
 const showAnswerFeedback = (qId, selAns) => {
   const q = state.currentQuizQuestions.find((x) => x.id == qId);
   if (!q) return;
@@ -247,6 +266,7 @@ const startChapterQuiz = async (fileName) => {
 const renderQuiz = () => {
   state.userAnswers = {};
   state.questionStats = { correct: 0, incorrect: 0, total: 0 };
+  state.flaggedQuestions = {};
 
   const questionsHTML = state.currentQuizQuestions
     .map((q, i) => generateQuestionHTML(q, i))
@@ -303,6 +323,14 @@ const setupEventListeners = () => {
 
   // Submit quiz
   document.getElementById("submit-quiz")?.addEventListener("click", submitQuiz);
+
+  // Flag buttons
+  document.querySelectorAll(".flag-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const qId = btn.dataset.questionId;
+      toggleFlag(qId);
+    });
+  });
 
   // Multiple choice
   document

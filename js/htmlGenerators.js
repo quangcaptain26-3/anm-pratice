@@ -11,11 +11,20 @@ const genOption = (q, key, val) => `
     <b>${key}:</b> ${val}
   </label>`;
 
+// Generate flag button
+const genFlagBtn = (qId) => `
+  <button class="flag-btn" data-question-id="${qId}" title="Đánh dấu câu hỏi này">
+    <svg viewBox="0 0 24 24" width="18" height="18">
+      <path fill="currentColor" d="M14.4,6L14,4H5V21H7V14H12.6L13,16H20V6H14.4Z" />
+    </svg>
+  </button>`;
+
 // Generate short answer HTML
 const genShortAnswer = (q, idx) => {
   const ans = state.userAnswers[q.id] || "";
   return `
     <div class="quiz-question short-answer-question" id="question-${q.id}">
+      ${genFlagBtn(q.id)}
       <p>${idx + 1}. ${q.question}</p>
       <div class="short-answer-container">
         <input type="text" class="short-answer-input" id="short-answer-${q.id}" 
@@ -40,6 +49,7 @@ const genFillBlankSimple = (q, idx) => {
 
   return `
     <div class="quiz-question fill-blank-simple-question" id="question-${q.id}">
+      ${genFlagBtn(q.id)}
       <p>${idx + 1}. ${qText}</p>
       <div class="fill-blank-simple-container">
         <div class="fill-blank-simple-answers">
@@ -85,6 +95,7 @@ const genDragDrop = (q, idx) => {
       <div class="quiz-question drag-drop-question fill-blank-drag-drop" id="question-${
         q.id
       }">
+        ${genFlagBtn(q.id)}
         <p>${idx + 1}. ${q.question || "Điền vào chỗ trống:"}</p>
         <div class="drag-drop-container fill-blank-container">
           <div class="fill-blank-sentences">${sentences}</div>
@@ -105,6 +116,7 @@ const genDragDrop = (q, idx) => {
 
   // Regular drag-drop (ordering) - simplified version
   return `<div class="quiz-question drag-drop-question" id="question-${q.id}">
+    ${genFlagBtn(q.id)}
     <p>${idx + 1}. ${q.question}</p>
     <p><em>Drag and drop ordering (implementation simplified)</em></p>
   </div>`;
@@ -124,6 +136,7 @@ export const generateQuestionHTML = (q, idx) => {
     .join("");
   return `
     <div class="quiz-question" id="question-${q.id}">
+      ${genFlagBtn(q.id)}
       <p>${idx + 1}. ${q.question}</p>
       <div class="options">${opts}</div>
     </div>`;

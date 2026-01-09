@@ -38,4 +38,5 @@ export const state = {
   userAnswers: {},
   currentQuizFile: null,
   questionStats: { correct: 0, incorrect: 0, total: 0 },
+  flaggedQuestions: {},
 };
