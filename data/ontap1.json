@@ -161,14 +161,9 @@
     },
     {
       "id": 16,
-      "question": "Tiêu chuẩn chứng chỉ số nào sau đây là đúng?",
-      "options": {
-        "A": "X.508",
-        "B": "X.509",
-        "C": "D.509",
-        "D": "Không có phương án nào đúng"
-      },
-      "answer": "B"
+      "type": "short_answer",
+      "question": "Tiêu chuẩn chứng chỉ số nào sau đây là đúng? (Nhập số tiêu chuẩn, ví dụ: X.509)",
+      "answer": "X.509"
     },
     {
       "id": 17,
@@ -612,14 +607,9 @@
     },
     {
       "id": 57,
+      "type": "short_answer",
       "question": "Từ viết tắt DES đại diện cho:",
-      "options": {
-        "A": "Digital Evaluation System",
-        "B": "Digital Encryption Standard",
-        "C": "Digital Encryption System",
-        "D": "Double Encryption Standard"
-      },
-      "answer": "B"
+      "answer": "Digital Encryption Standard"
     },
     {
       "id": 58,
@@ -942,14 +932,9 @@
     },
     {
       "id": 87,
+      "type": "short_answer",
       "question": "IP trong mạng máy tính có nghĩa là gì?",
-      "options": {
-        "A": "Instance Principle",
-        "B": "Internet Protocol",
-        "C": "Instant Protocol",
-        "D": "Intellectual Property"
-      },
-      "answer": "B"
+      "answer": "Internet Protocol"
     },
     {
       "id": 88,

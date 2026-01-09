@@ -2,25 +2,15 @@
   "chuong3": [
     {
       "id": 1,
+      "type": "short_answer",
       "question": "IDS viết tắt của từ nào?",
-      "options": {
-        "A": "Internet Data System",
-        "B": "Information Defense System",
-        "C": "Intrusion Detection System",
-        "D": "Integrated Data Security"
-      },
-      "answer": "C"
+      "answer": "Intrusion Detection System"
     },
     {
       "id": 2,
+      "type": "short_answer",
       "question": "IPS viết tắt của từ nào?",
-      "options": {
-        "A": "Internet Protection Service",
-        "B": "Intrusion Prevention System",
-        "C": "Information Processing Security",
-        "D": "Internal Protection System"
-      },
-      "answer": "B"
+      "answer": "Intrusion Prevention System"
     },
     {
       "id": 3,

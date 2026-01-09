@@ -145,14 +145,9 @@
     },
     {
       "id": 214,
-      "question": "IMAP là gì?",
-      "options": {
-        "A": "Internet Messaging Application",
-        "B": "Interanet Messaging Application",
-        "C": "Interanet Message Access Protocol",
-        "D": "Internet Message Access Protocol"
-      },
-      "answer": "D"
+      "type": "short_answer",
+      "question": "IMAP là gì? (Viết đầy đủ tên giao thức)",
+      "answer": "Internet Message Access Protocol"
     },
     {
       "id": 215,
@@ -420,14 +415,9 @@
     },
     {
       "id": 239,
+      "type": "short_answer",
       "question": "Malware là từ viết tắt của?",
-      "options": {
-        "A": "Malicious Software",
-        "B": "Malicious Systems",
-        "C": "Maliant Software",
-        "D": "Maliant Systems"
-      },
-      "answer": "A"
+      "answer": "Malicious Software"
     },
     {
       "id": 240,

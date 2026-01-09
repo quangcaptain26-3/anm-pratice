@@ -15,49 +15,41 @@
 <body>
     <div class="container">
         <header>
+            <div class="header-icon">🛡️</div>
             <h1>Trắc nghiệm An Ninh Mạng</h1>
-            <p>Chọn một chương để bắt đầu hoặc thử sức với các câu hỏi ngẫu nhiên.</p>
-        </header>
-        <main id="app"></main>
-    </div>
-
-    <!-- Modal thông báo cho tester -->
-    <div class="modal fade" id="testerModal" tabindex="-1" aria-labelledby="testerModalLabel" aria-hidden="true"
-        data-bs-backdrop="static" data-bs-keyboard="false">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content tester-modal-content">
-                <div class="modal-header tester-modal-header">
-                    <h5 class="modal-title" id="testerModalLabel">⚠️ Thông báo quan trọng</h5>
+            <p class="header-subtitle">Nâng cao kiến thức bảo mật với hơn 160 câu hỏi chất lượng</p>
+            <div class="header-stats">
+                <div class="stat-badge">
+                    <span class="stat-number">8</span>
+                    <span class="stat-label">Chủ đề</span>
                 </div>
-                <div class="modal-body tester-modal-body">
-                    <p class="tester-message-text">
-                        <strong>Thân gửi các bạn tester "khó tính":</strong>
-                    </p>
-                    <p class="tester-message-text">
-                        Cảm ơn các bạn tester thân yêu đã "yêu cầu" mình làm responsive cho ứng dụng này!
-                        Tao đã làm xong rồi đấy, giờ thì... <strong>còn gì đòi nốt đi</strong>! 😏
-                    </p>
-                    <p class="tester-message-text">
-                        Xong rồi thì đòi hỏi ít thôi nhé! 
-                    </p>
-                    <p class="tester-message-text">
-                        <em>Tiền chưa đưa mà cứ đè đầu cưỡi cổ 😏</em>
-                    </p>
+                <div class="stat-badge">
+                    <span class="stat-number">160+</span>
+                    <span class="stat-label">Câu hỏi</span>
                 </div>
-                <div class="modal-footer tester-modal-footer">
-                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">
-                        OK, tôi sẽ test kỹ... 😅
-                    </button>
+                <div class="stat-badge">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Miễn phí</span>
                 </div>
             </div>
-        </div>
+        </header>
+        <main id="app"></main>
     </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+
+    <!-- Main App (Optimized with ES6 Modules) -->
+    <script type="module" src="script-optimized.js"></script>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" title="Lên đầu trang">
+        <svg viewBox="0 0 24 24" width="24" height="24">
+            <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+        </svg>
+    </button>
 </body>
 
 </html>

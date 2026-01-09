@@ -761,14 +761,9 @@
     },
     {
       "id": 70,
+      "type": "short_answer",
       "question": "TCP nghĩa là gì?",
-      "options": {
-        "A": "Technical Control Panel",
-        "B": "Total Content Positioning",
-        "C": "Transmission Control Protocol",
-        "D": "Transmittable Constant Protocol"
-      },
-      "answer": "C"
+      "answer": "Transmission Control Protocol"
     }
   ]
 }

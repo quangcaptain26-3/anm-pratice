@@ -508,14 +508,9 @@
     },
     {
       "id": 47,
+      "type": "short_answer",
       "question": "TLS viết tắt của từ nào?",
-      "options": {
-        "A": "Transport Login Service",
-        "B": "Transfer Layer Security",
-        "C": "Trusted Link Security",
-        "D": "Transport Layer Security"
-      },
-      "answer": "D"
+      "answer": "Transport Layer Security"
     },
     {
       "id": 48,
@@ -607,14 +602,9 @@
     },
     {
       "id": 56,
+      "type": "short_answer",
       "question": "DTLS viết tắt của:",
-      "options": {
-        "A": "Datagram Transport Layer Security",
-        "B": "Direct TLS",
-        "C": "Datagram TLS Socket",
-        "D": "Data Transmission Layer Security"
-      },
-      "answer": "A"
+      "answer": "Datagram Transport Layer Security"
     },
     {
       "id": 57,

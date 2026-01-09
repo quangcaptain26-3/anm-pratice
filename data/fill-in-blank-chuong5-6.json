@@ -1,0 +1,128 @@
+{
+  "fillInBlankChuong5_6": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "SSL viết tắt của Secure Socket _____.",
+        "correctAnswer": "Layer"
+      },
+      {
+        "id": 2,
+        "text": "TLS viết tắt của Transport Layer _____.",
+        "correctAnswer": "Security"
+      },
+      {
+        "id": 3,
+        "text": "Quá trình _____ trong TLS nhằm mục đích xác thực, trao đổi khóa và thỏa thuận thuật toán mã hóa.",
+        "correctAnswer": "Handshake"
+      },
+      {
+        "id": 4,
+        "text": "Thông điệp _____ trong handshake TLS được gửi từ server để xác thực danh tính.",
+        "correctAnswer": "Certificate"
+      },
+      {
+        "id": 5,
+        "text": "Tấn công _____ là dạng tấn công giảm phiên bản từ HTTPS về HTTP không bảo mật.",
+        "correctAnswer": "SSL Stripping"
+      },
+      {
+        "id": 6,
+        "text": "_____ là lỗ hổng trong OpenSSL thuộc phần mở rộng Heartbeat.",
+        "correctAnswer": "Heartbleed"
+      },
+      {
+        "id": 7,
+        "text": "Tấn công _____ khai thác SSL 3.0 và cơ chế padding của CBC.",
+        "correctAnswer": "POODLE"
+      },
+      {
+        "id": 8,
+        "text": "_____ là cơ chế giúp phòng chống SSL Stripping bằng cách ép trình duyệt luôn dùng HTTPS.",
+        "correctAnswer": "HSTS"
+      },
+      {
+        "id": 9,
+        "text": "DTLS viết tắt của Datagram Transport Layer _____.",
+        "correctAnswer": "Security"
+      },
+      {
+        "id": 10,
+        "text": "DTLS được thiết kế để hoạt động trên giao thức _____.",
+        "correctAnswer": "UDP"
+      },
+      {
+        "id": 11,
+        "text": "Chứng chỉ số TLS/SSL tuân theo chuẩn _____.",
+        "correctAnswer": "X.509"
+      },
+      {
+        "id": 12,
+        "text": "_____ là tổ chức phát hành chứng chỉ số đáng tin cậy.",
+        "correctAnswer": "CA"
+      },
+      {
+        "id": 13,
+        "text": "CA viết tắt của Certificate _____.",
+        "correctAnswer": "Authority"
+      },
+      {
+        "id": 14,
+        "text": "_____ certificate cho phép dùng cho nhiều subdomain (*.domain.com).",
+        "correctAnswer": "Wildcard"
+      },
+      {
+        "id": 15,
+        "text": "_____ là chứng chỉ tự ký, không do CA đáng tin cậy cấp.",
+        "correctAnswer": "Self-signed"
+      },
+      {
+        "id": 16,
+        "text": "VPN tạo ra một _____ mã hóa giúp truyền dữ liệu an toàn qua Internet công cộng.",
+        "correctAnswer": "Tunnel"
+      },
+      {
+        "id": 17,
+        "text": "_____ là giao thức VPN mã nguồn mở phổ biến, hỗ trợ cả TCP và UDP.",
+        "correctAnswer": "OpenVPN"
+      },
+      {
+        "id": 18,
+        "text": "_____ là giao thức VPN được Microsoft phát triển, tích hợp sẵn trong Windows.",
+        "correctAnswer": "PPTP"
+      },
+      {
+        "id": 19,
+        "text": "_____ là giao thức VPN hiện đại, nhanh và bảo mật, sử dụng mã hóa ChaCha20.",
+        "correctAnswer": "WireGuard"
+      },
+      {
+        "id": 20,
+        "text": "_____ là giao thức VPN hoạt động ở tầng Network Layer, mã hóa toàn bộ gói tin IP.",
+        "correctAnswer": "IPsec"
+      }
+    ],
+    "answers": [
+      "Layer",
+      "Security",
+      "Handshake",
+      "Certificate",
+      "SSL Stripping",
+      "Heartbleed",
+      "POODLE",
+      "HSTS",
+      "Security",
+      "UDP",
+      "X.509",
+      "CA",
+      "Authority",
+      "Wildcard",
+      "Self-signed",
+      "Tunnel",
+      "OpenVPN",
+      "PPTP",
+      "WireGuard",
+      "IPsec"
+    ]
+  }
+}

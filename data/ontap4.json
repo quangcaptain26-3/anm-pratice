@@ -57,14 +57,9 @@
     },
     {
       "id": 6,
-      "question": "CIA trong an ninh mạng là viết tắt của?",
-      "options": {
-        "A": "Confidentiality, Integrity, Availability",
-        "B": "Cyber, Internet, Attack",
-        "C": "Code, Identity, Authentication",
-        "D": "Control, Information, Access"
-      },
-      "answer": "A"
+      "type": "short_answer",
+      "question": "CIA trong an ninh mạng là viết tắt của? (Viết đầy đủ 3 từ, cách nhau bằng dấu phẩy)",
+      "answer": "Confidentiality, Integrity, Availability"
     },
     {
       "id": 7,
@@ -277,14 +272,9 @@
     },
     {
       "id": 26,
+      "type": "short_answer",
       "question": "IPS viết tắt của từ nào?",
-      "options": {
-        "A": "Information Processing Security",
-        "B": "Internal Protection System",
-        "C": "Intrusion Prevention System",
-        "D": "Internet Protection Service"
-      },
-      "answer": "C"
+      "answer": "Intrusion Prevention System"
     },
     {
       "id": 27,

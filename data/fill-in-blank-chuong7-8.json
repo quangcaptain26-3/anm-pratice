@@ -1,0 +1,128 @@
+{
+  "fillInBlankChuong7_8": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "NAC viết tắt của Network Access _____.",
+        "correctAnswer": "Control"
+      },
+      {
+        "id": 2,
+        "text": "_____ là giao thức xác thực mạng sử dụng cơ chế vé (ticket) để cấp quyền truy cập dịch vụ.",
+        "correctAnswer": "Kerberos"
+      },
+      {
+        "id": 3,
+        "text": "Kerberos sử dụng cơ chế mã hóa khóa _____ để xác thực.",
+        "correctAnswer": "Symmetric"
+      },
+      {
+        "id": 4,
+        "text": "_____ là vé do Authentication Server cấp trong Kerberos.",
+        "correctAnswer": "TGT"
+      },
+      {
+        "id": 5,
+        "text": "TGT viết tắt của Ticket Granting _____.",
+        "correctAnswer": "Ticket"
+      },
+      {
+        "id": 6,
+        "text": "TPM viết tắt của Trusted Platform _____.",
+        "correctAnswer": "Module"
+      },
+      {
+        "id": 7,
+        "text": "_____ là chip phần cứng bảo mật dùng để lưu trữ khóa mã hóa an toàn.",
+        "correctAnswer": "TPM"
+      },
+      {
+        "id": 8,
+        "text": "TPM thường được sử dụng trong _____, công nghệ mã hóa ổ cứng của Windows.",
+        "correctAnswer": "BitLocker"
+      },
+      {
+        "id": 9,
+        "text": "_____ là xác thực nhiều yếu tố, sử dụng nhiều phương thức xác thực khác nhau.",
+        "correctAnswer": "MFA"
+      },
+      {
+        "id": 10,
+        "text": "OTP viết tắt của One-Time _____.",
+        "correctAnswer": "Password"
+      },
+      {
+        "id": 11,
+        "text": "_____ là chuẩn kiểm soát truy cập mạng dựa trên cổng (Port-based Network Access Control).",
+        "correctAnswer": "802.1X"
+      },
+      {
+        "id": 12,
+        "text": "Trong mô hình 802.1X, _____ là thiết bị hoặc phần mềm yêu cầu truy cập.",
+        "correctAnswer": "Supplicant"
+      },
+      {
+        "id": 13,
+        "text": "Trong mô hình 802.1X, _____ thường là Switch hoặc Access Point.",
+        "correctAnswer": "Authenticator"
+      },
+      {
+        "id": 14,
+        "text": "Authentication Server trong 802.1X thường là _____ server.",
+        "correctAnswer": "RADIUS"
+      },
+      {
+        "id": 15,
+        "text": "_____ là giao thức xác thực mở rộng được sử dụng trong 802.1X.",
+        "correctAnswer": "EAP"
+      },
+      {
+        "id": 16,
+        "text": "_____ là chuẩn bảo mật Wi-Fi đầu tiên nhưng có khóa tĩnh dễ bị bẻ khóa.",
+        "correctAnswer": "WEP"
+      },
+      {
+        "id": 17,
+        "text": "WPA2 sử dụng cơ chế mã hóa _____.",
+        "correctAnswer": "AES-CCMP"
+      },
+      {
+        "id": 18,
+        "text": "WPA3 bổ sung tính năng _____ để tăng cường bảo mật.",
+        "correctAnswer": "SAE"
+      },
+      {
+        "id": 19,
+        "text": "_____ là tấn công giả mạo Access Point để đánh cắp thông tin người dùng.",
+        "correctAnswer": "Evil Twin"
+      },
+      {
+        "id": 20,
+        "text": "_____ là tập hợp thiết bị bị chiếm quyền điều khiển, thường được sử dụng để tấn công DDoS.",
+        "correctAnswer": "Botnet"
+      }
+    ],
+    "answers": [
+      "Control",
+      "Kerberos",
+      "Symmetric",
+      "TGT",
+      "Ticket",
+      "Module",
+      "TPM",
+      "BitLocker",
+      "MFA",
+      "Password",
+      "802.1X",
+      "Supplicant",
+      "Authenticator",
+      "RADIUS",
+      "EAP",
+      "WEP",
+      "AES-CCMP",
+      "SAE",
+      "Evil Twin",
+      "Botnet"
+    ]
+  }
+}

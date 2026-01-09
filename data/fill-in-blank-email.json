@@ -1,0 +1,128 @@
+{
+  "fillInBlankEmail": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "_____ là kỹ thuật lừa đảo qua email giả mạo để chiếm đoạt thông tin nhạy cảm.",
+        "correctAnswer": "Phishing"
+      },
+      {
+        "id": 2,
+        "text": "_____ là giao thức bảo mật email sử dụng mã hóa và chữ ký số.",
+        "correctAnswer": "S/MIME"
+      },
+      {
+        "id": 3,
+        "text": "_____ là giao thức sử dụng khi email được gửi từ máy này sang máy khác.",
+        "correctAnswer": "SMTP"
+      },
+      {
+        "id": 4,
+        "text": "_____ là giao thức để lấy thư từ máy chủ từ xa về máy client.",
+        "correctAnswer": "POP3"
+      },
+      {
+        "id": 5,
+        "text": "IMAP viết tắt của Internet Message Access _____.",
+        "correctAnswer": "Protocol"
+      },
+      {
+        "id": 6,
+        "text": "_____ là bản ghi DNS chỉ định tuyến đường email cho một domain.",
+        "correctAnswer": "MX"
+      },
+      {
+        "id": 7,
+        "text": "_____ là cuộc tấn công spam sử dụng dữ liệu giả mạo người gửi.",
+        "correctAnswer": "Joe Job"
+      },
+      {
+        "id": 8,
+        "text": "RBL viết tắt của Realtime Blackhole _____.",
+        "correctAnswer": "List"
+      },
+      {
+        "id": 9,
+        "text": "_____ là kỹ thuật tra cứu DNS ngược để kiểm tra máy chủ email người gửi có giả mạo.",
+        "correctAnswer": "Reverse DNS"
+      },
+      {
+        "id": 10,
+        "text": "_____ là chương trình dùng để gửi và nhận email từ phía người dùng.",
+        "correctAnswer": "MUA"
+      },
+      {
+        "id": 11,
+        "text": "MUA viết tắt của Mail User _____.",
+        "correctAnswer": "Agent"
+      },
+      {
+        "id": 12,
+        "text": "MTA viết tắt của Mail Transfer _____.",
+        "correctAnswer": "Agent"
+      },
+      {
+        "id": 13,
+        "text": "_____ là công cụ xác minh người dùng là con người, thường dùng để chống spam.",
+        "correctAnswer": "CAPTCHA"
+      },
+      {
+        "id": 14,
+        "text": "_____ là máy chủ email thu hút spammer để nghiên cứu và chặn.",
+        "correctAnswer": "Honeypot"
+      },
+      {
+        "id": 15,
+        "text": "_____ là kỹ thuật gửi tin nhắn bị nghi ngờ một cách chậm hơn để ngăn spam.",
+        "correctAnswer": "Tarpit"
+      },
+      {
+        "id": 16,
+        "text": "_____ là phương pháp lưu trữ mật khẩu an toàn bằng cách thêm muối và băm.",
+        "correctAnswer": "Salted Hash"
+      },
+      {
+        "id": 17,
+        "text": "_____ là phần mềm gián điệp giám sát hoạt động hệ thống và gửi thông tin đi.",
+        "correctAnswer": "Spyware"
+      },
+      {
+        "id": 18,
+        "text": "_____ là tập hợp chương trình kết nối Internet thực hiện nhiệm vụ độc hại.",
+        "correctAnswer": "Botnet"
+      },
+      {
+        "id": 19,
+        "text": "_____ là phần mềm độc hại giả vờ là vô hại để người dùng tải xuống.",
+        "correctAnswer": "Trojan Horse"
+      },
+      {
+        "id": 20,
+        "text": "_____ là phần mềm độc hại thiết kế để lây nhiễm máy khác mà không cần file chủ.",
+        "correctAnswer": "Worm"
+      }
+    ],
+    "answers": [
+      "Phishing",
+      "S/MIME",
+      "SMTP",
+      "POP3",
+      "Protocol",
+      "MX",
+      "Joe Job",
+      "List",
+      "Reverse DNS",
+      "MUA",
+      "Agent",
+      "Agent",
+      "CAPTCHA",
+      "Honeypot",
+      "Tarpit",
+      "Salted Hash",
+      "Spyware",
+      "Botnet",
+      "Trojan Horse",
+      "Worm"
+    ]
+  }
+}

@@ -2,14 +2,9 @@
   "chuong7": [
     {
       "id": 1,
+      "type": "short_answer",
       "question": "NAC viết tắt của gì?",
-      "options": {
-        "A": "Network Access Control",
-        "B": "Network Administration Center",
-        "C": "Network Authentication Core",
-        "D": "Network Advanced Communication"
-      },
-      "answer": "A"
+      "answer": "Network Access Control"
     },
     {
       "id": 2,
@@ -222,14 +217,9 @@
     },
     {
       "id": 21,
+      "type": "short_answer",
       "question": "TPM là viết tắt của:",
-      "options": {
-        "A": "Trusted Platform Module",
-        "B": "Trusted Protocol Management",
-        "C": "Technical Protection Model",
-        "D": "Token Protection Mechanism"
-      },
-      "answer": "A"
+      "answer": "Trusted Platform Module"
     },
     {
       "id": 22,
@@ -365,14 +355,9 @@
     },
     {
       "id": 34,
+      "type": "short_answer",
       "question": "OTP là viết tắt của:",
-      "options": {
-        "A": "One-Time Password",
-        "B": "Only Trusted Password",
-        "C": "Open Token Protocol",
-        "D": "Online Trusted Platform"
-      },
-      "answer": "A"
+      "answer": "One-Time Password"
     },
     {
       "id": 35,

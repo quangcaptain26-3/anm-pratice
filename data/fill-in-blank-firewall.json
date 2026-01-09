@@ -1,0 +1,128 @@
+{
+  "fillInBlankFirewall": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "_____ là thiết bị tích hợp firewall, IPS/IDS, AV, web/email filtering trong một giải pháp all-in-one.",
+        "correctAnswer": "UTM"
+      },
+      {
+        "id": 2,
+        "text": "_____ là tường lửa ứng dụng web, thường đặt trước web/app public để bảo vệ khỏi SQL Injection và XSS.",
+        "correctAnswer": "WAF"
+      },
+      {
+        "id": 3,
+        "text": "Firewall xử lý rule theo nguyên tắc _____, nghĩa là áp dụng rule đầu tiên khớp.",
+        "correctAnswer": "First-match"
+      },
+      {
+        "id": 4,
+        "text": "_____ là bộ 5 thông tin gồm IP nguồn, IP đích, port nguồn, port đích và protocol.",
+        "correctAnswer": "5-tuple"
+      },
+      {
+        "id": 5,
+        "text": "_____ là firewall thế hệ mới có khả năng nhận diện ứng dụng và người dùng.",
+        "correctAnswer": "NGFW"
+      },
+      {
+        "id": 6,
+        "text": "Nguyên tắc _____ yêu cầu chặn tất cả trừ khi có rule cho phép.",
+        "correctAnswer": "Default Deny"
+      },
+      {
+        "id": 7,
+        "text": "Nguyên tắc _____ yêu cầu chỉ cấp quyền tối thiểu cần thiết.",
+        "correctAnswer": "Least Privilege"
+      },
+      {
+        "id": 8,
+        "text": "_____ là khả năng của NGFW giúp nhận diện ứng dụng chạy trên cổng không chuẩn.",
+        "correctAnswer": "App-ID"
+      },
+      {
+        "id": 9,
+        "text": "_____ là cơ chế dịch địa chỉ/cổng để truy cập ra/vào mạng khác.",
+        "correctAnswer": "NAT"
+      },
+      {
+        "id": 10,
+        "text": "Firewall quản lý vùng thường viết policy theo mô hình _____.",
+        "correctAnswer": "Zone-to-Zone"
+      },
+      {
+        "id": 11,
+        "text": "_____ là loại firewall tự cho phép lưu lượng trả về thuộc phiên hợp lệ trong state table.",
+        "correctAnswer": "Stateful"
+      },
+      {
+        "id": 12,
+        "text": "_____ là loại firewall không theo dõi phiên, không có state table.",
+        "correctAnswer": "Stateless"
+      },
+      {
+        "id": 13,
+        "text": "_____ giúp ngăn chặn lateral movement (di chuyển ngang trong mạng).",
+        "correctAnswer": "Zone segmentation"
+      },
+      {
+        "id": 14,
+        "text": "_____ là kỹ thuật firewall kiểm tra và giải mã lưu lượng TLS để phát hiện mối đe dọa.",
+        "correctAnswer": "TLS Inspection"
+      },
+      {
+        "id": 15,
+        "text": "_____ là loại firewall hoạt động ở tầng ứng dụng, kiểm tra nội dung chi tiết.",
+        "correctAnswer": "Application Gateway"
+      },
+      {
+        "id": 16,
+        "text": "_____ là loại firewall hoạt động ở tầng mạch, không kiểm tra nội dung tầng ứng dụng.",
+        "correctAnswer": "Circuit-level Gateway"
+      },
+      {
+        "id": 17,
+        "text": "_____ là loại firewall cơ bản chỉ lọc gói tin dựa trên IP, port và protocol.",
+        "correctAnswer": "Packet Filtering"
+      },
+      {
+        "id": 18,
+        "text": "Trong 3-way handshake của TCP, firewall stateful kiểm tra _____,  SYN-ACK và ACK.",
+        "correctAnswer": "SYN"
+      },
+      {
+        "id": 19,
+        "text": "_____ là vấn đề xảy ra khi State Table đầy, không nhận thêm kết nối mới.",
+        "correctAnswer": "DoS"
+      },
+      {
+        "id": 20,
+        "text": "_____ là giải pháp firewall trên nền tảng đám mây từ AWS, Microsoft, Google.",
+        "correctAnswer": "Cloud Firewall"
+      }
+    ],
+    "answers": [
+      "UTM",
+      "WAF",
+      "First-match",
+      "5-tuple",
+      "NGFW",
+      "Default Deny",
+      "Least Privilege",
+      "App-ID",
+      "NAT",
+      "Zone-to-Zone",
+      "Stateful",
+      "Stateless",
+      "Zone segmentation",
+      "TLS Inspection",
+      "Application Gateway",
+      "Circuit-level Gateway",
+      "Packet Filtering",
+      "SYN",
+      "DoS",
+      "Cloud Firewall"
+    ]
+  }
+}

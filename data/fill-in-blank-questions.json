@@ -1,0 +1,128 @@
+{
+  "fillInBlankQuestions": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "_____ là lỗ hổng bảo mật chưa được công bố và chưa có bản vá.",
+        "correctAnswer": "Zero-day"
+      },
+      {
+        "id": 2,
+        "text": "_____ thường khai thác kiểu lỗ hổng này để xâm nhập hệ thống lâu dài.",
+        "correctAnswer": "APT"
+      },
+      {
+        "id": 3,
+        "text": "_____ là ví dụ nổi tiếng sử dụng nhiều lỗ hổng zero-day tấn công vào hệ thống SCADA.",
+        "correctAnswer": "Stuxnet"
+      },
+      {
+        "id": 4,
+        "text": "CIA trong an ninh mạng là viết tắt của Confidentiality, Integrity và _____.",
+        "correctAnswer": "Availability"
+      },
+      {
+        "id": 5,
+        "text": "_____ là loại mã độc mã hóa dữ liệu và đòi tiền chuộc từ nạn nhân.",
+        "correctAnswer": "Ransomware"
+      },
+      {
+        "id": 6,
+        "text": "_____ là phần mềm gián điệp có chức năng theo dõi hoạt động người dùng.",
+        "correctAnswer": "Spyware"
+      },
+      {
+        "id": 7,
+        "text": "_____ là loại mã độc có thể tự nhân bản và lây lan mà không cần file chủ.",
+        "correctAnswer": "Worm"
+      },
+      {
+        "id": 8,
+        "text": "_____ là loại mã độc thường được ngụy trang dưới dạng phần mềm hợp pháp.",
+        "correctAnswer": "Trojan"
+      },
+      {
+        "id": 9,
+        "text": "_____ là hệ thống phát hiện xâm nhập giám sát và cảnh báo các hoạt động đáng ngờ.",
+        "correctAnswer": "IDS"
+      },
+      {
+        "id": 10,
+        "text": "_____ là hệ thống điều khiển công nghiệp thường được sử dụng trong nhà máy và cơ sở hạ tầng quan trọng.",
+        "correctAnswer": "SCADA"
+      },
+      {
+        "id": 11,
+        "text": "CVE là viết tắt của Common Vulnerabilities and _____.",
+        "correctAnswer": "Exposures"
+      },
+      {
+        "id": 12,
+        "text": "_____ là kỹ thuật tấn công lừa người dùng cung cấp thông tin nhạy cảm thông qua email giả mạo.",
+        "correctAnswer": "Phishing"
+      },
+      {
+        "id": 13,
+        "text": "_____ là loại mã độc có khả năng ẩn mình khỏi hệ thống phát hiện.",
+        "correctAnswer": "Rootkit"
+      },
+      {
+        "id": 14,
+        "text": "_____ là tấn công nhằm làm gián đoạn dịch vụ bằng cách gửi lượng lớn yêu cầu.",
+        "correctAnswer": "DDoS"
+      },
+      {
+        "id": 15,
+        "text": "_____ là hacker bảo vệ hệ thống bằng cách kiểm tra lỗ hổng một cách hợp pháp.",
+        "correctAnswer": "White Hat"
+      },
+      {
+        "id": 16,
+        "text": "_____ là kỹ thuật tấn công lừa đảo người dùng để lấy thông tin thay vì tấn công kỹ thuật.",
+        "correctAnswer": "Social Engineering"
+      },
+      {
+        "id": 17,
+        "text": "_____ là mạng riêng ảo giúp mã hóa kết nối và truy cập an toàn từ xa.",
+        "correctAnswer": "VPN"
+      },
+      {
+        "id": 18,
+        "text": "Nguyên tắc _____ yêu cầu chặn tất cả trừ khi có rule cho phép trong firewall.",
+        "correctAnswer": "Default Deny"
+      },
+      {
+        "id": 19,
+        "text": "_____ là loại mã độc có thể thay đổi hình dạng để tránh bị phát hiện.",
+        "correctAnswer": "Polymorphic"
+      },
+      {
+        "id": 20,
+        "text": "_____ là kỹ thuật tấn công chèn mã SQL độc hại vào ứng dụng web.",
+        "correctAnswer": "SQL Injection"
+      }
+    ],
+    "answers": [
+      "Zero-day",
+      "APT",
+      "Stuxnet",
+      "Availability",
+      "Ransomware",
+      "Spyware",
+      "Worm",
+      "Trojan",
+      "IDS",
+      "SCADA",
+      "Exposures",
+      "Phishing",
+      "Rootkit",
+      "DDoS",
+      "White Hat",
+      "Social Engineering",
+      "VPN",
+      "Default Deny",
+      "Polymorphic",
+      "SQL Injection"
+    ]
+  }
+}

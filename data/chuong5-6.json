@@ -2,25 +2,15 @@
   "chuong5": [
     {
       "id": 1,
+      "type": "short_answer",
       "question": "SSL viết tắt của từ nào?",
-      "options": {
-        "A": "Secure Socket Layer",
-        "B": "Security Service Link",
-        "C": "Secure Service Layer",
-        "D": "Security Socket Link"
-      },
-      "answer": "A"
+      "answer": "Secure Socket Layer"
     },
     {
       "id": 2,
+      "type": "short_answer",
       "question": "TLS viết tắt của từ nào?",
-      "options": {
-        "A": "Transfer Layer Security",
-        "B": "Transport Layer Security",
-        "C": "Trusted Link Security",
-        "D": "Transport Login Service"
-      },
-      "answer": "B"
+      "answer": "Transport Layer Security"
     },
     {
       "id": 3,
@@ -508,14 +498,9 @@
     },
     {
       "id": 47,
-      "question": "Câu 48. DTLS viết tắt của:",
-      "options": {
-        "A": "Direct TLS",
-        "B": "Data Transmission Layer Security",
-        "C": "Datagram Transport Layer Security",
-        "D": "Datagram TLS Socket"
-      },
-      "answer": "C"
+      "type": "short_answer",
+      "question": "DTLS viết tắt của:",
+      "answer": "Datagram Transport Layer Security"
     },
     {
       "id": 48,
@@ -662,14 +647,9 @@
     },
     {
       "id": 61,
-      "question": "Câu 62. CA viết tắt của:",
-      "options": {
-        "A": "Certificate Authority",
-        "B": "Central Authentication",
-        "C": "Cryptography Agency",
-        "D": "Control Access"
-      },
-      "answer": "A"
+      "type": "short_answer",
+      "question": "CA viết tắt của:",
+      "answer": "Certificate Authority"
     },
     {
       "id": 62,

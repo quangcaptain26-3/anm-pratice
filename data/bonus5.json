@@ -2,14 +2,9 @@
   "bonus5": [
     {
       "id": 1,
-      "question": "CIA trong an ninh mạng là viết tắt của?",
-      "options": {
-        "A": "Confidentiality, Integrity, Availability",
-        "B": "Control, Information, Access",
-        "C": "Cyber, Internet, Attack",
-        "D": "Code, Identity, Authentication"
-      },
-      "answer": "A"
+      "type": "short_answer",
+      "question": "CIA trong an ninh mạng là viết tắt của? (Viết đầy đủ 3 từ, cách nhau bằng dấu phẩy)",
+      "answer": "Confidentiality, Integrity, Availability"
     },
     {
       "id": 2,

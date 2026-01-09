@@ -207,14 +207,9 @@
     },
     {
       "id": 120,
-      "question": "Giao thức nào sử dụng Cổng 443 và Cổng 80 tương ứng?",
-      "options": {
-        "A": "HTTPS và HTTP",
-        "B": "XHTML",
-        "C": "HTTP và HTTPS",
-        "D": "DHTML"
-      },
-      "answer": "A"
+      "type": "short_answer",
+      "question": "Giao thức nào sử dụng Cổng 443 và Cổng 80 tương ứng? (Viết dạng: Giao thức cổng 443 và Giao thức cổng 80)",
+      "answer": "HTTPS và HTTP"
     },
     {
       "id": 121,
@@ -229,14 +224,9 @@
     },
     {
       "id": 122,
+      "type": "short_answer",
       "question": "TCP nghĩa là gì?",
-      "options": {
-        "A": "Total Content Positioning",
-        "B": "Transmission Control Protocol",
-        "C": "Transmittable Constant Protocol",
-        "D": "Technical Control Panel"
-      },
-      "answer": "B"
+      "answer": "Transmission Control Protocol"
     },
     {
       "id": 123,

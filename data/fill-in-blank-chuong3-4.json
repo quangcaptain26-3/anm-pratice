@@ -1,0 +1,128 @@
+{
+  "fillInBlankChuong3_4": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "_____ là hệ thống phát hiện xâm nhập, giám sát lưu lượng mạng và cảnh báo khi phát hiện hoạt động đáng ngờ.",
+        "correctAnswer": "IDS"
+      },
+      {
+        "id": 2,
+        "text": "_____ khác IDS ở chỗ có khả năng chặn lưu lượng độc hại, không chỉ cảnh báo.",
+        "correctAnswer": "IPS"
+      },
+      {
+        "id": 3,
+        "text": "IDS viết tắt của Intrusion Detection _____.",
+        "correctAnswer": "System"
+      },
+      {
+        "id": 4,
+        "text": "_____ là loại IDS giám sát hoạt động trên một máy chủ hoặc thiết bị riêng lẻ.",
+        "correctAnswer": "HIDS"
+      },
+      {
+        "id": 5,
+        "text": "_____ là loại IDS tập trung vào lưu lượng mạng đi qua một đoạn mạng.",
+        "correctAnswer": "NIDS"
+      },
+      {
+        "id": 6,
+        "text": "IDS dựa trên _____ phát hiện tấn công dựa vào mẫu (pattern) đã biết.",
+        "correctAnswer": "Signature"
+      },
+      {
+        "id": 7,
+        "text": "IDS dựa trên _____ có thể phát hiện tấn công mới (zero-day) bằng cách phát hiện sai lệch so với hành vi bình thường.",
+        "correctAnswer": "Anomaly"
+      },
+      {
+        "id": 8,
+        "text": "_____ là giải pháp IDS/IPS mã nguồn mở phổ biến nhất.",
+        "correctAnswer": "Snort"
+      },
+      {
+        "id": 9,
+        "text": "_____ là loại IPS chuyên phát hiện tấn công qua mạng không dây.",
+        "correctAnswer": "WIPS"
+      },
+      {
+        "id": 10,
+        "text": "_____ là lĩnh vực nghiên cứu bảo mật thông tin bằng các kỹ thuật mã hóa, giải mã, xác thực và chữ ký số.",
+        "correctAnswer": "Cryptography"
+      },
+      {
+        "id": 11,
+        "text": "Chức năng _____ trong mật mã học giúp bảo đảm dữ liệu không bị thay đổi trong quá trình truyền tải.",
+        "correctAnswer": "Integrity"
+      },
+      {
+        "id": 12,
+        "text": "Chức năng _____ giúp người gửi không thể phủ nhận việc đã gửi thông tin.",
+        "correctAnswer": "Non-repudiation"
+      },
+      {
+        "id": 13,
+        "text": "Tính chất _____ của hàm băm khiến rất khó suy ngược lại dữ liệu gốc từ giá trị băm.",
+        "correctAnswer": "One-way"
+      },
+      {
+        "id": 14,
+        "text": "_____ là hiệu ứng khi thay đổi chỉ một ký tự nhỏ trong dữ liệu gốc, toàn bộ giá trị băm thay đổi hoàn toàn.",
+        "correctAnswer": "Avalanche"
+      },
+      {
+        "id": 15,
+        "text": "Thuật toán băm _____ được khuyến nghị sử dụng thay thế cho MD5 và SHA-1.",
+        "correctAnswer": "SHA-256"
+      },
+      {
+        "id": 16,
+        "text": "_____ là thuật toán mã hóa đối xứng phổ biến được sử dụng rộng rãi hiện nay.",
+        "correctAnswer": "AES"
+      },
+      {
+        "id": 17,
+        "text": "_____ là thuật toán mã hóa bất đối xứng phổ biến dựa trên độ khó của phân tích số nguyên tố lớn.",
+        "correctAnswer": "RSA"
+      },
+      {
+        "id": 18,
+        "text": "Trong mã hóa bất đối xứng, khóa _____ được công khai và dùng để mã hóa dữ liệu.",
+        "correctAnswer": "Public"
+      },
+      {
+        "id": 19,
+        "text": "Trong mã hóa bất đối xứng, khóa _____ được giữ bí mật và dùng để giải mã dữ liệu.",
+        "correctAnswer": "Private"
+      },
+      {
+        "id": 20,
+        "text": "_____ là cơ chế kết hợp mã hóa đối xứng và bất đối xứng để tận dụng ưu điểm của cả hai.",
+        "correctAnswer": "Hybrid"
+      }
+    ],
+    "answers": [
+      "IDS",
+      "IPS",
+      "System",
+      "HIDS",
+      "NIDS",
+      "Signature",
+      "Anomaly",
+      "Snort",
+      "WIPS",
+      "Cryptography",
+      "Integrity",
+      "Non-repudiation",
+      "One-way",
+      "Avalanche",
+      "SHA-256",
+      "AES",
+      "RSA",
+      "Public",
+      "Private",
+      "Hybrid"
+    ]
+  }
+}

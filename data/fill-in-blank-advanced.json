@@ -1,0 +1,128 @@
+{
+  "fillInBlankAdvanced": {
+    "questions": [
+      {
+        "id": 1,
+        "text": "_____ là công cụ IDS/IPS mã nguồn mở hỗ trợ đa luồng, cạnh tranh với Snort.",
+        "correctAnswer": "Suricata"
+      },
+      {
+        "id": 2,
+        "text": "_____ là giải pháp HIDS mã nguồn mở phổ biến để giám sát máy chủ.",
+        "correctAnswer": "OSSEC"
+      },
+      {
+        "id": 3,
+        "text": "_____ là công cụ NIDS mã nguồn mở, trước đây gọi là Bro.",
+        "correctAnswer": "Zeek"
+      },
+      {
+        "id": 4,
+        "text": "_____ là giải pháp tích hợp IDS/IPS từ Cisco, thường được dùng trong doanh nghiệp lớn.",
+        "correctAnswer": "Cisco Firepower"
+      },
+      {
+        "id": 5,
+        "text": "_____ là dòng sản phẩm firewall tích hợp IPS từ Fortinet.",
+        "correctAnswer": "FortiGate"
+      },
+      {
+        "id": 6,
+        "text": "_____ là giải pháp quản lý cảnh báo và phân tích sự kiện bảo mật, thường kết hợp với IDS/IPS.",
+        "correctAnswer": "SIEM"
+      },
+      {
+        "id": 7,
+        "text": "_____ là tường lửa ứng dụng web, kết hợp với IPS để bảo vệ khỏi SQL Injection và XSS.",
+        "correctAnswer": "WAF"
+      },
+      {
+        "id": 8,
+        "text": "_____ là giải pháp bảo mật tích hợp bao gồm Firewall, IDS/IPS, Antivirus và VPN.",
+        "correctAnswer": "UTM"
+      },
+      {
+        "id": 9,
+        "text": "Chứng chỉ số tuân theo tiêu chuẩn _____ để định dạng và cấu trúc.",
+        "correctAnswer": "X.509"
+      },
+      {
+        "id": 10,
+        "text": "_____ là thuật toán mã hóa đối xứng sử dụng khóa 56 bit, hiện đã lỗi thời.",
+        "correctAnswer": "DES"
+      },
+      {
+        "id": 11,
+        "text": "_____ là phiên bản cải tiến của DES, áp dụng thuật toán DES ba lần với khóa hiệu quả 168 bit.",
+        "correctAnswer": "Triple DES"
+      },
+      {
+        "id": 12,
+        "text": "_____ là thuật toán băm tạo ra giá trị băm 128 bit, hiện không còn an toàn.",
+        "correctAnswer": "MD5"
+      },
+      {
+        "id": 13,
+        "text": "_____ là thuật toán băm tạo ra giá trị băm 160 bit, cũng đã bị phát hiện lỗ hổng.",
+        "correctAnswer": "SHA-1"
+      },
+      {
+        "id": 14,
+        "text": "_____ là thuật toán mã hóa bất đối xứng dựa trên đường cong elliptic, hiệu quả hơn RSA.",
+        "correctAnswer": "ECC"
+      },
+      {
+        "id": 15,
+        "text": "_____ là giao thức trao đổi khóa an toàn giữa hai bên qua kênh không bảo mật.",
+        "correctAnswer": "Diffie-Hellman"
+      },
+      {
+        "id": 16,
+        "text": "_____ là thuật toán mã hóa đối xứng hiện đại, kết hợp mã hóa và xác thực, được dùng trong TLS.",
+        "correctAnswer": "AES-GCM"
+      },
+      {
+        "id": 17,
+        "text": "_____ là thuật toán mã hóa stream cipher hiện đại, hiệu quả trên thiết bị di động.",
+        "correctAnswer": "ChaCha20"
+      },
+      {
+        "id": 18,
+        "text": "_____ là cơ chế bảo vệ chống tấn công Downgrade trong TLS.",
+        "correctAnswer": "TLS_FALLBACK_SCSV"
+      },
+      {
+        "id": 19,
+        "text": "_____ là công cụ dòng lệnh phổ biến để tạo và quản lý chứng chỉ số.",
+        "correctAnswer": "OpenSSL"
+      },
+      {
+        "id": 20,
+        "text": "_____ là yêu cầu ký chứng chỉ, chứa thông tin tổ chức và khóa công khai.",
+        "correctAnswer": "CSR"
+      }
+    ],
+    "answers": [
+      "Suricata",
+      "OSSEC",
+      "Zeek",
+      "Cisco Firepower",
+      "FortiGate",
+      "SIEM",
+      "WAF",
+      "UTM",
+      "X.509",
+      "DES",
+      "Triple DES",
+      "MD5",
+      "SHA-1",
+      "ECC",
+      "Diffie-Hellman",
+      "AES-GCM",
+      "ChaCha20",
+      "TLS_FALLBACK_SCSV",
+      "OpenSSL",
+      "CSR"
+    ]
+  }
+}

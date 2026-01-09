@@ -24,14 +24,9 @@
     },
     {
       "id": 3,
-      "question": "CIA trong an ninh mạng là viết tắt của?",
-      "options": {
-        "A": "Confidentiality, Integrity, Availability",
-        "B": "Control, Information, Access",
-        "C": "Cyber, Internet, Attack",
-        "D": "Code, Identity, Authentication"
-      },
-      "answer": "A"
+      "type": "short_answer",
+      "question": "CIA trong an ninh mạng là viết tắt của? (Viết đầy đủ 3 từ, cách nhau bằng dấu phẩy)",
+      "answer": "Confidentiality, Integrity, Availability"
     },
     {
       "id": 4,
@@ -244,14 +239,9 @@
     },
     {
       "id": 23,
+      "type": "short_answer",
       "question": "CVE là viết tắt của?",
-      "options": {
-        "A": "Common Virus Enumeration",
-        "B": "Common Vulnerabilities and Exposures",
-        "C": "Cybersecurity Vulnerability Engine",
-        "D": "Computer Virus Exposure"
-      },
-      "answer": "B"
+      "answer": "Common Vulnerabilities and Exposures"
     },
     {
       "id": 24,
@@ -541,14 +531,9 @@
     },
     {
       "id": 50,
+      "type": "short_answer",
       "question": "IDS là viết tắt của?",
-      "options": {
-        "A": "Internet Detection System",
-        "B": "Intrusion Detection System",
-        "C": "Internal Data Security",
-        "D": "Information Defense Software"
-      },
-      "answer": "B"
+      "answer": "Intrusion Detection System"
     },
     {
       "id": 51,
