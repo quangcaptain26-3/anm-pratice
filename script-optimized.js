@@ -17,21 +17,7 @@ import { generateQuestionHTML } from "./js/htmlGenerators.js";
 // ============================================================================
 
 const updateStatsDisplay = () => {
-  const el = document.getElementById("quiz-stats");
-  if (!el) return;
-  el.innerHTML = `
-    <div class="stats-item">
-      <span class="stats-label">Đúng:</span>
-      <span class="stats-value correct-text">${state.questionStats.correct}</span>
-    </div>
-    <div class="stats-item">
-      <span class="stats-label">Sai:</span>
-      <span class="stats-value incorrect-text">${state.questionStats.incorrect}</span>
-    </div>
-    <div class="stats-item">
-      <span class="stats-label">Tổng:</span>
-      <span class="stats-value">${state.questionStats.total}/${state.currentQuizQuestions.length}</span>
-    </div>`;
+  // Realtime stats removed as requested
 };
 
 const updateStatisticsForAnswer = (qId, newAns, prevAns) => {
@@ -279,7 +265,6 @@ const renderQuiz = () => {
     <div id="quiz-screen">
       <div class="quiz-header">
         <button id="back-to-menu-quiz" class="btn btn-secondary">← Về menu</button>
-        <div id="quiz-stats"></div>
       </div>
       <div id="questions-container">${questionsHTML}</div>
       <button id="submit-quiz" class="btn">Nộp bài</button>
@@ -546,6 +531,33 @@ const submitQuiz = () => {
   document.getElementById("result-correct").textContent = score.correct;
   document.getElementById("result-incorrect").textContent = score.incorrect;
   document.getElementById("result-total").textContent = score.total;
+
+  // Rank and message logic
+  const rankBadge = document.getElementById("result-rank-badge");
+  const resultTitle = document.getElementById("result-title");
+  const resultSubtitle = document.getElementById("result-subtitle");
+
+  if (percent >= 90) {
+    rankBadge.textContent = "Huyền Thoại";
+    rankBadge.style.color = "#fbbf24"; // Gold
+    resultTitle.textContent = "Xuất sắc! 🔥";
+    resultSubtitle.textContent = "Bạn đã nắm vững kiến thức này!";
+  } else if (percent >= 70) {
+    rankBadge.textContent = "Kim Cương";
+    rankBadge.style.color = "#38bdf8"; // Diamond blue
+    resultTitle.textContent = "Làm tốt lắm! 👍";
+    resultSubtitle.textContent = "Kiến thức của bạn rất vững chắc.";
+  } else if (percent >= 50) {
+    rankBadge.textContent = "Vàng";
+    rankBadge.style.color = "#f59e0b"; // Gold
+    resultTitle.textContent = "Khá tốt!";
+    resultSubtitle.textContent = "Hãy cố gắng hơn một chút nữa nhé.";
+  } else {
+    rankBadge.textContent = "Đồng";
+    rankBadge.style.color = "#94a3b8"; // Silver/Bronze
+    resultTitle.textContent = "Cần cố gắng thêm!";
+    resultSubtitle.textContent = "Đừng bỏ cuộc, hãy ôn lại kiến thức.";
+  }
 
   const modalEl = document.getElementById("resultsModal");
   const modal = new bootstrap.Modal(modalEl);

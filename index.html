@@ -60,17 +60,38 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
                         aria-label="Close"></button>
                 </div>
-                <div class="modal-body tester-modal-body">
-                    <div class="result-summary mb-0">
-                        <div class="result-score-circle">
-                            <span id="result-percent">0%</span>
+                <div class="modal-body tester-modal-body p-0">
+                    <div class="result-banner">
+                        <div class="result-rank-badge" id="result-rank-badge">BẠC</div>
+                    </div>
+                    <div class="p-4 pt-2">
+                        <div class="result-score-container">
+                            <div class="result-score-circle">
+                                <span id="result-percent">0%</span>
+                            </div>
                         </div>
-                        <div class="result-details mt-4">
-                            <p class="tester-message-text">Số câu đúng: <strong id="result-correct"
-                                    class="correct-text">0</strong></p>
-                            <p class="tester-message-text">Số câu sai: <strong id="result-incorrect"
-                                    class="incorrect-text">0</strong></p>
-                            <p class="tester-message-text">Tổng số câu: <strong id="result-total">0</strong></p>
+
+                        <div class="result-message-container text-center mt-3">
+                            <h4 id="result-title">Cố gắng lên!</h4>
+                            <p id="result-subtitle" class="text-muted">Bạn đã hoàn thành bài trắc nghiệm.</p>
+                        </div>
+
+                        <div class="result-stats-grid mt-4">
+                            <div class="result-stat-card">
+                                <span class="stat-icon">✅</span>
+                                <span class="stat-label">Đúng</span>
+                                <span id="result-correct" class="stat-value text-success">0</span>
+                            </div>
+                            <div class="result-stat-card">
+                                <span class="stat-icon">❌</span>
+                                <span class="stat-label">Sai</span>
+                                <span id="result-incorrect" class="stat-value text-danger">0</span>
+                            </div>
+                            <div class="result-stat-card">
+                                <span class="stat-icon">📊</span>
+                                <span class="stat-label">Tổng</span>
+                                <span id="result-total" class="stat-value">0</span>
+                            </div>
                         </div>
                     </div>
                 </div>
