@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="vi" data-bs-theme="dark">
 
 <head>
     <meta charset="UTF-8">
@@ -50,6 +50,37 @@
             <path fill="currentColor" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
         </svg>
     </button>
+
+    <!-- Results Modal -->
+    <div class="modal fade" id="resultsModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content tester-modal-content">
+                <div class="modal-header tester-modal-header">
+                    <h5 class="modal-title">🎉 Kết quả làm bài</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body tester-modal-body">
+                    <div class="result-summary mb-0">
+                        <div class="result-score-circle">
+                            <span id="result-percent">0%</span>
+                        </div>
+                        <div class="result-details mt-4">
+                            <p class="tester-message-text">Số câu đúng: <strong id="result-correct"
+                                    class="correct-text">0</strong></p>
+                            <p class="tester-message-text">Số câu sai: <strong id="result-incorrect"
+                                    class="incorrect-text">0</strong></p>
+                            <p class="tester-message-text">Tổng số câu: <strong id="result-total">0</strong></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer tester-modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Xem lại bài</button>
+                    <button type="button" class="btn" id="modal-back-to-menu">Về Menu chính</button>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

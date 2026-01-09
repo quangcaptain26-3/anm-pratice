@@ -96,6 +96,18 @@ const applyVisualFeedback = (qId, selAns, showCorrect = false) => {
         fb.innerHTML = isCorrect
           ? '<span class="feedback-correct">✓ Đúng!</span>'
           : `<span class="feedback-incorrect">✗ Sai. Đáp án đúng: <strong>${q.answer}</strong></span>`;
+
+        // Add floating mark
+        const container = qEl.querySelector(".short-answer-container");
+        if (container) {
+          container
+            .querySelectorAll(".correct-mark, .incorrect-mark")
+            .forEach((m) => m.remove());
+          const mark = document.createElement("span");
+          mark.className = isCorrect ? "correct-mark" : "incorrect-mark";
+          mark.textContent = isCorrect ? "✓" : "✕";
+          container.appendChild(mark);
+        }
       }
     }
   } else if (type === "drag_drop") {
@@ -148,12 +160,13 @@ const showAnswerFeedback = (qId, selAns) => {
   if (q.type === "fill_in_blank_simple") {
     const prevAns = state.userAnswers[qId];
     updateStatisticsForAnswer(qId, selAns, prevAns);
+    applyVisualFeedback(qId, selAns, false);
     updateStatsDisplay();
     return;
   }
 
-  const isCorrect = selAns === q.answer;
   const prevAns = state.userAnswers[qId];
+  const isCorrect = isAnswerCorrect(q, selAns);
 
   updateStatisticsForAnswer(qId, selAns, prevAns);
   applyVisualFeedback(qId, selAns, false);
@@ -349,8 +362,43 @@ const setupEventListeners = () => {
 };
 
 // ============================================================================
-// DRAG & DROP (Simplified)
-// ============================================================================
+const syncUsedItemsUI = (qEl) => {
+  if (!qEl) return;
+  // Clear all used classes first
+  qEl
+    .querySelectorAll(".drag-item, .drag-item-simple")
+    .forEach((item) => item.classList.remove("used"));
+
+  // Check simple fill-blank
+  const usedSimpleTexts = {};
+  qEl.querySelectorAll(".fill-blank-simple-content").forEach((content) => {
+    const text = content.dataset.answerText;
+    if (text) usedSimpleTexts[text] = (usedSimpleTexts[text] || 0) + 1;
+  });
+
+  Object.entries(usedSimpleTexts).forEach(([text, count]) => {
+    const items = qEl.querySelectorAll(
+      `.drag-item-simple[data-answer-text="${text}"]`
+    );
+    for (let i = 0; i < Math.min(count, items.length); i++) {
+      items[i].classList.add("used");
+    }
+  });
+
+  // Check complex drag-drop
+  const usedComplexIds = {};
+  qEl.querySelectorAll(".blank-content").forEach((content) => {
+    const id = content.dataset.itemId;
+    if (id) usedComplexIds[id] = (usedComplexIds[id] || 0) + 1;
+  });
+
+  Object.entries(usedComplexIds).forEach(([id, count]) => {
+    const items = qEl.querySelectorAll(`.drag-item[data-item-id="${id}"]`);
+    for (let i = 0; i < Math.min(count, items.length); i++) {
+      items[i].classList.add("used");
+    }
+  });
+};
 
 const setupDragAndDrop = () => {
   // Fill-in-blank simple
@@ -380,11 +428,12 @@ const setupDragAndDrop = () => {
         const ans = e.dataTransfer.getData("text/plain");
         const content = dropBox.querySelector(".fill-blank-simple-content");
         if (content) {
+          const prevAns = state.userAnswers[qId];
           content.textContent = ans;
           content.dataset.answerText = ans;
           state.userAnswers[qId] = ans;
-          updateStatisticsForAnswer(qId, ans, state.userAnswers[qId]);
-          updateStatsDisplay();
+          showAnswerFeedback(qId, ans);
+          syncUsedItemsUI(qEl);
         }
       });
 
@@ -394,8 +443,8 @@ const setupDragAndDrop = () => {
           content.innerHTML = '<span class="empty-blank-simple">____</span>';
           content.dataset.answerText = "";
           delete state.userAnswers[qId];
-          updateStatisticsForAnswer(qId, "", state.userAnswers[qId]);
-          updateStatsDisplay();
+          showAnswerFeedback(qId, "");
+          syncUsedItemsUI(qEl);
         }
       });
     }
@@ -437,13 +486,45 @@ const setupDragAndDrop = () => {
         if (content) {
           content.textContent = itemText;
           content.dataset.itemId = itemId;
+
+          let userAns = {};
+          try {
+            userAns = JSON.parse(state.userAnswers[qId] || "{}");
+          } catch {}
           userAns[blankIdx] = itemId;
+
           state.userAnswers[qId] = JSON.stringify(userAns);
           showAnswerFeedback(qId, state.userAnswers[qId]);
+          syncUsedItemsUI(qEl);
+        }
+      });
+    });
+
+    qEl.querySelectorAll(".blank-content").forEach((content) => {
+      content.addEventListener("click", () => {
+        if (content.dataset.itemId) {
+          const blankIdx = parseInt(content.parentElement.dataset.blankIndex);
+          content.innerHTML = '<span class="empty-blank">____</span>';
+          content.dataset.itemId = "";
+
+          let userAns = {};
+          try {
+            userAns = JSON.parse(state.userAnswers[qId] || "{}");
+          } catch {}
+          delete userAns[blankIdx];
+
+          state.userAnswers[qId] = JSON.stringify(userAns);
+          showAnswerFeedback(qId, state.userAnswers[qId]);
+          syncUsedItemsUI(qEl);
         }
       });
     });
   });
+
+  // Initial sync for all questions
+  document
+    .querySelectorAll(".quiz-question")
+    .forEach((qEl) => syncUsedItemsUI(qEl));
 };
 
 // ============================================================================
@@ -460,10 +541,24 @@ const submitQuiz = () => {
   });
 
   // Show result modal
-  alert(
-    `Kết quả:\nĐúng: ${score.correct}/${score.total}\nSai: ${score.incorrect}/${
-      score.total
-    }\nĐiểm: ${Math.round((score.correct / score.total) * 100)}%`
+  const percent = Math.round((score.correct / score.total) * 100);
+  document.getElementById("result-percent").textContent = `${percent}%`;
+  document.getElementById("result-correct").textContent = score.correct;
+  document.getElementById("result-incorrect").textContent = score.incorrect;
+  document.getElementById("result-total").textContent = score.total;
+
+  const modalEl = document.getElementById("resultsModal");
+  const modal = new bootstrap.Modal(modalEl);
+  modal.show();
+
+  // Handle modal back to menu
+  document.getElementById("modal-back-to-menu")?.addEventListener(
+    "click",
+    () => {
+      modal.hide();
+      renderMainMenu();
+    },
+    { once: true }
   );
 };
 
