@@ -1,0 +1,884 @@
+{
+  "ontap8": [
+    {
+      "id": 1,
+      "question": "Một biện pháp bảo vệ hệ thống mạng là?",
+      "options": {
+        "A": "Cập nhật phần mềm thường xuyên",
+        "B": "Tất cả các đáp án khác",
+        "C": "Sử dụng tường lửa",
+        "D": "Giám sát truy cập"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 2,
+      "question": "Adware thường gây phiền toái bằng cách?",
+      "options": {
+        "A": "Hiển thị quảng cáo không mong muốn",
+        "B": "Chặn truy cập internet",
+        "C": "Tăng tốc trình duyệt",
+        "D": "Tự động cập nhật phần mềm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Một đặc điểm của mã độc hiện đại là?",
+      "options": {
+        "A": "Không thể bị phát hiện",
+        "B": "Không gây hại",
+        "C": "Chỉ hoạt động trên hệ điều hành cũ",
+        "D": "Có thể tự cập nhật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 4,
+      "question": "Social engineering là gì?",
+      "options": {
+        "A": "Lừa người dùng để lấy thông tin",
+        "B": "Tấn công phần cứng",
+        "C": "Tấn công phần mềm",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 5,
+      "question": "Một hệ thống an ninh mạng hiệu quả cần có yếu tố nào?",
+      "options": {
+        "A": "Chính sách bảo mật",
+        "B": "Tường lửa",
+        "C": "Tất cả các đáp án khác",
+        "D": "Phần mềm diệt virus"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Spyware có chức năng gì?",
+      "options": {
+        "A": "Tạo mã hóa",
+        "B": "Tăng tốc mạng",
+        "C": "Theo dõi hoạt động người dùng",
+        "D": "Bảo vệ dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 7,
+      "question": "Kỹ thuật làm rối thường được dùng để?",
+      "options": {
+        "A": "Giảm dung lượng",
+        "B": "Tăng tốc độ xử lý",
+        "C": "Tăng độ bảo mật",
+        "D": "Tránh bị phân tích"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Một ví dụ nổi tiếng về tấn công vào hệ thống công nghiệp là?",
+      "options": {
+        "A": "WannaCry",
+        "B": "Petya",
+        "C": "Zeus",
+        "D": "Stuxnet"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "Một đặc điểm của lỗ hổng bảo mật là?",
+      "options": {
+        "A": "Có thể bị khai thác nếu không được vá",
+        "B": "Không ảnh hưởng đến hệ thống",
+        "C": "Không thể phát hiện",
+        "D": "Chỉ tồn tại trong phần cứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 10,
+      "question": "Một biện pháp giảm thiểu rủi ro an ninh mạng là?",
+      "options": {
+        "A": "Kiểm tra định kỳ hệ thống",
+        "B": "Tất cả các đáp án khác",
+        "C": "Áp dụng chính sách bảo mật",
+        "D": "Đào tạo nhân viên"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "Đội ngũ làm việc từ xa cần truy cập an toàn kèm MFA, nên chọn firewall gì?",
+      "options": {
+        "A": "Chỉ proxy HTTP",
+        "B": "NGFW hỗ trợ SSL VPN/IPsec + MFA",
+        "C": "Packet Filtering + NAT",
+        "D": "WAF + Telnet"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Firewall stateless quyết định dựa trên gì?",
+      "options": {
+        "A": "Cấu hình CA trong TLS Inspection",
+        "B": "Five-tuple của từng gói tin độc lập",
+        "C": "Bảng trạng thái TCP",
+        "D": "Nội dung ứng dụng tầng 7"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Vì sao Packet Filtering khó kiểm soát kết nối trả về so với Stateful?",
+      "options": {
+        "A": "Do chỉ hỗ trợ một port duy nhất",
+        "B": "Không theo dõi trạng thái nên phải viết rule 2 chiều cho cả đi và về",
+        "C": "Do không hỗ trợ TCP",
+        "D": "Do luôn bật TLS Inspection"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 14,
+      "question": "Data center ảo hóa cần micro-segmentation nội bộ, nên chọn firewall gì?",
+      "options": {
+        "A": "Packet Filtering trên router biên",
+        "B": "Telnet ACL",
+        "C": "WAF",
+        "D": "Distributed Firewall (DFW) tích hợp ảo hóa/SDN"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 15,
+      "question": "Khi bật TLS Inspection trên NGFW, cần lưu ý gì?",
+      "options": {
+        "A": "Không cần chứng chỉ CA",
+        "B": "Mặc định hợp lệ với mọi ứng dụng banking",
+        "C": "Không ảnh hưởng hiệu năng",
+        "D": "Cần CA nội bộ, cấu hình ngoại lệ/pinning, và chi phí hiệu năng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 16,
+      "question": "Packet Filtering firewall mô tả đúng nhất là gì?",
+      "options": {
+        "A": "Bắt buộc có TLS Inspection",
+        "B": "Lọc dựa trên nội dung ứng dụng tầng 7",
+        "C": "Lọc gói theo five-tuple (IP/port/protocol) và không giữ trạng thái",
+        "D": "Tự động nhận diện người dùng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "Nhược điểm khi dùng Stateful firewall ở tải lớn là gì?",
+      "options": {
+        "A": "Không dùng được với NAT",
+        "B": "Không áp dụng được rule theo port",
+        "C": "Không hỗ trợ log",
+        "D": "Tiêu tốn RAM/CPU để duy trì state table"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "Khi một rule chỉ định “any” ở source IP nghĩa là:",
+      "options": {
+        "A": "Cho phép IP đích bất kỳ",
+        "B": "Chỉ cho phép IP nội bộ",
+        "C": "Cho phép mọi giao thức",
+        "D": "Cho phép tất cả IP nguồn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 19,
+      "question": "Cloud Firewall từ AWS, Microsoft, Google đáp ứng dịch vụ cloud “chủ yếu” bằng cách nào?",
+      "options": {
+        "A": "Lưu trữ dữ liệu phi cấu trúc, mở rộng không giới hạn",
+        "B": "Tăng tốc xử lý giao dịch tài chính trên ứng dụng",
+        "C": "Quản lý tài khoản, phân quyền truy cập người dùng",
+        "D": "Bảo vệ hạ tầng mạng, trung tâm dữ liệu trước đe dọa mạng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Nguyên tắc “Default Deny” nghĩa là:",
+      "options": {
+        "A": "Chặn tất cả trừ khi có rule cho phép",
+        "B": "Cho phép tất cả trừ khi có rule chặn",
+        "C": "Cho phép theo mặc định của hệ điều hành",
+        "D": "Chặn các rule đầu tiên, cho phép rule sau"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "Phương pháp lai (Hybrid IDS) kết hợp:",
+      "options": {
+        "A": "NIDS + VPN",
+        "B": "Signature-based + Anomaly-based",
+        "C": "IDS + Firewall",
+        "D": "HIPS + Switch"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 22,
+      "question": "IPS thường được đặt ở đâu trong mạng?",
+      "options": {
+        "A": "Trên router WAN",
+        "B": "Sau firewall, trước hệ thống nội bộ",
+        "C": "Giữa các switch",
+        "D": "Trên từng máy trạm"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 23,
+      "question": "NIDS thường gặp khó khăn với lưu lượng nào?",
+      "options": {
+        "A": "Lưu lượng LAN",
+        "B": "Lưu lượng FTP",
+        "C": "Lưu lượng mã hóa (SSL/TLS)",
+        "D": "Lưu lượng Internet công cộng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Mục tiêu chính của IDS/IPS là:",
+      "options": {
+        "A": "Bảo mật dữ liệu người dùng",
+        "B": "Giám sát và phản ứng với tấn công",
+        "C": "Quản lý mạng LAN",
+        "D": "Kiểm soát tốc độ đường truyền"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 25,
+      "question": "Một trong những yêu cầu để vận hành IDS/IPS hiệu quả là:",
+      "options": {
+        "A": "Chỉ dựa vào anomaly",
+        "B": "Cập nhật chữ ký và rule thường xuyên",
+        "C": "Không cần quản trị viên",
+        "D": "Không thay đổi cấu hình"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "IDS thường được triển khai để:",
+      "options": {
+        "A": "Thay thế VPN",
+        "B": "Theo dõi và gửi cảnh báo cho quản trị viên",
+        "C": "Thay thế firewall",
+        "D": "Ngăn chặn packet ngay khi phát hiện"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 27,
+      "question": "Nhược điểm của Signature-based IDS là:",
+      "options": {
+        "A": "Tốn nhiều băng thông",
+        "B": "Khó quản lý log",
+        "C": "Khó triển khai",
+        "D": "Không thể phát hiện tấn công mới chưa có mẫu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "question": "IDS nào khó mở rộng khi mạng lớn?",
+      "options": {
+        "A": "NIDS",
+        "B": "Hybrid IDS",
+        "C": "NBA IPS",
+        "D": "HIDS"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 29,
+      "question": "IDS dựa trên chữ ký (Signature-based IDS) phát hiện tấn công dựa vào:",
+      "options": {
+        "A": "Tốc độ truyền tải",
+        "B": "Cấu hình mạng",
+        "C": "Mẫu (pattern) đã biết",
+        "D": "Hành vi bất thường"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "IPS có thể ngăn chặn kiểu tấn công nào?",
+      "options": {
+        "A": "Phishing qua email",
+        "B": "Mất điện máy chủ",
+        "C": "SQL Injection",
+        "D": "Hỏng ổ cứng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 31,
+      "question": "Ứng dụng chính của RSA trong bảo mật hiện nay là gì?",
+      "options": {
+        "A": "Băm mật khẩu",
+        "B": "Nén dữ liệu",
+        "C": "Wi-Fi WPA3",
+        "D": "SSL/TLS, chữ ký số, email bảo mật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "MD2, MD4 và MD5 hiện nay hầu như không còn được sử dụng vì lý do nào?",
+      "options": {
+        "A": "Không có tính xác định",
+        "B": "Độ dài băm quá ngắn",
+        "C": "Tốc độ chậm",
+        "D": "Đã bị chứng minh có va chạm và không an toàn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "MD5 có nhược điểm nghiêm trọng nào khiến chữ ký số có thể bị giả mạo?",
+      "options": {
+        "A": "Giá trị băm quá dài gây tốn bộ nhớ",
+        "B": "Không tạo digest cố định",
+        "C": "Có thể xảy ra va chạm dẫn tới giả mạo",
+        "D": "Quá chậm trong tính toán"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 34,
+      "question": "SHA-512 cho ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "256 bit",
+        "B": "384 bit",
+        "C": "512 bit",
+        "D": "128 bit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 35,
+      "question": "Khi dữ liệu được mã hóa bằng khóa công khai, ai có thể giải mã?",
+      "options": {
+        "A": "Bất kỳ ai biết khóa công khai",
+        "B": "Người quản trị hệ thống",
+        "C": "Chỉ người sở hữu khóa bí mật tương ứng",
+        "D": "Người gửi dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "Đặc điểm quan trọng nhất của mã hóa đối xứng là gì?",
+      "options": {
+        "A": "Khóa công khai có thể phát tán rộng rãi",
+        "B": "Khóa bí mật phải được giữ kín giữa các bên",
+        "C": "Không cần trao đổi khóa",
+        "D": "Mỗi bên dùng khóa riêng biệt"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Khóa bí mật (Private Key) trong mã hóa bất đối xứng có vai trò gì?",
+      "options": {
+        "A": "Có thể phát tán rộng rãi",
+        "B": "Dùng để mã hóa dữ liệu cho người nhận",
+        "C": "Dùng thay thế cho hàm băm",
+        "D": "Dùng để giải mã dữ liệu hoặc tạo chữ ký số (Digital Signature)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 38,
+      "question": "Chức năng nào của mật mã học giúp bảo đảm dữ liệu không bị thay đổi trong quá trình truyền tải?",
+      "options": {
+        "A": "Toàn vẹn dữ liệu (Integrity)",
+        "B": "Xác thực (Authentication)",
+        "C": "Chống chối bỏ (Non-repudiation)",
+        "D": "Bảo mật (Confidentiality)"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 40,
+      "question": "Mã hóa bất đối xứng giúp đảm bảo tính toàn vẹn (Integrity) của dữ liệu bằng cách nào?",
+      "options": {
+        "A": "Tạo bản sao dự phòng dữ liệu",
+        "B": "Mã hóa bằng nhiều lớp khóa",
+        "C": "Kết hợp với hàm băm (Hash Function) và chữ ký số (Digital Signature)",
+        "D": "Sử dụng thuật toán nén dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "question": "Trong 4 chức năng cơ bản của mật mã học, chức năng nào giúp người gửi không thể phủ nhận việc đã gửi thông tin?",
+      "options": {
+        "A": "Xác thực (Authentication)",
+        "B": "Bảo mật (Confidentiality)",
+        "C": "Chống chối bỏ (Non-repudiation)",
+        "D": "Toàn vẹn dữ liệu (Integrity)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 41,
+      "question": "Thách thức lớn nhất khi triển khai DTLS là:",
+      "options": {
+        "A": "Không hỗ trợ chứng chỉ",
+        "B": "Không hỗ trợ mã hóa",
+        "C": "Xử lý mất gói, trễ, tái sắp xếp gói UDP",
+        "D": "Không có handshake"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Heartbleed là lỗ hổng thuộc về:",
+      "options": {
+        "A": "WAF",
+        "B": "TLS 1.3",
+        "C": "OpenSSL trong phần mở rộng Heartbeat",
+        "D": "Cơ chế RSA"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 43,
+      "question": "Cơ chế MAC trong TLS Record nhằm:",
+      "options": {
+        "A": "Xác thực máy chủ",
+        "B": "Nén dữ liệu",
+        "C": "Kiểm tra tính toàn vẹn",
+        "D": "Mã hóa dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 44,
+      "question": "Record Protocol nằm ở tầng nào?",
+      "options": {
+        "A": "Tầng mạng",
+        "B": "Tầng ứng dụng",
+        "C": "Tầng vận chuyển",
+        "D": "Giữa ứng dụng và TCP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "Lucky 13 attack nhắm vào:",
+      "options": {
+        "A": "CBC padding trong TLS",
+        "B": "HMAC-SHA1",
+        "C": "AES-GCM",
+        "D": "RSA"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Công cụ phổ biến để tạo CSR (Certificate Signing Request) là:",
+      "options": {
+        "A": "SQLmap",
+        "B": "Nmap",
+        "C": "Wireshark",
+        "D": "OpenSSL"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 47,
+      "question": "DTLS 1.3 tương thích về cơ bản với:",
+      "options": {
+        "A": "SSL 3.0",
+        "B": "TLS 1.3",
+        "C": "TLS 2.0",
+        "D": "TLS 1.0"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "DTLS được mô tả lần đầu trong RFC nào?",
+      "options": {
+        "A": "RFC 8446",
+        "B": "RFC 4347",
+        "C": "RFC 2818",
+        "D": "RFC 2246"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "ServerHello thường bao gồm những gì?",
+      "options": {
+        "A": "Phiên bản TLS chọn dùng, cipher suite đã chọn, số ngẫu nhiên của server",
+        "B": "Danh sách CA tin cậy",
+        "C": "Khóa riêng của server",
+        "D": "Toàn bộ lịch sử phiên trước"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Thông điệp cảnh báo (Alert Protocol) được truyền qua:",
+      "options": {
+        "A": "Handshake Protocol",
+        "B": "Record Protocol",
+        "C": "IP",
+        "D": "DNS"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 51,
+      "question": "Sự khác biệt cơ bản giữa ISAKMP tunnel và IPSec tunnel là gì?",
+      "options": {
+        "A": "ISAKMP tunnel mã hóa payload, IPSec tunnel chỉ mã hóa header",
+        "B": "Cả hai đều chỉ hoạt động trong LAN nội bộ",
+        "C": "ISAKMP tunnel bảo vệ dữ liệu thực, còn IPSec tunnel bảo vệ gói IKE",
+        "D": "ISAKMP tunnel dùng cho thương lượng, IPSec tunnel dùng để truyền dữ liệu thực"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 52,
+      "question": "Ưu điểm chính của Tunnel Mode trong IPSec là gì?",
+      "options": {
+        "A": "Giữ tốc độ cao, overhead thấp",
+        "B": "Bảo mật cao vì mã hóa toàn bộ gói IP gốc",
+        "C": "Không cần thêm header mới",
+        "D": "Chỉ hoạt động trong LAN"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Khi triển khai VPN, IPSec thường được sử dụng nhằm mục đích chính nào?",
+      "options": {
+        "A": "Loại bỏ nhu cầu dùng tường lửa",
+        "B": "Bảo mật gói tin IP khi truyền qua Internet",
+        "C": "Tăng tốc độ truyền tải dữ liệu",
+        "D": "Thay thế cho giao thức TCP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, 3DES có đặc điểm nào sau đây?",
+      "options": {
+        "A": "An toàn hơn DES nhưng chậm, dần bị thay thế bởi AES",
+        "B": "Chỉ hoạt động trong mạng LAN nội bộ",
+        "C": "Dùng để xác thực thay vì mã hóa",
+        "D": "Nhanh hơn AES nhưng bảo mật yếu hơn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 55,
+      "question": "Trong Site-to-Site VPN, thiết bị nào thường đóng vai trò VPN Gateway để mã hóa/giải mã dữ liệu?",
+      "options": {
+        "A": "Điện thoại di động",
+        "B": "Switch trong LAN",
+        "C": "Router hoặc Firewall",
+        "D": "Laptop cá nhân"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Lợi ích của cơ chế mã hóa dữ liệu trong VPN là gì?",
+      "options": {
+        "A": "Ngăn người dùng truy cập Internet",
+        "B": "Đảm bảo gói tin không bị đọc trộm hoặc thay đổi trong quá trình truyền",
+        "C": "Giúp tiết kiệm băng thông khi truyền dữ liệu",
+        "D": "Làm giảm tốc độ mạng để tăng bảo mật"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 57,
+      "question": "Với nhà cung cấp dịch vụ VPN thương mại, máy chủ VPN thường được đặt tại đâu?",
+      "options": {
+        "A": "Các mạng LAN nội bộ trong công ty",
+        "B": "Trung tâm dữ liệu hoặc hạ tầng Cloud",
+        "C": "Các văn phòng nhỏ của doanh nghiệp",
+        "D": "Máy tính cá nhân của khách hàng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Authentication Header (AH) trong IPSec có chức năng gì?",
+      "options": {
+        "A": "Đảm bảo toàn vẹn và xác thực gói tin, không mã hóa",
+        "B": "Cấp phát khóa tạm thời",
+        "C": "Đóng gói lại toàn bộ gói IP gốc",
+        "D": "Mã hóa dữ liệu và xác thực"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Nhược điểm lớn nhất của giao thức PPTP là gì?",
+      "options": {
+        "A": "Không hoạt động qua Internet",
+        "B": "Không hỗ trợ trên Windows",
+        "C": "Bảo mật yếu, dễ bị tấn công",
+        "D": "Tốc độ chậm, khó triển khai"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Sau khi ISAKMP tunnel và IPSec tunnel được thiết lập, hệ thống đảm bảo những yếu tố bảo mật nào khi truyền dữ liệu?",
+      "options": {
+        "A": "Thay thế toàn bộ mô hình OSI",
+        "B": "Tăng tốc độ đường truyền và giảm overhead",
+        "C": "Loại bỏ nhu cầu tường lửa và IDS",
+        "D": "Bảo mật, toàn vẹn và xác thực dữ liệu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 61,
+      "question": "Ưu điểm của MFA so với mật khẩu đơn thuần:",
+      "options": {
+        "A": "Tối ưu CPU",
+        "B": "Giảm nguy cơ bị đánh cắp tài khoản",
+        "C": "Giảm dung lượng ổ cứng",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "MAC Filtering dùng để:",
+      "options": {
+        "A": "Mã hóa Wi-Fi",
+        "B": "Giới hạn thiết bị được phép kết nối",
+        "C": "Cấp phát IP",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 63,
+      "question": "Một hạn chế của MAC Filtering:",
+      "options": {
+        "A": "MAC có thể bị giả mạo (spoofing)",
+        "B": "Không hỗ trợ WPA2",
+        "C": "Giảm tốc độ mạng",
+        "D": "Không hỗ trợ IPv6"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 64,
+      "question": "Kerberos sử dụng cơ chế nào để xác thực?",
+      "options": {
+        "A": "Mã hóa khóa đối xứng",
+        "B": "Mã hóa khóa công khai",
+        "C": "OTP",
+        "D": "Chứng chỉ số"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Công cụ thường dùng để kiểm thử an ninh Wi-Fi:",
+      "options": {
+        "A": "Metasploit",
+        "B": "Wireshark",
+        "C": "Tất cả các đáp án khác",
+        "D": "Aircrack-ng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 66,
+      "question": "Supplicant là:",
+      "options": {
+        "A": "Token vật lý",
+        "B": "Máy chủ xác thực",
+        "C": "Thiết bị hoặc phần mềm yêu cầu truy cập",
+        "D": "Thiết bị mạng trung gian"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Nhược điểm chính của WEP là:",
+      "options": {
+        "A": "Không hỗ trợ Wi-Fi 5GHz",
+        "B": "Không hoạt động trên router mới",
+        "C": "Khóa tĩnh dễ bị bẻ khóa",
+        "D": "Không tương thích với Windows"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 68,
+      "question": "Ticket Granting Server có chức năng:",
+      "options": {
+        "A": "Cấp chứng chỉ số",
+        "B": "Cấp vé dịch vụ cho client",
+        "C": "Ghi log hệ thống",
+        "D": "Kiểm soát tường lửa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 69,
+      "question": "Kerberos là gì?",
+      "options": {
+        "A": "Hệ thống mã hóa",
+        "B": "Phần mềm diệt virus",
+        "C": "Giao thức xác thực mạng",
+        "D": "Hệ điều hành"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 70,
+      "question": "NAC ngăn chặn được:",
+      "options": {
+        "A": "Thiết bị trái phép kết nối vào mạng",
+        "B": "Phát tán virus qua email",
+        "C": "Tấn công từ chối dịch vụ",
+        "D": "Lỗi phần cứng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 71,
+      "question": "Whaling thường nhắm vào đối tượng nào trong doanh nghiệp?",
+      "options": {
+        "A": "Người dùng phổ thông",
+        "B": "Quản trị hệ thống",
+        "C": "Cấp cao như CEO, CFO",
+        "D": "Nhân viên mới"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 72,
+      "question": "Privilege Escalation trong hệ thống CSDL nghĩa là gì?",
+      "options": {
+        "A": "Tăng quyền hạn vượt mức cho phép",
+        "B": "Reset mật khẩu admin",
+        "C": "Tạo bản sao lưu dữ liệu",
+        "D": "Giảm quyền của người dùng"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 73,
+      "question": "Mục tiêu chính của tấn công XSS là gì?",
+      "options": {
+        "A": "Cải thiện giao diện web",
+        "B": "Làm website load nhanh hơn",
+        "C": "Tạo bản sao dự phòng dữ liệu",
+        "D": "Đánh cắp cookie, session hoặc thông tin người dùng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 74,
+      "question": "Đặc điểm “khuếch đại” trong DNS Amplification nghĩa là gì?",
+      "options": {
+        "A": "Truy vấn không bao giờ có phản hồi",
+        "B": "Mỗi truy vấn bị bỏ qua",
+        "C": "Phản hồi nhỏ hơn truy vấn",
+        "D": "Truy vấn nhỏ nhưng phản hồi lớn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 75,
+      "question": "Mục tiêu chính của việc giả mạo IP trong DNS Amplification là gì?",
+      "options": {
+        "A": "Để vượt qua tường lửa",
+        "B": "Để bảo mật thông tin",
+        "C": "Để hướng lưu lượng phản hồi vào nạn nhân",
+        "D": "Để tăng tốc độ phản hồi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 76,
+      "question": "Tại sao nên tắt remote management nếu không cần thiết?",
+      "options": {
+        "A": "Để tăng tốc độ Internet",
+        "B": "Để router chạy mát hơn",
+        "C": "Để giảm bề mặt tấn công từ xa",
+        "D": "Để tiết kiệm băng thông"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 77,
+      "question": "Attachment attack trong phishing email thường chứa gì?",
+      "options": {
+        "A": "Tài liệu hợp lệ từ công ty",
+        "B": "File đính kèm độc hại (PDF, Word, Excel, ZIP…)",
+        "C": "Danh sách bạn bè",
+        "D": "Ảnh vui"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 78,
+      "question": "Khi DNS cache bị đầu độc, người dùng sẽ bị chuyển hướng đến đâu?",
+      "options": {
+        "A": "Firewall nội bộ",
+        "B": "Máy chủ xác thực DNSSEC",
+        "C": "Địa chỉ IP giả mạo do hacker kiểm soát",
+        "D": "Website chính thống"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 79,
+      "question": "Firmware exploit khai thác vào thành phần nào của router?",
+      "options": {
+        "A": "Ổ cứng",
+        "B": "Dây mạng LAN",
+        "C": "Firmware chứa lỗ hổng",
+        "D": "Phần cứng CPU"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 80,
+      "question": "Điểm khác biệt cơ bản giữa DoS và DDoS là gì?",
+      "options": {
+        "A": "DoS dùng nhiều nguồn, DDoS chỉ dùng một nguồn",
+        "B": "Cả hai đều giống nhau hoàn toàn",
+        "C": "DDoS dùng nhiều nguồn tấn công phân tán, DoS chỉ từ một nguồn",
+        "D": "DoS có quy mô lớn hơn DDoS"
+      },
+      "answer": "C"
+    }
+  ]
+}

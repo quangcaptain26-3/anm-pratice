@@ -18,6 +18,9 @@ export const QUIZ_DATA_FILES = [
   { name: "OnTap2", file: "ontap2.json" },
   { name: "OnTap3", file: "ontap3.json" },
   { name: "OnTap4", file: "ontap4.json" },
+  { name: "OnTap5", file: "ontap5.json" },
+  { name: "OnTap6", file: "ontap6.json" },
+  { name: "OnTap7", file: "ontap7.json" },
   {
     name: "📝 Điền chỗ trống - Tổng hợp",
     file: "fill-in-blank-questions.json",
