@@ -1,0 +1,774 @@
+{
+  "ontap11": [
+    {
+      "id": 1,
+      "question": "IPS khác IDS ở điểm nào?",
+      "options": {
+        "A": "Chỉ giám sát",
+        "B": "Không cần cấu hình",
+        "C": "Có khả năng ngăn chặn tấn công",
+        "D": "Không hoạt động theo thời gian thực"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 2,
+      "question": "Kỹ thuật làm rối thường được dùng để?",
+      "options": {
+        "A": "Tránh bị phân tích",
+        "B": "Giảm dung lượng",
+        "C": "Tăng tốc độ xử lý",
+        "D": "Tăng độ bảo mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 3,
+      "question": "Một xu hướng mới trong tấn công mạng là?",
+      "options": {
+        "A": "Tấn công bằng phần cứng",
+        "B": "Tấn công bằng mạng LAN",
+        "C": "Tấn công bằng AI",
+        "D": "Tấn công bằng phần mềm diệt virus"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "CIA trong an ninh mạng là viết tắt của?",
+      "options": {
+        "A": "Control, Information, Access",
+        "B": "Cyber, Internet, Attack",
+        "C": "Confidentiality, Integrity, Availability",
+        "D": "Code, Identity, Authentication"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 5,
+      "question": "Phát hiện lỗ hổng zero-day đòi hỏi?",
+      "options": {
+        "A": "Công cụ phân tích",
+        "B": "Kiến thức chuyên sâu",
+        "C": "Tất cả các đáp án khác",
+        "D": "Kinh nghiệm thực tế"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 6,
+      "question": "Đội ngũ làm việc từ xa cần truy cập an toàn kèm MFA, nên chọn firewall gì?",
+      "options": {
+        "A": "NGFW hỗ trợ SSL VPN/IPsec + MFA",
+        "B": "WAF + Telnet",
+        "C": "Packet Filtering + NAT",
+        "D": "Chỉ proxy HTTP"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 7,
+      "question": "Nguyên tắc “Default Deny” nghĩa là:",
+      "options": {
+        "A": "Cho phép tất cả trừ khi có rule chặn",
+        "B": "Chặn tất cả trừ khi có rule cho phép",
+        "C": "Cho phép theo mặc định của hệ điều hành",
+        "D": "Chặn các rule đầu tiên, cho phép rule sau"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 8,
+      "question": "Hạn chế khi viết rule chỉ dựa trên 5-tuple là:",
+      "options": {
+        "A": "Không thể lọc theo địa chỉ IP đích",
+        "B": "Không thể chặn theo địa chỉ nguồn",
+        "C": "Không thể nhận diện được TCP hay UDP",
+        "D": "Không thể phân biệt ứng dụng chạy cùng port (ví dụ HTTPS và malware trên port 443)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 9,
+      "question": "Cloud Firewall từ AWS, Microsoft, Google đáp ứng dịch vụ cloud “chủ yếu” bằng cách nào?",
+      "options": {
+        "A": "Quản lý tài khoản, phân quyền truy cập người dùng",
+        "B": "Lưu trữ dữ liệu phi cấu trúc, mở rộng không giới hạn",
+        "C": "Bảo vệ hạ tầng mạng, trung tâm dữ liệu trước đe dọa mạng",
+        "D": "Tăng tốc xử lý giao dịch tài chính trên ứng dụng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 10,
+      "question": "Trong 5-tuple, “Destination Port” thường dùng để:",
+      "options": {
+        "A": "Xác định dịch vụ hoặc ứng dụng phía server",
+        "B": "Xác định thiết bị vật lý nhận gói tin",
+        "C": "Xác định VLAN cần truyền",
+        "D": "Thay thế cho địa chỉ IP đích"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 11,
+      "question": "Suricata là:",
+      "options": {
+        "A": "Một loại VPN client",
+        "B": "Công cụ IDS/IPS mã nguồn mở hỗ trợ đa luồng",
+        "C": "Dịch vụ SIEM thương mại",
+        "D": "Thiết bị WIPS phần cứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Snort thuộc loại:",
+      "options": {
+        "A": "Firewall",
+        "B": "HIPS thương mại",
+        "C": "VPN",
+        "D": "IDS/IPS mã nguồn mở"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 13,
+      "question": "Để bảo vệ mạng không dây, giải pháp phù hợp là:",
+      "options": {
+        "A": "NIDS",
+        "B": "HIDS",
+        "C": "WIPS",
+        "D": "Firewall truyền thống"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 14,
+      "question": "NIDS thường gặp khó khăn với lưu lượng nào?",
+      "options": {
+        "A": "Lưu lượng FTP",
+        "B": "Lưu lượng LAN",
+        "C": "Lưu lượng mã hóa (SSL/TLS)",
+        "D": "Lưu lượng Internet công cộng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 15,
+      "question": "IDS viết tắt của từ nào?",
+      "options": {
+        "A": "Information Defense System",
+        "B": "Internet Data System",
+        "C": "Intrusion Detection System",
+        "D": "Integrated Data Security"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 16,
+      "question": "Chữ ký số trong mật mã học được sử dụng để:",
+      "options": {
+        "A": "Tự động sao lưu dữ liệu lên máy chủ",
+        "B": "Nén dữ liệu trước khi truyền",
+        "C": "Bảo đảm dữ liệu không bị thay đổi và xác nhận nguồn gốc phát sinh",
+        "D": "Tăng tốc độ truyền dữ liệu trên mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 17,
+      "question": "Khái niệm va chạm (collision) trong hàm băm là gì?",
+      "options": {
+        "A": "Khi dữ liệu không thể tạo giá trị băm",
+        "B": "Khi giá trị băm không thể lưu trữ",
+        "C": "Khi hai dữ liệu giống nhau cho ra hai giá trị băm khác nhau",
+        "D": "Khi hai dữ liệu khác nhau cho ra cùng một giá trị băm"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 18,
+      "question": "Mã hóa bất đối xứng còn có tên gọi khác là gì?",
+      "options": {
+        "A": "Mật mã khóa bí mật (Secret-key Cryptography)",
+        "B": "Mật mã hai chiều (Two-way Cryptography)",
+        "C": "Mật mã khóa công khai (Public-key Cryptography)",
+        "D": "Mật mã khóa chia sẻ (Shared-key Cryptography)"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "Vì sao tốc độ của mã hóa bất đối xứng chậm hơn mã hóa đối xứng?",
+      "options": {
+        "A": "Vì sử dụng khóa ngắn",
+        "B": "Vì cần padding nhiều lần",
+        "C": "Vì chỉ dùng trong mạng không dây",
+        "D": "Vì thuật toán phức tạp, phép toán số học lớn"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Tính chất nào của hàm băm khiến cho rất khó suy ngược lại dữ liệu gốc từ giá trị băm?",
+      "options": {
+        "A": "Tính toàn vẹn dữ liệu",
+        "B": "Tính xác định",
+        "C": "Tính một chiều",
+        "D": "Hiệu ứng tuyết lở"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 21,
+      "question": "AES-GCM trong TLS được dùng để:",
+      "options": {
+        "A": "Chỉ nén",
+        "B": "Chỉ băm",
+        "C": "Cung cấp mã hóa + xác thực",
+        "D": "Chỉ mã hóa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 22,
+      "question": "TLS Record Protocol dùng để:",
+      "options": {
+        "A": "Cấp phát IP",
+        "B": "Tạo khóa",
+        "C": "Chia nhỏ, nén, mã hóa, kiểm tra toàn vẹn dữ liệu",
+        "D": "Quản lý chứng chỉ"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 23,
+      "question": "DTLS tương tự TLS nhưng có thêm cơ chế:",
+      "options": {
+        "A": "Sinh chứng chỉ số",
+        "B": "Tăng tốc CPU",
+        "C": "Xử lý mất gói, sắp xếp lại gói",
+        "D": "Bảo vệ file"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 24,
+      "question": "Một kết nối TLS thành công phải đảm bảo:",
+      "options": {
+        "A": "Tốc độ cao, chi phí thấp",
+        "B": "Chỉ xác thực máy chủ",
+        "C": "Chỉ bảo mật dữ liệu",
+        "D": "Bảo mật, toàn vẹn, xác thực"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 25,
+      "question": "Lucky 13 attack nhắm vào:",
+      "options": {
+        "A": "RSA",
+        "B": "CBC padding trong TLS",
+        "C": "HMAC-SHA1",
+        "D": "AES-GCM"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 26,
+      "question": "Ưu điểm chính của Tunnel Mode trong IPSec là gì?",
+      "options": {
+        "A": "Không cần thêm header mới",
+        "B": "Giữ tốc độ cao, overhead thấp",
+        "C": "Chỉ hoạt động trong LAN",
+        "D": "Bảo mật cao vì mã hóa toàn bộ gói IP gốc"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 27,
+      "question": "Kết quả cuối cùng của IKE Phase 2 là gì?",
+      "options": {
+        "A": "Truyền dữ liệu IPSec trong tunnel an toàn",
+        "B": "Gán IP cho VPN Client",
+        "C": "Tạo khóa công khai RSA",
+        "D": "Hủy bỏ ISAKMP SA"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 28,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, thuật toán nào hiện được khuyến nghị sử dụng nhờ an toàn và hiệu năng cao?",
+      "options": {
+        "A": "AES",
+        "B": "DH2",
+        "C": "SHA",
+        "D": "MD5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 29,
+      "question": "Khi ISAKMP tunnel đã được thiết lập thành công, bước tiếp theo trong IKE Phase 2 là gì?",
+      "options": {
+        "A": "Phát hiện lỗi và tái truyền gói tin",
+        "B": "Hủy ISAKMP SA",
+        "C": "Thiết lập IPSec tunnel để mã hóa dữ liệu người dùng",
+        "D": "Cập nhật chứng chỉ RSA cho client"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 30,
+      "question": "Điểm mạnh nổi bật của OpenVPN là gì?",
+      "options": {
+        "A": "Bảo mật cao, mã nguồn mở, hỗ trợ đa nền tảng",
+        "B": "Không hỗ trợ xác thực người dùng",
+        "C": "Không tương thích với thiết bị di động",
+        "D": "Nguồn đóng, chỉ chạy trên Windows"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 31,
+      "question": "TPM có phiên bản phổ biến là:",
+      "options": {
+        "A": "TPM 1.2 và TPM 2.0",
+        "B": "TPM 5.0",
+        "C": "TPM-X",
+        "D": "TPM 3.0 và 4.0"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 32,
+      "question": "OTP là viết tắt của:",
+      "options": {
+        "A": "One-Time Password",
+        "B": "Online Trusted Platform",
+        "C": "Open Token Protocol",
+        "D": "Only Trusted Password"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 33,
+      "question": "Một tính năng quan trọng của TPM là:",
+      "options": {
+        "A": "Secure Boot",
+        "B": "DHCP Relay",
+        "C": "NAT",
+        "D": "Port forwarding"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 34,
+      "question": "WPA3 bổ sung tính năng:",
+      "options": {
+        "A": "SAE (Simultaneous Authentication of Equals)",
+        "B": "DES",
+        "C": "SSL",
+        "D": "MD5"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 35,
+      "question": "TPM thuộc loại:",
+      "options": {
+        "A": "Dịch vụ đám mây",
+        "B": "Công cụ giám sát",
+        "C": "Module phần cứng độc lập",
+        "D": "Phần mềm quản trị"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "Hậu quả lớn nhất khi email server bị DDoS là gì?",
+      "options": {
+        "A": "Email load nhanh hơn",
+        "B": "Người dùng không thể gửi/nhận email, dịch vụ gián đoạn",
+        "C": "Tăng độ tin cậy của server",
+        "D": "Cải thiện bảo mật"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Đặc điểm thường gặp trong phishing email là gì?",
+      "options": {
+        "A": "Ngôn ngữ hối thúc, khẩn cấp",
+        "B": "Giao diện, logo rất giống email thật",
+        "C": "Cả A, B, C đều đúng",
+        "D": "Có liên kết giả mạo hoặc file đính kèm độc hại"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 38,
+      "question": "MITM attack xảy ra khi hacker đứng ở đâu trong luồng giao tiếp?",
+      "options": {
+        "A": "Ở giữa hai bên truyền thông",
+        "B": "Ở tường lửa doanh nghiệp",
+        "C": "Ở ngoài hệ thống LAN",
+        "D": "Ở máy chủ backup"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "Account Takeover (ATO) trong hệ thống email nghĩa là gì?",
+      "options": {
+        "A": "Gửi newsletter hợp pháp",
+        "B": "Khóa tài khoản vĩnh viễn",
+        "C": "Đánh cắp thông tin đăng nhập để chiếm quyền kiểm soát tài khoản",
+        "D": "Tạo tài khoản mới trên hệ thống"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "question": "Attachment Bombing gây quá tải hệ thống bằng cách nào?",
+      "options": {
+        "A": "Gửi email kèm file dung lượng lớn ồ ạt",
+        "B": "Gửi liên kết rút gọn link",
+        "C": "Gửi nhiều email trống",
+        "D": "Dùng email marketing automation"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 41,
+      "question": "Loại phần mềm độc hại nào ghi lại các phím mà người dùng nhập?",
+      "options": {
+        "A": "Keylogger",
+        "B": "Worm",
+        "C": "Trojan",
+        "D": "Ransomware"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 42,
+      "question": "SQL Injection chủ yếu nhắm mục tiêu vào đâu?",
+      "options": {
+        "A": "Một CSDL thông qua các trường nhập liệu người dùng",
+        "B": "Máy chủ email",
+        "C": "Quyền truy cập tệp",
+        "D": "Cài đặt trình duyệt web"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Trong bảo mật web, “session hijacking” (chiếm đoạt phiên) đề cập đến điều gì?",
+      "options": {
+        "A": "Chuyển hướng lưu lượng truy cập đến máy chủ an toàn",
+        "B": "Tạo các phiên người dùng mới",
+        "C": "Mã hóa dữ liệu người dùng",
+        "D": "Chiếm quyền điều khiển phiên người dùng để truy cập trái phép"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 44,
+      "question": "\"Cross-site scripting\" cho phép kẻ tấn công làm gì?",
+      "options": {
+        "A": "Chuyển hướng lưu lượng từ các trang web.",
+        "B": "Chặn giao thức HTTPS.",
+        "C": "Mã hóa phiên người dùng.",
+        "D": "Chèn mã độc vào các trang web được người dùng truy cập."
+      },
+      "answer": "D"
+    },
+    {
+      "id": 45,
+      "question": "SSL trong bảo mật web là viết tắt của gì?",
+      "options": {
+        "A": "Secure Socket Layer",
+        "B": "System Security Lock",
+        "C": "Super Secure Layer",
+        "D": "Secure Signal Link"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 46,
+      "question": "Công cụ nào sau đây được sử dụng để phân tích tệp nhật ký của máy chủ web?",
+      "options": {
+        "A": "AWStats",
+        "B": "Chứng chỉ SSL/TLS",
+        "C": "Proxy DNS",
+        "D": "FTP client"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 47,
+      "question": "Thuật ngữ “hashing” trong bảo mật web đề cập đến điều gì?",
+      "options": {
+        "A": "Che giấu địa chỉ email",
+        "B": "Mã hóa tệp để truyền an toàn",
+        "C": "Làm xáo trộn các gói mạng",
+        "D": "Sinh chuỗi cố định từ dữ liệu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 48,
+      "question": "Brute-force attack là gì?",
+      "options": {
+        "A": "Một phương pháp mã hóa dữ liệu người dùng",
+        "B": "Một cuộc tấn công đoán mật khẩu bằng cách thử tất cả các kết hợp có thể",
+        "C": "Một nỗ lực chuyển hướng lưu lượng truy cập",
+        "D": "Một cuộc tấn công để chèn lệnh SQL"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 49,
+      "question": "Mục đích của mã hóa trong bảo mật web là gì?",
+      "options": {
+        "A": "Bảo vệ dữ liệu khỏi truy cập trái phép bằng cách chuyển đổi nó thành định dạng không đọc được",
+        "B": "Tăng tốc độ trang web",
+        "C": "Tạo bản sao lưu dữ liệu người dùng",
+        "D": "Quét phần mềm độc hại trên máy chủ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Mục đích của chữ ký số trong bảo mật web là gì?",
+      "options": {
+        "A": "Tăng tốc độ trang web",
+        "B": "Mã hóa tất cả dữ liệu người dùng",
+        "C": "Đảm bảo tính xác thực và toàn vẹn của một thông điệp",
+        "D": "Quản lý cookie"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Loại quét nào sau đây không phải là một kiểu quét?",
+      "options": {
+        "A": "Cloud scan",
+        "B": "Xmas Tree Scan",
+        "C": "Null Scan",
+        "D": "SYN Stealth"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "Điều nào sau đây đề cập đến kỹ thuật được sử dụng để xác minh tính toàn vẹn của thông điệp?",
+      "options": {
+        "A": "Thuật toán giải mã",
+        "B": "Băm thông điệp",
+        "C": "Chữ ký số",
+        "D": "Giao thức"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Thuật ngữ \"CHAP\" viết tắt cho?",
+      "options": {
+        "A": "Circuit Handshake Authentication Protocols",
+        "B": "Challenge Handshake Authentication Protocols",
+        "C": "Challenge Hardware Authentication Protocols",
+        "D": "Circuit Hardware Authentication Protocols"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 54,
+      "question": "Nguyên tắc nào dưới đây nói rằng: đôi khi việc lưu lại chi tiết của một cuộc xâm nhập trở nên có lợi hơn so với việc áp dụng các biện pháp hiệu quả để tránh nó?",
+      "options": {
+        "A": "Yếu tố công việc",
+        "B": "Cơ chế chung nhất",
+        "C": "Ghi nhận sự xâm nhập",
+        "D": "Chấp nhận tâm lý"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 55,
+      "question": "Trong mạng máy tính, các kỹ thuật mã hóa chủ yếu được sử dụng để cải thiện yếu tố nào?",
+      "options": {
+        "A": "Tuổi thọ",
+        "B": "An ninh",
+        "C": "Hiệu suất",
+        "D": "Độ tin cậy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 56,
+      "question": "Thời gian thẩm định hồ sơ đề nghị đưa hệ thống thông tin vào Danh mục hệ thống thông tin quan trọng về an ninh quốc gia?",
+      "options": {
+        "A": "25 ngày kể từ ngày nhận đủ hồ sơ hợp lệ",
+        "B": "30 ngày kể từ ngày nhận đủ hồ sơ hợp lệ",
+        "C": "21 ngày kể từ ngày nhận đủ hồ sơ hợp lệ",
+        "D": "20 ngày kể từ ngày nhận đủ hồ sơ hợp lệ"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "Nhận được yêu cầu cung cấp OTP để hoàn trả tiền chuyển nhầm. Bạn làm gì để không bị lừa đảo?",
+      "options": {
+        "A": "Liên hệ với cơ quan Công an nơi gần nhất để được hướng dẫn.",
+        "B": "Đến chi nhánh ngân hàng để làm việc trực tiếp.",
+        "C": "Thực hiện cả 03 hành động.",
+        "D": "Đây là thủ đoạn lừa đảo giả danh ngân hàng nên không làm theo."
+      },
+      "answer": "C"
+    },
+    {
+      "id": 58,
+      "question": "Môi trường vận hành của hệ thống thông tin quan trọng về an ninh quốc gia phải đáp ứng yêu cầu nào?",
+      "options": {
+        "A": "Tất cả các phương án đều đúng",
+        "B": "Áp dụng các giải pháp bảo đảm an toàn thông tin.",
+        "C": "Loại bỏ hoặc tắt các tính năng phần mềm tiện ích không sử dụng.",
+        "D": "Tách biệt với các môi trường phát triển, kiểm tra và thử nghiệm"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 59,
+      "question": "Hợp tác quốc tế về an ninh mạng dựa trên các cơ sở nào?",
+      "options": {
+        "A": "Không can thiệp vào công việc nội bộ của nhau",
+        "B": "Tôn trọng độc lập, chủ quyền và toàn vẹn lãnh thổ quốc gia",
+        "C": "Tất cả các phương án đều đúng",
+        "D": "Bình đẳng cùng có lợi"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 60,
+      "question": "Theo Luật An ninh mạng năm 2018, nội dung nào sau đây là đúng về bồi dưỡng kiến thức an ninh mạng?",
+      "options": {
+        "A": "Bộ Khoa học và công nghệ chủ trì tổ chức bồi dưỡng cho tất cả các cơ quan.",
+        "B": "Bộ Công an chủ trì, phối hợp với Bộ, ngành liên quan tổ chức bồi dưỡng kiến thức cho lực lượng chuyên trách.",
+        "C": "Bộ Thông tin và truyền thông chủ trì tổ chức bồi dưỡng cho các doanh nghiệp viễn thông.",
+        "D": "Bộ Văn hóa, Thể thao và Du lịch chủ trì tổ chức bồi dưỡng cho học sinh, sinh viên."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 61,
+      "question": "Phương pháp lọc thư rác nào sau đây có khả năng tạo ra nhiều kết quả dương tính giả nhất?",
+      "options": {
+        "A": "Lọc theo từ khóa",
+        "B": "Lọc phản hồi thử thách (Challenge-Response Filtering)",
+        "C": "Lọc Bayesian",
+        "D": "Lọc cộng đồng (Community Filtering)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Chương trình diệt virus tiến hành băm (hash) các tệp tin để phát hiện hoạt động nào?",
+      "options": {
+        "A": "Thay đổi quyền truy cập tệp",
+        "B": "Thay đổi kích thước tệp",
+        "C": "Tất cả phương án đều đúng",
+        "D": "Thay đổi nội dung tệp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 63,
+      "question": "Một công ty mua một máy tính để làm dự phòng cho máy chủ chính. Điều này ảnh hưởng đến yếu tố nào?",
+      "options": {
+        "A": "Bảo mật",
+        "B": "Độ tin cậy",
+        "C": "Không có phương án nào",
+        "D": "Hiệu suất"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Một host tường lửa được củng cố trên mạng nội bộ (intranet) là:",
+      "options": {
+        "A": "Một phần mềm chạy trên một máy tính được dành riêng biệt trong mạng nội bộ",
+        "B": "Một phần mềm chạy trên bất kỳ máy tính nào trong mạng nội bộ",
+        "C": "Một máy tính bản rút gọn được kết nối với mạng nội bộ",
+        "D": "Một mainframe được kết nối với mạng nội bộ để đảm bảo bảo mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 65,
+      "question": "Thư điện tử thương mại không mong muốn được gọi là…?",
+      "options": {
+        "A": "Virus",
+        "B": "Phần mềm độc hại",
+        "C": "Thư rác",
+        "D": "Phần mềm gián điệp"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "question": "Trong luồng email, MUA chuyển tiếp email đến thành phần nào khi gửi?",
+      "options": {
+        "A": "Bộ định tuyến (Router).",
+        "B": "Mail User Agent.",
+        "C": "Mail Transfer Agent.",
+        "D": "Tường lửa (Firewall)."
+      },
+      "answer": "C"
+    },
+    {
+      "id": 67,
+      "question": "Hệ thống dựa trên Unix có thể bị tấn công bởi virus không?",
+      "options": {
+        "A": "Có. Khoảng 50/50 các cuộc tấn công nhắm vào hệ thống Windows và Unix.",
+        "B": "Có, tuy nhiên đa số virus được lập trình để tấn công hệ thống dựa trên Windows.",
+        "C": "Không. Các hệ thống Linux hoàn toàn miễn nhiễm với tấn công.",
+        "D": "Có, đa số virus tấn công các hệ thống dựa trên Unix."
+      },
+      "answer": "B"
+    },
+    {
+      "id": 68,
+      "question": "Các số hiệu cổng (port) được phân loại như thế nào?",
+      "options": {
+        "A": "Chưa biết, chưa đăng ký, không hợp lệ (Unknown, unregistered, invalid).",
+        "B": "Đã biết, nổi tiếng, chưa biết (Known, well-known, unknown).",
+        "C": "Nổi tiếng, đã đăng ký, và tĩnh/động (Well-known, registered, static/dynamic).",
+        "D": "Tĩnh, động, bí ẩn (Static, dynamic, enigmatic)."
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "DES…",
+      "options": {
+        "A": "là một phương pháp mã hóa khóa đối xứng",
+        "B": "là một phương pháp mã hóa khóa công khai",
+        "C": "đảm bảo an ninh tuyệt đối",
+        "D": "không thể triển khai dưới dạng chip phần cứng VLSI"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 70,
+      "question": "Loại khóa mật mã nào sau đây được thiết kế để sử dụng trong một thời gian dài?",
+      "options": {
+        "A": "Khóa thỏa thuận tĩnh riêng tư.",
+        "B": "Khóa vận chuyển khóa riêng tư.",
+        "C": "Khóa xác thực công khai.",
+        "D": "Khóa xác minh chữ ký công khai."
+      },
+      "answer": "A"
+    }
+  ]
+}

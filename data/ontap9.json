@@ -1,0 +1,774 @@
+{
+  "ontap9": [
+    {
+      "id": 1,
+      "question": "CVE giúp gì trong an ninh mạng?",
+      "options": {
+        "A": "Tăng tốc mạng",
+        "B": "Quản lý phần mềm",
+        "C": "Phát hiện virus",
+        "D": "Định danh lỗ hổng bảo mật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 2,
+      "question": "Kỹ thuật làm rối mã độc nhằm mục đích gì?",
+      "options": {
+        "A": "Tăng tốc độ lây lan",
+        "B": "Tránh bị phát hiện bởi phần mềm bảo mật",
+        "C": "Giảm kích thước mã",
+        "D": "Tăng độ chính xác"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 3,
+      "question": "Tấn công DDoS nhằm mục đích gì?",
+      "options": {
+        "A": "Mã hóa dữ liệu",
+        "B": "Truy cập trái phép dữ liệu",
+        "C": "Làm gián đoạn dịch vụ",
+        "D": "Tăng tốc độ mạng"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 4,
+      "question": "Cấu hình bảo mật tốt giúp?",
+      "options": {
+        "A": "Tăng dung lượng lưu trữ",
+        "B": "Giảm nguy cơ bị tấn công",
+        "C": "Tăng tốc độ mạng",
+        "D": "Giảm chi phí phần cứng"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 5,
+      "question": "An ninh mạng là gì?",
+      "options": {
+        "A": "Bảo vệ thông tin số khỏi truy cập trái phép",
+        "B": "Bảo vệ phần cứng khỏi hư hỏng",
+        "C": "Bảo vệ phần mềm khỏi lỗi",
+        "D": "Bảo vệ hệ thống khỏi virus"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 6,
+      "question": "Thời gian timeout trong state table có ý nghĩa gì?",
+      "options": {
+        "A": "Thời gian kiểm tra chứng chỉ TLS",
+        "B": "Khoảng thời gian phiên được giữ nếu không có lưu lượng",
+        "C": "Quyết định độ dài mật khẩu VPN",
+        "D": "Chu kỳ cập nhật antivirus"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 7,
+      "question": "Zone segmentation giúp ngăn chặn điều gì?",
+      "options": {
+        "A": "Telnet truy cập trái phép",
+        "B": "NAT loop",
+        "C": "Cập nhật firmware firewall",
+        "D": "Lateral movement (di chuyển ngang trong mạng)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 8,
+      "question": "Circuit-level gateway chủ yếu kiểm soát ở mức nào?",
+      "options": {
+        "A": "Lớp vật lý (Layer 1)",
+        "B": "Payload tầng 7 chi tiết",
+        "C": "Phiên TCP (handshake), không soi payload ứng dụng",
+        "D": "VLAN và QoS"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 9,
+      "question": "Trường hợp nào sau đây mô tả Hairpin NAT?",
+      "options": {
+        "A": "NAT dịch tất cả port về cùng một port 80",
+        "B": "NAT dùng để giấu địa chỉ nguồn khi truy cập Internet",
+        "C": "NAT chỉ áp dụng cho kết nối VPN site-to-site",
+        "D": "Thiết bị nội bộ truy cập dịch vụ nội bộ thông qua IP công cộng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 10,
+      "question": "Thông số CPS (Connections Per Second) phản ánh điều gì?",
+      "options": {
+        "A": "Số lượng NAT đang sử dụng",
+        "B": "Tốc độ tạo kết nối mới mà firewall xử lý được",
+        "C": "Số kết nối đồng thời tối đa có thể duy trì",
+        "D": "Tổng số rule trong bảng policy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 11,
+      "question": "IDS/IPS giúp doanh nghiệp đạt mục tiêu:",
+      "options": {
+        "A": "Giảm chi phí Internet",
+        "B": "An toàn thông tin",
+        "C": "Tăng tốc độ CPU",
+        "D": "Mở rộng băng thông"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 12,
+      "question": "Một giải pháp IPS cần có đặc tính nào?",
+      "options": {
+        "A": "Hoạt động hoàn toàn offline",
+        "B": "Hoạt động inline để ngăn chặn lưu lượng",
+        "C": "Chỉ ghi log mà không cảnh báo",
+        "D": "Không cần cập nhật chữ ký"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 13,
+      "question": "Khi nào phù hợp hơn để dùng IDS thay vì IPS?",
+      "options": {
+        "A": "Khi cần chặn lưu lượng inline",
+        "B": "Khi cần mã hóa dữ liệu",
+        "C": "Khi thay thế hoàn toàn firewall",
+        "D": "Khi hệ thống yêu cầu quan sát thụ động, tránh ảnh hưởng hiệu năng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 14,
+      "question": "Một giải pháp IDS/IPS mã nguồn mở phổ biến là:",
+      "options": {
+        "A": "Cisco ASA",
+        "B": "Snort",
+        "C": "Palo Alto",
+        "D": "Fortigate"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 15,
+      "question": "Host IPS (HIPS) được cài đặt:",
+      "options": {
+        "A": "Trên router biên",
+        "B": "Trên thiết bị người dùng/máy chủ",
+        "C": "Trên switch",
+        "D": "Trên máy in"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 16,
+      "question": "MD2, MD4 và MD5 hiện nay hầu như không còn được sử dụng vì lý do nào?",
+      "options": {
+        "A": "Độ dài băm quá ngắn",
+        "B": "Đã bị chứng minh có va chạm và không an toàn",
+        "C": "Tốc độ chậm",
+        "D": "Không có tính xác định"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 17,
+      "question": "Khi dữ liệu được mã hóa bằng khóa công khai, ai có thể giải mã?",
+      "options": {
+        "A": "Người quản trị hệ thống",
+        "B": "Bất kỳ ai biết khóa công khai",
+        "C": "Chỉ người sở hữu khóa bí mật tương ứng",
+        "D": "Người gửi dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 18,
+      "question": "MD5 tạo ra giá trị băm có độ dài bao nhiêu bit?",
+      "options": {
+        "A": "256 bit",
+        "B": "512 bit",
+        "C": "128 bit",
+        "D": "64 bit"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 19,
+      "question": "Trong mã hóa khối (Block Cipher), nếu dữ liệu đầu vào không đủ kích thước khối thì điều gì xảy ra?",
+      "options": {
+        "A": "Không thể mã hóa được",
+        "B": "Output nhỏ hơn input",
+        "C": "Dữ liệu bị cắt bỏ",
+        "D": "Phải sử dụng padding (đệm) để đủ kích thước"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 20,
+      "question": "Ưu điểm lớn nhất của mã hóa bất đối xứng so với mã hóa đối xứng gì?",
+      "options": {
+        "A": "Giải quyết được vấn đề phân phối khóa",
+        "B": "Nhanh hơn và ít tốn tài nguyên",
+        "C": "Luôn an toàn tuyệt đối",
+        "D": "Không cần dùng khóa bí mật"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 21,
+      "question": "DTLS phù hợp với ứng dụng nào?",
+      "options": {
+        "A": "Web browser HTTPS",
+        "B": "Sao lưu cơ sở dữ liệu",
+        "C": "File transfer qua TCP",
+        "D": "VoIP, video streaming, VPN dựa trên UDP"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 22,
+      "question": "Thuật toán thường dùng cho mã hóa đối xứng trong TLS là:",
+      "options": {
+        "A": "RSA",
+        "B": "SHA-1",
+        "C": "Diffie-Hellman",
+        "D": "AES, 3DES"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 23,
+      "question": "Root CA là gì?",
+      "options": {
+        "A": "Chứng chỉ máy chủ",
+        "B": "Chứng chỉ người dùng",
+        "C": "Khóa riêng",
+        "D": "CA gốc, phát hành chứng chỉ cho Intermediate CA"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 24,
+      "question": "Công cụ phổ biến để tạo CSR (Certificate Signing Request) là:",
+      "options": {
+        "A": "OpenSSL",
+        "B": "Wireshark",
+        "C": "SQLmap",
+        "D": "Nmap"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 25,
+      "question": "Vì sao TLS không dùng RSA để mã hóa toàn bộ dữ liệu?",
+      "options": {
+        "A": "RSA chậm và không phù hợp cho dữ liệu lớn",
+        "B": "RSA không có khóa công khai",
+        "C": "RSA không hỗ trợ trong TLS",
+        "D": "RSA không an toàn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 26,
+      "question": "Trong lớp Bảo mật (Confidentiality) của IPSec, thuật toán nào đã lỗi thời do khóa ngắn và dễ bị tấn công?",
+      "options": {
+        "A": "RSA",
+        "B": "AES",
+        "C": "DES",
+        "D": "3DES"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 27,
+      "question": "Trong lớp Trao đổi khóa an toàn (Secure Key Exchange) của IPSec, vai trò chính của thuật toán Diffie-Hellman là gì?",
+      "options": {
+        "A": "Mã hóa trực tiếp toàn bộ dữ liệu",
+        "B": "Tăng tốc độ truyền dữ liệu",
+        "C": "Xác thực người dùng cuối",
+        "D": "Sinh ra khóa chung để hai bên dùng cho mã hóa"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 28,
+      "question": "VPN thương mại (Commercial VPN) có ưu điểm nổi bật nào?",
+      "options": {
+        "A": "Hoàn toàn không phụ thuộc vào nhà cung cấp",
+        "B": "Không cần Internet để hoạt động",
+        "C": "Có số lượng lớn máy chủ đặt ở nhiều quốc gia, dễ dàng vượt hạn chế địa lý",
+        "D": "Không sử dụng mã hóa nên tốc độ cao hơn"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 29,
+      "question": "Client-to-Site VPN thường phù hợp nhất với tình huống nào?",
+      "options": {
+        "A": "Chia sẻ dữ liệu qua USB",
+        "B": "Truyền dữ liệu giữa hai router ISP",
+        "C": "Kết nối hai văn phòng ở hai thành phố khác nhau",
+        "D": "Nhân viên làm việc từ xa muốn truy cập hệ thống công ty"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 30,
+      "question": "Aggressive Mode trong IKE Phase 1 có ưu điểm nào?",
+      "options": {
+        "A": "Bảo mật cao hơn Main Mode",
+        "B": "Hỗ trợ PFS mặc định",
+        "C": "Không yêu cầu xác thực",
+        "D": "Nhanh hơn, chỉ cần 3 message để thiết lập"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 31,
+      "question": "802.1X giúp bảo vệ:",
+      "options": {
+        "A": "Quản lý lưu lượng",
+        "B": "Tăng tốc độ mạng",
+        "C": "Mã hóa toàn bộ dữ liệu",
+        "D": "Chỉ thiết bị hợp lệ mới được truy cập"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 32,
+      "question": "Tấn công brute force Wi-Fi nhắm vào:",
+      "options": {
+        "A": "Địa chỉ MAC",
+        "B": "IP router",
+        "C": "Tốc độ Wi-Fi",
+        "D": "Mật khẩu yếu"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 33,
+      "question": "Enterprise Wi-Fi thường dùng kết hợp:",
+      "options": {
+        "A": "WEP + Token",
+        "B": "WPA3-Personal + WPS",
+        "C": "VPN + Proxy",
+        "D": "WPA2-Enterprise + 802.1X"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 34,
+      "question": "TPM là:",
+      "options": {
+        "A": "Firewall",
+        "B": "Module mạng",
+        "C": "Phần mềm diệt virus",
+        "D": "Chip phần cứng bảo mật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 35,
+      "question": "Wi-Fi Protected Setup (WPS) thường bị khai thác vì:",
+      "options": {
+        "A": "Chỉ dùng cho WPA3",
+        "B": "Không mã hóa dữ liệu",
+        "C": "PIN mặc định yếu",
+        "D": "Không có xác thực"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 36,
+      "question": "SQL Injection có thể làm hại tới thành phần nào trong hệ thống web?",
+      "options": {
+        "A": "Cơ sở dữ liệu",
+        "B": "Cả cơ sở dữ liệu, ứng dụng web và máy chủ",
+        "C": "Máy chủ web",
+        "D": "Ứng dụng web"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 37,
+      "question": "Biện pháp nào giúp mã hóa dữ liệu trao đổi giữa người dùng và web server?",
+      "options": {
+        "A": "HTTP",
+        "B": "HTTPS",
+        "C": "Telnet",
+        "D": "FTP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 38,
+      "question": "File Inclusion Attack khai thác lỗ hổng gì của ứng dụng web?",
+      "options": {
+        "A": "Khả năng chèn và thực thi file không an toàn",
+        "B": "Cấu hình theme sai",
+        "C": "Cổng mạng bị mở",
+        "D": "Kích thước ảnh quá lớn"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 39,
+      "question": "Vì sao DNS Tunneling có thể vượt qua firewall hoặc IDS?",
+      "options": {
+        "A": "Vì chỉ sử dụng giao thức HTTPS",
+        "B": "Vì firewall luôn chặn DNS",
+        "C": "Vì DNS traffic thường được tin tưởng và cho phép đi qua",
+        "D": "Vì nó dùng mật khẩu mạnh"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 40,
+      "question": "Biện pháp quan trọng nhất để ngăn brute-force attack là gì?",
+      "options": {
+        "A": "Dùng cáp mạng thay Wi-Fi",
+        "B": "Tắt Wi-Fi",
+        "C": "Khởi động lại router thường xuyên",
+        "D": "Đổi mật khẩu mặc định và dùng mật khẩu mạnh"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 41,
+      "question": "Cross-Site Scripting (XSS) là gì?",
+      "options": {
+        "A": "Một nỗ lực để chiếm đoạt phiên người dùng",
+        "B": "Một cuộc tấn công vào cơ sở dữ liệu máy chủ web",
+        "C": "Một cuộc tấn công trong đó kẻ tấn công chèn các mã độc vào các trang web được xem bởi người khác",
+        "D": "Một phương pháp để ẩn dữ liệu trong các trang web"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 42,
+      "question": "Tấn công phát lại (replay attack) là gì?",
+      "options": {
+        "A": "Kẻ tấn công chụp và phát lại dữ liệu để giả mạo người gửi",
+        "B": "Một phương pháp để đặt lại lưu lượng web",
+        "C": "Kẻ tấn công sửa đổi phản hồi của máy chủ",
+        "D": "Một cuộc tấn công làm trang web bị sập"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 43,
+      "question": "Công cụ nào được sử dụng trong pháp y số và phân tích ổ đĩa?",
+      "options": {
+        "A": "Autopsy",
+        "B": "Apache",
+        "C": "Photoshop",
+        "D": "Java"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 44,
+      "question": "Mục đích chính của pháp y số (digital forensics) là gì?",
+      "options": {
+        "A": "Tối ưu hóa ứng dụng web",
+        "B": "Tăng tốc máy chủ",
+        "C": "Điều tra và phân tích dữ liệu từ máy tính và thiết bị số",
+        "D": "Khôi phục các tệp đã xóa"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 45,
+      "question": "Đâu là lỗ hổng phổ biến trong ứng dụng web?",
+      "options": {
+        "A": "Giao thức truyền giọng nói qua IP (VoIP)",
+        "B": "Tấn công Cross-site Scripting (XSS)",
+        "C": "Chuẩn mã hóa dữ liệu (DES)",
+        "D": "Lưu trữ đám mây"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 46,
+      "question": "Kẻ tấn công nhắm đến mục tiêu gì với SQL Injection?",
+      "options": {
+        "A": "Ẩn dữ liệu nhạy cảm của người dùng",
+        "B": "Giả mạo bản ghi DNS",
+        "C": "Truy cập hoặc sửa đổi CSDL thông qua các truy vấn SQL độc hại",
+        "D": "Mã hóa nội dung trang web"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 47,
+      "question": "Chức năng chính của chứng chỉ số trong bảo mật web là gì?",
+      "options": {
+        "A": "Ngăn chặn phần mềm độc hại",
+        "B": "Xác thực danh tính của một trang web",
+        "C": "Mã hóa lưu lượng người dùng",
+        "D": "Lưu trữ khóa mã hóa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 48,
+      "question": "Kỹ thuật lừa đảo xã hội (social engineering) trong bảo mật web là gì?",
+      "options": {
+        "A": "Sử dụng mạng xã hội để cải thiện bảo mật",
+        "B": "Lập trình các trang web mạng xã hội",
+        "C": "Mã hóa dữ liệu với giao thức mạng xã hội",
+        "D": "Lợi dụng con người để lộ thông tin bí mật"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 49,
+      "question": "Trong pháp y số, \"chuỗi giám sát\" (chain of custody) là gì?",
+      "options": {
+        "A": "Quá trình được ghi chép để theo vết bằng chứng",
+        "B": "Một phương pháp khóa tệp máy tính",
+        "C": "Một loạt các thuật toán mã hóa",
+        "D": "Một giao thức bảo mật để quản lý máy chủ"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 50,
+      "question": "Đâu là một vector tấn công (Attack Vector) phổ biến trong bảo mật web?",
+      "options": {
+        "A": "Chuyển hướng URL",
+        "B": "Chèn mã vào giao diện WordPress",
+        "C": "Tấn công Cross-Site Request Forgery (CSRF)",
+        "D": "Sao lưu cơ sở dữ liệu"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 51,
+      "question": "Hệ thống nào dưới đây không thể được coi là một ví dụ về hệ điều hành?",
+      "options": {
+        "A": "VMware Workstation",
+        "B": "Ubuntu",
+        "C": "Windows NT",
+        "D": "Red Hat Linux"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 52,
+      "question": "Trong tình huống nào sau đây, một người liên tục bị theo dõi bởi một người khác hoặc một nhóm người?",
+      "options": {
+        "A": "Lừa đảo (Phishing)",
+        "B": "Rình rập (Stalking)",
+        "C": "Bắt nạt (Bullying)",
+        "D": "Ăn cắp danh tính (Identity theft)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 53,
+      "question": "Trong ethical hacking và an ninh mạng, có bao nhiêu loại quét chính?",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "4",
+        "D": "2"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 54,
+      "question": "Loại phần mềm độc hại nào cho phép kẻ tấn công truy cập vào quyền điều khiển quản trị và thực hiện hầu hết hành động?",
+      "options": {
+        "A": "Botnet (Mạng bot)",
+        "B": "Rootkit",
+        "C": "Worm (Sâu máy tính)",
+        "D": "RAT (Trojan truy cập từ xa)"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 55,
+      "question": "Các hacker thường sử dụng virus máy tính với mục đích gì?",
+      "options": {
+        "A": "Để làm hỏng dữ liệu của người dùng",
+        "B": "Để ghi lại, theo dõi từng thao tác của người dùng",
+        "C": "Tất cả các phương án đều đúng",
+        "D": "Để truy cập thông tin nhạy cảm"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 56,
+      "question": "Theo Luật An ninh mạng, nội dung triển khai hoạt động bảo vệ an ninh mạng bao gồm?",
+      "options": {
+        "A": "Tổ chức bồi dưỡng kiến thức an ninh mạng",
+        "B": "Ứng dụng, triển khai biện pháp công nghệ bảo vệ",
+        "C": "Xây dựng, hoàn thiện quy định quy chế sử dụng mạng",
+        "D": "Tất cả các phương án đều đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 57,
+      "question": "Trẻ em có quyền được bảo vệ, giữ bí mật cá nhân và đời sống riêng tư khi tham gia trên không gian mạng hay không?",
+      "options": {
+        "A": "Không",
+        "B": "Có",
+        "C": "Phương án khác",
+        "D": "Tùy trường hợp"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 58,
+      "question": "Theo Luật An ninh mạng năm 2018, lực lượng chuyên trách bảo vệ an ninh mạng được bố trí tại đâu?",
+      "options": {
+        "A": "Doanh nghiệp viễn thông",
+        "B": "Tổ dân phố",
+        "C": "Doanh nghiệp Internet",
+        "D": "Bộ Công an, Bộ Quốc phòng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 59,
+      "question": "Dấu hiệu nhận biết tin giả trên không gian mạng?",
+      "options": {
+        "A": "Tiêu đề giật gân, nguồn tin không rõ ràng",
+        "B": "Thông tin có nguồn gốc rõ ràng",
+        "C": "Tin đăng trên báo Nhân dân",
+        "D": "Tin do cơ quan nhà nước ban hành"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 60,
+      "question": "Việc làm nào không an toàn khi bạn thay đổi số điện thoại cá nhân?",
+      "options": {
+        "A": "Mật khẩu các tài khoản đặt theo số điện thoại cũ cho dễ nhớ",
+        "B": "Cập nhật chế độ bảo mật 2 lớp theo số mới",
+        "C": "Cập nhật số điện thoại đăng nhập tài khoản Zalo",
+        "D": "Thông báo với bạn bè đã đổi số mới"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 61,
+      "question": "Bản ghi Mail Exchanger (MX) là gì?",
+      "options": {
+        "A": "Bản ghi trong bộ định tuyến",
+        "B": "Bản ghi trong DNS chỉ định tuyến email trên Internet",
+        "C": "Tuyến định tuyến của bộ định tuyến",
+        "D": "Bản ghi trong DHCP"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 62,
+      "question": "Firewall là một loại…?",
+      "options": {
+        "A": "Virus",
+        "B": "Mối đe dọa bảo mật",
+        "C": "Sâu máy tính",
+        "D": "Không có phương án đúng"
+      },
+      "answer": "D"
+    },
+    {
+      "id": 63,
+      "question": "Phishing là gì?",
+      "options": {
+        "A": "Một kỹ thuật chống thư rác",
+        "B": "Chiếm đoạt thông tin nhạy cảm một cách gian lận",
+        "C": "Một kỹ thuật tạo mật khẩu",
+        "D": "Một kỹ thuật mã hóa"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 64,
+      "question": "Truy cập trái phép là một vấn đề về yếu tố nào của mạng?",
+      "options": {
+        "A": "Hiệu suất",
+        "B": "Bảo mật",
+        "C": "Không có phương án đúng",
+        "D": "Độ tin cậy"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 65,
+      "question": "Captcha là gì?",
+      "options": {
+        "A": "Một email spam viết bằng chữ in hoa",
+        "B": "Một nhóm ký tự ẩn trong email",
+        "C": "Công cụ xác minh người dùng là con người để chặn bot",
+        "D": "Một email spam cố gắng 'bắt' thông tin"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 66,
+      "question": "Mục tiêu nào không thể đạt được với sự trợ giúp của mật mã đối xứng?",
+      "options": {
+        "A": "Khả dụng (Availability)",
+        "B": "Không thể chối bỏ (Nonrepudiation)",
+        "C": "Toàn vẹn dữ liệu (Integrity)",
+        "D": "Bảo mật (Confidentiality)"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 67,
+      "question": "Giao thức nào sau đây sử dụng Cổng 443 và Cổng 80 tương ứng?",
+      "options": {
+        "A": "HTTPS và HTTP",
+        "B": "HTTP và HTTPS",
+        "C": "XHTML",
+        "D": "DHTML"
+      },
+      "answer": "A"
+    },
+    {
+      "id": 68,
+      "question": "Hệ thống thông báo thư rác với email thực tế không phải thư rác được gọi là gì?",
+      "options": {
+        "A": "Phát hiện sai",
+        "B": "Phát hiện âm tính giả",
+        "C": "Phát hiện dương tính giả",
+        "D": "Phát hiện âm tính"
+      },
+      "answer": "C"
+    },
+    {
+      "id": 69,
+      "question": "Làm thế nào để tránh các cuộc tấn công kiểu Man-in-the-middle?",
+      "options": {
+        "A": "Chấp nhận mọi chứng chỉ SSL",
+        "B": "Sử dụng các kết nối HTTPS và xác minh chứng chỉ SSL",
+        "C": "Không có phương án nào đúng",
+        "D": "Sử dụng các kết nối không có SSL"
+      },
+      "answer": "B"
+    },
+    {
+      "id": 70,
+      "question": "Thuật toán nào sau đây là thuật toán không đối xứng?",
+      "options": {
+        "A": "IDEA",
+        "B": "MD5",
+        "C": "SHA-1",
+        "D": "El Gamal"
+      },
+      "answer": "D"
+    }
+  ]
+}
